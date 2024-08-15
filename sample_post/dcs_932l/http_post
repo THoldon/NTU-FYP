@@ -1,0 +1,16 @@
+POST /wizsetup.htm HTTP/1.1
+Host: 172.21.0.2
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 57
+Origin: http://172.21.0.2
+Authorization: Digest username="admin", realm="_00", nonce="53521d96754a74aa4697a51e27507049", uri="/wizsetup.htm", response="cda52e6f640559a036a572eadbc9ca3e", qop=auth, nc=00000010, cnonce="fb822d676d644d81"
+Connection: keep-alive
+Referer: http://172.21.0.2/wizard.htm
+Upgrade-Insecure-Requests: 1
+Priority: u=0, i
+
+ReplySuccessPage=wizsetup.htm&ReplyErrorPage=wizsetup.htm

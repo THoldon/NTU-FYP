@@ -1,0 +1,5 @@
+POST /wizsetup.htm HTTP/1.1
+Host: 172.21.0.2
+Authorization: Digest username="admin", realm="_00", nonce="53521d96754a74aa4697a51e27507049", uri="/wizsetup.htm", response="cda52e6f640559a036a572eadbc9ca3e", qop=auth, nc=00000010, cnonce="fb822d676d644d81"
+Referer: http://172.21.0.2/wizard.htm
+
