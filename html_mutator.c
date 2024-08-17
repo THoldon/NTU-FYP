@@ -24,6 +24,13 @@ static const char *commands[] = {
 
 };
 
+typedef struct http_fields {
+	char *name;
+	int start_byte;
+	int end_byte;
+
+} http_fields_t;
+
 typedef struct my_mutator {
 
   afl_state_t *afl;
@@ -87,6 +94,80 @@ my_mutator_t *afl_custom_init(afl_state_t *afl, unsigned int seed) {
 
 }
 
+http_fields_t *get_input_fields(char *input, size_t buf_size,unsigned int *num_fields){
+	printf("inside get_input_fields\n");
+	http_fields_t *input_fields = NULL;
+	unsigned int pos = 0;
+	unsigned int cur_start = 0;
+	unsigned int cur_end = 0;
+	char fields_terminator[2] = {0x0D,0x0A};
+	char header_terminator[4] = {0x0D,0x0A,0x0D,0X0A};
+
+	while(pos<=buf_size){
+		if((pos>=4) && (memcmp((input+pos-1),header_terminator,4)==0)){ //when header_terminator is reached
+			(*num_fields)++; //increase number of fields
+                        input_fields = (http_fields_t *)realloc(input_fields, *num_fields*sizeof(http_fields_t)); //set more memory for input_fields array
+			cur_end += 2; //account for another 0x0d 0x0a
+                        input_fields[*num_fields-1].start_byte = cur_start; //get start byte
+                        input_fields[*num_fields-1].end_byte = cur_end; //get end byte
+                        //input_fields[num_fields-1].name = get_input_name(input,cur_start,cur_end); //get name of field
+
+                        cur_start = cur_end + 1; //move cur_start to start of next field
+                        cur_end = cur_start; //move cur_end to not overlap
+
+			(*num_fields)++; //increase number of fields
+			input_fields = (http_fields_t *)realloc(input_fields, *num_fields*sizeof(http_fields_t)); //set more memory for input_fields array
+			input_fields[*num_fields-1].start_byte = cur_start; //start of body
+			input_fields[*num_fields-1].end_byte = buf_size; //end of packet is end of body
+			input_fields[*num_fields-1].name = "BODY"; //body has no name so give it one
+			break; //end of packet reached
+
+
+		}
+
+
+		else if((pos>=2) && (memcmp((input+pos-1),fields_terminator,2)==0)){ //when field_terminator is reached
+			(*num_fields)++; //increase number of fields
+			input_fields = (http_fields_t *)realloc(input_fields, *num_fields*sizeof(http_fields_t)); //set more memory for input_fields array
+			input_fields[*num_fields-1].start_byte = cur_start; //get start byte
+			input_fields[*num_fields-1].end_byte = cur_end; //get end byte
+			//input_fields[num_fields-1].name = get_input_name(input,cur_start,cur_end); //get name of field
+			/*int i = 0;
+			for(i = 0;i<=cur_end-cur_start;i++)
+				printf("%x ",*(input+i));*/
+
+			cur_start = cur_end + 1; //move cur_start to start of next field
+			cur_end = cur_start; //move cur_end to not overlap
+			pos++; //get to next byte in input
+
+			/*printf("start_byte %i\n",input_fields[*num_fields-1].start_byte);
+			printf("end_byte %i\n", input_fields[*num_fields-1].end_byte);
+			printf("end char %x\n",*(input+cur_start-1));*/
+
+		}
+		else{
+			pos++; //move one byte forward
+			cur_end++; //move end byte one byte forward
+		}
+
+
+	}
+	
+	int i = 0;
+	for(i=0;i<*num_fields;i++){
+		printf("field number %i\n",i);
+		printf("start_byte: %i\n",input_fields[i].start_byte);
+		printf("end_byte:%i\n",input_fields[i].end_byte);
+		int j = 0;
+		for(j=input_fields[i].start_byte;j<=input_fields[i].end_byte;j++){
+			printf("%x ",*(input+j));
+		}
+		printf("\n");
+	}
+	return input_fields;
+
+}
+
 /**
  * Perform custom mutations on a given input
  *
@@ -109,13 +190,31 @@ size_t afl_custom_fuzz(my_mutator_t *data, uint8_t *buf, size_t buf_size,
                        size_t max_size) {
 	
 	printf("in custom fuzz\n");
-	
-	for(int i=0;i<buf_size;i++){
-                printf("%c",*(buf+i));
-        }
-        printf("\n");
-	printf("*out_buf %x\n",*out_buf);
-	printf("out_buf %x",out_buf);
+	unsigned int *num_fields = 0;
+	char *local_input = NULL;
+	local_input = malloc(buf_size); //store input buffer on local variable to work on
+	printf("local input %x\n",local_input);
+	memcpy(local_input,buf,buf_size);
+	http_fields_t *input_fields = get_input_fields(local_input,buf_size,&num_fields);
+	printf("num_fields %i\n",num_fields);
+	/*int i = 0;
+        for(i=0;i<num_fields;i++){
+                printf("field number %i\n",i);
+                printf("start_byte: %i\n",input_fields[i].start_byte);
+                printf("end_byte:%i\n",input_fields[i].end_byte);
+                int j = 0;
+                for(j=input_fields[i].start_byte;j<=input_fields[i].end_byte;j++){
+                        printf("%x ",*(local_input+j));
+                }
+                printf("\n");
+        }*/
+
+	//printf("\n");
+	//printf("local input\n");
+
+       	//printf("%s\n",local_input);
+
+	printf("\nEND\n");
 
 
   // Make sure that the packet size does not exceed the maximum size expected by
@@ -148,10 +247,6 @@ void afl_custom_deinit(my_mutator_t *data) {
   free(data->trim_buf);*/
   free(data);
 
-}
-
-void test(){
-	printf("test function\n");
 }
 
 int main(){
