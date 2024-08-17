@@ -94,23 +94,37 @@ my_mutator_t *afl_custom_init(afl_state_t *afl, unsigned int seed) {
 
 }
 
-http_fields_t *get_input_fields(char *input, size_t buf_size,unsigned int *num_fields){
+char* get_input_name(char *input,unsigned int cur_start,unsigned int cur_end){ //get name of each header field
+	int byte = 0;
+	int pos = 0;
+	for(byte=cur_start;byte<cur_end;byte++){
+		if(*(input+byte) == 0x20){ //find the space character, every header has this after : or POST or GET
+			char *field_name = malloc(pos);
+			memcpy(field_name,input+cur_start,pos); //copy out the name
+			return field_name; //return it
+		}
+		pos++;
+	}
+	return NULL;
+}
+
+http_fields_t *get_input_fields(char *input, size_t buf_size,unsigned int *num_fields){ //split packet into each individual field
 	printf("inside get_input_fields\n");
 	http_fields_t *input_fields = NULL;
 	unsigned int pos = 0;
 	unsigned int cur_start = 0;
 	unsigned int cur_end = 0;
-	char fields_terminator[2] = {0x0D,0x0A};
-	char header_terminator[4] = {0x0D,0x0A,0x0D,0X0A};
+	char fields_terminator[2] = {0x0D,0x0A}; //each field ends with 0x0D 0x0A
+	char header_terminator[4] = {0x0D,0x0A,0x0D,0X0A}; //each header ends with 0x0D 0x0A 0x0D 0x0A
 
-	while(pos<=buf_size){
+	while(pos<=buf_size){ //traverse through packet
 		if((pos>=4) && (memcmp((input+pos-1),header_terminator,4)==0)){ //when header_terminator is reached
 			(*num_fields)++; //increase number of fields
                         input_fields = (http_fields_t *)realloc(input_fields, *num_fields*sizeof(http_fields_t)); //set more memory for input_fields array
 			cur_end += 2; //account for another 0x0d 0x0a
                         input_fields[*num_fields-1].start_byte = cur_start; //get start byte
                         input_fields[*num_fields-1].end_byte = cur_end; //get end byte
-                        //input_fields[num_fields-1].name = get_input_name(input,cur_start,cur_end); //get name of field
+                        input_fields[*num_fields-1].name = get_input_name(input,cur_start,cur_end); //get name of field
 
                         cur_start = cur_end + 1; //move cur_start to start of next field
                         cur_end = cur_start; //move cur_end to not overlap
@@ -131,7 +145,7 @@ http_fields_t *get_input_fields(char *input, size_t buf_size,unsigned int *num_f
 			input_fields = (http_fields_t *)realloc(input_fields, *num_fields*sizeof(http_fields_t)); //set more memory for input_fields array
 			input_fields[*num_fields-1].start_byte = cur_start; //get start byte
 			input_fields[*num_fields-1].end_byte = cur_end; //get end byte
-			//input_fields[num_fields-1].name = get_input_name(input,cur_start,cur_end); //get name of field
+			input_fields[*num_fields-1].name = get_input_name(input,cur_start,cur_end); //get name of field
 			/*int i = 0;
 			for(i = 0;i<=cur_end-cur_start;i++)
 				printf("%x ",*(input+i));*/
@@ -154,7 +168,7 @@ http_fields_t *get_input_fields(char *input, size_t buf_size,unsigned int *num_f
 	}
 	
 	int i = 0;
-	for(i=0;i<*num_fields;i++){
+	/*for(i=0;i<*num_fields;i++){
 		printf("field number %i\n",i);
 		printf("start_byte: %i\n",input_fields[i].start_byte);
 		printf("end_byte:%i\n",input_fields[i].end_byte);
@@ -163,7 +177,7 @@ http_fields_t *get_input_fields(char *input, size_t buf_size,unsigned int *num_f
 			printf("%x ",*(input+j));
 		}
 		printf("\n");
-	}
+	}*/
 	return input_fields;
 
 }
@@ -197,9 +211,11 @@ size_t afl_custom_fuzz(my_mutator_t *data, uint8_t *buf, size_t buf_size,
 	memcpy(local_input,buf,buf_size);
 	http_fields_t *input_fields = get_input_fields(local_input,buf_size,&num_fields);
 	printf("num_fields %i\n",num_fields);
-	/*int i = 0;
-        for(i=0;i<num_fields;i++){
+	int i = 0;
+        /*for(i=0;i<num_fields;i++){
+		printf("\n");
                 printf("field number %i\n",i);
+		printf("name %s\n",input_fields[i].name);
                 printf("start_byte: %i\n",input_fields[i].start_byte);
                 printf("end_byte:%i\n",input_fields[i].end_byte);
                 int j = 0;
