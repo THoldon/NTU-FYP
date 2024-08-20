@@ -8,6 +8,7 @@
 
 // You need to use -I/path/to/AFLplusplus/include -I.
 #include "afl-fuzz.h"
+#include "afl-mutations.h"
 
 #include <stdint.h>
 #include <stdlib.h>
@@ -182,6 +183,72 @@ http_fields_t *get_input_fields(char *input, size_t buf_size,unsigned int *num_f
 
 }
 
+void split_fields(char* local_input,char** to_mutate, char** to_maintain,char** body_to_mutate,http_fields_t* input_fields,unsigned int *num_fields){
+	/*printf("local input %s\n",local_input);
+	printf("num_fields %i\n",*num_fields);
+	*/
+	int i = 0;
+	/*for(i=0;i<*num_fields;i++){
+                printf("field number %i\n",i);
+		printf("name %s\n", input_fields[i].name);
+		printf("strlen %i\n", strlen(input_fields[i].name));
+                printf("start_byte: %i\n",input_fields[i].start_byte);
+                printf("end_byte:%i\n",input_fields[i].end_byte);
+                printf("\n");
+        }*/
+
+	char *maintain_names[] = {"POST","Host:","Authorization:","Referer:","Content-Length:","Cookie:"}; //things to not mutate
+	int maintain_offset = 0; //for to_maintain memcpy later
+	int mutate_offset = 0; //for to_mutate memcpy later
+	for(i=0;i<*num_fields;i++){ //go through each field
+		bool maintain_set = false;
+		printf("input name %s\n",input_fields[i].name);
+		int j = 0;
+		if(strcmp(input_fields[i].name, "Content-Length:") == 0) //skip content-length since its value has to adapt to body, append to the full packet last
+			continue;
+		int field_size = input_fields[i].end_byte - input_fields[i].start_byte + 1; //get size of field to copy
+		if(strcmp(input_fields[i].name, "BODY") == 0){
+                        *body_to_mutate = malloc(field_size);
+			memcpy(*body_to_mutate,local_input+input_fields[i].start_byte,field_size);
+			continue;
+                }
+
+		while(maintain_names[j]){ //scan through array of fields to maintain
+			if(strcmp(maintain_names[j], input_fields[i].name) == 0){ //check if current field is a field to maintain
+				if(maintain_offset == 0){ //if first field to be maintained
+					*to_maintain = malloc(field_size); //allocate necessary size
+					memcpy(*to_maintain,local_input+input_fields[i].start_byte,field_size); //copy in field's text
+				}
+				else{
+					*to_maintain = realloc(*to_maintain, (maintain_offset + field_size)); //allocate more space to_maintain to append
+					memcpy(*to_maintain + maintain_offset,local_input + input_fields[i].start_byte,field_size); //copy in field's text
+				}
+				maintain_offset += field_size; //increase maintain offset to adjust where to copy
+				maintain_set = true;
+				break;
+			}
+			j++;
+		}
+		
+		if(maintain_set == false){ //if field is not to be maintained
+			if(to_mutate == NULL){ //if first field to be mutated
+				*to_mutate = malloc(field_size); //allocate necessary size
+				memcpy(*to_mutate,local_input+input_fields[i].start_byte,field_size); //copy in field's text
+			}
+			else{
+				*to_mutate = realloc(*to_mutate, (mutate_offset+field_size)); //allocate more space to to_mutate to append
+				memcpy(*to_mutate + mutate_offset ,local_input+input_fields[i].start_byte,field_size); //copy in field's text
+			}
+			mutate_offset += field_size; //increase mutate offset to adjust where to copy
+		}
+
+	}
+
+	return;
+
+}
+
+
 /**
  * Perform custom mutations on a given input
  *
@@ -202,16 +269,32 @@ size_t afl_custom_fuzz(my_mutator_t *data, uint8_t *buf, size_t buf_size,
                        u8 **out_buf, uint8_t *add_buf,
                        size_t add_buf_size,  // add_buf can be NULL
                        size_t max_size) {
-	
-	printf("in custom fuzz\n");
+
+
 	unsigned int *num_fields = 0;
 	char *local_input = NULL;
 	local_input = malloc(buf_size); //store input buffer on local variable to work on
-	printf("local input %x\n",local_input);
 	memcpy(local_input,buf,buf_size);
 	http_fields_t *input_fields = get_input_fields(local_input,buf_size,&num_fields);
-	printf("num_fields %i\n",num_fields);
+	//printf("num_fields %i\n",num_fields);
 	int i = 0;
+
+	char *to_mutate = NULL;
+	char *to_maintain = NULL;
+	char *body_to_mutate = NULL;
+
+
+	split_fields(local_input,&to_mutate,&to_maintain,&body_to_mutate,input_fields,&num_fields);
+	printf("to_mutate\n%s\n",to_mutate);
+        printf("to_maintain\n%s\n",to_maintain);
+	printf("body_to_mutate\n%s\n",body_to_mutate);
+	u32 pre_to_mutate_len = strlen(to_mutate);
+	u32 pre_body_to_mutate_len = strlen(body_to_mutate);
+	printf("to_mutate addr %x\n",&to_mutate);
+	u32 havoc_steps = 1 + rand_below(data->afl,16);
+	printf("after havoc\n");
+	u32 post_to_mutate_len = afl_mutate(data->afl, &to_mutate, pre_to_mutate_len, havoc_steps,false,true,add_buf,add_buf_size,max_size);
+
         /*for(i=0;i<num_fields;i++){
 		printf("\n");
                 printf("field number %i\n",i);
