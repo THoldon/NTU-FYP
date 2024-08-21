@@ -9,7 +9,6 @@
 // You need to use -I/path/to/AFLplusplus/include -I.
 #include "afl-fuzz.h"
 #include "afl-mutations.h"
-#include "forkserver.h"
 
 #include <stdint.h>
 #include <stdlib.h>
