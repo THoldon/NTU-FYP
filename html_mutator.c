@@ -9,6 +9,7 @@
 // You need to use -I/path/to/AFLplusplus/include -I.
 #include "afl-fuzz.h"
 #include "afl-mutations.h"
+#include "forkserver.h"
 
 #include <stdint.h>
 #include <stdlib.h>
@@ -35,6 +36,8 @@ typedef struct http_fields {
 typedef struct my_mutator {
 
   afl_state_t *afl;
+  u8 *buf; //result buffer? i think
+  u32 buf_size;
 
   // any additional data here!
   //size_t trim_size_current;
@@ -44,6 +47,7 @@ typedef struct my_mutator {
   //u8 *mutated_out, *post_process_buf, *trim_buf;
 
 } my_mutator_t;
+
 
 /**
  * Initialize this custom mutator
@@ -58,9 +62,18 @@ typedef struct my_mutator {
  */
 my_mutator_t *afl_custom_init(afl_state_t *afl, unsigned int seed) {
 
-  srand(seed);  // needed also by surgical_havoc_mutate()
+  //srand(seed);  // needed also by surgical_havoc_mutate()
+  //(void)seed;
+
+  //dummy variables so that it can run standalone	
+  afl->queue_cycle = 1;
+  afl->fsrv.dev_urandom_fd = open("/dev/urandom", O_RDONLY);
+  if (afl->fsrv.dev_urandom_fd < 0) { PFATAL("Unable to open /dev/urandom"); }
+  rand_set_seed(afl,seed);
+
 
   my_mutator_t *data = calloc(1, sizeof(my_mutator_t));
+  
   if (!data) {
 
     perror("afl_custom_init alloc");
@@ -68,6 +81,11 @@ my_mutator_t *afl_custom_init(afl_state_t *afl, unsigned int seed) {
 
   }
 
+  data->buf = malloc(1024*512);
+  data->buf_size = 1024*512;
+
+  //rand_set_seed(data->afl,getpid());
+	
   /*if ((data->mutated_out = (u8 *)malloc(MAX_FILE)) == NULL) {
 
     perror("afl_custom_init malloc");
@@ -88,9 +106,8 @@ my_mutator_t *afl_custom_init(afl_state_t *afl, unsigned int seed) {
     return NULL;
 
   }*/
-
   data->afl = afl;
-	printf("in init\n");
+	//printf("in init\n");
   return data;
 
 }
@@ -110,7 +127,7 @@ char* get_input_name(char *input,unsigned int cur_start,unsigned int cur_end){ /
 }
 
 http_fields_t *get_input_fields(char *input, size_t buf_size,unsigned int *num_fields){ //split packet into each individual field
-	printf("inside get_input_fields\n");
+	//printf("inside get_input_fields\n");
 	http_fields_t *input_fields = NULL;
 	unsigned int pos = 0;
 	unsigned int cur_start = 0;
@@ -201,8 +218,8 @@ void split_fields(char* local_input,char** to_mutate, char** to_maintain,char** 
 	int maintain_offset = 0; //for to_maintain memcpy later
 	int mutate_offset = 0; //for to_mutate memcpy later
 	for(i=0;i<*num_fields;i++){ //go through each field
-		bool maintain_set = false;
-		printf("input name %s\n",input_fields[i].name);
+		bool maintain_set = false; //boolean to check if maintain field was reached
+		//printf("input name %s\n",input_fields[i].name);
 		int j = 0;
 		if(strcmp(input_fields[i].name, "Content-Length:") == 0) //skip content-length since its value has to adapt to body, append to the full packet last
 			continue;
@@ -275,25 +292,30 @@ size_t afl_custom_fuzz(my_mutator_t *data, uint8_t *buf, size_t buf_size,
 	char *local_input = NULL;
 	local_input = malloc(buf_size); //store input buffer on local variable to work on
 	memcpy(local_input,buf,buf_size);
-	http_fields_t *input_fields = get_input_fields(local_input,buf_size,&num_fields);
-	//printf("num_fields %i\n",num_fields);
+	http_fields_t *input_fields = get_input_fields(local_input,buf_size,&num_fields);//find out all fields present in packet
+
 	int i = 0;
 
-	char *to_mutate = NULL;
-	char *to_maintain = NULL;
-	char *body_to_mutate = NULL;
+	char *to_mutate = NULL; //header fields to mutate
+	char *to_maintain = NULL; //header fields to maintain
+	char *body_to_mutate = NULL;//body to mutate
 
 
-	split_fields(local_input,&to_mutate,&to_maintain,&body_to_mutate,input_fields,&num_fields);
-	printf("to_mutate\n%s\n",to_mutate);
-        printf("to_maintain\n%s\n",to_maintain);
-	printf("body_to_mutate\n%s\n",body_to_mutate);
-	u32 pre_to_mutate_len = strlen(to_mutate);
-	u32 pre_body_to_mutate_len = strlen(body_to_mutate);
-	printf("to_mutate addr %x\n",&to_mutate);
-	u32 havoc_steps = 1 + rand_below(data->afl,16);
-	printf("after havoc\n");
-	u32 post_to_mutate_len = afl_mutate(data->afl, &to_mutate, pre_to_mutate_len, havoc_steps,false,true,add_buf,add_buf_size,max_size);
+	split_fields(local_input,&to_mutate,&to_maintain,&body_to_mutate,input_fields,&num_fields); //split fields into their respective arrays
+
+	u32 pre_to_mutate_len = strlen(to_mutate); //get length of header fields to mutate
+	u32 pre_body_to_mutate_len = strlen(body_to_mutate); //get length of body to mutate
+	u32 havoc_steps = 1 + rand_below(data->afl,16); //set up havoc
+
+	printf("header unmutaed\n");
+	for(i=0;i<pre_to_mutate_len;i++){
+		printf("%c",to_mutate[i]);
+	}
+	u32 post_to_mutate_len = afl_mutate(data->afl, to_mutate, pre_to_mutate_len, havoc_steps,true,true,add_buf,add_buf_size,max_size); //mutate header fields
+	printf("\nheader mutated\n");
+	for(i=0;i<post_to_mutate_len;i++){
+		printf("%c",to_mutate[i]);
+	}
 
         /*for(i=0;i<num_fields;i++){
 		printf("\n");
@@ -380,12 +402,13 @@ int main(){
         }
 	printf("\n");*/
 	
-	afl_state_t *html_afl; //for init
+	afl_state_t *html_afl = calloc(1,sizeof(afl_state_t)); //for init
+	
 	my_mutator_t *html_mutator = afl_custom_init(html_afl,0); //init mutator
 	char mutated_post[] = ""; //out buf
 	u8 *mutated_ptr = &mutated_post;
 	u8 **mutated_d_ptr = &mutated_ptr; //out buf double pointer
 	//*(*mutated_d_ptr+i)
-	size_t mutated_size = afl_custom_fuzz(html_mutator,post_addr,post_size,mutated_d_ptr,NULL,NULL,9999999999);	
+	size_t mutated_size = afl_custom_fuzz(html_mutator,post_addr,post_size,mutated_d_ptr,NULL,NULL,(1024*512));	
 
 }
