@@ -316,6 +316,32 @@ size_t afl_custom_fuzz(my_mutator_t *data, uint8_t *buf, size_t buf_size,
 		printf("%c",to_mutate[i]);
 	}
 
+	printf("body unmutaed\n");
+	for(i=0;i<pre_body_to_mutate_len;i++){
+		printf("%c",body_to_mutate[i]);
+	}
+
+	u32 post_body_to_mutate_len = afl_mutate(data->afl,body_to_mutate,pre_body_to_mutate_len,havoc_steps,true,true,add_buf,add_buf_size,max_size);
+	printf("\nbody mutated\n");
+	for(i=0;i<post_body_to_mutate_len;i++){
+		printf("%c",body_to_mutate[i]);
+	}
+	
+	char *content_length_field = "Content-Length: ";
+	int body_digits = 0;
+	int len_holder = post_body_to_mutate_len;
+
+	while(len_holder>1){
+		len_holder/=10;
+		body_digits++;
+	}
+
+	char *adjusted_content_length = malloc(strlen(content_length_field) + body_digits + 2);
+	sprintf(adjusted_content_length,"%s%d\r\n",content_length_field,post_body_to_mutate_len);
+	for(int i = 0;i<strlen(adjusted_content_length);i++){
+		printf("%x ",adjusted_content_length[i]);
+	}
+
         /*for(i=0;i<num_fields;i++){
 		printf("\n");
                 printf("field number %i\n",i);
