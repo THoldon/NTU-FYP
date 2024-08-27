@@ -237,7 +237,6 @@ void split_fields(char* local_input,char** to_mutate, char** to_maintain,char** 
 		}
 
 	}
-
 	return;
 
 }
@@ -291,6 +290,9 @@ size_t afl_custom_fuzz(my_mutator_t *data, uint8_t *buf, size_t buf_size,
 	for(i=0;i<pre_to_mutate_len;i++){
 		printf("%c",to_mutate[i]);
 	}*/
+	char *dummy_malloc = malloc(to_maintain_len); //need this malloc or it may crash with malloc(): corrupted top size
+	free(dummy_malloc); //free it immediately to not waste memory
+	
 	u32 post_to_mutate_len = afl_mutate(data->afl, to_mutate, pre_to_mutate_len, havoc_steps,true,true,add_buf,add_buf_size,max_size); //mutate header fields
 	
 	/*printf("\nheader mutated\n"); //check fields to be mutated after mutation
@@ -320,11 +322,11 @@ size_t afl_custom_fuzz(my_mutator_t *data, uint8_t *buf, size_t buf_size,
 		len_holder/=10;
 		body_digits++;
 	}
-	
+
 	int adjusted_content_length_len = strlen(content_length_field) + body_digits + 2; // account for /r/n
+	//char *adjusted_content_length = NULL;
 	char *adjusted_content_length = malloc(adjusted_content_length_len); //allocate memory depending on how many characters there are
 	sprintf(adjusted_content_length,"%s%d\r\n",content_length_field,post_body_to_mutate_len); //concat them all together
-	
 	/*for(int i = 0;i<strlen(adjusted_content_length);i++){ //check if content-length is put together correctly
 		printf("%x ",adjusted_content_length[i]);
 	}*/
