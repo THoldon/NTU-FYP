@@ -2,7 +2,8 @@ import subprocess
 import time
 import sys
 import json
-import socket
+import requests
+#import socket
 from Initializer import Initializer, WebCheck, Login
 from selenium import webdriver
 
@@ -28,26 +29,26 @@ port = config_json['targetport']
 user = config_json['loginuser']
 passwd = config_json['loginpassword']
 creds_dump_path = "/home/ubuntu/FYP/NTU-FYP/seed_scraper/creds.json"
-raw_creds_dump_path = "/home/ubuntu/FYP/NTU-FYP/seed_scraper/raw_creds.json"
 full_run = Initializer.full_run(brand,target,port,user,passwd,creds_dump_path)
-initializer = Initializer.single_login(brand,target,port,user,passwd,creds_dump_path,raw_creds_dump_path)
 
 
-s = socket.socket()
-s.connect((config_json['targetip'],int(config_json['targetport'])))
 
-with open(creds_dump_path,'r') as authorization:
-    authorization_json = json.load(authorization)
+#s = socket.socket()
+#s.connect((config_json['targetip'],int(config_json['targetport'])))
 
-print(authorization_json)
+'''session = requests.Session()
+initializer = Initializer(brand,target,port,user,passwd)
+firmware_url = initializer.url
+print("\n\nfirmware_url",firmware_url)
+print("\n\n")
+Login.login(session,brand,initializer.url,Login.check_login_type(initializer.url,brand),user,passwd)
 
-get_message = "GET / HTTP1.1\r\n\r\n"
-s.sendall(get_message.encode())
-val = s.recv(10000)
+#get_message = "GET / HTTP1.1\r\n\r\n"
+#r = session.get("https://HTTP/1.1")
 print("\nreply from firmware: \n")
-print(val)
+#print(r.text)
 print()
 
-print("after sleep")
+print("after sleep")'''
 
 

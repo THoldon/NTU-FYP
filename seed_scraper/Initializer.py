@@ -499,6 +499,7 @@ class Initializer:
         print("Run")
         run_complete = False
         count = 0
+
         while not run_complete:
             try:
                 if self.SwitchFrame(self.pattern):
@@ -615,6 +616,30 @@ class Initializer:
         alert = self.driver.switch_to.alert
         alert.accept()
 
+    def find_post(self): #self-added to find POST
+        print("Find POST request")
+        #print(self.driver.page_source)
+        print("\n\n\n")
+        htm_regex = "\w+\.htm"
+        all_htm = re.findall(htm_regex,self.driver.page_source)
+        all_htm = list(all_htm)
+        print("all_htm ", all_htm) # look for other htmls that might have method="post"
+        #links = self.driver.find_element(By.XPATH,"//*[contains(a[@href], '.htm')]")
+        #elems = self.driver.find_elements(By.XPATH, "//method[='POST']")
+        #elems.extend(self.driver.find_elements(By.XPATH, "//*[contains(text(), 'logout')]"))
+        '''for e in elems:
+            if e.is_displayed():
+                try:
+                    print("    - trying logout button", e)
+                    e.click()
+                except ElementNotInteractableException as e:
+                    print("    - elem [%s] not interactable" % e.text)
+                except ElementClickInterceptedException as e:
+                    print("    - elem [%s] not interactable" % e.text)
+                except Exception as e:
+                    print("    - error logging out: %s" % e.text)'''
+
+
     def full_run(brand, target, port, user, passwd, creds_dump_path):
         print("[INFO] Attempting full run of initializer with following params:")
         print("    - brand: ", brand)
@@ -639,6 +664,9 @@ class Initializer:
                     with open(creds_dump_path, "w") as credFile:
                         json.dump(credentials, credFile)
             initializer.Run()
+            
+            initializer.find_post() #self added
+            #initializer.Run()
 
             initializer.Logout()
 
