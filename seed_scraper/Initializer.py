@@ -22,7 +22,6 @@ from selenium.common.exceptions import ElementClickInterceptedException
 from requests.auth import HTTPDigestAuth
 from argparse import ArgumentParser
 
-
 # based on FirmAE's initializer script
 # https://github.com/pr0v3rbs/FirmAE/blob/6fd365d838636fd203c07c1b2c7ecf3ad548a6d5/analyses/initializer.py
 netgear_pattern = re.compile(r"No[,.]( I want to).+(configur)")
@@ -624,7 +623,18 @@ class Initializer:
         all_htm = re.findall(htm_regex,self.driver.page_source)
         all_htm = list(all_htm)
         print("all_htm ", all_htm) # look for other htmls that might have method="post"
-        #links = self.driver.find_element(By.XPATH,"//*[contains(a[@href], '.htm')]")
+
+        self.driver.execute_script("location.href = '/WLG_adv_dual_band2.htm';")
+        time.sleep(5)
+        print("\n\n\n WLG_adv\n")
+        #print(self.driver.page_source)
+
+        links = self.driver.find_elements(By.XPATH,"//*[@method='POST']")
+    
+        print("\n\n links\n")
+        for e in links:
+            print(e.text)
+
         #elems = self.driver.find_elements(By.XPATH, "//method[='POST']")
         #elems.extend(self.driver.find_elements(By.XPATH, "//*[contains(text(), 'logout')]"))
         '''for e in elems:
@@ -638,7 +648,6 @@ class Initializer:
                     print("    - elem [%s] not interactable" % e.text)
                 except Exception as e:
                     print("    - error logging out: %s" % e.text)'''
-
 
     def full_run(brand, target, port, user, passwd, creds_dump_path):
         print("[INFO] Attempting full run of initializer with following params:")
@@ -664,9 +673,7 @@ class Initializer:
                     with open(creds_dump_path, "w") as credFile:
                         json.dump(credentials, credFile)
             initializer.Run()
-            
             initializer.find_post() #self added
-            #initializer.Run()
 
             initializer.Logout()
 
