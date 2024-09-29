@@ -19,6 +19,10 @@ from selenium.common.exceptions import InvalidSessionIdException
 from selenium.common.exceptions import WebDriverException
 from selenium.common.exceptions import ElementNotInteractableException
 from selenium.common.exceptions import ElementClickInterceptedException
+from selenium.common.exceptions import StaleElementReferenceException
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException
 from requests.auth import HTTPDigestAuth
 from argparse import ArgumentParser
 
@@ -56,6 +60,7 @@ class WebCheck:
         options.add_argument('--headless')
         options.add_argument('--no-sandbox')
         options.add_argument('--screen-size=1200x600')
+        #options.add_argument('--log-level=3') #suppress alerts
         options.set_capability('unhandledPromptBehaviour', 'dismiss')
         options.set_capability('unexpectedAlertBehaviour', 'dismiss')
         self.driver = webdriver.Chrome(options=options)
@@ -622,32 +627,56 @@ class Initializer:
         htm_regex = "\w+\.htm"
         all_htm = re.findall(htm_regex,self.driver.page_source)
         all_htm = list(all_htm)
-        print("all_htm ", all_htm) # look for other htmls that might have method="post"
+        all_htm = list(dict.fromkeys(all_htm))
 
-        self.driver.execute_script("location.href = '/WLG_adv_dual_band2.htm';")
-        time.sleep(5)
-        print("\n\n\n WLG_adv\n")
+        print("all_htm ", all_htm) # look for other htmls that might have method="post"
+        
+        for one_htm in all_htm:
+            script_name = "location.href = '/" + one_htm + "';"
+            #self.driver.execute_script("location.href = '/WLG_adv_dual_band2.htm';") #test on one html first
+            self.driver.execute_script(script_name)
+            time.sleep(2)
+        #time.sleep(5)
+        #print("\n\n\n WLG_adv\n")
         #print(self.driver.page_source)
 
-        links = self.driver.find_elements(By.XPATH,"//*[@method='POST']")
-    
-        print("\n\n links\n")
-        for e in links:
-            print(e.text)
-
+            links = self.driver.find_elements(By.XPATH,"//*[@method='POST']//button")
+        
+        #links = links.find_elements(By.TAG_NAME, "button")
+        #print("\n\n links\n")
+            #for e in links:
+                #print(e.text)
+        #print("START SHELL")
+        #time.sleep(8)
         #elems = self.driver.find_elements(By.XPATH, "//method[='POST']")
         #elems.extend(self.driver.find_elements(By.XPATH, "//*[contains(text(), 'logout')]"))
-        '''for e in elems:
-            if e.is_displayed():
+
+            for e in links:
                 try:
-                    print("    - trying logout button", e)
-                    e.click()
-                except ElementNotInteractableException as e:
-                    print("    - elem [%s] not interactable" % e.text)
-                except ElementClickInterceptedException as e:
-                    print("    - elem [%s] not interactable" % e.text)
-                except Exception as e:
-                    print("    - error logging out: %s" % e.text)'''
+                    if e.is_displayed():
+                        try:
+                            print("    - trying button", e.text)
+                            e.click()
+                            try:
+                                WebDriverWait(self.driver,2).until(EC.alert_is_present())
+                                alert = self.driver.switch_to.alert
+                                alert.accept()
+                                print("alert cleared")
+                            except TimeoutException:
+                                print("no alert")
+                        except ElementNotInteractableException as e:
+                            print("    - elem [%s] not interactable" % e.text)
+                        except ElementClickInterceptedException as e:
+                            print("    - elem [%s] not interactable" % e.text)
+                        except Exception as e:
+                            print("    - error logging out: %s" % e.text)
+
+                except StaleElementReferenceException as e:
+                        print("stale")
+                        break
+
+
+        exit()
 
     def full_run(brand, target, port, user, passwd, creds_dump_path):
         print("[INFO] Attempting full run of initializer with following params:")
