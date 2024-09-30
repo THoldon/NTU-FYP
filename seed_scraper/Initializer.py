@@ -632,7 +632,7 @@ class Initializer:
 
         print("all_htm ", all_htm) # look for other htmls that might have method="post"
 
-        start_sniff = subprocess.Popen('docker exec $(docker ps -q -f name=debug_gh) bash -c "apt-get install sudo -y; sudo apt-get install tcpdump -y; mkdir pcap; cd pcap; sudo tcpdump -U -w seed.pcap;"', shell=True)
+        start_sniff = subprocess.Popen('docker exec $(docker ps -q -f name=debug_gh) bash -c "apt-get install sudo -y; sudo apt-get install tcpdump -y; mkdir pcap; cd pcap; rm seed.pcap; sudo tcpdump -U -w seed.pcap;"', shell=True)
 
         for one_htm in all_htm:
             script_name = "location.href = '/" + one_htm + "';"
@@ -679,7 +679,7 @@ class Initializer:
                         break
         print("finished clicking buttons")
         #start_sniff.terminate()
-        kill_tcpdump = subprocess.Popen('docker exec $(docker ps -q -f name=debug_gh) bash -c "kill -2 $(ps -e | pgrep tcpdump);"', shell=True)
+        kill_tcpdump = subprocess.Popen('docker exec $(docker ps -q -f name=debug_gh) bash -c "echo $(ps -e | pgrep tcpdump); kill -2 $(ps -e | pgrep tcpdump);"', shell=True)
         #kill_tcpdump.terminate()
         extract_pcap = subprocess.Popen('docker cp $(docker ps -q -f name=debug_gh):/pcap/seed.pcap $(pwd)/seed.pcap;', shell=True)
         #extract_pcap.terminate()
