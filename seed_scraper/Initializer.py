@@ -9,6 +9,7 @@ import math
 import requests
 import json
 import lxml.html
+import subprocess
 from hashlib import md5
 import base64
 from selenium import webdriver
@@ -630,7 +631,9 @@ class Initializer:
         all_htm = list(dict.fromkeys(all_htm))
 
         print("all_htm ", all_htm) # look for other htmls that might have method="post"
-        
+
+        start_sniff = subprocess.Popen('docker exec $(docker ps -q -f name=debug_gh) bash -c "apt-get install sudo -y; sudo apt-get install tcpdump -y; mkdir pcap; cd pcap; sudo tcpdump -U -w seed.pcap;"', shell=True)
+
         for one_htm in all_htm:
             script_name = "location.href = '/" + one_htm + "';"
             #self.driver.execute_script("location.href = '/WLG_adv_dual_band2.htm';") #test on one html first
@@ -641,7 +644,7 @@ class Initializer:
         #print(self.driver.page_source)
 
             links = self.driver.find_elements(By.XPATH,"//*[@method='POST']//button")
-        
+            
         #links = links.find_elements(By.TAG_NAME, "button")
         #print("\n\n links\n")
             #for e in links:
@@ -674,9 +677,13 @@ class Initializer:
                 except StaleElementReferenceException as e:
                         print("stale")
                         break
-
-
-        exit()
+        print("finished clicking buttons")
+        #start_sniff.terminate()
+        kill_tcpdump = subprocess.Popen('docker exec $(docker ps -q -f name=debug_gh) bash -c "kill -2 $(ps -e | pgrep tcpdump);"', shell=True)
+        #kill_tcpdump.terminate()
+        extract_pcap = subprocess.Popen('docker cp $(docker ps -q -f name=debug_gh):/pcap/seed.pcap $(pwd)/seed.pcap;', shell=True)
+        #extract_pcap.terminate()
+        #exit()
 
     def full_run(brand, target, port, user, passwd, creds_dump_path):
         print("[INFO] Attempting full run of initializer with following params:")
