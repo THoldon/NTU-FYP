@@ -622,9 +622,7 @@ class Initializer:
         alert.accept()
 
     def find_post(self): #self-added to find POST
-        print("Find POST request")
-        #print(self.driver.page_source)
-        print("\n\n\n")
+        print("Find POST request\n")
         htm_regex = "\w+\.htm"
         all_htm = re.findall(htm_regex,self.driver.page_source)
         all_htm = list(all_htm)
@@ -633,57 +631,19 @@ class Initializer:
         print("all_htm ", all_htm) # look for other htmls that might have method="post"
 
         start_sniff = subprocess.Popen('docker exec $(docker ps -q -f name=debug_gh) bash -c "apt-get install sudo -y; sudo apt-get install tcpdump -y; mkdir pcap; cd pcap; rm seed.pcap; sudo tcpdump -U -w seed.pcap;"', shell=True)
+        time.sleep(10) #set some time for installing tcpdump
+        click_buttons(self) #click on buttons on main page
 
-        for one_htm in all_htm:
+        for one_htm in all_htm: #go to each .htm script and click buttons hopefullying finding a POST request
             script_name = "location.href = '/" + one_htm + "';"
-            #self.driver.execute_script("location.href = '/WLG_adv_dual_band2.htm';") #test on one html first
+            print("executing script ", script_name)
             self.driver.execute_script(script_name)
-            time.sleep(2)
-        #time.sleep(5)
-        #print("\n\n\n WLG_adv\n")
-        #print(self.driver.page_source)
+            time.sleep(2) #set some time for loading page
+            click_buttons(self) #click on buttons there
 
-            links = self.driver.find_elements(By.XPATH,"//*[@method='POST']//button")
-            
-        #links = links.find_elements(By.TAG_NAME, "button")
-        #print("\n\n links\n")
-            #for e in links:
-                #print(e.text)
-        #print("START SHELL")
-        #time.sleep(8)
-        #elems = self.driver.find_elements(By.XPATH, "//method[='POST']")
-        #elems.extend(self.driver.find_elements(By.XPATH, "//*[contains(text(), 'logout')]"))
-
-            for e in links:
-                try:
-                    if e.is_displayed():
-                        try:
-                            print("    - trying button", e.text)
-                            e.click()
-                            try:
-                                WebDriverWait(self.driver,2).until(EC.alert_is_present())
-                                alert = self.driver.switch_to.alert
-                                alert.accept()
-                                print("alert cleared")
-                            except TimeoutException:
-                                print("no alert")
-                        except ElementNotInteractableException as e:
-                            print("    - elem [%s] not interactable" % e.text)
-                        except ElementClickInterceptedException as e:
-                            print("    - elem [%s] not interactable" % e.text)
-                        except Exception as e:
-                            print("    - error logging out: %s" % e.text)
-
-                except StaleElementReferenceException as e:
-                        print("stale")
-                        break
         print("finished clicking buttons")
-        #start_sniff.terminate()
-        kill_tcpdump = subprocess.Popen('docker exec $(docker ps -q -f name=debug_gh) bash -c "echo $(ps -e | pgrep tcpdump); kill -2 $(ps -e | pgrep tcpdump);"', shell=True)
-        #kill_tcpdump.terminate()
-        extract_pcap = subprocess.Popen('docker cp $(docker ps -q -f name=debug_gh):/pcap/seed.pcap $(pwd)/seed.pcap;', shell=True)
-        #extract_pcap.terminate()
-        #exit()
+        kill_tcpdump = subprocess.Popen('docker exec $(docker ps -q -f name=debug_gh) bash -c "pkill -2 tcpdump;"', shell=True) #stop the tcpdump
+        extract_pcap = subprocess.Popen('docker cp $(docker ps -q -f name=debug_gh):/pcap/seed.pcap $(pwd)/seed.pcap;', shell=True) #copy out the pcap
 
     def full_run(brand, target, port, user, passwd, creds_dump_path):
         print("[INFO] Attempting full run of initializer with following params:")
@@ -692,6 +652,7 @@ class Initializer:
         print("    - port: ", port)
         print("    - user: ", user)
         print("    - passwd: ", passwd)
+        print("pwd :",os.getcwd())
 
         Initialize()
 
@@ -784,6 +745,36 @@ class Initializer:
         except Exception as e:
             print(f"[---] {str(e)}")
         print("[INFO] Logout attempt complete")
+
+def click_buttons(self): # click buttons on page
+    links = self.driver.find_elements(By.XPATH,"//*[@method='POST']//button") #find every button under a method=POST element
+
+    for e in links:     
+        try:            
+            if e.is_displayed():
+                try:    
+                    print("    - trying button", e.text)
+                    if(e.text == "LOGOUT" or e.text == "logout" or e.text == "Logout"): #don't accidentally log out
+                        continue
+                    e.click()
+                    try:
+                        WebDriverWait(self.driver,2).until(EC.alert_is_present()) #deal with alerts
+                        alert = self.driver.switch_to.alert
+                        alert.accept()
+                        print("alert cleared")
+                    except TimeoutException:
+                        print("no alert")
+                except ElementNotInteractableException as e:
+                    print("    - elem [%s] not interactable" % e.text)
+                except ElementClickInterceptedException as e:
+                    print("    - elem [%s] not interactable" % e.text)
+                except Exception as e:
+                    print("    - error logging out: %s" % e.text)
+
+        except StaleElementReferenceException as e: #sometimes clicking a button goes somewhere else, causing stale elements, so just go next
+                print("stale")
+                break
+
 
 if __name__ == "__main__":
     parser = ArgumentParser(description='Use RSF to run a module')
