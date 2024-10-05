@@ -12,9 +12,9 @@ from scapy.layers.http import *
 
 def get_seed():
     os.chdir(sys.argv[2])
-    #image_location = "/home/ubuntu/FYP/extracted_image/813c23b285d234785f1c4ce19c76bf76d148e06977b6f016f6590e59d6d17f65/D7000v2_FW_V1.0.0.52_1.0.1/debug"
+    image_location = "/home/ubuntu/FYP/extracted_image/813c23b285d234785f1c4ce19c76bf76d148e06977b6f016f6590e59d6d17f65/D7000v2_FW_V1.0.0.52_1.0.1/debug"
     #image_location = "/home/ubuntu/FYP/extracted_image/2fda6a93fda4a3468688dcfe57980e118aebe9f6016e2e83c8ccf4d47e7123af/N150_N300_FW_V1.1.0.31_1.0.1/debug"
-    image_location = sys.argv[1]
+    #image_location = sys.argv[1]
     config_location = image_location[:-5] + "config.json"
 
     with open(config_location, 'r') as config:
@@ -32,30 +32,32 @@ def get_seed():
 
 def extract_post():
     http_pcap = PcapReader('seed.pcap')
-    found = 0
+    num_seed = 0
     for pkt in http_pcap:
-        print(pkt.payload)
-        print("\n")
         if HTTP in pkt:
             if HTTPRequest in pkt:
                         if pkt[HTTPRequest].Method == b'POST':
-                            print("\n\n")
                             post_req = pkt[HTTPRequest]
-                            print(type(post_req))
-                            print(post_req)
-                            print("\n\n")
-                            #post_req = str(post_req)
-                            #post_req = post_req.decode("utf-8")
-                            #print(post_req)
-                            #print(type(post_req))
-                            payload = pkt.payload
-                            print(payload)
-                            print(type(payload))
-                            if(found == 0):
-                                found = 1
-                                continue
-            if(found == 1):
-                break
+                            if "Authorization" in post_req.fields and pkt.haslayer(Raw):
+                                raw_seed = raw(pkt)
+                                count = 0
+                                while (count < len(raw_seed)):
+                                    count += 1
+                                    if(raw_seed[count] == 80  and raw_seed[count+1] == 79 and raw_seed[count+2] == 83 and raw_seed[count+3] == 84):
+                                        raw_seed = raw_seed[count:]
+                                        break
+                                if(count < len(raw_seed)):
+                                    num_seed += 1
+                                    post_seed = open("seed%s" % num_seed,"wb")
+                                    post_seed.write(raw_seed)
+                                    post_seed.close()
+                                
+                                if(num_seed >=5):
+                                    print("5 seeds written")
+                                    return
+    print("<5 seeds written")
+    return
 
-#get_seed()
+get_seed()
+time.sleep(5)
 extract_post()

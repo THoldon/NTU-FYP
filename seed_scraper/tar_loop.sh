@@ -1,6 +1,8 @@
 script_location=$(pwd)
+./specific_google_chrome.sh
 
-cd /home/ubuntu/FYP/images/for_debug #create a folder to place images in and go there
+#cd /home/ubuntu/FYP/images/for_debug #create a folder to place images in and go there
+cd "$1"
 
 for file in *.tar.gz; do
 	rm -r ../../extracted_image #create a folder to place extracted image
@@ -12,6 +14,6 @@ for file in *.tar.gz; do
 	cd "$script_location"
 	./docker_compose.sh "$img_location" "$script_location"
 	echo "after docker_compose"
-	cd /home/ubuntu/FYP/images/for_debug
+	cd "$1"
 done
 
