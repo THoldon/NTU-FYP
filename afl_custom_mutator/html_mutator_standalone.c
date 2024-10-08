@@ -321,7 +321,7 @@ size_t afl_custom_fuzz(my_mutator_t *data, uint8_t *buf, size_t buf_size,
 	u32 pre_to_mutate_len = strlen(to_mutate); //get length of header fields to mutate
 	u32 pre_body_to_mutate_len = strlen(body_to_mutate); //get length of body to mutate
 	u32 havoc_steps = 1 + rand_below(data->afl,16); //set up havoc
-	printf("preto mutate len %i\n",pre_to_mutate_len);
+	
 	/*printf("header unmutaed\n"); //check fields to be mutated before mutation
 	for(i=0;i<pre_to_mutate_len;i++){
 		printf("%c",to_mutate[i]);
@@ -372,7 +372,21 @@ size_t afl_custom_fuzz(my_mutator_t *data, uint8_t *buf, size_t buf_size,
 	for(int i = 0;i<adjusted_content_length_len;i++){
 		printf("%c",adjusted_content_length[i]);
 	}*/
-	
+
+	//make sure to_mutate ends with \r\n\r\n and to_maintain ends with \r\n
+	if(to_maintain[to_maintain_len-4] == '\r' && to_maintain[to_maintain_len-3] == '\n' && to_maintain[to_maintain_len-2] == '\r' && to_maintain[to_maintain_len-1] == '\n'){
+		to_maintain = realloc(to_maintain,to_maintain_len-2);
+		to_maintain_len -= 2;
+	}
+	if(!(to_mutate[post_to_mutate_len-4] == '\r' && to_mutate[post_to_mutate_len-3] == '\n' && to_mutate[post_to_mutate_len-2] == '\r' && to_mutate[post_to_mutate_len-1] == '\n')){
+		to_mutate = realloc(to_mutate,post_to_mutate_len+2);
+		post_to_mutate_len += 2;
+		to_mutate[post_to_mutate_len-4] = '\r';
+		to_mutate[post_to_mutate_len-3] = '\n';
+		to_mutate[post_to_mutate_len-2] = '\r';
+		to_mutate[post_to_mutate_len-1] = '\n';
+	}
+
 	char *mutated_packet = malloc(to_maintain_len + post_to_mutate_len + post_body_to_mutate_len + adjusted_content_length_len); //allocate memory for mutated packet
 	int mutated_len = 0;
 	memcpy(mutated_packet,to_maintain,to_maintain_len); //copy in fields maintained
@@ -419,7 +433,7 @@ void afl_custom_deinit(my_mutator_t *data) {
 
 }
 
-int main(){
+//int main(){
 	//char post[] = "POST /wizsetup.htm HTTP/1.1\r\n" //sample post packet
 	//		"Host: 172.21.0.2\r\n"
 	//		"User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n"
@@ -437,7 +451,7 @@ int main(){
 			"\r\n"
 			"ReplySuccessPage=wizsetup.htm&ReplyErrorPage=wizsetup.htm";*/
 	
-	FILE *seed;
+	/*FILE *seed;
 	seed = fopen("/home/ubuntu/FYP/NTU-FYP/seed_scraper/seed1","r");
 	char *post;
 	fseek(seed,0,SEEK_SET);
@@ -465,4 +479,4 @@ int main(){
 	}
 
 	afl_custom_deinit(html_mutator); //deinit custom mutator
-}
+}*/
