@@ -103,6 +103,10 @@ char* get_input_name(char *input,unsigned int cur_start,unsigned int cur_end){ /
 	for(byte=cur_start;byte<cur_end;byte++){
 		if(*(input+byte) == 0x20){ //find the space character, every header has this after : or POST or GET
 			char *field_name = malloc(pos+1);
+			if(!field_name){
+				perror("field_name alloc");
+				return "Dummy";
+			}
 			memcpy(field_name,input+cur_start,pos); //copy out the name
 			field_name[pos] = '\0';
 			return field_name; //return it
@@ -115,6 +119,10 @@ char* get_input_name(char *input,unsigned int cur_start,unsigned int cur_end){ /
 http_fields_t *get_input_fields(char *input, size_t buf_size,unsigned int *num_fields){ //split packet into each individual field
 
 	http_fields_t *input_fields = calloc(1,sizeof(http_fields_t));
+	/*if(!input_fields){
+		perror("input_fields calloc");
+		return NULL;
+	}*/
 	unsigned int pos = 0;
 	unsigned int cur_start = 0;
 	unsigned int cur_end = 0;
@@ -125,6 +133,10 @@ http_fields_t *get_input_fields(char *input, size_t buf_size,unsigned int *num_f
 		if((pos>=4) && (memcmp((input+pos-1),header_terminator,4)==0)){ //when header_terminator is reached
 			(*num_fields)++; //increase number of fields
                         input_fields = (http_fields_t *)realloc(input_fields, *num_fields*sizeof(http_fields_t)); //set more memory for input_fields array
+			/*if(!input_fields){
+				perror("input_fields realloc");
+				return NULL;
+			}*/
 			cur_end += 2; //account for another 0x0d 0x0a
                         input_fields[*num_fields-1].start_byte = cur_start; //get start byte
                         input_fields[*num_fields-1].end_byte = cur_end; //get end byte
@@ -135,6 +147,7 @@ http_fields_t *get_input_fields(char *input, size_t buf_size,unsigned int *num_f
 
 			(*num_fields)++; //increase number of fields
 			input_fields = (http_fields_t *)realloc(input_fields, *num_fields*sizeof(http_fields_t)); //set more memory for input_fields array
+
 			input_fields[*num_fields-1].start_byte = cur_start; //start of body
 			input_fields[*num_fields-1].end_byte = buf_size; //end of packet is end of body
 			input_fields[*num_fields-1].name = "BODY"; //body has no name so give it one
@@ -147,6 +160,10 @@ http_fields_t *get_input_fields(char *input, size_t buf_size,unsigned int *num_f
 		else if((pos>=2) && (memcmp((input+pos-1),fields_terminator,2)==0)){ //when field_terminator is reached
 			(*num_fields)++; //increase number of fields
 			input_fields = (http_fields_t *)realloc(input_fields, *num_fields*sizeof(http_fields_t)); //set more memory for input_fields array
+			/*if(!input_fields){
+				perror("input_fields realloc");
+				return NULL;
+			}*/
 			input_fields[*num_fields-1].start_byte = cur_start; //get start byte
 			input_fields[*num_fields-1].end_byte = cur_end; //get end byte
 			input_fields[*num_fields-1].name = get_input_name(input,cur_start,cur_end); //get name of field
@@ -206,6 +223,10 @@ void split_fields(char* local_input,char** to_mutate, char** to_maintain,char** 
 
 		if(strcmp(input_fields[i].name, "BODY") == 0){ //if body reached
 			*body_to_mutate = malloc(field_size);
+			if(!body_to_mutate){
+				perror("body_to_mutate malloc");
+			}
+			body_size = field_size;
 			memcpy(*body_to_mutate,local_input+input_fields[i].start_byte,field_size); //save out body
 			continue;
                 }
@@ -215,10 +236,16 @@ void split_fields(char* local_input,char** to_mutate, char** to_maintain,char** 
 			if(strcmp(maintain_names[j], input_fields[i].name) == 0){ //check if current field is a field to maintain
 				if(maintain_offset == 0){ //if first field to be maintained
 					*to_maintain = malloc(field_size); //allocate necessary size
+					if(!to_maintain){
+						perror("to_maintain malloc");
+					}
 					memcpy(*to_maintain,local_input+input_fields[i].start_byte,field_size); //copy in field's text
 				}
 				else{
 					*to_maintain = realloc(*to_maintain, (maintain_offset + field_size)); //allocate more space to_maintain to append
+					if(!to_maintain){
+						perror("to_maintain realloc");
+					}
 					memcpy(*to_maintain + maintain_offset,local_input + input_fields[i].start_byte,field_size); //copy in field's text
 				}
 				maintain_offset += field_size; //increase maintain offset to adjust where to copy
@@ -232,10 +259,16 @@ void split_fields(char* local_input,char** to_mutate, char** to_maintain,char** 
 			//printf("\nto_mutate\n");
 			if(mutate_offset == 0){ //if first field to be mutated
 				*to_mutate = malloc(field_size); //allocate necessary size
+				if(!to_mutate){
+					perror("to_mutate malloc");
+				}
 				memcpy(*to_mutate,local_input+input_fields[i].start_byte,field_size); //copy in field's text
 			}
 			else{
 				*to_mutate = realloc(*to_mutate, (mutate_offset+field_size)); //allocate more space to to_mutate to append
+				if(!to_mutate){
+					perror("to_mutate realloc");
+				}
 				memcpy(*to_mutate + mutate_offset ,local_input+input_fields[i].start_byte,field_size); //copy in field's text
 			}
 			/*for(int j = 0;j<field_size;j++){
@@ -251,13 +284,20 @@ void split_fields(char* local_input,char** to_mutate, char** to_maintain,char** 
 	}
 
 	*body_to_mutate = realloc(*body_to_mutate,(body_size+1));
+	if(!body_to_mutate){
+		perror("body_to_mutate realloc");
+	}
 	(*body_to_mutate)[body_size] = '\0';
+
 	/*for(int i = 0;i<body_size;i++){
 		printf("%x ",(*body_to_mutate)[i]);
 	}*/
 
 
 	*to_maintain = realloc(*to_maintain,(maintain_offset+1));
+	if(!to_maintain){
+		perror("to_maintain realloc");
+	}
 	//printf("\nto_maintain\n");
 	/*for(int i = 0;i<maintain_offset;i++){
 		printf("%c",(*to_maintain)[i]);
@@ -268,6 +308,9 @@ void split_fields(char* local_input,char** to_mutate, char** to_maintain,char** 
 	}*/
 
 	*to_mutate = realloc(*to_mutate,(mutate_offset+1));
+	if(!to_mutate){
+		perror("to_mutate realloc");
+	}
 	(*to_maintain)[maintain_offset] = '\0';
 	(*to_mutate)[mutate_offset] = '\0';
 	/*for(int i = 0;i<mutate_offset;i++){
@@ -309,6 +352,10 @@ size_t afl_custom_fuzz(my_mutator_t *data, uint8_t *buf, size_t buf_size,
 	memcpy(local_input,buf,buf_size);
 	local_input[buf_size] = '\0';
 	http_fields_t *input_fields = get_input_fields(local_input,buf_size,&num_fields);//find out all fields present in packet
+	if(!input_fields){
+		perror("input fields fail");
+	}
+
 	int i = 0;
 
 	char *to_mutate = NULL; //header fields to mutate
@@ -316,6 +363,10 @@ size_t afl_custom_fuzz(my_mutator_t *data, uint8_t *buf, size_t buf_size,
 	char *body_to_mutate = NULL;//body to mutate
 
 	split_fields(local_input,&to_mutate,&to_maintain,&body_to_mutate,input_fields,&num_fields); //split fields into their respective arrays
+
+	if(!to_mutate || !to_maintain ||!body_to_mutate){
+		perror("split fields fail");
+	}
 
 	u32 to_maintain_len = strlen(to_maintain); //get length of header fields to maintain
 	u32 pre_to_mutate_len = strlen(to_mutate); //get length of header fields to mutate
@@ -327,8 +378,8 @@ size_t afl_custom_fuzz(my_mutator_t *data, uint8_t *buf, size_t buf_size,
 		printf("%c",to_mutate[i]);
 	}*/
 
-	char *dummy_malloc = malloc(to_maintain_len); //need this malloc or it may crash with malloc(): corrupted top size
-	free(dummy_malloc); //free it immediately to not waste memory
+	//char *dummy_malloc = malloc(to_maintain_len); //need this malloc or it may crash with malloc(): corrupted top size
+	//free(dummy_malloc); //free it immediately to not waste memory
 	
 	u32 post_to_mutate_len = afl_mutate(data->afl, to_mutate, pre_to_mutate_len, havoc_steps,true,true,add_buf,add_buf_size,max_size); //mutate header fields
 	
@@ -363,6 +414,9 @@ size_t afl_custom_fuzz(my_mutator_t *data, uint8_t *buf, size_t buf_size,
 	int adjusted_content_length_len = strlen(content_length_field) + body_digits + 3; // account for /r/n
 	//char *adjusted_content_length = NULL;
 	char *adjusted_content_length = malloc(adjusted_content_length_len+1); //allocate memory depending on how many characters there are
+	if(!adjusted_content_length){
+		perror("adjusted_content_length malloc");
+	}
 	sprintf(adjusted_content_length,"%s%d\r\n",content_length_field,post_body_to_mutate_len); //concat them all together
 	adjusted_content_length[adjusted_content_length_len] = '\0';
 	/*printf("adjusted content length len %i\n",adjusted_content_length_len);
@@ -376,10 +430,16 @@ size_t afl_custom_fuzz(my_mutator_t *data, uint8_t *buf, size_t buf_size,
 	//make sure to_mutate ends with \r\n\r\n and to_maintain ends with \r\n
 	if(to_maintain[to_maintain_len-4] == '\r' && to_maintain[to_maintain_len-3] == '\n' && to_maintain[to_maintain_len-2] == '\r' && to_maintain[to_maintain_len-1] == '\n'){
 		to_maintain = realloc(to_maintain,to_maintain_len-2);
+		if(!to_maintain){
+			perror("to_maintain \r\n check realloc");
+		}
 		to_maintain_len -= 2;
 	}
 	if(!(to_mutate[post_to_mutate_len-4] == '\r' && to_mutate[post_to_mutate_len-3] == '\n' && to_mutate[post_to_mutate_len-2] == '\r' && to_mutate[post_to_mutate_len-1] == '\n')){
 		to_mutate = realloc(to_mutate,post_to_mutate_len+2);
+		if(!to_mutate){
+			perror("to_mutate \r\n check realloc");
+		}
 		post_to_mutate_len += 2;
 		to_mutate[post_to_mutate_len-4] = '\r';
 		to_mutate[post_to_mutate_len-3] = '\n';
@@ -388,6 +448,9 @@ size_t afl_custom_fuzz(my_mutator_t *data, uint8_t *buf, size_t buf_size,
 	}
 
 	char *mutated_packet = malloc(to_maintain_len + post_to_mutate_len + post_body_to_mutate_len + adjusted_content_length_len); //allocate memory for mutated packet
+	if(!mutated_packet){
+		perror("mutated packet malloc");
+	}
 	int mutated_len = 0;
 	memcpy(mutated_packet,to_maintain,to_maintain_len); //copy in fields maintained
 	mutated_len += to_maintain_len; //keep track of packet length
@@ -428,12 +491,12 @@ size_t afl_custom_fuzz(my_mutator_t *data, uint8_t *buf, size_t buf_size,
  * @param data The data ptr from afl_custom_init
  */
 void afl_custom_deinit(my_mutator_t *data) {
-
+  free(data->afl);
   free(data);
 
 }
 
-//int main(){
+int main(){
 	//char post[] = "POST /wizsetup.htm HTTP/1.1\r\n" //sample post packet
 	//		"Host: 172.21.0.2\r\n"
 	//		"User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n"
@@ -451,13 +514,13 @@ void afl_custom_deinit(my_mutator_t *data) {
 			"\r\n"
 			"ReplySuccessPage=wizsetup.htm&ReplyErrorPage=wizsetup.htm";*/
 	
-	/*FILE *seed;
+	FILE *seed;
 	seed = fopen("/home/ubuntu/FYP/NTU-FYP/seed_scraper/seed1","r");
 	char *post;
 	fseek(seed,0,SEEK_SET);
 	post = calloc(770,1);
 	fread(post,1,769,seed);
-	printf("og post %s\n",post);
+	//printf("og post %s\n",post);
 
 	int i = 0;
 	uint8_t *post_addr = post; //buf
@@ -467,16 +530,18 @@ void afl_custom_deinit(my_mutator_t *data) {
 	
 	my_mutator_t *html_mutator = afl_custom_init(html_afl,0); //init mutator
 	unsigned char *mutated_post = NULL;
-	size_t mutated_size = afl_custom_fuzz(html_mutator,post_addr,post_size,&mutated_post,NULL,NULL,769);
+	//for(int j=0;j<5;i++){
+		size_t mutated_size = afl_custom_fuzz(html_mutator,post_addr,post_size,&mutated_post,NULL,NULL,9999);
 	
-	printf("\n\nin main\n\n");
-	for(i=0;i<mutated_size;i++){
-		printf("%c",mutated_post[i]); //check mutation
-	}
-	printf("\n");
-	for(i=0;i<mutated_size;i++){
-		printf("%x ",mutated_post[i]);
-	}
-
+		/*printf("\n\nin main\n\n");
+		for(i=0;i<mutated_size;i++){
+			printf("%c",mutated_post[i]); //check mutation
+		}
+		printf("\n");*/
+		/*for(i=0;i<mutated_size;i++){
+			printf("%x ",mutated_post[i]);
+		}*/
+	//}
+	free(post);
 	afl_custom_deinit(html_mutator); //deinit custom mutator
-}*/
+}
