@@ -412,13 +412,13 @@ size_t afl_custom_fuzz(my_mutator_t *data, uint8_t *buf, size_t buf_size,
 	}
 
 	int adjusted_content_length_len = strlen(content_length_field) + body_digits + 3; // account for /r/n
-	//char *adjusted_content_length = NULL;
 	char *adjusted_content_length = malloc(adjusted_content_length_len+1); //allocate memory depending on how many characters there are
 	if(!adjusted_content_length){
 		perror("adjusted_content_length malloc");
 	}
 	sprintf(adjusted_content_length,"%s%d\r\n",content_length_field,post_body_to_mutate_len); //concat them all together
 	adjusted_content_length[adjusted_content_length_len] = '\0';
+
 	/*printf("adjusted content length len %i\n",adjusted_content_length_len);
 	for(int i = 0;i<adjusted_content_length_len;i++){ //check if content-length is put together correctly
 		printf("%x ",adjusted_content_length[i]);
@@ -530,18 +530,18 @@ int main(){
 	
 	my_mutator_t *html_mutator = afl_custom_init(html_afl,0); //init mutator
 	unsigned char *mutated_post = NULL;
-	//for(int j=0;j<5;i++){
+	for(int j=0;j<5;j++){
 		size_t mutated_size = afl_custom_fuzz(html_mutator,post_addr,post_size,&mutated_post,NULL,NULL,9999);
 	
-		/*printf("\n\nin main\n\n");
+		printf("\n\nin main\n\n");
 		for(i=0;i<mutated_size;i++){
 			printf("%c",mutated_post[i]); //check mutation
 		}
-		printf("\n");*/
+		printf("\n");
 		/*for(i=0;i<mutated_size;i++){
 			printf("%x ",mutated_post[i]);
 		}*/
-	//}
+	}
 	free(post);
 	afl_custom_deinit(html_mutator); //deinit custom mutator
 }
