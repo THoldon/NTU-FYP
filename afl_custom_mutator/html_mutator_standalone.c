@@ -380,9 +380,9 @@ size_t afl_custom_fuzz(my_mutator_t *data, uint8_t *buf, size_t buf_size,
 
 	//char *dummy_malloc = malloc(to_maintain_len); //need this malloc or it may crash with malloc(): corrupted top size
 	//free(dummy_malloc); //free it immediately to not waste memory
-	
+	to_mutate = realloc(to_mutate,max_size);
 	u32 post_to_mutate_len = afl_mutate(data->afl, to_mutate, pre_to_mutate_len, havoc_steps,true,true,add_buf,add_buf_size,max_size); //mutate header fields
-	
+	to_mutate = realloc(to_mutate,post_to_mutate_len);
 	/*printf("\nheader mutated\n"); //check fields to be mutated after mutation
 	for(i=0;i<post_to_mutate_len;i++){
 		printf("%c",to_mutate[i]);
@@ -392,9 +392,9 @@ size_t afl_custom_fuzz(my_mutator_t *data, uint8_t *buf, size_t buf_size,
 	for(i=0;i<pre_body_to_mutate_len;i++){
 		printf("%x ",body_to_mutate[i]);
 	}*/
-
+	body_to_mutate = realloc(body_to_mutate,max_size);
 	u32 post_body_to_mutate_len = afl_mutate(data->afl,body_to_mutate,pre_body_to_mutate_len,havoc_steps,true,true,add_buf,add_buf_size,max_size); //mutate body
-	
+	body_to_mutate = realloc(body_to_mutate,post_body_to_mutate_len);
 	/*printf("\nbody mutated\n"); //check body after mutation
 	for(i=0;i<post_body_to_mutate_len;i++){
 		printf("%c",body_to_mutate[i]);
@@ -521,7 +521,7 @@ int main(){
 	post = calloc(770,1);
 	fread(post,1,769,seed);
 	//printf("og post %s\n",post);
-
+	fclose(seed);
 	int i = 0;
 	uint8_t *post_addr = post; //buf
 	size_t post_size = strlen(post); //buf_size
@@ -530,18 +530,17 @@ int main(){
 	
 	my_mutator_t *html_mutator = afl_custom_init(html_afl,0); //init mutator
 	unsigned char *mutated_post = NULL;
-	for(int j=0;j<5;j++){
+	for(int j=0;j<1000;j++){
 		size_t mutated_size = afl_custom_fuzz(html_mutator,post_addr,post_size,&mutated_post,NULL,NULL,9999);
 	
-		printf("\n\nin main\n\n");
+		/*printf("\n\nin main\n\n");
 		for(i=0;i<mutated_size;i++){
 			printf("%c",mutated_post[i]); //check mutation
 		}
-		printf("\n");
+		printf("\n");*/
 		/*for(i=0;i<mutated_size;i++){
 			printf("%x ",mutated_post[i]);
 		}*/
 	}
-	free(post);
 	afl_custom_deinit(html_mutator); //deinit custom mutator
 }

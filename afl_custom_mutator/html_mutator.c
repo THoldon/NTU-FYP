@@ -105,7 +105,7 @@ char* get_input_name(char *input,unsigned int cur_start,unsigned int cur_end){ /
 			char *field_name = malloc(pos+1);
 			if(!field_name){
 				perror("field_name alloc");
-				return NULL;
+				return "Dummy";
 			}
 			memcpy(field_name,input+cur_start,pos); //copy out the name
 			field_name[pos] = '\0';
@@ -141,22 +141,13 @@ http_fields_t *get_input_fields(char *input, size_t buf_size,unsigned int *num_f
                         input_fields[*num_fields-1].start_byte = cur_start; //get start byte
                         input_fields[*num_fields-1].end_byte = cur_end; //get end byte
                         input_fields[*num_fields-1].name = get_input_name(input,cur_start,cur_end); //get name of field
-			if(input_fields[*num_fields-1].name == NULL){
-				//perror("input fields name NULL");
-				//return NULL;
-				input_fields[*num_fields-1].name = "Dummy";
-			}
 
                         cur_start = cur_end + 1; //move cur_start to start of next field
                         cur_end = cur_start; //move cur_end to not overlap
 
 			(*num_fields)++; //increase number of fields
 			input_fields = (http_fields_t *)realloc(input_fields, *num_fields*sizeof(http_fields_t)); //set more memory for input_fields array
-			if(!input_fields){
-				//perror("input_fields realloc");
-				//return NULL;
-				input_fields[*num_fields-1].name = "Dummy";
-			}
+
 			input_fields[*num_fields-1].start_byte = cur_start; //start of body
 			input_fields[*num_fields-1].end_byte = buf_size; //end of packet is end of body
 			input_fields[*num_fields-1].name = "BODY"; //body has no name so give it one
@@ -176,8 +167,6 @@ http_fields_t *get_input_fields(char *input, size_t buf_size,unsigned int *num_f
 			input_fields[*num_fields-1].start_byte = cur_start; //get start byte
 			input_fields[*num_fields-1].end_byte = cur_end; //get end byte
 			input_fields[*num_fields-1].name = get_input_name(input,cur_start,cur_end); //get name of field
-			if(input_fields[*num_fields-1].name == NULL)
-				input_fields[*num_fields-1].name = "Dummy";
 
 			/*int i = 0; //check if range is correct
 			for(i = 0;i<=cur_end-cur_start;i++)
@@ -391,9 +380,9 @@ size_t afl_custom_fuzz(my_mutator_t *data, uint8_t *buf, size_t buf_size,
 
 	//char *dummy_malloc = malloc(to_maintain_len); //need this malloc or it may crash with malloc(): corrupted top size
 	//free(dummy_malloc); //free it immediately to not waste memory
-	
+	to_mutate = realloc(to_mutate,max_size);
 	u32 post_to_mutate_len = afl_mutate(data->afl, to_mutate, pre_to_mutate_len, havoc_steps,true,true,add_buf,add_buf_size,max_size); //mutate header fields
-	
+	to_mutate = realloc(to_mutate,post_to_mutate_len);
 	/*printf("\nheader mutated\n"); //check fields to be mutated after mutation
 	for(i=0;i<post_to_mutate_len;i++){
 		printf("%c",to_mutate[i]);
@@ -403,9 +392,9 @@ size_t afl_custom_fuzz(my_mutator_t *data, uint8_t *buf, size_t buf_size,
 	for(i=0;i<pre_body_to_mutate_len;i++){
 		printf("%x ",body_to_mutate[i]);
 	}*/
-
+	body_to_mutate = realloc(body_to_mutate,max_size);
 	u32 post_body_to_mutate_len = afl_mutate(data->afl,body_to_mutate,pre_body_to_mutate_len,havoc_steps,true,true,add_buf,add_buf_size,max_size); //mutate body
-	
+	body_to_mutate = realloc(body_to_mutate,post_body_to_mutate_len);
 	/*printf("\nbody mutated\n"); //check body after mutation
 	for(i=0;i<post_body_to_mutate_len;i++){
 		printf("%c",body_to_mutate[i]);
@@ -423,13 +412,13 @@ size_t afl_custom_fuzz(my_mutator_t *data, uint8_t *buf, size_t buf_size,
 	}
 
 	int adjusted_content_length_len = strlen(content_length_field) + body_digits + 3; // account for /r/n
-	//char *adjusted_content_length = NULL;
 	char *adjusted_content_length = malloc(adjusted_content_length_len+1); //allocate memory depending on how many characters there are
 	if(!adjusted_content_length){
 		perror("adjusted_content_length malloc");
 	}
 	sprintf(adjusted_content_length,"%s%d\r\n",content_length_field,post_body_to_mutate_len); //concat them all together
 	adjusted_content_length[adjusted_content_length_len] = '\0';
+
 	/*printf("adjusted content length len %i\n",adjusted_content_length_len);
 	for(int i = 0;i<adjusted_content_length_len;i++){ //check if content-length is put together correctly
 		printf("%x ",adjusted_content_length[i]);
@@ -531,7 +520,7 @@ void afl_custom_deinit(my_mutator_t *data) {
 	fseek(seed,0,SEEK_SET);
 	post = calloc(770,1);
 	fread(post,1,769,seed);
-	printf("og post %s\n",post);
+	//printf("og post %s\n",post);
 
 	int i = 0;
 	uint8_t *post_addr = post; //buf
@@ -541,16 +530,18 @@ void afl_custom_deinit(my_mutator_t *data) {
 	
 	my_mutator_t *html_mutator = afl_custom_init(html_afl,0); //init mutator
 	unsigned char *mutated_post = NULL;
-	size_t mutated_size = afl_custom_fuzz(html_mutator,post_addr,post_size,&mutated_post,NULL,NULL,769);
+	for(int j=0;j<100;j++){
+		size_t mutated_size = afl_custom_fuzz(html_mutator,post_addr,post_size,&mutated_post,NULL,NULL,9999);*/
 	
-	printf("\n\nin main\n\n");
-	for(i=0;i<mutated_size;i++){
-		printf("%c",mutated_post[i]); //check mutation
-	}
-	printf("\n");
-	for(i=0;i<mutated_size;i++){
-		printf("%x ",mutated_post[i]);
-	}
+		/*printf("\n\nin main\n\n");
+		for(i=0;i<mutated_size;i++){
+			printf("%c",mutated_post[i]); //check mutation
+		}
+		printf("\n");*/
+		/*for(i=0;i<mutated_size;i++){
+			printf("%x ",mutated_post[i]);
+		}*/
+	/*}
 	free(post);
 	afl_custom_deinit(html_mutator); //deinit custom mutator
 }*/
