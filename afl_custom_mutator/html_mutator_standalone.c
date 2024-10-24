@@ -35,7 +35,8 @@ typedef struct http_fields {
 typedef struct my_mutator {
 
   afl_state_t *afl;
-  //maybe place flags here for which fields to maintain
+  u8 *buf;
+  //u32 buf_size;
 
 } my_mutator_t;
 
@@ -70,7 +71,15 @@ my_mutator_t *afl_custom_init(afl_state_t *afl, unsigned int seed) {
     return NULL;
 
   }
-	
+
+  if((data->buf = calloc(1,MAX_FILE)) == NULL){
+	perror("afl_custom_init alloc");
+	return NULL;
+  }
+  /*else{
+	data->buf_size = MAX_FILE;
+  }*/
+
   /*if ((data->mutated_out = (u8 *)malloc(MAX_FILE)) == NULL) {
 
     perror("afl_custom_init malloc");
@@ -117,7 +126,7 @@ char* get_input_name(char *input,unsigned int cur_start,unsigned int cur_end){ /
 }
 
 http_fields_t *get_input_fields(char *input, size_t buf_size,unsigned int *num_fields){ //split packet into each individual field
-
+	OKF("in get_input_fields");
 	http_fields_t *input_fields = calloc(1,sizeof(http_fields_t));
 	/*if(!input_fields){
 		perror("input_fields calloc");
@@ -206,7 +215,7 @@ http_fields_t *get_input_fields(char *input, size_t buf_size,unsigned int *num_f
 
 void split_fields(char* local_input,char** to_mutate, char** to_maintain,char** body_to_mutate,http_fields_t* input_fields,unsigned int *num_fields){ //split packet into fields to maintain and 
 																		      //fields to mutate
-
+	OKF("in split_fields");
 	int i = 0;
 
 	char *maintain_names[] = {"POST","Host:","Authorization:","Referer:","Content-Length:","Cookie:"}; //fields to not mutate
@@ -217,8 +226,10 @@ void split_fields(char* local_input,char** to_mutate, char** to_maintain,char** 
 	for(i=0;i<*num_fields;i++){ //go through each field
 		bool maintain_set = false; //boolean to check if maintain field was reached
 		int j = 0;
-		if(strcmp(input_fields[i].name, "Content-Length:") == 0) //skip content-length since its value has to adapt to body, append to the full packet last
+		if(strcmp(input_fields[i].name, "Content-Length:") == 0){ //skip content-length since its value has to adapt to body, append to the full packet last
+			free(input_fields[i].name);	
 			continue;
+		}
 		int field_size = input_fields[i].end_byte - input_fields[i].start_byte + 1; //get size of field to copy
 
 		if(strcmp(input_fields[i].name, "BODY") == 0){ //if body reached
@@ -234,6 +245,7 @@ void split_fields(char* local_input,char** to_mutate, char** to_maintain,char** 
 		//while(maintain_names[j]){ //scan through array of fields to maintain
 		while(j<6){
 			if(strcmp(maintain_names[j], input_fields[i].name) == 0){ //check if current field is a field to maintain
+				free(input_fields[i].name);
 				if(maintain_offset == 0){ //if first field to be maintained
 					*to_maintain = malloc(field_size); //allocate necessary size
 					if(!to_maintain){
@@ -256,7 +268,7 @@ void split_fields(char* local_input,char** to_mutate, char** to_maintain,char** 
 		}
 		
 		if(maintain_set == false){ //if field is not to be maintained
-			//printf("\nto_mutate\n");
+			free(input_fields[i].name);
 			if(mutate_offset == 0){ //if first field to be mutated
 				*to_mutate = malloc(field_size); //allocate necessary size
 				if(!to_mutate){
@@ -319,6 +331,7 @@ void split_fields(char* local_input,char** to_mutate, char** to_maintain,char** 
 	for(int i = 0;i<mutate_offset;i++){
 		printf("%x ",(*to_mutate)[i]);
 	}*/
+	OKF("exit split_fields");
 	return;
 
 }
@@ -344,7 +357,17 @@ size_t afl_custom_fuzz(my_mutator_t *data, uint8_t *buf, size_t buf_size,
                        u8 **out_buf, uint8_t *add_buf,
                        size_t add_buf_size,  // add_buf can be NULL
                        size_t max_size) {
-
+	OKF("in custom_fuzz");
+	if(max_size > MAX_FILE){
+        	u8 *ptr = realloc(data->buf,max_size);
+                if(!ptr){
+                        return 0;
+                }
+                else{
+                        data->buf = ptr;
+			//data->buf_size = max_size;
+                }
+	}
 
 	unsigned int *num_fields = 0;
 	char *local_input = NULL;
@@ -447,30 +470,58 @@ size_t afl_custom_fuzz(my_mutator_t *data, uint8_t *buf, size_t buf_size,
 		to_mutate[post_to_mutate_len-1] = '\n';
 	}
 
-	char *mutated_packet = malloc(to_maintain_len + post_to_mutate_len + post_body_to_mutate_len + adjusted_content_length_len); //allocate memory for mutated packet
-	if(!mutated_packet){
+	//char *mutated_packet = malloc(to_maintain_len + post_to_mutate_len + post_body_to_mutate_len + adjusted_content_length_len); //allocate memory for mutated packet
+	//*out_buf = afl_realloc(out_buf,to_maintain_len + post_to_mutate_len + post_body_to_mutate_len + adjusted_content_length_len);
+
+	/*if(!mutated_packet){
 		perror("mutated packet malloc");
-	}
+	}*/
 	int mutated_len = 0;
-	memcpy(mutated_packet,to_maintain,to_maintain_len); //copy in fields maintained
+	//memcpy(mutated_packet,to_maintain,to_maintain_len); //copy in fields maintained
+	//memcpy(*out_buf,to_maintain,to_maintain_len);
+	memcpy(data->buf,to_maintain,to_maintain_len);
+
 	mutated_len += to_maintain_len; //keep track of packet length
-	mutated_packet += to_maintain_len; //move pointer forward
+	
+	//mutated_packet += to_maintain_len; //move pointer forward
+	//*out_buf += to_maintain_len;
+	data->buf += to_maintain_len;
 	free(to_maintain);
 
-	memcpy(mutated_packet,adjusted_content_length,adjusted_content_length_len); //copy in adjusted content length
+	//memcpy(mutated_packet,adjusted_content_length,adjusted_content_length_len); //copy in adjusted content length
+	//memcpy(*out_buf,adjusted_content_length,adjusted_content_length_len); //copy in adjusted content length
+	//memcpy(data->buf,adjusted_content_length,adjusted_content_length_len); //copy in adjusted content length
+	
 	mutated_len += adjusted_content_length_len; //keep track of packet length
-	mutated_packet += adjusted_content_length_len; //move pointer forward
+
+	//mutated_packet += adjusted_content_length_len; //move pointer forward
+	//*out_buf += adjusted_content_length_len;
+	data->buf += adjusted_content_length_len;
+
 	free(adjusted_content_length);
 
-	memcpy(mutated_packet,to_mutate,post_to_mutate_len); //copy in fields mutated
+	//memcpy(mutated_packet,to_mutate,post_to_mutate_len); //copy in fields mutated
+	//memcpy(*out_buf,to_mutate,post_to_mutate_len);
+	memcpy(data->buf,to_mutate,post_to_mutate_len);
+	
 	mutated_len += post_to_mutate_len; //keep track of packet length
-	mutated_packet += post_to_mutate_len; //move pointer forward
+	
+	//mutated_packet += post_to_mutate_len; //move pointer forward
+	//*out_buf += post_to_mutate_len;
+	data->buf += post_to_mutate_len;
+
 	free(to_mutate);
 
-	memcpy(mutated_packet,body_to_mutate,post_body_to_mutate_len); //copy in body mutated
+	//memcpy(mutated_packet,body_to_mutate,post_body_to_mutate_len); //copy in body mutated
+	//memcpy(*out_buf,body_to_mutate,post_body_to_mutate_len); //copy in body mutated
+	memcpy(data->buf,body_to_mutate,post_body_to_mutate_len);
+
 	free(body_to_mutate);
 
-	mutated_packet -= mutated_len; //move pointer back to start
+	//mutated_packet -= mutated_len; //move pointer back to start
+	//*out_buf -= mutated_len;
+	data->buf -= mutated_len;
+
 	mutated_len += post_body_to_mutate_len; //keep track of packet length
 	
 	/*printf("\nmutated packet\n"); //check if mutated packet successfully assembled
@@ -479,7 +530,9 @@ size_t afl_custom_fuzz(my_mutator_t *data, uint8_t *buf, size_t buf_size,
 	}*/
 	free(local_input);
 	
-	*out_buf = mutated_packet;
+	//*out_buf = mutated_packet;
+	*out_buf = data->buf;
+	OKF("mutated_packet out");
 	return mutated_len;
 
 }
@@ -492,6 +545,7 @@ size_t afl_custom_fuzz(my_mutator_t *data, uint8_t *buf, size_t buf_size,
  */
 void afl_custom_deinit(my_mutator_t *data) {
   free(data->afl);
+  free(data->buf);
   free(data);
 
 }
@@ -530,17 +584,18 @@ int main(){
 	
 	my_mutator_t *html_mutator = afl_custom_init(html_afl,0); //init mutator
 	unsigned char *mutated_post = NULL;
-	for(int j=0;j<1000;j++){
+	for(int j=0;j<10;j++){
 		size_t mutated_size = afl_custom_fuzz(html_mutator,post_addr,post_size,&mutated_post,NULL,NULL,9999);
 	
-		/*printf("\n\nin main\n\n");
+		printf("\n\nin main\n\n");
 		for(i=0;i<mutated_size;i++){
 			printf("%c",mutated_post[i]); //check mutation
 		}
-		printf("\n");*/
+		printf("\n");
 		/*for(i=0;i<mutated_size;i++){
 			printf("%x ",mutated_post[i]);
 		}*/
 	}
 	afl_custom_deinit(html_mutator); //deinit custom mutator
+	free(post);
 }
