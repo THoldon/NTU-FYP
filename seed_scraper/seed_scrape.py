@@ -26,7 +26,7 @@ def get_seed():
     port = config_json['targetport']
     user = config_json['loginuser']
     passwd = config_json['loginpassword']
-    creds_dump_path = "/home/ubuntu/FYP/NTU-FYP/seed_scraper/creds.json"
+    creds_dump_path = "/home/ubuntu/FYP/NTU-FYP/seed_scraper/creds.json" #dummy to fill out the argument
     time.sleep(7)
     full_run = Initializer.full_run(brand,target,port,user,passwd,creds_dump_path)
 
