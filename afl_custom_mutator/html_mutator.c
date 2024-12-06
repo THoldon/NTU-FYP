@@ -549,11 +549,11 @@ void afl_custom_deinit(my_mutator_t *data) {
 			"ReplySuccessPage=wizsetup.htm&ReplyErrorPage=wizsetup.htm";*/
 	
 	/*FILE *seed;
-	seed = fopen("/home/ubuntu/FYP/NTU-FYP/seed_scraper/seed1","r");
+	seed = fopen("/home/ubuntu/FYP/NTU-FYP/seed_scraper/seed1","r"); //change the seed location if needed
 	char *post;
-	fseek(seed,0,SEEK_SET);
-	post = calloc(770,1);
-	fread(post,1,769,seed);
+	fseek(seed,0,SEEK_SET); 
+	post = calloc(770,1); //change values based on length of packet
+	fread(post,1,769,seed); //change values based on length of packet
 	//printf("og post %s\n",post);
 	fclose(seed);
 	int i = 0;
@@ -568,7 +568,7 @@ void afl_custom_deinit(my_mutator_t *data) {
 	for(int j=0;j<10;j++){
 		size_t mutated_size = afl_custom_fuzz(html_mutator,post_addr,post_size,&mutated_post,NULL,NULL,9999);
 		//post = realloc(post,mutated_size);
-		memcpy(post,mutated_post,mutated_size);
+		memcpy(post,mutated_post,mutated_size); //run the mutated packet into the mutator again, comment out this and the next 2 lines if not needed
 		post_size = mutated_size;
 		*post_addr = post;
 		printf("\n\nin main\n\n");
