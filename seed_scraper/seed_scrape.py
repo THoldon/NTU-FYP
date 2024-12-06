@@ -12,9 +12,9 @@ from scapy.layers.http import *
 
 def get_seed():
     os.chdir(sys.argv[2])
-    image_location = "/home/ubuntu/FYP/extracted_image/813c23b285d234785f1c4ce19c76bf76d148e06977b6f016f6590e59d6d17f65/D7000v2_FW_V1.0.0.52_1.0.1/debug"
+    #image_location = "/home/ubuntu/FYP/extracted_image/813c23b285d234785f1c4ce19c76bf76d148e06977b6f016f6590e59d6d17f65/D7000v2_FW_V1.0.0.52_1.0.1/debug"
     #image_location = "/home/ubuntu/FYP/extracted_image/2fda6a93fda4a3468688dcfe57980e118aebe9f6016e2e83c8ccf4d47e7123af/N150_N300_FW_V1.1.0.31_1.0.1/debug"
-    #image_location = sys.argv[1] #uncomment for full run with tar_loop and comment out above image_location
+    image_location = sys.argv[1] #uncomment for full run with tar_loop and comment out above image_location
     config_location = image_location[:-5] + "config.json"
 
     with open(config_location, 'r') as config:
@@ -38,7 +38,7 @@ def extract_post():
             if HTTPRequest in pkt:
                         if pkt[HTTPRequest].Method == b'POST':
                             post_req = pkt[HTTPRequest]
-                            if "Authorization" in post_req.fields and pkt.haslayer(Raw):
+                            if "Content_Length" in post_req.fields and pkt.haslayer(Raw):
                                 raw_seed = raw(pkt)
                                 count = 0
                                 while (count < len(raw_seed)):
@@ -55,7 +55,7 @@ def extract_post():
                                 if(num_seed >=5):
                                     print("5 seeds written")
                                     return
-    print("<5 seeds written")
+    print("%i seeds written" %num_seed)
     return
 
 get_seed()

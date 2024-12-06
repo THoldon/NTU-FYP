@@ -1,5 +1,5 @@
 script_location=$(pwd)
-./specific_google_chrome.sh
+./specific_google_chrome.sh #comment out if chromedriver is already installed
 
 #cd /home/ubuntu/FYP/images/for_debug #create a folder to place images in and go there
 cd "$1"

@@ -92,6 +92,6 @@ export AFL_ENTRYPOINT=$addr
 export LD_BIND_LAZY=1
 export AFL_NO_AFFINITY=1
 export AFL_CUSTOM_MUTATOR_LIBRARY="/fuzz_bins/custom_mutator/html_mutator.so"
-export AFL_CUSTOM_MUTATOR_ONLY=1
-export AFL_DEBUG=1
+#export AFL_CUSTOM_MUTATOR_ONLY=1
+#export AFL_DEBUG=1
 exec /fuzz_bins/bin/afl-fuzz -t 1000 -m none -Q -x /scratch/dictionary -i /scratch/seeds -o /scratch/output -- $CMD
