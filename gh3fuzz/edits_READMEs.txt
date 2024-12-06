@@ -2,4 +2,4 @@
 
 /seeds should contain the seeds from the seed_scraper
 
-fuzz.sh.j2 in /templates has been edited is slightly edited to support the custom mutator. export AFL_CUSTOM_MUTATOR_ONLY=1 c an be commented or uncommented depending on the use.
+fuzz.sh.j2 in /templates has been slightly edited to support the custom mutator. export AFL_CUSTOM_MUTATOR_ONLY=1 can be commented or uncommented depending on the use.
