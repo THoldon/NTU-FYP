@@ -1,0 +1,7 @@
+POST /autoblock.cgi?id=c40be847ff39de94 
+Host: ve
+Content-Length: 11
+ge=0
+Authorization: Basic YWRtaW46c
+
+set=Execute

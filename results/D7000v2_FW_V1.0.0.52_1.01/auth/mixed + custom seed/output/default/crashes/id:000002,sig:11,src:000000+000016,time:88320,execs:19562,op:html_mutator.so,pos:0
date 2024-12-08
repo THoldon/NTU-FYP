@@ -1,0 +1,17 @@
+POST /usb_basic_main.cgi?id=e2f6100ea32c00326a581202e0638bba59e9bb19121846c1021344f3f83faa4c HTTP/1.1
+Host: 172.21.0.2
+Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+Referer: http://172.21.0.2/USB_basic_main.htm
+Cookie: XSRF_TOKEN=1222440606
+Content-Length: 150
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://172.21.0.2
+Contcnt-Type: applicationx-www-form-urlencod9865248r-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.3ˇÄ(KHTML, like Ge\ko) HeadlessChromu/99.0.4844.84 Safari/537.36
+Accept: text/html,application/xhtml+xml,applicauionAxml;q=0.9,image/avif,image/webp,i=gcEncpn/ccccccccccccccccl.,etceEbvAip
+eR-dagai*qpg;=enc,aea t
+inaA3ouhnae: =glcg*oti-cp0x.n-sg/;zp/-gLqet98na,ainge;pd¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡0: en-GB
+
+ggggggggggggggggggggˇggggggggggcation/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x8leWebKit/537.36 (KHTML8 lñke Gycko) HeadlVssChrome

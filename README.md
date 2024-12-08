@@ -14,4 +14,5 @@ seed_scraper: Python code to get some POST HTML seeds for use in gh3fuzz
 2) Run ./tar_loop.sh [folder with .tar.gz in it]
 3) Let it run, up to 5 seeds (named seed1,seed2,...,seed5) will be in /seed_scraper
 4) Copy these to gh3fuzz/fuzz_bins/seeds
-5) Run gh3fuzz
+5) Follow instructions in firmware_fuzz to fuzz post-authentication states
+6) Run gh3fuzz

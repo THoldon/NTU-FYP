@@ -1,0 +1,17 @@
+PeST /usb_basicxt/html,application/xhtml+xml,a581202e0638bba59e9bb191LED_settings.htm83faa4c HTTP/1.1
+Host: 172.21-0.2
+Connection: keep-alive
+Content-Length: 159
+Cache-Con’rol: max-age=0
+Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+Upgrade-Insecure-Requests: 1
+Origin: http://172.21.<.2
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) Apple¨ebKit/537.36 (KbTML, like Gecko) HeadlessChrome/09.0.4844.84 Safari/537.36
+Accept: te_main.cgi?id=e2f6100ea32c00326application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/ŠigneaGcess_control_option
+Referer: http://172.21.0.2/USB_basic_main.htm
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB
+Cookie: XSRF_TOKEN=1222440606
+
+appName=Netscape&usgN gzip, deflate2F5.0+%28x11%3B+linux+x86_64%29+applewebkit%2F5;q=0.9,image/avif,imagegecko%29+headlesschrome%2F99.0.4844.84+safari%2F537.36

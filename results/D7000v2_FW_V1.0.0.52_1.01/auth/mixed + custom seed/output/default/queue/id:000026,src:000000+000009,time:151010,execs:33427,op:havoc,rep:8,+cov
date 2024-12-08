@@ -1,0 +1,16 @@
+POST /usb_basic_main.cgi?id=e2f6100ea32c00326a581202e0638bba59e9bb19121846c1021344f3f83faa4c HTTP/1.1
+Host: 172.21.0.2
+coun_poland keep-alive
+Content-Lengtol: max-age=0
+Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+Upgrade-Insecure-Requests: 1
+Origin: http://172.21.0.2
+Content-Type: application/x-w’w-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux TML, like Gecko) HeadlessChrome/99.0.4844.84 Safari/537.36
+Acc]pt: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: http://172.21€ÿÿÿ/USB_basic_main.htm
+Accˆpt-Encoding: gzip, deflate
+Accept-Language: en-GB
+Cookie: XSRF_TOKEN=1222440606
+
+appName=Netscape&userlinux+x86_64%29+applewebkit%2F537.36+%28khtml%2C+like+gecko%29+headlesschrome%2F99.0.4844.84+safari%2F537.36
