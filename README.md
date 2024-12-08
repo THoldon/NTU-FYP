@@ -3,6 +3,8 @@
 ## Purpose of folders
 afl_custom_mutator: Contains source code and compiled binary of the html_mutator and html_mutator_standalone, a standalone version of the mutator for testing. Also a sample_post pcap for testing.
 
+firmware_fuzz: Custom code (not mine) to allow post-authentication fuzzing of firmware.
+
 gh3fuzz: Greenhouse fuzzer from [[here](https://github.com/sefcom/gh3fuzz)].
 
 results: Results acquired from some testing.
