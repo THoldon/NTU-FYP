@@ -1,4 +1,4 @@
-POST /autoblock.cgi?id=c40be847f983a858b2b0854cdf6d6d89c0815ff15dfff603b92f91d56f39de94 HTTP/1.1
+POST /autoblock.cgi?id=1151104175 HTTP/1.1
 Host: 172.21.0.2
 Connection: keep-alive
 Content-Length: 11
@@ -12,6 +12,5 @@ Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/w
 Referer: http://172.21.0.2/auto_block.htm
 Accept-Encoding: gzip, deflate
 Accept-Language: en-GB
-Cookie: XSRF_TOKEN=1222440606
 
 set=Execute

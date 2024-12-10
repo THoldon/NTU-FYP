@@ -1,4 +1,4 @@
-POST /ver_check_upgrade.cgi?id=0ab4b8a7086750f136ad8eba5009e188b120ffe0f59835d1f8e3dd71accc4d3d HTTP/1.1
+POST /ver_check_upgrade.cgi?id=1151104175 HTTP/1.1
 Host: 172.21.0.2
 Connection: keep-alive
 Content-Length: 11
@@ -12,6 +12,5 @@ Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/w
 Referer: http://172.21.0.2/UPG_fw_check2.htm
 Accept-Encoding: gzip, deflate
 Accept-Language: en-GB
-Cookie: XSRF_TOKEN=1222440606
 
 Check=Check

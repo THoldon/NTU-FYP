@@ -1,0 +1,7 @@
+POST / Hch
+Host: 10.0.0.90
+SOAPACTION:zyzyw
+Content-Length: 10
+
+1
+

@@ -9,3 +9,5 @@ tar_loop.sh extracts the .tar.gz in a folder one by one and runs docker_compose.
 Initializer.py is taken from [[here](https://github.com/sefcom/greenhouse/blob/829cbabbb5de64e251dc7f9c2692b2ca39e29b3b/Greenhouse/plugins/Initializer.py)], with some new functions (find_post and click_buttons). Its used to click through the firmware website to gather POST requests.
 
 seed_scrape.py is called from tar_loop.sh and calls Initializer.py, creating seed.pcap. After which it uses extract_post() to find if any POST requests were sniffed and creates up to 5 seeds in the folder
+
+This program may not always produce seeds, sometimes no POST requests are created even after click on buttons, or it may click on a button that causes a segmentation fault. To solve the latter, copy out the pcap into this folder before it seg-faults with: docker cp [container id]:/pcap/seed.pcap /location/of/folder/seed_scraper. Alternatively, manually collecting seeds is also possible

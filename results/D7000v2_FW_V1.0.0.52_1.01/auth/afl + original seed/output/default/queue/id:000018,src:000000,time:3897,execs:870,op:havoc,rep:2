@@ -1,0 +1,8 @@
+ent-Length: 13
+
+test=test/1.1
+Accept-Encoding: gzip,deflate,sdchzywzywzywzywzywzywzywzywzyw
+Host: 192.168.0.50
+Cookie: uid=zywzyw
+ContGET /seåsion_login.php HTTP
+
