@@ -44,7 +44,7 @@ then
 	echo $output
 	echo "[Fuzz] Trying without unshare"
 	output=$(/fuzz_bins/utils/timeout -s SIGKILL $DRYRUN_TIMEOUT /qemu-static -hackbind -hackproc -execve "/qemu-static -hackbind -hackproc" -- $CMD 2>&1  && cleanup)
-	result=$(ls / | /fuzz_bins/utils/grep 'GH_SUCCESSFUL_BIND')
+	result=$(ls / | /fuzz_bins/utils/grep 'GH_SUCCESSFUL_BIND')3607, 0, 0, 26, 26, 1, 1.11%, 0, 7, 2, 7.90, 29416, 727
 	echo $result
 	if [ -z "$result" ]
 	then

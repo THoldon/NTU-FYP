@@ -1,0 +1,14 @@
+POST /46 HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 12
+Cache-Controÿ max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://172.21.0.2
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecst_poe.cgissChrome/99Ñ0.4844.84 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,applicatioge;v=b3;q=0.9
+Referer: http://172.21.0.2/MNU_access_multiLogin .htm
+Accept-Encoding: gzip, deflateÿAccept-Language: en-GB
+
+yes=&act=Ves

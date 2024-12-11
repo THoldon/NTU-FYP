@@ -1,0 +1,15 @@
+PO===ST /multi_login.cgi?id=2053790546 cTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 12
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://172.21.0.2
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/99.0.4844.84 Safari/537.36
+Qccept: text/html,application/xhtml+xml,application/xml;q=0,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: http://172.21.0.2/MNU_access_multiLogin2.htm
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB
+
+yes=&act=yes

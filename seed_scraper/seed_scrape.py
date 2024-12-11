@@ -57,27 +57,29 @@ def extract_post():
                                     return
     
     if num_seed < 5: #relax the requirements a bit
+        http_pcap = PcapReader('seed.pcap')
         for pkt in http_pcap:
             if HTTP in pkt:
                 if HTTPRequest in pkt:
                      if pkt[HTTPRequest].Method == b'POST':
                          post_req = pkt[HTTPRequest]
-                         raw_seed = raw(pkt)
-                         count = 0
-                         while (count < len(raw_seed)):
-                             count += 1
-                             if(raw_seed[count] == 80  and raw_seed[count+1] == 79 and raw_seed[count+2] == 83 and raw_seed[count+3] == 84):
-                                 raw_seed = raw_seed[count:]
-                                 break
-                         if(count < len(raw_seed)):
-                             num_seed += 1
-                             post_seed = open("seed%s" % num_seed,"wb")
-                             post_seed.write(raw_seed)
-                             post_seed.close()
+                         if "Content_Length" in post_req.fields and pkt.haslayer(Raw):
+                             raw_seed = raw(pkt)
+                             count = 0
+                             while (count < len(raw_seed)):
+                                 count += 1
+                                 if(raw_seed[count] == 80  and raw_seed[count+1] == 79 and raw_seed[count+2] == 83 and raw_seed[count+3] == 84):
+                                     raw_seed = raw_seed[count:]
+                                     break
+                             if(count < len(raw_seed)):
+                                 num_seed += 1
+                                 post_seed = open("seed%s" % num_seed,"wb")
+                                 post_seed.write(raw_seed)
+                                 post_seed.close()
 		                        
-                         if(num_seed >=5):
-                             print("5 seeds written")
-                             return    
+                             if(num_seed >=5):
+                                 print("5 seeds written")
+                                 return    
     
     print("%i seeds written" %num_seed)
     return

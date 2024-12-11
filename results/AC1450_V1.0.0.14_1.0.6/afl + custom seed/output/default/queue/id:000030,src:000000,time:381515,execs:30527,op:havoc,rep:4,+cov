@@ -1,0 +1,4 @@
+POST /multi_login.cgi?id=205st: Content-Length: 12
+*;qAuthorization: Basic B
+
+yes=&act=yes
