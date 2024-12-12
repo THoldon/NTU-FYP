@@ -1,0 +1,4 @@
+POST /multi_login.cgi?id=05st: Content-Length: 12
+B
+
+yes=&act=yes

@@ -1,0 +1,7 @@
+# environment variables:
+AFL_CUSTOM_MUTATOR_LIBRARY=/fuzz_bins/custom_mutator/html_mutator.so
+AFL_ENTRYPOINT=0x00409c54
+AFL_KILL_SIGNAL=9
+AFL_NO_AFFINITY=1
+# command line:
+'/fuzz_bins/bin/afl-fuzz' '-t' '1000' '-m' 'none' '-Q' '-x' '/scratch/dictionary' '-i' '/scratch/seeds' '-o' '/scratch/output' '--' '/usr/sbin/uhttpd'

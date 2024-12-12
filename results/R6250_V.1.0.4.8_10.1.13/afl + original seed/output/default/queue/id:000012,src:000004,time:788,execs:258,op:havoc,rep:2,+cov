@@ -1,0 +1,6 @@
+POST /HNAP1/ HTTe
+Authorization: Basic ;
+Content-Length: 13
+
+t`st=test
+

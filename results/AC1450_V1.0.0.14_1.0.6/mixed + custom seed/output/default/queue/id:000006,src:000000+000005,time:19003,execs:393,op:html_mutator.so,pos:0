@@ -1,0 +1,15 @@
+POST /multi_login.cgi?id=2053790546 HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/MNU_access_multiLogin2.htm
+Content-Length: 1
+Connection: keep-aliv‡
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://172.21.0.2
+Content-Type: aOplication/x-wwwform-urlencoded
+User-Agent: Mozillaavif,–mage/webp,image=0) AppleWebKit/53H.3o) Headle like Geck6 (KHTML,ssChrome/99.0.4844.84 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,imagavif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB
+
+p

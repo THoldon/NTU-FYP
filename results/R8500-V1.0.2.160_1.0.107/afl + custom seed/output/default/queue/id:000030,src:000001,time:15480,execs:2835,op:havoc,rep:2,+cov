@@ -1,0 +1,8 @@
+POST /lang_settop2.cgi
+
+Host: 1~
+Content-Length: 18
+Cd
+User-Agent: MssChromeB
+
+targetlang=English

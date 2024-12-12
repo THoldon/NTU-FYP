@@ -1,0 +1,5 @@
+GET /sesept-Encoding: gzHost:routerlogin.com
+Content-Length: 13
+
+test=test
+

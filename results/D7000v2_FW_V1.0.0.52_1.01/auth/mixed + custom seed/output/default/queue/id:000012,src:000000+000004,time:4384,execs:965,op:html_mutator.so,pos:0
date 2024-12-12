@@ -1,0 +1,17 @@
+POST /usb_basic_main.cgi?id=e2f6100ea32c00326a581202e0638bba59e9bb19121846c1021344f3f83faa4c HTTP/1.1
+Host: 172.21.0.2
+Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+Referer: http://172.21.0.2/USB_basic_main.htm
+Cookie: XSRF_TOKEN=1222440606
+Content-Length: 173
+Connection: keep-alive
+Cache-Contrul: max-a„„„„„„„„„„„„„eb9ac2ff2e60cc4327681d1cfbd739e„e-Insecude-Reques/xml;q=0.9,ima http://172.21.0.2
+Cont.0.2/LANG_check_rent-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/10.0 (X11; Linux x86_64) A http://172.21.0.2
+Content-TypeppleWebKit/537.36 (KHTsigned-exchange;v=b3;q=0ML, like Gecko) HeadlessChrome/99.0.4844.84 Safari/537.36
+Accept: text/html,application/xhtml+xml,appliÿÿÿon/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB
+
+appName=Netscape&userAgent=mozilla%0F5.0+%28x11%3B+linux+x84.84+saferi%dlh_64%29+appppppppppppppppppp+%28khtml%2C+like+geck„%29+hea2F537.36
+me*2F99.0.4846ko) HeadlessCesschr

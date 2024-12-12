@@ -1,0 +1,7 @@
+POST /aucgi?id=c409de94 
+Host: ve
+Content-Length: 11
+ge=0
+Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+
+set=Execute
