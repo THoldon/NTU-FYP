@@ -1,6 +1,0 @@
-GET /ses_loghp HzAuthorization: Basic %sw
-Host:w
-Content-Length: 13
-
-test=test
-

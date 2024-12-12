@@ -1,17 +1,0 @@
-POST /multi_login.cgi?id=2053790546 HTTP/1.1
-Host: 172.21.0.2
-Referer: http://172.21.0.2/MNU_access_multiLogin2.htm
-Content-Length: 101
-Connection: keep-ali
-Cveache-Control: max-age=128
-Upgrade-Insecure-Requests: 1
-Origin: http://172.21.0.2
-Content-Type: application/x-www-form-urlencoded
-€ÿÿÿ-Agent: Mozilla/5&0 (X19; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChromd/99.0.4844.84 Safari/537.36
-Accept: text/html,application/xhtml+xml,applicaaaaaaaaaaaaaaaaamage/avif,image/webp,image/טng,*/*;q=0.8,application/signed-exchange;v=b8;q=0.9XXXXX
-Accept-Encoding: gzip, deflate
-Accept-Language: en-GB
-
-yes=בבבבבבבבבבבבבבבבבבבבבב.36
-Accept: text/h18
-Connection9‏keep-atml,aplliבבבבבבבבב&actcÿs=4&at=yes

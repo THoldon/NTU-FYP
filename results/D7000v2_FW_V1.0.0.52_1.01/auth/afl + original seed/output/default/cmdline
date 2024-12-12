@@ -1,5 +1,0 @@
-/usr/sbin/httpd
--S
--E
-ca.pem
-httpsd.pem

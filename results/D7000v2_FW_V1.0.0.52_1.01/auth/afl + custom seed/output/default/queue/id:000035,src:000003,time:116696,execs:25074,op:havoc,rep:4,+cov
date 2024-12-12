@@ -1,8 +1,0 @@
-POST /autoblock.cgi?id=c40be847shares/4 
-Host: ve
-Content-Length: 11
-ge=0
-Authorization: Basic YWRtaW46cGFzc3dvcmQ=1
-User-Agent: M06
-
-set=Execvte

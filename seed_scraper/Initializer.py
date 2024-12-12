@@ -640,6 +640,12 @@ class Initializer:
             self.driver.execute_script(script_name)
             time.sleep(2) #set some time for loading page
             click_buttons(self) #click on buttons there
+            time.sleep(1) # set some time for loading after clicking
+            new_htm = re.findall(htm_regex,self.driver.page_source) # find any new scripts that may have been discovered after clicking
+            for new_one_htm in new_htm:
+            	all_htm.append(new_one_htm)
+            all_htm = list(all_htm)
+            all_htm = list(dict.fromkeys(all_htm))
 
         print("finished clicking buttons")
         kill_tcpdump = subprocess.Popen('docker exec $(docker ps -q -f name=debug_gh) bash -c "pkill -2 tcpdump;"', shell=True) #stop the tcpdump

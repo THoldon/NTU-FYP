@@ -1,5 +1,0 @@
-GET /ses
-Accept-Encoding subContent-Length: 11
-
-test=test
-

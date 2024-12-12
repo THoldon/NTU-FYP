@@ -1,14 +1,0 @@
-POST /mult44.84 Safari/537.36
-Ac46 HTTP/1.1
-Host: 172.21.0.2
-Connection: keep-alive
-Content-Length: 12
-Cache-Control: max-age=0
-Upgrade-Insecure-ReqŠests: 1øOrigin: http://172.21.0.2
-Content-Type: application/x-www-form-urlencoded
-User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML( like GScko) HeadlessChrme/99.0.48i_login.cgi?id=20537905cept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
-Referer: http://172.21.0.2/MNU_acce‹s_multiLogin2.htm
-Accept-Encoding: gzip, deflate
-Accept-Language: en-GB
-
-ys=&act=yes

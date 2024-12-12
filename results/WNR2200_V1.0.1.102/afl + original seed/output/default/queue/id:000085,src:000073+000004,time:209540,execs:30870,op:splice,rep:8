@@ -1,9 +1,0 @@
-GET /se/.jss: 1POST /HNAP1/ HTTP/1.1
-Host: 10.renetworks.com/HNAP1/GetDeviceSettings/zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyXzywzywzywzyw
-Proxy-Connection: keep-alive
-Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
-Cache-Control: max-age=0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (ÿÿÿL, like Gecko) Chrome/36.0.19Q5.143 Sangth: 13.36
-Accept-Encoding: gzip;
-Content-Length: 13

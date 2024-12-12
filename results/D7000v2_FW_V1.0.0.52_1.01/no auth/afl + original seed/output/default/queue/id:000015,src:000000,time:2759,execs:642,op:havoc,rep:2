@@ -1,7 +1,0 @@
-GET /s.1
-Ac
-Host: 1
-Content-Length: 13
-
-test=test
-

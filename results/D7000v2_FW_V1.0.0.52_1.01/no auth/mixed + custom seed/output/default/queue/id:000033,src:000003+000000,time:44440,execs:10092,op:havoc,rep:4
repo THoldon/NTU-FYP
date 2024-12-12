@@ -1,6 +1,0 @@
-POST /au
-Host: ve
-Content-Length: 11!
-Authorization: Basic YWRtaW46h06
-
-set=Execute
