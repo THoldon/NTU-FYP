@@ -691,9 +691,9 @@ class Initializer:
                     print("    - creating json dump", creds_dump_path)
                     with open(creds_dump_path, "w") as credFile:
                         json.dump(credentials, credFile)
-            initializer.find_post()
+            #initializer.find_post()
             initializer.Run()
-            #initializer.find_post() #self added
+            initializer.find_post() #self added
 
             initializer.Logout()
 
@@ -779,8 +779,7 @@ def click_buttons(self): # click buttons on page
             if e.is_displayed():
                 try:    
                     print("    - trying button", e.text)
-                    #if(e.text == "LOGOUT" or e.text == "logout" or e.text == "Logout"): #don't accidentally log out
-                    if((e.text).upper() == "LOGOUT"):
+                    if((e.text).upper() == "LOGOUT"): #don't accidentally log out
                         continue
                     e.click()
                     try:
@@ -804,7 +803,7 @@ def click_buttons(self): # click buttons on page
             print("error [%s]" % e)
             break
 
-def get_scripts(self,regex,cur_scripts):
+def get_scripts(self,regex,cur_scripts): #update if any new scripts found while clicking
     one_scripts = re.findall(regex,self.driver.page_source)
     one_scripts = list(one_scripts)
     one_scripts = list(dict.fromkeys(one_scripts)) #remove duplicates
