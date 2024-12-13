@@ -63,7 +63,7 @@ def extract_post():
                 if HTTPRequest in pkt:
                      if pkt[HTTPRequest].Method == b'POST':
                          post_req = pkt[HTTPRequest]
-                         if "Content_Length" in post_req.fields and pkt.haslayer(Raw):
+                         if "Content_Length" in post_req.fields and pkt.haslayer(Raw) and "Authorization" not in post_req.fields:
                              raw_seed = raw(pkt)
                              count = 0
                              while (count < len(raw_seed)):
