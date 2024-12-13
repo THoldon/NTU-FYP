@@ -12,6 +12,7 @@ import lxml.html
 import subprocess
 from hashlib import md5
 import base64
+import random
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
@@ -624,28 +625,43 @@ class Initializer:
     def find_post(self): #self-added to find POST
         print("Find POST request\n")
         htm_regex = "\w+\.htm"
-        all_htm = re.findall(htm_regex,self.driver.page_source)
-        all_htm = list(all_htm)
-        all_htm = list(dict.fromkeys(all_htm))
-
+        #print("--------HTML--------")
+        #print(self.driver.page_source)
+        #print("--------HTML--------")
+        all_htm = []
+        all_htm = get_scripts(self,htm_regex,all_htm)
         print("all_htm ", all_htm) # look for other htmls that might have method="post"
+
+        php_regex = "\w+\.php"
+        all_php = []
+        #all_php = re.findall(php_regex,self.driver.page_source)
+        #all_php = list(all_php)
+        #all_php = list(dict.fromkeys(all_php))
+        all_php = get_scripts(self,php_regex,all_php)
+        print("all_php ", all_php)
 
         start_sniff = subprocess.Popen('docker exec $(docker ps -q -f name=debug_gh) bash -c "apt-get install sudo -y; sudo apt-get install tcpdump -y; mkdir pcap; cd pcap; rm seed.pcap; sudo tcpdump -U -w seed.pcap;"', shell=True)
         time.sleep(10) #set some time for installing tcpdump
         click_buttons(self) #click on buttons on main page
-
-        for one_htm in all_htm: #go to each .htm script and click buttons hopefullying finding a POST request
-            script_name = "location.href = '/" + one_htm + "';"
-            print("executing script ", script_name)
-            self.driver.execute_script(script_name)
-            time.sleep(2) #set some time for loading page
-            click_buttons(self) #click on buttons there
-            time.sleep(1) # set some time for loading after clicking
-            new_htm = re.findall(htm_regex,self.driver.page_source) # find any new scripts that may have been discovered after clicking
-            for new_one_htm in new_htm:
-            	all_htm.append(new_one_htm)
-            all_htm = list(all_htm)
-            all_htm = list(dict.fromkeys(all_htm))
+        all_htm = get_scripts(self,htm_regex,all_htm) #update if new scripts found
+        all_php = get_scripts(self,htm_regex,all_php) # update if new scripts found
+        all_scripts = [all_htm,all_php]
+        for one_scripts in all_scripts: #one_scripts -> all htm/php in a list, a_script -> one htm/php
+            for a_script in one_scripts: #go through each script in sequence
+            #for i in range(len(one_scripts)): #go through each script randomly, may repeat, use if you want different seeds/firmware crashes if it goes in sequence
+                #a_script = one_scripts[random.randint(0,len(one_scripts)-1)] #uncomment if using i in range, otherwise comment out
+                script_name = "location.href = '/" + a_script + "';"
+                print("executing script ", script_name)
+                self.driver.execute_script(script_name)
+                time.sleep(2) #set some time for loading page
+                #print(self.driver.page_source)
+                click_buttons(self) #click on buttons there
+                time.sleep(1) # set some time for loading after clicking
+                new_scripts = re.findall(htm_regex,self.driver.page_source) # find any new scripts that may have been discovered after clicking
+                for new_one_script in new_scripts:
+                    one_scripts.append(new_one_script)
+                one_scripts = list(one_scripts)
+                one_scripts = list(dict.fromkeys(one_scripts))
 
         print("finished clicking buttons")
         kill_tcpdump = subprocess.Popen('docker exec $(docker ps -q -f name=debug_gh) bash -c "pkill -2 tcpdump;"', shell=True) #stop the tcpdump
@@ -675,8 +691,9 @@ class Initializer:
                     print("    - creating json dump", creds_dump_path)
                     with open(creds_dump_path, "w") as credFile:
                         json.dump(credentials, credFile)
+            initializer.find_post()
             initializer.Run()
-            initializer.find_post() #self added
+            #initializer.find_post() #self added
 
             initializer.Logout()
 
@@ -753,14 +770,17 @@ class Initializer:
         print("[INFO] Logout attempt complete")
 
 def click_buttons(self): # click buttons on page
-    links = self.driver.find_elements(By.XPATH,"//*[@method='POST']//button") #find every button under a method=POST element
+    #links = self.driver.find_elements(By.XPATH,"//*[@method='POST']//button") #find every button under a method=POST element (might miss stuff)
+    links = self.driver.find_elements(By.XPATH,"//*[@onclick]") #find everything that is clickable
+    links = links + self.driver.find_elements(By.XPATH,"//button") #find every button
 
     for e in links:     
         try:            
             if e.is_displayed():
                 try:    
                     print("    - trying button", e.text)
-                    if(e.text == "LOGOUT" or e.text == "logout" or e.text == "Logout"): #don't accidentally log out
+                    #if(e.text == "LOGOUT" or e.text == "logout" or e.text == "Logout"): #don't accidentally log out
+                    if((e.text).upper() == "LOGOUT"):
                         continue
                     e.click()
                     try:
@@ -780,6 +800,20 @@ def click_buttons(self): # click buttons on page
         except StaleElementReferenceException as e: #sometimes clicking a button goes somewhere else, causing stale elements, so just go next
                 print("stale")
                 break
+        except Exception as e:
+            print("error [%s]" % e)
+            break
+
+def get_scripts(self,regex,cur_scripts):
+    one_scripts = re.findall(regex,self.driver.page_source)
+    one_scripts = list(one_scripts)
+    one_scripts = list(dict.fromkeys(one_scripts)) #remove duplicates
+    #cur_scripts.extend(one_scripts)
+    one_scripts = cur_scripts + one_scripts #combine with current list
+    one_scripts = list(one_scripts)
+    one_scripts = list(dict.fromkeys(one_scripts)) #remove duplicates
+
+    return one_scripts
 
 
 if __name__ == "__main__":
