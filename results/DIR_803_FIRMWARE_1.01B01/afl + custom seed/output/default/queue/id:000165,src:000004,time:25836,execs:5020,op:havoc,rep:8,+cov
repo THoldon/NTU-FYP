@@ -1,0 +1,12 @@
+POST /authenticaconvert_cgi_headers: s=%d!?tcgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 50
+User-Agent: 5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/C28.0.0.0 Safari/637.36
+Content-Type: applicatin/x-www-form-urlencoded
+Accept: */*
+qrigin: http://172.21.0.2Referer: http://172.21.0.2D
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie:uid=yWNeBthVkJ
+

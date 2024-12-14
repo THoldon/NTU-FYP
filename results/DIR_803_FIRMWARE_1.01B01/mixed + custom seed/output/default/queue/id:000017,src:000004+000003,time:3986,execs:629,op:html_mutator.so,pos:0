@@ -1,0 +1,13 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 121
+Cen-U3onnection: kAgent: Moz.0 (eep-alve
+User-Agent: Moz/5.0 (X1; Linux x86_64) AppleWebKit/53È.34 (KHTML, like Ge2/wiz_wan.php
+Acko) HeadlessChrome2/81.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencccccccccccccccccccccccccccccttp://172.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-U3;q=0.9,enecko) HeadlessC;q=0.8
+
+io=Aon/x-www-form-r5ord=0EE3266520076D5C2B&password=0326EC3E65ord=/128.0.00EE326d=0EE326EC3E65ord=0EE32666520076D5C2B14

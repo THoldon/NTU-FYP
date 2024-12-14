@@ -1,0 +1,19 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Referer: http://172.2ebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Length: 0
+POSuthentica72.21.0.2
+Referer: http:/ keep-alive
+ConnecPOSn.cgi HTTP/1.
+:9ep-alive
+User-Agent: Moz/5.0 0.2
+

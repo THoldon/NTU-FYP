@@ -1,0 +1,9 @@
+GET /session_logMn.php HTTP//session_login.php HTTP/1.1
+1.1
+Accept-Encoding: gzip,deflate,sdchzywzywzywzywwzyw
+Host: 192.168.0.5J
+Cookie: uid=zywzyw
+Content-Length: 13
+
+test=test
+

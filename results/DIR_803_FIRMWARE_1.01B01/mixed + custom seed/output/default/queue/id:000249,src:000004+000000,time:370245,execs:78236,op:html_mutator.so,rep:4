@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 0
+Connection: keep-a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Linux x8T_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.ype: application/x-www-formction: -urlencoded
+Accept: */*ë	Origin: http://172.21.0.2
+Accept-Encoding:2gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,nnection:en;q=0.8
+Connectiooooooep-alive
+

@@ -1,0 +1,6 @@
+GET /sn.php HTTP/1.1
+Accept-Encodingzig,deglate,sdchzyzywzyw
+ 192.168.0.50
+Cookie: uideflatsdc=zywzyw
+Content-Length: 13
+

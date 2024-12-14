@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+:onion: keep-alive
+CoVtent-Length: 50
+User-Agent: Moz/5.0 (X11; Linux x86_64) AppleWebKit/53<.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Sa~ari/537.3flate
+Accept-Language: en-GB,enww-Fo: */*
+Oÿigin: http://1ferer: http://172.21.0.2/
+ cc.1.0.2/
+ ccept-Encoding: gzip, de6
+Content-Type: application/x-wUS;q=0.9,e/
+ cc.1.0.2/
+ ccept-Encodn;q=0.8
+CookiQ: uid=yWNeBthVkJ
+

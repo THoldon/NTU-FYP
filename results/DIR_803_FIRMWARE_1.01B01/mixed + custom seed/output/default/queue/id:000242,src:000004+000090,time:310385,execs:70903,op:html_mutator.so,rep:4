@@ -1,0 +1,20 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 0
+ConTection: keepauthentication.cgi HTTP-al
+Content-Agent: Moz/5.0 (X11; Linuuxcoded
+Ac/ t*p*c:e
+Origin: ht x86~64) AppleWebKit/537.3611; Linux x86_ (KHTML, like Gecko) HeadleeeeessChrome/128.0.0.0 Safari/537.36ive
+User-Type: application/x-www-form-urlencoded
+¾ccept: */*
+Or–gin: http://376.21.0.2
+Ac„122-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Connection: keep-alive
+

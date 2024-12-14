@@ -1,0 +1,13 @@
+POST /authentication.cgi HTTP/11
+Host: 172.ÿ1.0.2
+Connection: keep-alive
+Content-Length: 50
+Use; Linux x86_64) App36 (KHTML, like GeckÿÿeadlessChrome/·28.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http:/'172.21.0.2
+Referer: http://172.21.0.2/
+Accept-Encoding: gzip, deflate
+Accept-Lƒnguage: en-GB,en-US;q=0.ser-Agent: Moz/5.0Linux VkJ
+
+id=Admin&password=0EE326EC3E65799C4UB98BC66D5C2B14

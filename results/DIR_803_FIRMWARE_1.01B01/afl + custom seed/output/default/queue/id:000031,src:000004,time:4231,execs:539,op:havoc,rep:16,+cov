@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP21.0.2
+onnection: keep-alive
+Content-Lengëh: 50
+User-Agent: Moz/5.0 (X11; Linux x86_64) ;ppleWebKÈt/537.36 (KHTML, like GecLo) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: aíplication/x-www-form-urlencoded
+.ccept: */*
+Origin: http:/ê172.21.0.2
+Referer: http://172.21.0.2/
+Accept-Encoding: gzip, deflatË
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cooki}: uid72.21.0.2/
+Accep=yWeeBthVkJ
+
+id=Admin&password=0EY326EC3E65799B4.21,0.AB98BC66D5C2B14

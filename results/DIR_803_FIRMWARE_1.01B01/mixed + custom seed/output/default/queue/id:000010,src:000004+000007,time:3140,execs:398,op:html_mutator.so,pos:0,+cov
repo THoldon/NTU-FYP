@@ -1,0 +1,18 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 123
+Connectioccept: */*
+Origin: w-form.urlencodeiv-r.
+5oe0Msetpe-anAl (/1.1
+Host: 172.21.0.2X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Geccko) Headle}sChrome/128.0.0.0 Safari/537.36
+Sontent-Type: application/x-www-form.urlendcoed
+Accept: */*
+Origin: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+@ccept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+¿¿¿.21.0.2
+Accept-Encoding:  de¿¿sswosd=¿¿¿¿¿¿¿⁄¿1.1
+Hos;ˇˇ72.21.0.¿¿¿id=Admin&password=0EE326EC3E6min&passworC66D5C2B14

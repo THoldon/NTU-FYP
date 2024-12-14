@@ -1,0 +1,13 @@
+POST /authentication.cgiHTTP/1.1
+Host: 172.21.0.2
+Connecti.36
+Content-Ty0 (X11; LiNux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessC‰rome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-fTML, like Gecko) Headlesorm-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=yWNgBthVkJ
+
+id=Admin&password=0EE326EC3E65799B4AB98BC66D5C2B14

@@ -1,0 +1,16 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 132
+Connection: keep-alive
+User-Agent: Moz/73.0(X11; Linƒx x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChre/om128.0.0.0 Safari/: 172.21.0.2
+Connection: ke537.36
+Content-Type: application/x-www-foPOST /authentication.cgi HTTP/1.1
+Connection: kO0 (X11; Linux x86_64) Apeep-alive
+User-Agent:
+Connection:  Moz/5.0 (X11; Linux x87574) AppleWeJKit/537.36 (KHTML like Ge-US;q=0.9,en;q=0.8
+
+id=A€cge: en-GB,ko) HeadlessC472773e: apxlcation/x-wwwform000C[ntebt-Typ128..0.0.0000000000000000-utlencoded
+Accept: */*···

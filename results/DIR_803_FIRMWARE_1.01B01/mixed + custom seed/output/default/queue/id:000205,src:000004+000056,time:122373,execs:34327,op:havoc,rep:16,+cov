@@ -1,0 +1,13 @@
+POST /authentication.cgi HTTP/1.36
+ent-T21.0.2
+Connectin: keep-alive
+Content-Length: 50
+User-.gent: Moz/5.0 (X99B4AB98BC666_64) ApInpktBuf/172.21.0.7/SizeplƒWebKgt/537.36 (KHTML, like Gecko) HeadlessChrome/12GLIBC_2.0afari/537.6
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: http://1zip, deflate
+Accept-Language: en-GB,en-US;q=0.91en;q=0.8
+Pookie: uid=yWNeBthVkJ
+
+i

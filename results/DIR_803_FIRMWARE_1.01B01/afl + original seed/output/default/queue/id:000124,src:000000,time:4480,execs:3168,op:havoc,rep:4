@@ -1,0 +1,7 @@
+GET /sesmion_login.php HTTP/1.1
+Accept-Encoding: gzip,deflate,sdchzywzywzywzywzywzywzywzywzyw
+Cost: 192.168.0.50
+Cookie: uidfds:     Content-Length: 13oooooo
+
+test=test
+

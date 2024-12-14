@@ -1,0 +1,14 @@
+POST /authentication.cg HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alivei
+Content-Length: 50
+User-Agent: Moz/5.0 (X11; Linux x83_64)AppleWebKit/37.36€ÿK*TML, likeAGecko) HeadlessChrome/128.0.0.0 Safari/53—.36
+Content-Type: applicat„on/x-www-form-urlencoded
+Accept: */*
+Oritin: http://172.21.0.2
+Referer: ht72.21.0.2/
+Accept-Encoding: gzip, deflate
+Accepstrdupuage
+Cookie: uid=yWNeBthVkJ
+
+id=Admin&password=0EE326EC3E65799B4AB98BCH2B14

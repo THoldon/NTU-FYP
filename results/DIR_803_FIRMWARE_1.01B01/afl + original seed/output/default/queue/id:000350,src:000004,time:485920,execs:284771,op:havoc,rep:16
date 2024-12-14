@@ -1,0 +1,14 @@
+POST /HNAP1/ HTTP/1.1
+Ho8
+User-Agent: Mzywzywzywzywzyurenetworks.com/HNAP1/GetDeviceSettings/zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywz]wzywzywzywzywzyw ywzywzywzywzywzywzywzywzywzyywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw“ywzywzywzywzywzywhywzywzywzywzwzywe/webp,*/*;q=0.8
+User-Agent: MzywzywzywzywzywzyzywzywzywzywzywzywzywzywzyVzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywznwzywzywzywzywzywzyw
+Proxy-Connection: keep-alive
+Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, likezzzzkn) Chrome/36.0accept.1985.143 Safari/537.36
+Accept-Encoding: gzip;
+Content-Length: 13
+
+test=test
+

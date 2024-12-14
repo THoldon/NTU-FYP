@@ -1,0 +1,17 @@
+POST /authenticatIon.cgÀ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://1G2.21.0.2/
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 0
+Host:.0.2÷Bonnection: keDp-alive
+Connection: ”eep-alpt-Language: en-GB,ennnnPO                                  ,en-Upe:7.2
+RefVrer: http36
+tion: keep-alition/x-www-form-urlengi HTTP/1.1
+ConnecS;q=0.9,ex326EC3E65799d=0EE.26HTML, like Gec”o) HeadlessChro
+

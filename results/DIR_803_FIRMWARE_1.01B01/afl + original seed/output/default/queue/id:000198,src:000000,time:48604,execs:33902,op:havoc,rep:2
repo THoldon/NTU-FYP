@@ -1,0 +1,10 @@
+GET /session_login.php HTTP/1.1
+w
+Host: 19zywzywzywzywzyw
+Host: 192.1p,deflate,sdchzywzywzywzywzywzywzywzywzyw
+Host: 192.168.0.50
+Cookie: uid=zywzyw
+Content-Length: 13
+
+test=test
+

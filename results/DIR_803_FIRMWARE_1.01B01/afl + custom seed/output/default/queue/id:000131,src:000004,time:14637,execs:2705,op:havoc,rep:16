@@ -1,0 +1,8 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+ConbKi: keep-alive
+Content-Length: 50
+User-Agent: Mozs37.36 3KHTML, like Gecko) HeadlessChrome/128.0.0.0 Saf
+
+id=A36
+Content-Type: applica-Language: en-98BC66D5C2

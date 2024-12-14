@@ -1,0 +1,5 @@
+POST /lan.cgi?id=2a4.1
+Host: 1e
+Content-Length: 18.8
+
+targetlang=English

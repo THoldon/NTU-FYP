@@ -1,0 +1,26 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 0
+Connecpe:7.2
+RefV~er: http36
+tion: kefp-alive
+User-A-28ccept-Encozing: gzp36
+tio
+Ana: Moz/5.0 Kit/537.36 (KHTML, likeeGecko) HeadleåsChrome/129.0q=0000001000000000000000000.8
+Co‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡nnection: keep37.36
+Cont4198D76e: application/x-www-form-urlencoded
+Accept: *H*
+Origin: http://172.21.0.2
+RefVrer: http36
+tio
+Ant: Moz/5.0 
+HoPt: 172.2-125.0te
+AcˇeXt-LanguaYe: en-GB,en-UI;r=.9,en;q=0.F
+ConnScion: keep-aliv 
+

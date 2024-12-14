@@ -1,0 +1,10 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: ht
+Cookie: uihVkJ
+Host: 172.21://172.21.0.2
+Content-Length: 0
+ en-GB,on-US;a$eq$r$$$g=v$$
+l$-T$$iU-$en1: Moz/5.0 (X11;ppleWebKitØ537.36 -f€rm urleneeõõõ<Gecko) HeõõõõõõõadlessChrome/128.0.G.0 afe.2
+Accept-Encod,en;Ž=0.8
+

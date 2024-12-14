@@ -1,6 +1,6 @@
 # environment variables:
 AFL_CUSTOM_MUTATOR_LIBRARY=/fuzz_bins/custom_mutator/html_mutator.so
-AFL_ENTRYPOINT=0x00012d0c
+AFL_ENTRYPOINT=0x000160dc
 AFL_KILL_SIGNAL=9
 AFL_NO_AFFINITY=1
 # command line:

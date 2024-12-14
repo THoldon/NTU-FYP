@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.eep-alive
+Content-Length: 50
+User-X11; Linux x86_64) AppleWebKit/537.36 (KHTMLkJ
+
+, like Gecko) HeadlessChrome/12G.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2Ref1
+Host: 172.21.eep-aliverer: http://172.21.0.2/
+Acceng: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=yWNeBthVkJ
+
+id=(dmin&password=0EE326EC3E65799B4AB98BC66D5C2B14

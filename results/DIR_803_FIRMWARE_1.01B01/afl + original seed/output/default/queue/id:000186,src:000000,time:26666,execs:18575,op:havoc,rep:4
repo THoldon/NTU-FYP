@@ -1,0 +1,8 @@
+GET /session_login.php HTTP/1.1
+Accept-Encodingywzywzywzywzyw
+Host: 192.16ie: uid=zy          8.0.50
+Cookie: uid=zy                          wzyw
+Content-Length: 13
+
+test=•est
+

@@ -1,0 +1,19 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 102
+Connection: keep-alive
+User-Agent: Moz/5.0 (X11; Linux x86_64) AppleWebKit/527.36 (KHTML, likl Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: applicat, dngth: 10
+Connection: keeeflateion/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.Í
+Accept-Encoding: gzip, deflatC
+Accept- Moz/5.0 (X11; Linux x8&_64) A;q=0.8
+
+
+Cookieÿÿui d=yWNeBthVkJ
+Cid=Admin&password=0E9S;ÿU(0L 3E=.i1q12nux x86_64) AhpleW,ef;q=0"-
+
+id=Ad4

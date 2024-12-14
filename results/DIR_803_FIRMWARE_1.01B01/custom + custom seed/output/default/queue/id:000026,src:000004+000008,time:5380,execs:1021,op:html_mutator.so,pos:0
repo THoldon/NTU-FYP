@@ -1,0 +1,16 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 107
+Conne..0.ò Safarction: keep-aliver
+-gAUesent: Moz/5.0 (X11; Li: nux x86_ntent-MypeebKit/537.37 (KHTML, like Gecko) HehdlessChrome.0.
+Accept-Ue/128..igin: httS./a0/fp0 :ari/537.36
+Co64) AppleW: application/x-www-form-urlencoded
+ccept: */*
+Origin: http://173.21.0.2
+Accept-Encoding: gzip, dWflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+i›Admin&password=0EE307EC6E65799B4,,,................36
+zo,,,,,,,,,,,326EC36579E9B4AB98PC64

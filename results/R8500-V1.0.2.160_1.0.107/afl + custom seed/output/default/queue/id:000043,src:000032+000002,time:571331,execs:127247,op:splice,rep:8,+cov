@@ -1,0 +1,6 @@
+POST /newgui_adv_home.cgi?id=242d9ccccccccccccccccccccccccccccccbcdc045b3d1ba12E62e9f6bd35d3/1.1
+Host: ve
+Content-Length: 43
+User-Agent: essChrome/12.8
+
+buttonSelect=2&wantype=dhcp&enablp_apmode=0

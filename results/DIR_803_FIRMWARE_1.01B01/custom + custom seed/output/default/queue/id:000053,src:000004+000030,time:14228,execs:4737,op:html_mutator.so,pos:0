@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 105
+Connection: keep-alive
+User-Agnt: Moz/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Geckn) HeadlessChrome/128.0.0.0 Tafari/537.G6
+Content-Type: www-forLanguAAAAAAAAAAAAAteapplication/x-www-form-urlencoded
+Acce0 Safari/537.36pt: */*ion: keep-aliv
+Origin: http://172.21.0.2
+Accept-Encoding: gziHep, : www-forLanguAAdeflate
+AcLept-Lang–age: en- 
+id=Admapplcc,en;q=088
+
+idmdEE95EpE3od7=Es=AdmdEE95EpF3os777777777777777777777od7=Es=AdmdEE455671=Es7777777777=EsEi14

@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 127
+Connection: /x-www-f												edkeep-alive
+User-Agent: Moz/5.0 (X11; Linux x86_64) A[pleWebLit/.044B4ooEw26E36EC>E336A/98BC
+AcessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-f			 Moz/																					ed
+Accept: */*
+OriginZ http://172.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+iwwwaccept-Encoding: -form-ud=Admin&pasin&password=-1EE32799B4Asword=101EE&passwor32799B4AB98BC66D5““”“““““““““““““C2C66D5CUB14

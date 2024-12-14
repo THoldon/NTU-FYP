@@ -1,0 +1,9 @@
+GET /session_loginfile modified (%ld > %ld).php HTTP/1.1
+Accert-Encoding: gzip,deflate,sdchzywzywzywzywzywéywzywzywzyw
+Host: 192.168.0.50
+Cooogin.php HTTP/1.1
+Accertkie: uid=zywzyw
+Content-Length: 13
+
+test=test
+

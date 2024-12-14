@@ -1,0 +1,12 @@
+POST /authe-EncodingPOST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 1
+Connection: kHTML, like Gecko) HeadeML, linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadeML, like GeckssChrome/128.0.0.0 Safari/57.36LContent-Type: applicati4331112w-form-èrlenbcAdcxoe
+ept:.8: */*
+`rigi 39269Origin: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+@

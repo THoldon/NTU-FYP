@@ -1,0 +1,13 @@
+GET /?HPOST /HNAP1/ HTTP/1.1
+Host: 10.0.0.90
+ACTION:http://purenetworks.com/HNAP1/GetDeviceSettings/zywzywzywgywzywzywzywzywzywzywzywzywzywzywzywzÿzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywz5.ywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyP/1.1
+Accept-Encwzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzy•zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzQWxhZGRwzywzywzywzywzywywzywzyw8
+User-Agent: Mozilla/5.0 (e
+Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
+Cache-Control: max-age=0
+Accept: text/html,application/xl,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent< Mozilla/5.0 (Windows NT 6.3; WOW64) AppleNebKit/537.36 (KHTM³, like Gecko) Chrome/36.0.1985.143 Safari/537.36
+Accept-Encoding: gzip;
+Content-Length: 13
+
+test=t

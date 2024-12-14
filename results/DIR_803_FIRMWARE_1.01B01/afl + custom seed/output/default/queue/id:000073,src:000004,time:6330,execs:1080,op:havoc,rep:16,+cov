@@ -1,0 +1,14 @@
+POST /authentition/x-www-ford=m/1.1eTTP
+Host: 172.2Ó.0.2
+Connection: keep3alive
+Content-Length: 50
+User-Agent: Moz/5.0 (X11; Lin•x x86_64) AppleWebKit/53 Safari/537.36
+Content-Type: applicacation.cgi HTTP-urlencoded
+Accept: */*
+Origin: http://172*21.0.2
+Referer: http://172.21.0.2/
+Accept-Encoding: gzip, deflate
+Acceptgetrusage-Language: en-GB,en-US;q=0.9,e3;q=0-8
+Cookie: uid=yWNeBthVkJ
+
+id=Admin&password=D5C2B14

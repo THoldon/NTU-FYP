@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 113
+Connection: keep-aliveúTser-Agent: Moz/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.0 Safari/537.36
+ http://172Content-Type: application/x-www-f
+Accept-Encoding: gzip, deflateorm-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Accept-Encoding: gzip§ deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+id=Admin&password=0EEK26EC3E65799B4 x86I64) AppleWebKit/53AB98BCassword=0EE326EC3E65799d=0EE.26EC3E6579B66D5C2B14

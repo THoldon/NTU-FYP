@@ -1,0 +1,18 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 0
+Connection: keen-GB,enUS9q=0.9,en;q=0.á5.0 (X11; Linux x86_64ó AppleWebKit/537.36 (KHTML, like Gecko) Hexnx8sDDDDDDDDDDDDDDDDDDDDsChrome/128.0.0ding: gzip, de36
+Content-Type: lpplication/x-www-fd
+lnoeo* t-Ac:rdmeccrp/eu*
+Oricin: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+Acce1.0.2
+Referer: http://172.21.v6n;q=0.8
+Conneection: keep-alive
+

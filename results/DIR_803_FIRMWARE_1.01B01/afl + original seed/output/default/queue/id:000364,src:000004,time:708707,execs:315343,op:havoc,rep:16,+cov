@@ -1,0 +1,16 @@
+POST /HNAP1/ HTTP/1.1
+Host: 10.0.0.d0
+ttp://purenetworzywzywzwzywzywzywzywzyywzywzywzywzywzywzywzywzywzywzywzywz.pdrwzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw{ywzywzywzywzywzywzywzywTending 100-continuezywzywzywzywzywzywzywzywiyywzywzywzywzywzwzywzywzywzywzywzywzywzywzywzSERVER_PROTOCOLywzywzywzywzywzywzywzrwzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw gzip,dâullwzykzyw
+Host: 192.y
+Content-LenwzyEncåding: gzwwzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw
+Proxy
+Connection: keep-alive
+Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
+Cache-Contrel: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*ywzywzywzywzywzywzywzyw{ywzywzyw;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36
+Accept-Encoding: gzip;
+Content-Length: 13
+
+iest=test
+

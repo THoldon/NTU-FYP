@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 105
+Connection: ke
+Orep-alive
+User-Age1t: Moz/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (?HTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-TAAAAAAAAAAAAAAAAte
+Acceptm-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+AAAAAAAAAAAAype: application/x-www-for-Language: en-GB/en-US;q=0.9,en;q=0.8
+
+id=Admin&passwoB98BCE26Erd=0EE26EEC3EB4AB98BCE7BCE26EC3EB4AB98BCE26EC3E65799B466D5C2B65799B466D5C2B14

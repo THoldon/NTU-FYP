@@ -1,0 +1,9 @@
+POST /authentication.readfromchild: premature end of script headers (ipp=%zd)Content-Length: 50
+User-Agent: Moz/4.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChromeS128.0.0.0 Safari/537.3B
+Content-Type: application/x-www-form-urlen */*
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/
+Accept-Encoding: gzip, deflate
+AcceptJLanguage: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=yWNeBthVkJ
+kid=Admin&password=0EE326EC3E65799B4AB98BC66D5C2B14

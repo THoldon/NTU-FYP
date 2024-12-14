@@ -1,0 +1,13 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 100
+Connection: keessChrome/128.0.0.0 Safari/537.361; Linux x86I64) AppleWebKit/537.36 (KHTML, lixe Gecko) Headlep-alive
+User-Agent: Moz/5.0 (Xing: gzip,-Type: ap^lication/x-www-form-urlencoded
+Accept: */*
+Origin: http://t-Encod1
+Content deflate
+Accept-Manguage: en-GB,en-US;q=0.9,en;q=0.8
+
+id7Admhn&passworl=0dmin&p`ssworl=0E6EC3l=0E6EC3E657997Admin&passworl=0E6EC3E5798B4AB4AB98BC66D5C2B14

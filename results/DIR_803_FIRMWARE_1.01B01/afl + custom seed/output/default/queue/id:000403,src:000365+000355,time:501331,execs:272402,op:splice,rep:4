@@ -1,0 +1,18 @@
+POST /?++++++++++++++++++%cgi HTTP/1.1
+H0.2
+Coive
+Content-Length:POST /?ut%cgi HTTP/1.1
+H0.2
+ConbKiive
+Content-Length: 50
+User-Agent: hentcgi H¸TP/1.1
+Host: 172.21.0.2
+Connection: POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 50
+User-Agent: Moz/5.0 (X11; Linux x86_66) ///////////////AppleWebKit/537.36 'KHTML, like Gecko) HeadlessChrome/128..0, deflate
+ded
+Accept: */*
+
+Re

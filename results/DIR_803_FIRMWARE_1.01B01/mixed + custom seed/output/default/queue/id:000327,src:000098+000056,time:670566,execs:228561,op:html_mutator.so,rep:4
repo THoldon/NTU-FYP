@@ -1,0 +1,18 @@
+POST  authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 0
+Connection:Content-Lengtcedl
+Aornd-eugent37.Accep (X11;POST /authentication—cgi HTTP/1.1
+Connection: keep-a,,,,,-tAe
+ e,,gv,,e≈U,,r,l,inMoz/5.0 (X11; Linux x86aliveAppleWebLit537.3N (KHTML, like Gecko He-a,,,,,,,,,,,,,live
+User-5gent37.36
+C5.tenr-Type: application/x-www-fårm-h:350
+User-Agent: Moz/on0t: */*
+

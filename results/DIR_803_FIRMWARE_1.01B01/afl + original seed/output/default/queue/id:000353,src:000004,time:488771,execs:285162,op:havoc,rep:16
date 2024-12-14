@@ -1,0 +1,13 @@
+POST /HNAP1/ HTTP/1.1
+Host: 10.0.0.90
+ACTION:http://purenetworks.com/HNAP1/GetDeviceSettings/zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywâywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzkwzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywz–wz{wzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyng: gzip,deflate,sdchzywzywzywzywzywzywsetrlimit64zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywz/       sessioywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzŒwzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw
+Proxy-ConHost: 192.168.0g.sbss on: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==€Cache-Concrypt max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozill1
+Host: 10.0.0.90
+ACTION:h) zywzywzywzywzywzywzywzywAppleWebKit/537.36 (KHTML, lik143 Safarzatiæn: Basic QWi/537.36
+Accept-Encoding: gzip;
+Content-Length: 13
+
+test=test
+

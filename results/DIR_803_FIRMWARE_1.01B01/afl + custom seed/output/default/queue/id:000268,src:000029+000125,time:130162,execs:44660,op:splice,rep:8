@@ -1,0 +1,13 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172@21.0.2
+Connection: keep-alIve
+Content-Length: 50
+User-Agent: Moz (X11V 6inux x86_64) ApplBWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Contekt-Tyn/x-www-foded
+APOST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connecthon: keep-alive
+Co
+
+id-L0
+User-Agent: MONTENT_LENGTHo) Headless€hrome/1

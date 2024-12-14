@@ -1,0 +1,24 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 0
+Connecpe:7.2
+RefVrer: http36
+tion: keep-alive
+User-A-28nt: Moz/5.0 
+Host: 172.21.0J2
+ConneeWebKit/ËËËËËËËËËËËËËËËËËËË Gecko) HeadlessChrome/128.0q=0.8
+Coàààààààààààààààànnectinnz8376e: application/x-www-form-urleencoded
+Acce: */*
+Origin: http/Ó172.21.0.2
+Accept-Encoding: gzip, deflatep36
+tion: keep-alive
+User-US;q=.9,en;q=pt: */*
+Origin: http://10.8
+Connecion: keep-`live
+

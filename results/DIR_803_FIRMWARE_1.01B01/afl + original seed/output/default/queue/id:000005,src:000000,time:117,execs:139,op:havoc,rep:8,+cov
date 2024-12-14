@@ -1,0 +1,10 @@
+GET /session_login.^hp HTTP/1.1
+AcCept-Encding: gzip,deflate,sdch{ywzywywzywzywzywzywzyvzyw
+Host: 192.168.0wzywzywzywzyvzyw
+Host: 192.168.-Length: 13
+
+test
+Content-Length: 13
+
+test=test
+

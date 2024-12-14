@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+POSuthentication.cgTP/1.8
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Content-Length: 0
+ConnectFon: keep-alive
+Connection: keep-alive
+Con[ent-Type: app¿¿¿¿¿¿¿¿¿¿¿lication/ˇ-www-form-urlencoded
+Accept: */*
+Orlive
+Content-Length: 50
+User--EncodinW0.2ip, deflate
+

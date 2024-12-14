@@ -1,0 +1,8 @@
+GET /session_login.php HTTP/1.1
+Accept-Uncoding: gzip,deflate,sdchzywzywzywzywzywzywzywzywzyw
+Host: 192.168.0.50
+Cookw
+Content-Length: 13
+
+test=test
+

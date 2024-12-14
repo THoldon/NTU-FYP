@@ -1,0 +1,14 @@
+GET resgme0.8POST /newgui_adv_home.cgi?id=22f7d8c273a2c13f21b0d660228a76effef942b5 HTTP/1.
+Host: 172.21.0.2
+Connection: -Length: 43
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://172.21.0.2
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Geceo) HeadlessChrome/128.3.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,iBBBBmageapng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+heferer: http://172.21.0.2/ADVANCED_home2.htm
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+buttonSelect=2&wantype=dhcp&en

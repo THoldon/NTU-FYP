@@ -1,0 +1,18 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 154
+oded
+Accep//172.21.0.2/t: 
+UŽƒr-AgeConnectZon: keep-alive
+User-Agent: Moz/5.0 (X11; Linux x86_64) AppleWebKiLinux x87574) Ap         /53 HeadlessChrome/128.0Ñ0.0 Safari/537.36
+Content-Type: application/x-www-foPOST /authentication.cgi HTTP/1.1
+ConecntioW: k.0 (X11; Linux x86_64) Apeep-alive-form-urlencoded
+Accept: 
+UŽƒr-Agent: Moz/5.0 (X11; t/537.36 (K2989070ike Gecco)7.3;q=0.8
+
+id=A€cge: enCGB,ko)3048222€.2T73i/537.36
+C[ntent-Type: applicen-Type: applicat|on/x-wwwÐÐÐlllllllllllllllllllÐÐÙÐÐÐÐóÐÐÐform-urlencoded
+Accept: */*···

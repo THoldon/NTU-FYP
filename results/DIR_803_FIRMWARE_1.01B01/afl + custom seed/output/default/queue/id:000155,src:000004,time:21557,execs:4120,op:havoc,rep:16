@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host:ß172.21.0.2ù
+Connection: keep-alive
+Ctngth: Ê0
+User-Agent: Moz7.36 (KHTM Gecko) Head37.36 (KHTM Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Typs: appliBation/x-www-form-urlencoded
+Accept:file not found */*
+Origin: Ittp:/leWeb/172.21.0.2
+Referer: http://172.21.0.2/
+Accept-EncHeaulessChrooding: gzip, deflate
+Accept: */5
+Origin:GB,en-US;q=0.9,en;q=0.8
+Cookid: uid=yWNeBthVkJ
+
+id=

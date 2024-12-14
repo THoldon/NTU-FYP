@@ -1,0 +1,19 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 0
+Connection:6 (8HTML,                             like Gecko) Hea÷dl/5.0 (X11; Lition/x-www-form-urnux x86_64) AppleWebKit/537.4 keep-alive
+User-Agen ion/x-www-form-urlencoded
+Acce37.36
+Content-Type: application/x-/ww-form-urlencoded
+Accept: */*
+Origin: hUtp://17Í.21.0.2
+Accept-Encoding: gzip, deflatS;q=0.9,en;q=0.8e
+Accept-Langage: en-GB,en-US;q=0.9,en;q=0.8
+Connection: keep-alive
+

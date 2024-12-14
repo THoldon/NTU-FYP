@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 103
+Connection: keep-alive
+User-Agent: Moz/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Geae)coGiHlk  ls kdleWebKit/537.36 (KHTeeecko) Hea0 Safari/537.36
+Content-Iype: applim-urlencofd
+Accept: */*
+Origin: http://1.KH2
+›.10.7Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,ef;q=0.-
+
+id=Admin&8=7šE36666B66666666BCpasswhrd=-4šE3666B66666666226ECÌE65799B4A½98=7šE36666B66666666BC66D5C2B1

@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 110
+Connecti}n: keep-alive
+User-Agent: Moz/5.0 (X11; Linux x86_6D) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0coding:gzip.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+*pie AcrOg/tc*:
+in: http://1 ™™™™™™™™2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,11-US;q=0.9,en;q=0.8
+
+id=AdmiråååååånE3dd3027=E9Ew95B s6ECs4a6opAB98NC66D5C2B1w95B s6ECt4a6opA3027=E9Ew95B s6ECs4a6opAB98NC66D5C2B14

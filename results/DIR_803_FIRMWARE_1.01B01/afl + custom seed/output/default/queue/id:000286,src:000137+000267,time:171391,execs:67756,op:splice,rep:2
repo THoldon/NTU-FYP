@@ -1,0 +1,17 @@
+POST /authentication.cgi HTTP/1.4
+Host: 172.21.0.2
+ConP/1.1
+Host: 172.21.0.nection: keep-alivPOST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Comnection: v~
+Content-LenPOST /authentication.cgi HTTP/1.9
+Host: 172.21.0.2
+Conntction: keep-alive
+Content-Length: 50
+User-Age
+
+id=Admin&pX11; Linux64) Appleke Gecko) HeadlessChrome/128.0.0.0 Safari/D37.36
+Content-Type: application/x-www-form-u„lecoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: http://172.

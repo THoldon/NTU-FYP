@@ -1,0 +1,21 @@
+POST /authenticatIon.cgÀ HTTP/1.1
+Host: 1720.2
+Referer: http://1G2.21.0.2/
+Cookie: ui2-form-urlencoded
+Host: 172.21.0.2
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 0
+ReferePOST /authentica‹ion.cgi HTTTTTTTTTTTTTTTP/1.1
+Connecpe:7.2
+RefVrer: http3É
+tion: keep-alive
+User-A-28nt: Moz/5.0 
+Host: 172.21.0J
+ConneeWebKit/ËËËÊËËËËËËÄËËËËËËËË Gecko) Hˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆàààz8376e: apÖÖÖÖÖÖÖÖÖÖÖÖààààààààànnectinnz8376e: apÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖ-Srleencoded11cce: */*
+

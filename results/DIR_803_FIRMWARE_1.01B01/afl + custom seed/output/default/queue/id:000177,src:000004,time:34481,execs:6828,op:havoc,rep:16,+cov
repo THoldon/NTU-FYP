@@ -1,0 +1,12 @@
+POST /authentication.cgi HTTP/1.-
+Host: 172D21. keep-alive
+Aontent-Length: 50
+User-@gent: Moz/51; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeaContent-Length: 50
+U Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept4 */*
+Referer: http://172.21.0.2Encoding: gzip, deflati
+Acceptti
+Accept-Language{ en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=yWNeBthVkJ
+

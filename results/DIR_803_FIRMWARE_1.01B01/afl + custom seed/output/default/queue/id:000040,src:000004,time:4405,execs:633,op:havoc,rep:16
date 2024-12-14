@@ -1,0 +1,16 @@
+POSQ /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Leatngth: 50
+User-Agen: :oz/5.0 (X11; Linnguage_64).0.0 Safari/537.36
+Content like G{cko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: appli
+Accept: */*x x86_64)(AppleWeb
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/6
+Co66
+Accept-EncodiTIME.PHYINF%2CWIFI
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=yWNeBthVkJ
+
+id=Admin&password=0"E326EC3E65799B4AB98BC66D5C2B14

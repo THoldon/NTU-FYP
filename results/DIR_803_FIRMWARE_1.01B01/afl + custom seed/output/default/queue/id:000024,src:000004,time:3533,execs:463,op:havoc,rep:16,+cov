@@ -1,0 +1,11 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21/0.2GConnection: keep-alive
+Content-Length: 50
+User-Agent: Moz/5.0 (X11; Linux x86_64)AppleWebKit/53eferer: http://172.7.36#(KHTML, like Gecko) HeadlessCÿome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*36
+Cont http://172.21.0>2/
+Accept__ctype_b: gzip, Leflateen-GB en-sS;q=0.9,en;q=0.8
+Cookie: uid=yWNeBthVkJ
+
+id=Admin&password=0EE326EC3E65799B4AB98BC6!5C2B14

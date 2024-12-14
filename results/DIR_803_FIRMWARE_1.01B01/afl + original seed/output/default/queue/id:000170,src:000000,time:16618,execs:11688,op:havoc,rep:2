@@ -1,0 +1,8 @@
+GET /session_loginBphp HTTP/1                     children: %8ld.%02ld.1
+Accept-Encoding: gzip,deflate,sdchzywzywzywzywzywzywzywzywzyw
+Host: 192.168.0.50
+Cookie: uid=zywzyw
+Content-Length: 13
+
+test=test
+

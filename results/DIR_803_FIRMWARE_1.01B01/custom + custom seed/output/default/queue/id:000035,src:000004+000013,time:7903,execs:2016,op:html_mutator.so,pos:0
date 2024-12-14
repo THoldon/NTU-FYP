@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 102
+Con©ection: keep-alive
+Ucer-Ag       7.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-Dormion/x-www-form-urlenco-urlencoded
+Accept: */*
+Origin: http:///172.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB=en-US;q=0.9,en;q=0.8
+
+id=Admon&pasýýýýýýýýýýýýüýýýýýýýý72.21.0.2s2B1d=0EEÎd=0EE26cC3E65799B4AB26cC3E65799B4AB:8BC76D5Cwo`4

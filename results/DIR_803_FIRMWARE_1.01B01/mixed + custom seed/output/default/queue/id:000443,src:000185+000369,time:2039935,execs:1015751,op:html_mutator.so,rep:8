@@ -1,0 +1,34 @@
+POST /authenticationcgi HTTP/1.0
+Host: 172.21ri/537.36
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 0
+Content-.0.2
+Connhentication.cg1970TP/1.1
+Conn:ection: keepÿÿÿÿÿÿÿÿÿÿÿ€ÿÿÿÿÿÿÿÿ-alive
+Kontent-Length: 50
+User-Agent: Moz/1$
+Host) SW<
+(5.0 (X11; Linux x
+ 
+86_64) Bp“jePOST /authentication.cg1970TP/1.1
+Conn: htt:2
+RefVrer: http36
+tion: keep-alive
+User-A-28nt: MozH5.0 
+Hos
+A×t: 172.21.0J2
+ConneeWebKit/537.36 (KHTML,  */*
+Originecpeàà„Acceome/!28.0q=0.8
+CoààààààààààChrlikpt:like Gecko) Headleàààànn1$
+Hos827SW<
+(
+ç@
+nection: keep37.36
+Cont4198376e:9900lication/x-www-form-urlenRoded
+

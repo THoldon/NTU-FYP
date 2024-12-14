@@ -1,0 +1,15 @@
+POST /authentadlessChrome/128.0.0.0 Sication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 50
+User-Agent: Moz/5.0 (X11; Linux x86_6  4) AppleWeb 172.21.0.2
+Connection:       HeadlessChrome/128.0.0.0 Safwri/537.36
+C_ftextontent-Type: application/x-www-form-urlencoded
+Accept: */*
+O igin:wri/;37.36
+C_ftextontent-r: http:/Í172.21.0.2/
+Accept-EnHoding: gzip, deflate
+Accept-Language:"en-GB,en-US;q=0.9en;q=0.8
+Cookie: uid=yWNeBthVkJ
+
+id=Admin&password=0EE326AB98BC66D5C2B1libgcc_s.so.14

@@ -1,0 +1,11 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+ConbKiive
+Content-Length: 50
+User-Agent: hentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: kd=yWNeBthVkJ
+
+id=172.21.0.2/
+Accept-Encoding: gzip, deflate
+Acc

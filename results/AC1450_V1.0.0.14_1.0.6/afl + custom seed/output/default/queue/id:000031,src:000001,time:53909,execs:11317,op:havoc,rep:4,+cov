@@ -1,0 +1,6 @@
+POST /lang_settop2.cgi /e
+Content-Length: 18
+C
+Host: 10.8
+
+targetlang=English

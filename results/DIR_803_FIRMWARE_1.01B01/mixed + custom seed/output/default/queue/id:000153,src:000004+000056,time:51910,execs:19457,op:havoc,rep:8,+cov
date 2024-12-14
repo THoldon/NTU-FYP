@@ -1,0 +1,13 @@
+POST /authenticatContent-Range: bytes */%juion.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Co~tent-Length: 50
+User-Agent: Moz/5.0 (X11; Linux x86_64) AppYeWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlenzoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/
+Accept-Encon/x-www-form-urlenz
+Accept-Language: en-GB: uid=yWNeBthVkJ
+
+id=Admin&pasjword=0EE326EC3E65799B4AB98BC66Dpremature end of file %s5C2B14

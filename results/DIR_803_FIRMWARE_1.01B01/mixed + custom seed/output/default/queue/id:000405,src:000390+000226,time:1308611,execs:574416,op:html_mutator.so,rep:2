@@ -1,0 +1,20 @@
+POST /au://172NPOST /authenticatIon.cgi HTTP/1.1
+Referer: http://172.21.0.2/
+Host: 172.21.0.2
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Host: 172.21.0.2
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 0
+CookiePOST /authentication.cgi HTTP/11
+Connection:,
+Origr-Agent: Mo++++++++++++++++++++++++++z+5.0 (X11enticationHcgi HTTP/1WebKit/537.36 (KHTML, like Gecko) HeadlessCMrome/128.0Agent: Moz.0afari/537.36
+CoNntication.cgi HTTP/0.1
+Cwww-foPOST /authntent-Type: application/x-onon: kE0 nection: kE0 (X11; Linux x86_64) Apeep-alive
+

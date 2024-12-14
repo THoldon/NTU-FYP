@@ -1,0 +1,7 @@
+GET /session_login.php HTTP/1.1
+Acc: gzip,deflate,sdchzywzy
+Transfer-Encoding: c
+Host: 192.168.0.50
+Transfer-Encoding: chunkedt-Length: 13
+
+te

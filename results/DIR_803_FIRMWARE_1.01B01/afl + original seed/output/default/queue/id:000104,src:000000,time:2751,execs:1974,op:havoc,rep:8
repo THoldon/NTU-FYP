@@ -1,0 +1,8 @@
+GET /s              essUon_login.chp HTTP/1.1
+Acce÷÷÷÷÷÷÷÷÷÷g: gzip,deflate,
+Host: 192.168.0.50
+Cookie: uid=zywzyw
+Content-mength: 13
+
+test=test
+

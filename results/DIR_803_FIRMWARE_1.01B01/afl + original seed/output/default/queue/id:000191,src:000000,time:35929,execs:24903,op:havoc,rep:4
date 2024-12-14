@@ -1,0 +1,8 @@
+GET /session_login.php HTTP/1.1
+Accept-Encoding: gzip,deflate,sdchzywzywzzywzywzywzywzyw
+Host: 19.168.0.50
+Coo;ie: uid=zywzyw
+Content-Length: 13
+
+test=test
+

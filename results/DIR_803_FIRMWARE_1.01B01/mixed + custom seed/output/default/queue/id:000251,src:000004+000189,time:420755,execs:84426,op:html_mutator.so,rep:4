@@ -1,0 +1,23 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 0
+Connection: keep-ction: ke~r-Agent: Moz/5.P (X11; Linux x86_64) AppleWebKit/53{{{{{{{{{{{{{{{{{{{{{{{{{{{{qqqqqqqqqHTML, like Gecko) HeaRRRR<RRRRRRRRRRRRRRRRRRafari/537.36
+Content-Type71applicationx-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+Accep-alivei
+Content-5ength: 50
+User;q=0.8
+Connealive 50
+User;q=-1.8
+Connealive
+U
+Usep-alive
+

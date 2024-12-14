@@ -1,0 +1,20 @@
+POST /authenticatIon.cgi HTTP/1.1
+Referer: http://172.21.0.2/
+Host: 172.21.0.2
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 0
+Host:.0.2
+ConnectionPOST /auttication99er-Age
+Host: hticauion.cg21.0ser†Age
+Host: h: 50[ä.2Connection: kèp-alive
+Con99er-Age
+Host: hticauion.cgontent-Lengt172.1; Linux x86_64) AppleWebKim/537.36 (KHTPOST /au://172Nep-alivthtttttttIon.dgi HTTP/1.1
+Host:.0.2
+Yonnebtion: keePOST  authentication9945824TP/1.1
+

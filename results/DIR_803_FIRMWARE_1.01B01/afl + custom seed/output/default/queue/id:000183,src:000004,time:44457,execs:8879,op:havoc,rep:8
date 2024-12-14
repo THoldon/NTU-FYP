@@ -1,0 +1,13 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: ke deflate
+Accept-Languep-alive
+Content-Length: 50
+User-Agent: Moz/5.0 (X11; Linux x86_6ww-form-urlencoded
+A4) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-wwÿÿÿrm-urlencoded
+Accepthis server.in: hThe resource requested could not be found on this server.oding: gzip, deflazip, deflate
+Accept-Lan-US;q0.8
+Cookie: uid=yWNeBthVkJ
+
+idAAdmin&password=0EE326EC3E65799B4AB98BC66D5C2B14
