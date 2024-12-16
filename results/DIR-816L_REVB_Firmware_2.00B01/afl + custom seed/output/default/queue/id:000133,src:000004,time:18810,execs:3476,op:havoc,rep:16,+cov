@@ -1,0 +1,13 @@
+POST /authentitation.cgi HTTP AppleWebKi/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Le…gth: 50
+User-Agent: Moz/5.0 (X11; Linux x86_6B$c5`$4) AppleWebKit/538.36 (KHTML, like Gecko) HeadlessChrome/12.0.0.0 Safa~i/537.36
+Coÿtent-Type: application/x-www-form-urlencoded
+Accngtt: Moz/5.0 (X11; Linux pleWeb0.2
+Referer: http://K72.21.0.2/
+Accept-Encodinÿÿzip defLaae
+Accept-Language: en-GB,ookie: uid=z7mNg6sfgR
+
+id=Admin&password=0EE326EC3E65799
+Host: 66D5C2B14

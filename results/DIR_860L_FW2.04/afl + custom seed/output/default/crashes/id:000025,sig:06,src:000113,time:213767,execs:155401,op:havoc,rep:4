@@ -1,0 +1,17 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Connection: keept-Manguage: en-GB,elive
+Content-Length: 3ÿÿ
+Ac: text/xml
+HNDEB28A93DA80E5 1734339221
+SOAPACTIOO: "http://purenetworkTP/1.1
+Host: s.com/HNAP1/Ge€USBStorageDevice"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, li/xml
+Origke Gecko) HeadlessChrome/128.0.0.0 SafarN/537.36
+Content-Type: text/xml
+Origin: http://172.21.0.2
+Referer: http://172.221.02
+Connection: kpt-Encoding: gzip, deflate
+Accept-Languge: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=Ob6hjFuo4e
+

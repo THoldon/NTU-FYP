@@ -1,0 +1,24 @@
+			"cPOST p/		/?///a HTTP				POST /i HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 				POST /i HTTP/1.1
+Hèt: 172.21.0.2
+Connection: keep-alive
+Content-Length: 50
+User-Agent: Moz/5.0 (X11; Lin€x x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessC
+Connection: keep-alive
+Content-Length: 50
+User-Ahrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: /i HTTP/1.1
+Host: 172.21.0.2readfromclient: client went away while posting data
+Connection: keep-alive
+Content-Length: 50
+User-Agent: Moz/5.0  http://172.21.0.2/
+Accept-Enct/537.3oding: gzip, deflate
+Accept-Languag: en-GB,en-US;q=0.9,en;q=0.8
+CookiKHTML,=z7mNg6sfgR
+
+id=Admin&password=

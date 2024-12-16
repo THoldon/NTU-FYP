@@ -1,0 +1,30 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Content-Length: 0
+Connection: keep-alive
+Accept: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 17&4339221
+SOAPACTION: "http://purenetworks.com/HNAP1/GetUSBStorageDevicMozilla/5.0 rer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 14
+Connection: keep-aliveEncodHTML, like Gecko)ept(X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 
+Connection: keep-alive
+AP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: leWebKit/537.36 (Kuid=Ob6hjFuo4e
+Content-Length: 14
+Connection: keep-aliveEncodHTML, like Gecko)ept-Language: C45BFt/537.36 (KHTML, like GH: 2e: en-GB,en-US;1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 14
+Connection: keep-aliveEncodHTML, like Gecko)ept-Language: C45BFt/537.36 (KHTML, like Gecko) 18CB549DEB28A93DA80E5: en-GB,en-US;q=0.9,en172.39221
+SOAP2CTION: /128.0.0.0 Safari/53"http://purenetworks.com/HNAP1/GetaSBStorageDevice"
+User-Agent: Mozilla/5.0 (X11; Linux x.6`64) AppleWƒbKit/537.36 (KHTML, likeSafari/537.36
+Content-Type: text/xml
+Origin: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8POST /HNAP1/ HTTP/1.1
+

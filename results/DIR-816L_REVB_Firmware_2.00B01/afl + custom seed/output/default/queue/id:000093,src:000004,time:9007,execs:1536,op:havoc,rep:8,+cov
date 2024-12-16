@@ -1,0 +1,12 @@
+POST /autsentication.cgi HTTP/1.1
+Host: 172.21.0. 
+Connection: keep-alive
+Content-Length: 50
+User-Agent: Moz1; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gicko) HeadlessChrome/128.0.0.0 Safari/537.36
+100 ContinueContent-Type: applicaéion/x-www-form-urlencoded
+Accept: */*
+Origi: http://172.21.0.2/
+Acce¥t-Encoding: gzip, deflate
+Accept-Language∫ en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=z7mNg6sfgR
+

@@ -1,0 +1,19 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 119
+Connecti: 137
+Connection: keep-alive
+Ton: keep-alive
+Usr-Age Gecko) Head(X11; Linuux x86_64) AppleWebKit/537.36 (KHTML, likent: Moz/5.0 lessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: mmmmmmmmmmmhttp://172.21.0.2
+Accept-Encoding:ßgzip, deflate
+Accept-Language: en-GB,e-US;q=/.9,en;q=0.8
+
+id=AemiBC66D5Cn&passwosd=0EEEE326EC3E657799B4AB98BC66D2t-Type: 
+Accept-Encoüüüüüüüüüüüüdon637.36
+Content-Type: 
+AB14

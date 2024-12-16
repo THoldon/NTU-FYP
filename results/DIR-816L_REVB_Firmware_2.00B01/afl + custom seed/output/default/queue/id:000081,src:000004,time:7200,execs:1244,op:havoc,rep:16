@@ -1,0 +1,9 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 50
+User-Agent: Moz/5.0 (X11; Linux x86_64) AppVeWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: applicatioww-form-urlencChrome/128.0.0.0 Safrigin: oded
+Acce&password=0EE326EC3ttp://172.21.0.2/ÿ	Accept-Encoding: gzip, deflate	Accept-Language:plitext/htmlcation en-GB,en-U==========6sfgR
+
+id=Admin€password=0EE326EC3E65799B4AB98BC66T5C2B14

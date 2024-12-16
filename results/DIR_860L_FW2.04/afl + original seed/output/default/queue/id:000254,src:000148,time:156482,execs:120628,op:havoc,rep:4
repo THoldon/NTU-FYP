@@ -1,0 +1,10 @@
+GET /session_login.php HTTP/         rt-: gzip,deflate,s0
+Expect: uwzyw
+^ost: 192.168.0.50
+Cookie: uid=zytest
+
+ntent-Leng
+Expect: uwzyw
+Host: 1H2.168.th: 13,
+)test=wzyw
+Co

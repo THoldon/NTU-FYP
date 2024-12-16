@@ -1,0 +1,17 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 115
+Connection: keep-alive
+User-Agent: Moz/5.0€(X11; Linux x86authentication.cgi.0.2/
+Cookie:7.36
+Content-TypessChrome/128.060.0 Safari/53p://172.21.0.2/
+Cookie:7.36
+Content-Type: applicationome/128.0.00 Safari/537.3204/x-www-form-urlencoded
+Accept: *////////in: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+id=AdmrN&passwokie: uiE=z7mNg6sfgR
+Cožžžžžžžžžžžžd=0dE326EC3E65799B4AB999999999999999999999966D5C2B1998BC66D8C2B14

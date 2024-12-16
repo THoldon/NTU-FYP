@@ -1,0 +1,29 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Content-Length: 0
+.36 (KHTML, like GH: 2e: en-GB,en-US;1.1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: leWebKit/537.36 (Kuid=Ob6hjFuo4e
+Content-Length: 14
+Connection: keep-aliveEncodHTML, like 
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 14
+Connection: keep-aliveEncodHTML, like Gecko)ept-Language:                    uid=Ob6hjFuo4e
+Content-Length: 11
+Connection: keep-alive
+AP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: leWebKit/537.36 (Kuid=Ob6hjFuo4e
+Content-Length: 14
+Connection: keep-aliveEncodHTML, like Gecko)ept-Language: C45BFt/537.36 ike Gecko)ept-Language:   ,en-US;1.1
+Host: 172.21.0.2
+Referer: ]ttp://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+C„ntent-Length: 14
+Connection: keep-aliveEncodHTML, like Gecko)ept-Language: C45BFt/537.36 (KHTML, like Gecko) 18CB549DEX11; Linux x.6`64) AppleWla/5.0 (X11; Linux x.6`64) AppleWebKit/537
+

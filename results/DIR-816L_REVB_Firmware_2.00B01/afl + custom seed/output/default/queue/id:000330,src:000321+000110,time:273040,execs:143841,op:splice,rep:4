@@ -1,0 +1,16 @@
+	&						"cCeptMulti		*			POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 50
+User-Agent: Moz/5.0 (X1!; Linux x72.21.0.2
+Connection:.36 (KHTML, bike Gecko                        
+
+Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/
+Accept-Encoding: gzuage: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=z7mNg6sfgR
+
+id=Admin&password=0EE326E

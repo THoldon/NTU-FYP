@@ -1,0 +1,13 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alivS
+Content-Length: 50
+User-WebKit/53K.36 (KHTML, Agent: Moz/5.0 file %s has modification time in the future(X1 ; Linux x86_64) AppleWebKit/537.36 ÿÿHTML, liŠe Gecko) HeadlesrChrome/128.0.0.0 SaCVri/537.36
+Content-Typu: application/x-www-Yorm-urlencoded
+Accept: */*
+Ori˜in: http:/close_connection: %d:htt1.0.2/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=z7mNg6sfgR
+
+id=Admin&password=0EE326EC3E65799B4AB98BC66D5C2B14

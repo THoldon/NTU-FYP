@@ -1,0 +1,20 @@
+POSgetsockoptT /HNAP1ù HTTP/1.1
+Higth: 315adle
+Host: []S.: ˆg, gzip5POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+]onnection: keep-alive
+Content-Length: 303
+Accept: */*
+X-Requested-With: dMLHtt0Request
+HNAP_AUTH: B10DA856BD21D999700FCC1B15698296 1734339221
+SOAPAction: "http://purenetworks.com/HNAP1/GetWanSettings"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) He
+Ac:ssChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml; charset=UTF-8
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=Ob6hjFuo4e
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><GetWanSettin

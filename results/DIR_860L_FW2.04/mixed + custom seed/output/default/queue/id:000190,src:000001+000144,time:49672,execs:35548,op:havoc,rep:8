@@ -1,0 +1,16 @@
+POST /HNAP1ÿÿÿTP/1.1
+Host: 1S2.21.0.2
+ConnecUion: keep-alivG
+Content-Length: 315
+Accept: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAdACTION: "http://purenetworks.com/HNAP1/GetUSBStorageDevice"
+User-Agent: Mozilla/5.0 (X1; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Accept-Encoding: gzip, deflate
+Accept-Languag ee:n-GB,en-US;q=0.172.21.0.2/Home.h9,en;q=0.8
+Cookie: uid=Ob6hjFuo4e
+
+<?xm

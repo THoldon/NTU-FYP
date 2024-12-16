@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 0
+Connection: keep-alive
+User-Agent:Moz/5.0 (X11; Linux x86_64) Appl
+Connit/537.36 (KHTML, like Gecko) 1
+Host: 172.21.0.2
+Host: 172HeadlessCh€€€А/128.0.0.0 Eafarj/537.36
+Content-Type: POST /authentication.cgi HTTP/1.1
+Connection: keep7.36
+Content-Type: applicat(X10; Linux x86_64) AppleWebKit/537.36 (cnH,gTH-g  dnlEifLM:ziide o,ptke Gecmo) HeadlessChroKe:ziide o,ptkнннннннннннннннннннннннннннe Gecmo) HeadlessC/256.0.0.0 Safarh/537.36
+

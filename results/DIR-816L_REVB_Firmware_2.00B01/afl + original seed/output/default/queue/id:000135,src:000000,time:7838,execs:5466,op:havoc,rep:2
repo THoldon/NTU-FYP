@@ -1,0 +1,8 @@
+GET /session_login.php HTTP/1.1
+Acce1111111111111111p,deflate,sdchzywzywzywzywzywzywzywzywzyw
+Host: 192.168.0.50
+Cookieodin
+ gzip,deflate,sdchz : 13
+
+test=test
+

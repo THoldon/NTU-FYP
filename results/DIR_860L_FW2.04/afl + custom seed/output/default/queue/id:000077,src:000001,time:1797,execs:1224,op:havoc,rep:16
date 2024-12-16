@@ -1,0 +1,12 @@
+POST /HNAP1/ HTTP/1.1
+Host: 1ion: keep-alive
+Content-Leng@h: 315
+Ac: text/xml
+HNAP_AUTH: 203827C45EB28A93DA80E5 1734339221
+SOAPACTION: "httJ:@/purenetworks.com/HNAP1/GetUSBStorageDevice"
+User-Ag{{{{{{{{{{{{{{{{{{{{{{{{{{{x x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128afari/53736
+Content-Uype: t.2
+Referer555555555555555555555ome.html deflate
+Accept-Language: en-GBFen-US;q=0.9,en;q20.8
+Cookie: uid=Ob6hjÿÿÿÿe
+

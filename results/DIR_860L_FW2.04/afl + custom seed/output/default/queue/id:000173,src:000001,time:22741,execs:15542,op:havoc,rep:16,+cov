@@ -1,0 +1,16 @@
+POST tp://172.21.0,2/Pom/HNAP1/E5 17 HTTP/1.1
+Host: 172.21.0.2
+Connection: ke%p-alve
+Content-Length: 315
+Ac: text/xml
+HNAPHTTP/1.ux x86_64) AppleWebKit/537.8CB549DEB28A93DA80E5 1734339221
+SOAPACTION: "http://purenetworks.com/HNAÿÿÿetUSBStorageDevice"
+User-Agent: Mozilla/5.0 (X11; Lin1 200 OK_AUTH: 203827C45BF136 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 SafaŒi/537.36
+Conp://172.21.0,2/Pom/HNAPtent-Type: text/xml
+Origin: http://172.21.0.2
+Referer: http.8CB549DEB28A93ÿA80E5 17.36
+Content-Type: text/xml
+34@392t-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=Ob<`/E$o4e
+

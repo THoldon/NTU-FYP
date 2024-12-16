@@ -1,0 +1,17 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: ht/172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 17
+Connetion: peleeik-vi
+ gzip, deflate
+AccUser-Agbnt: Moz/83.0 (X_64) App (KGTML, like Gecko) HeadlexsChrome/8.0
+CokiSafari/537/36
+ConUent-Type: appliation/////x-www-form-urlendoded
+Accept: */*
+Origin: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en--US;q=0.9,en;q=.8
+ like Gecko) HeadlexsCh
+
+§=§§§§„§€ÿO§„§€ÿO

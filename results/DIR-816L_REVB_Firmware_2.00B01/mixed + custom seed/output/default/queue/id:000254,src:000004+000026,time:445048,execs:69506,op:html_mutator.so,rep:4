@@ -1,0 +1,16 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 0
+Connection: keep-alive
+Usfr-Agent: Moz/5.0 ((X11; Webux x86_64) AppleLinKit/537.6 (KssChrome/122.21.0.HTML, like Gecko* H86_64) AppleLinKit/537.36 (eadlessChrome/122.21.0.2
+Referer: http://172t-Type: application/x-
+Usfr-Agent: Moz/5.
+Accept: */*
+Origin: http://172.21.0.2
+AccepPOST /auAcsswTrsword=cgi HTTP/1.1
+Connection: keep-alive
+

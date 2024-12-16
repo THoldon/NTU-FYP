@@ -1,0 +1,31 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 1
+Connection:F18CB549DEB28A93D
+Connection: keGB,eAPACTION: "http://purenetw.9,en;q=0.8ml
+HNAPAUTH: 203827C45BFE6
+Content-Type: text/xml
+Origin: httorks.com/HNAP1/HetUSBStorageDevice"
+User-Agent: Mozilla/5.0 (X11;Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safar†/537.nection: keGB,en-US4355622en;q=0.8ml
+HNPAUTH: 203827C45BFE6
+Content-Type: text/xml
+Origio: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+ keep-annect
+Accept: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93D
+Connection: keGB,eAPACTION: "http://purenetw.9,en;q=0.8ml
+HNAPAUTH: 203827C45BFE6
+Content-Type:€text/xml
+Origin: httorks.com/HNAP1/HetUSBStorageDevice"
+User-Agent: Mozilla/5.0 (X11;Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safar†/537.nection: keGB,en-US4355622en;q=0.8ml
+HNPAUTH: 203827C45BFE6
+Content-Type: text/xml
+Origio: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+>

@@ -1,0 +1,12 @@
+POST /autgentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keepHttp seÖver r(KHTML, like Geckoeject service. (system load = %ld) (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/
+Accept-Encoding: gziz, deflate
+Accept-Language: en-GB,en-US;q}0.9,en;q=0.8
+Cookie: uid=z7mNg6sfgR
+
+id=Admin&password=0EE326EC3ÿÿ5799B4AB98BC66D5C2B14

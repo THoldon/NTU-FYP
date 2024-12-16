@@ -1,0 +1,49 @@
+POST /HNAP1/ HTTP/1.1
+Host: 1720.2
+Referer: ht0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Cookie: uid=Ob6hjFuo4e
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 126
+Connec‹ion: keep-aAct////////////////////////"""""""""""" HTTP/1.1
+Connection: HTML,alive
+Accept: */*
+X-Requested-Wir: http://172.21.0.2/Home.html
+Connection: HTML,alive
+Accept: */*
+X-Requested-With: XMLHttpRequst
+HNAP_AUTH: B10DA856BD21D999700FCC48B1569848 1734339221
+SOAPAction: "http://purenetworks.com/HNAP1/GetWanSertings"
+User-Agent:m/HNAP1/GetWanSettings" Mozilla/5.0 (X11; Linux x HTTP/1.1
+Connection: HTML,alive
+Accept: */*
+X-Requested-Wir: http://172.21.0.2/Home.html
+Connection: HTML,alivvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvwvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvve
+Accept: */*
+X-R€ÿÿÿsted-With: XMLHttpRequst
+HNAP_AUTvvvvvvvvvvwvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvve
+Accept: */*
+X-R€ÿÿÿsted-With: XMLHttpRequst
+HNAP_AUTH: B10DA856BD21D999700FCC1B1569848 1734339221
+SOAPAction: "http://purenetworks.com/HNAP1/GetWanSertings"
+User-Agent:m/HNAP1/GetWanS92441gs" Mozilla/5.0 (X11; Linux x8ettings"
+User-Agent: MozillML, like Gecko) HeaandlessChrome/128.0.0.0 Safari/53P1//////////////R////////////////////////////&///////////t
+HNAP_AUTH: B45DA856BD21D999700FCC1B1p¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯569848 1734339221
+SOAPAction: "http://purenetworks.com/HNAP1/GetWanSertings"
+User-Agent:m/HNAP1/GetWanS92441gs" Mozilla/5.0 (X11; Linux x8ettings"
+User-Agent: MozillML, like G¿¿¯¿¯¿¯¯¿¿¯¿¯¿¯¿¿¯¿¿¿¯¿¿¿¿¯¯¯¿¿¯¯¯¯¯¯¿¯¿¯¿¿¿¿¿¯¿¯¿¯¿¿¿¯¿¯¯¿¿¯¿¿¯¯¿¿¿¿¿¿¿¯¿¿¿¯¯¯¯¯¿¯¿¿¿¯¯¯¿¯¿¯¯¯¿¿¿¿¿¿¯¯¿¯¯¿¿¯¿¿¿¿¿¿¿¿¿¿¯¿¿¿¿¿¿¯¿¯¿¿¯¿¯¯¿¿¿¿¿¯¿¯¯¿¿¯¯¿¯¯¯¯À¯¯¯¿¯¯¿¯¯¿¿¿¿¯¿¿¿¿¯¿¿¯¯¯¿¿¿¯¯¿¯¿¯¯¿¿¿¯¿¯¯¿¿¿¿¯¯¯¿¿¯¿¯¿¿¿¿¯¿¯¯¿¿¿¿¯¿¿¿¯¯¯¿¿¯¿¿¿¿¯¯¿¯¿¯¯¿¯¯¯¿¿¿¿¿¿¿¿¿¿¯¿¯¿¯¯¿¿¯¯
+Host: 17¿¿¿¿¿¿¯¿¯¿¿¿¯¿¿¿¯¿¿¿¿¿¯¯¯¿¯¿¯¯¿¿¯¯¿¿¿¯¿¯¿¿¿¿¿¿¿¿¿¿¯¯¯¯¿¿¯¿¯¿¯¿¿¿¿¿¿¿¯¯¯¿¿¿¯¯¿¿¯¿¯¿¿¿¯¿¿¿¯¿¯¯¯¯¯¯¿¯¿¿¯¯¯¿¯¿¯¿¿¿¿¯¯¯¯¿¯¿¿¯¯¯¯¯¿¯¿¿¯¯¿¿¿¿¿¿¿¿¯¯¯¿¯¿¿¿¯¯¯¿¯¯¿¯¿¿¯¯¿¿¿¯¿¯¿¿¯¿¿¿¯¿¯¿¯¿¯¿¿¿¯¿¯¿¿¯¿¿¯¿¿¿¿¯¯¯¿¿¿¯¿¿¿¿¯¿¿¯¿¿¯¿¯¯¿¿¯¿¿¯¿¿¿¿¯¿¯¿¿¯¿¿¿¿¯¯¯¿¯¿¯¿¿¿¿¯¯¯¿¯¯¿¿¯¿¿¯¿¯¿¿¿¯¯¿¯¯¯¯¯¿¯¯¯¿¯¿¿¿¿¿¿¯¯¯¿¿¿¿¿¯¿¯¿¿¯¿¯¯¯¿¯¿¯¿¯¿¯¿¯¿¿¿¯¿¿¿¿¯¿¿¿¿¿¯¿¯¿¿¿¿¿¿¿¯¯¿¯¿¿¯¯¯¯¿¿¯¿¯¯¿¿¿¯¯¿¿¯¿¿¿¿¿¯¯¿¿¿¿¯¿¯¿¯¿¿¿¿¿¿¿¯¯¯¿¯¿¿¯¿¯¯¯¿¿7.36
+Content-Type: teexxl; charset0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-Glate
+Accep.9,en;q=0.8
+
+¿ AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.020.0 Safari/537.36
+ContSn2-Type: text/xmept-L537.36TF-8
+À¿¿¿¿¿

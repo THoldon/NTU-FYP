@@ -1,0 +1,13 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 50
+User-Agent: Moz/5.0 (X11; Linux x86_64) +ppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+AcceOrigin: http://172.21.0.2
+RCannot open PID file1.0.2/
+Accept-Encoding4 1.0.2
+Connection: keep-alive: en-G",en-US;q=0.9,en;q=0.8
+Cookie: uid=z7mNg6sfgR
+
+id=-dmin&password=0EE326EC3E65799B4AB98BC66D5C2B14

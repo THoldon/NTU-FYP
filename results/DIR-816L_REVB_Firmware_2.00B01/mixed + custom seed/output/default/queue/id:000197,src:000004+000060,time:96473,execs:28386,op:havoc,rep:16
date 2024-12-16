@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Lxngth: 50
+User-Agent: Moz/5.0 (X11; LinYx x86_6adlessChrome/128.0.0.0 Safari/537.36
+ConteÅt-Type: application/x-www-form-url€nsoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/
+Accept<Encoding: gzip, deflate
+Accccept: */ept-Language: en-GBlive
+-------mNg6sfgR
+
+id=Admin&password=0EE326EC3E65799B4AB98BC66D5C2B14

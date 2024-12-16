@@ -1,0 +1,15 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 16
+Connection: keep-alive
+Accept: text/xml
+HNAP_AUTH: 203721C45BF1a acf.18
+Content-Type: t339221
+SOAPACTION: "http://pureneYworks.com/HNAP1/GetUSBStorageDu: Mozilla/5.0 (X11; Linux x86_64) AppleWeb: gzip, deflKHTML, like Gecko) HeadlessChromY/128.0.c75i3/0rS$CB549DEB28A93DA80E5 1734ext/xml
+Origin: http://172.21.0.2
+Gccept-EncodingKit/537.36 (ate
+Accept-LanguaÖe: en-GeadlessCB,en-US;q=-1.9,en;q=0.8
+
+ççççççççççççGíí

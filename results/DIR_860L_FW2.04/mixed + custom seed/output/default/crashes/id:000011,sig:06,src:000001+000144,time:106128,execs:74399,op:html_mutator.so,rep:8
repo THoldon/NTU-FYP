@@ -1,0 +1,24 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Content-Length: 0
+Connnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnion: keen: keep-alive
+Accept: text/xml
+HNAl_AUTH:ß203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION: "http://purenetwornnnnnnnnnnnnnnnnection: keep-alive
+Accept: text/xml
+HNAP_AUTH:ß203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION:"http://purenetworks.com/HNAPÿ/GetUSBStorageDevice"
+Vser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.†6 (KHTML, like Gecko) HeadlessChr485375800.0.0 Safari/537.36
+Content-Type: text/xml
+Origin: http://172.21.0.2
+Ac654t-Encoding: gzip, deflate
+Accept-LanguaHNAP1/ HTTP/1.1
+Host:ß1ge: en-GB,en-US;q=0.9ks.com/HNAPÿ/GetUSBStorageDevice"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.†6 (KHTML, like Gecko) HeadlessChr485375800.0.0 Safari/537.36
+Content-Type: text/xml
+Origin: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-LanguaHNAP1/ HTTP/1.1
+Host: 1ge: en-GB,en-US;q=0.9,en;q=0.8POST /HNAP1/ HTTP/1.1
+

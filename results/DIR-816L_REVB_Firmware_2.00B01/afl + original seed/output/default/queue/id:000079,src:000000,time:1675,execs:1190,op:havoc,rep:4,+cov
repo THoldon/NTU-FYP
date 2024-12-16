@@ -1,0 +1,6 @@
+GET /session_login.php HTTP/1.1
+Accept-: gzip,deflate,sdchzywzywzywzywzywzywzywzywzyw
+Host: 192168.0.50
+Cookij: uid=zyezyw
+Content-Length: 
+

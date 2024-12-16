@@ -1,0 +1,13 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 0
+Connection: keRp-alive
+User-Agent: Moz/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Ge3641 HeadlessChrome/128.0.0.0 Safari/537.3Y
+Content-Type: POST /authentication.cgi HTTP/1.1
+Connection: keep7.36inux x86_64) AppleWe
+Content-Type: appl
+Connection: keep7.icat(X11; Linux x86_64) AppleWebKit/537.36 (HHTMt-Encoding: gzip, defL, like Gecmo) HeadlessChroome/128.0.0.0 Safarh/537.36
+

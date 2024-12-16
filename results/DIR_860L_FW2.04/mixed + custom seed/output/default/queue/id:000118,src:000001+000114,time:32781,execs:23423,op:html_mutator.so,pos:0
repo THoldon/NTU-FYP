@@ -1,0 +1,26 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 101
+r: http://172.21.0.2/Home.htm
+Host: 072.21.0.2hjFuo4e
+Content-Length: 184
+ConNection: keep-alive
+Accept: text/xml
+HHNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1734039221
+TTP/1.1
+Host: 072.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 17
+Connect5BF18CB549DEB28A93DA80E5 1734039221
+TTP/1.1
+Host: 072.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFu
+
+ep, defl\te
+Accept-Language: en-GB,en-Uion: ˆeep-alivj
+Accept9ÿtext/xml
+Hm/HNAP1/GetUSBStorage<?xQ

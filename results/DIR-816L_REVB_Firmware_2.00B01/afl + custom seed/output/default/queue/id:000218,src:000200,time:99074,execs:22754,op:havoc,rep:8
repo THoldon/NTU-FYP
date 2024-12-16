@@ -1,0 +1,12 @@
+POST /authentication?cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+ContentœLength: 50
+User-Agent: Moz/5.0 (X21; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Headl2ent-Type: applécatessChrome/12ent-Type: application/x-www-foScriptUser or RunScriptsAsOwner must be setjm-urlencoded
+Acc0.2
+Referer: http://172.21.0.2/
+Accspt-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=z7mNg6sfgR
+
+idumask=

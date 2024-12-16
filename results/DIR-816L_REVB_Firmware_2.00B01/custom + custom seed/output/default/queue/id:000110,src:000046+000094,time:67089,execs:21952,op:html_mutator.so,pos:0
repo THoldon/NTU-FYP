@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: ht/172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 16
+Conyection: pelaeik-ve
+
+User-Agbntari/466/36
+ConUent-Type: appli: Moz/5.0 (X_64) App (KHTML, like Gecko) HeadlexsChrome/8.012.0.0 Safari/537/36
+ConUent-Type: appliation/////x-6ww: *-Ty/*
+Origin: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,e±-US;q=0.9,en;q=.8ò
+
+Q=7as28OsnC5V4OC

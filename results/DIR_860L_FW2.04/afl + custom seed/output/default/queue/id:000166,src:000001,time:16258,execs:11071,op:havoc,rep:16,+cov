@@ -1,0 +1,14 @@
+POST /HNAP1/ HTTP/11
+Host: 172.21.0.2
+ConnEction: keep-aliVe
+Content-Length: 315
+Ac: text/xml
+HNAP_AUT: 203827C45BF18CB549DEB2@A93DAd0E5`1734339221
+SOAPACTION: "http://purenetworks.com/HNAP@/GetUSBStorageDevi e"
+User-Agent: Mozilla/5.0 (X11; Linux x86webuserok_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml
+Origin: http://172.2.0.2
+Refernr: http://172.21.0.2/Home.html
+Accept-Encoding: gzip, defl,en-US;q=0.9,en;q=0.8
+Cdokie! uid=Ob6hjFuo4e
+

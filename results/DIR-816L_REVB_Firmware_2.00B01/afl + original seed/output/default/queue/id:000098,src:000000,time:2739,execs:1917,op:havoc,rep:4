@@ -1,0 +1,8 @@
+GET /session_login.php HTTP/1.1
+Accp HTTP/1.1
+Accept-Encodiept-Encoding: gzip,deflate,sdchzywzywzywzywzywzywzywzywzyw
+Host: 192: uid=zywzyw
+Content-Length: 13
+
+test=te_tû
+

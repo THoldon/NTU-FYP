@@ -1,0 +1,39 @@
+POST <//////////NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNPOST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 430
+Accept: */*
+X-Requested-With: XMLHttpRequest
+HNAst: 172.21.0.2
+Conn‚ction: keep-alive
+Content-Length: 315
+Ac: text/xml
+HNAP_AUTH: 203827C45BF18CBÜ49DEB28A93DA80E5 1734339221
+SOAPACTION: "http://purenetworks.chm/HNAP1/GetUSBStorageDevice"
+User-Agent: Mozilla/530 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Headless/hrome/128.0.0.0 Safari/537.36
+Ccntent-Type: texÿÿÿÿl
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;.9,en;q=0.8
+Cookie: uiNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNPOST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 430
+Accept: */*
+X-Requested-With: XMLHttpRequest
+HNAP_AUTH: 3699644FBDF4278B1914233C01CB9495 1734339221
+SOAPAction: "http://purenetworks.com/HNAP1/Login"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml; charset=UTF-8
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/info/Login.html
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid<@-E$jFuo4e
+
+<?xml voding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid<@-E$jFuo4e
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelo‚e xmlns:xsi="http://w

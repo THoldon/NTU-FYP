@@ -1,0 +1,20 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 117
+Connection: keep-alive
+Accept: */*
+X-Requested-With: XMLHttpRequest
+HNAP_AUTH: B10DA856BD21D999700FCC1B1569 "http://purenetworks.com/HNAP1/GetWanSettings"
+User-Agent: Mozilla/5.0 (bªa7tg0l6:L /ªti08 zdmt iL.e m-luiheAH//8r;2ecaO02 l3os 5eeefi6Aeaee2Mn=33ds:ipgH:ng.reiaT01.C_Wt1(lmxoxesxfee
+ :tnp1cce; t ,hp7s3hC,oAoE
+0t..rc806apiu n5psexlngkF XC.6r1G.s/.yd-pa1.Thmk1dl4
+acTc) epia-ecet)r.to:Lne7t/-K
+0nKU82S2. en-GB,en-US;q=0.9,en;q=0.e en-GB,en-US;q=0.9,en;x=0.8
+
+: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 10
+Connektion: keep-ae:>

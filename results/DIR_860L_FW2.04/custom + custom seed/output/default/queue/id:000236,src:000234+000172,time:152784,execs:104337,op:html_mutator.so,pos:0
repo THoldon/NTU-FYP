@@ -1,0 +1,21 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: htl
+Content-Length: 0
+Ce: j-alive
+Acypt:
+X6
+Acypt:
+X55 1 */*73Wt:
+X6 1 */*73W
+Acypt:
+X6 1 */*W3922cy315W3922cypt:
+X6 1 */*ypt:
+X6
+Acypt:
+X55 1 */*73Wt:
+X6 1 */*73W
+Acypt:
+X6 1 */*W3922cy315W3922cypt:
+X6 173W392
+

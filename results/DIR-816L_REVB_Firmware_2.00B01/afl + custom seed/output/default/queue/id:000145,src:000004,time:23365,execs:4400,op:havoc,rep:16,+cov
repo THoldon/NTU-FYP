@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection:"keep-alive
+Content-Length: 50
+User-AgenT: Moz/5.0 (Xnux x86_64) AppleWebKfreeaddrinfoit/537.36(KHTML, like Gecko) HeadlessChrome/128.0.0.0 Qafari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.22.0.2
+Referer: hеееееееееееееееееееееееееееееoding: gzip, deflate
+Accept-L   age: en-GB,pn-US;q=0.9,en;q=0.8
+Cookie: uid=z7mNg6sf
+Refermr: htgR
+
+id=Admin&password processHost %d exited with statcgi_error26EC3E65799B4AB98BC66D5C2B14

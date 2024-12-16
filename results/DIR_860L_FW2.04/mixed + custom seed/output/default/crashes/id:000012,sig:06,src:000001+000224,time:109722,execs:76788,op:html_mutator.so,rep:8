@@ -1,0 +1,27 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Content-Length: 0
+Connection: çeep-alive
+Accept: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION: "http://purenetworks.com/HNAP1/GetUSBStorageDevice"
+User-Agent: Mozilla/5.0 (X11; Linux x86_n]twoYks.com/HNAP1/GetUSBStorageDevice"
+User-Agent: Mozilla/5.0 (X11; Lin64) AppleWebKit/537.USBXto1.-
+Host: 172.Í1.0.2
+Connection: îeep-alSafari/537.36
+Content-Type: text/xmlalive
+Content-Kength: 315
+Accept: text/xml
+HNAP_AUTH: 203827C45Ce549DEB28A93DA80E5 1732169610
+SOAPACTION: "http://puren]tworks.com/HNAP1/Get36TTP/rageDevice"
+User-Agent: Mozilla/6.0 (X11; Linux x86_64) AppleWebKit/536 (KHTML, like Gecko) HeadleÄsChrome/128.0.0.0 Safari/537ˇ6
+Content-Type: text/xml
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/ˇome.9tml
+Accept-Encoding: gzip, Äeflate
+Accept-Language: en-GB,en-USQ
+Origin: http://172.21(0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8P077 /HNAP1/ HTTP/1.1
+

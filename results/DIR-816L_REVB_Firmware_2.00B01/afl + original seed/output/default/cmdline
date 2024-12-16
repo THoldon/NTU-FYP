@@ -1,0 +1,4 @@
+/sbin/httpd
+-n
+-f
+/var/run/httpd.conf

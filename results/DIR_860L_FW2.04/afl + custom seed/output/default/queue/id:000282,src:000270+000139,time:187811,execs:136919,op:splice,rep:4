@@ -1,0 +1,13 @@
+POST /HNA HTTP/1.1
+Host: 172.21.0.2P1/ HTTP/1.1
+Host: 172.21.0.2
+Connection:ontent-TengthQ 315ÿÿÿ text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28Acom/HNAP1/GetUSBjtorageDevice"
+Usšr-Agent: M.1
+Host: 17211; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessCFrome/128.0.0.0 Safari/737.36
+Content-Type: text/xml
+ÐHomin: http://ÿ2t„p://172.21.0.2/Home.html
+Ac@ept-ÿcoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=ObhjFuo4e
+

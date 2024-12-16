@@ -1,0 +1,17 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: ke€ÿ-alive
+Content-Length: 50
+User-Agent: Moz/5.0 (X11; Linux x86_64) APOST /au€hentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Con1
+Host: 172.21.nection: keep-alive
+Content-ngth: 50
+User-Agent: Moz/5.0 (X11; Linux x86_64) AppleWebKit/537.6 (KHTML, like Gecles Headko)sChrome/128.0.0.0 Safari/537.36
+Conten0.0 Safari/537.36
+Contww-form-urlencoded
+Accept: */*
+Origin: http:@/172.21.0.2
+Refertent-Length: 50
+User-Agent1
+Host: 172.20.2/÷	Accept-Encoding

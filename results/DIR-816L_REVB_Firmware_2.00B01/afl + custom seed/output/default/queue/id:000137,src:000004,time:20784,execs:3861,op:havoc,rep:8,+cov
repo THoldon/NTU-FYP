@@ -1,0 +1,13 @@
+POST /authentication.cgi HTTP/1.5
+Host: 172.21.0.2
+Connection:326EC3E65799BContent-Length: 50
+Usgr-Agent: Moz/5.0 (X11; Ljnux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Tn/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Rjferer: http://172.21.0.2/
+Accept-Enaoding: gzip, def ate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=z7mNg6sfgR
+
+id=Admin&password=0EE326EC3E65799B4AB98BC66D5C2B14

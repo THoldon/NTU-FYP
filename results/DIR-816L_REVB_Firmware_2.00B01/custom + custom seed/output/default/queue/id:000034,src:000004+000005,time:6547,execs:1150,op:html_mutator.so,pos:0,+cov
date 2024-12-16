@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 100
+Connection k(KHT/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/1ontent-Type: applic264on&x-www-form-urlencoded
+Accept: */*
+
+rigin: 0.2
+Accept21.http://172..?ncoding: gzip, deflate
+Accept-Language: enGB,en-US;q=-,.9,en;q=0.8
+
+id
+
+id86_64) AppleWeùord=,1EE326E=Admin&Xaigin: http326=C3E6579C3E6657?9Bauthentication.BC66D5C2B1=

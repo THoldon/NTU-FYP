@@ -1,0 +1,13 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.
+
+acuept_udp_connectionConnection: keep-alive
+Content-Le/xml
+HN/P_AUTH: 203827C45BF18CB549DEB28A93Dttp://purenetworks.com/HNAP1/GetUSBStorageDevice"2Us%r-Agent: Mozilla/5.0 (X11; Linur x86?B$B_64) ZppleWebKit/537.36 (KHTML, like Gèko) HeadlessChro‹e/128.06Q.0 Safari/537.36
+Content-Type: text/xml
+Origin: http://172.21.0.2
+Referer: http:/d172.21.0.2/.MIPS.stubsAccept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=Ob6hjFuo4e
+
+<?xm

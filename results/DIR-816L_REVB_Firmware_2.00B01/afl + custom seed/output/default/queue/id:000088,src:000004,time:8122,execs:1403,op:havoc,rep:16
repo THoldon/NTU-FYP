@@ -1,0 +1,13 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 50
+User-Agent: Moz/ð.0 (X11; Lhnux x86_64) -Type:TML, l/537.le‘codedHe dlChrome/128.0.0.0tent-Len Safari/537.36
+Content-Type:TML, l/537.lencoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: 
+Content-Type:TML, li6.0.0.0 Safing: gzipen-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=z7mNg6sfgR
+
+id=Admin&password=0EE326EC3

@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 126
+Convnection:      49431974ser-Agent: Moz/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHT7047AAAAAAAAko) Huadleÿÿÿromf/128.0.0.0 Safri/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Accept-Encoding: gzip,ke Gecko) HeadlesLžnguage: en-GB,en-US;q=0.9,en;q=0.8
+
+C3E657994068
+ConnecAdminEE336EC3E6799ECB98BC66D5C2B&passwo=rEd53764EEC206E99B1AB98BC66D5C2urlencoded
+Accept: */*
+Origin:B14

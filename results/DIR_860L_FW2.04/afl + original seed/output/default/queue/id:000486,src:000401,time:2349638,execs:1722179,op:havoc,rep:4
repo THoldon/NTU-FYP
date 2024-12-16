@@ -1,0 +1,8 @@
+POST /HNA.1/ HTTP/1.1
+Host: 10.0.0.90
+ACTION:hks.com/HNAP1/GetDeviceSettings/
+Connection: keep-alive,                                                                                                                                                                   text/html,application/xhtml+xml,application/xml;=0.9,image/webp,*/*;q=0.8
+Connection: keep-alive, (Windows NT 6.3; Wzip;
+Content-LtDeviceSettings/zywzywzywzywzywzynzywzywzywzywzyccccccccccccccccccc   ÇÇes                ÿ                                                                                                      zywzywywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywÅywzywzywzywzywzzyywzywúyw|ywzywzywzywzytion: keep-aliXe
+Authorization: Basic QWxhZGRpbjpvcGVuIHNlywzywzywzywzywzywz3
+

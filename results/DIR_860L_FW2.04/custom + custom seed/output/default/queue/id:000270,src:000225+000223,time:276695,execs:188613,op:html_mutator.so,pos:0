@@ -1,0 +1,7 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: htl
+Ce: ue
+Content-Length: 0
+Connection:,,,
+

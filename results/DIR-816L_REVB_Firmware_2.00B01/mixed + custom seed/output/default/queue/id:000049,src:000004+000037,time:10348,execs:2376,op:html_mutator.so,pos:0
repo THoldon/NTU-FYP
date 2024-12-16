@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 140
+Connection: keep-alive
+tser-Agent: Moz/5.0 X11; ³inux x86_6i&0|sE326ºC3E65C99B4A5799B4AB98€/x, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded8A: en-GB,en-US;q=0.9,en;q=08
+
+Accept: */*
+Origin:-Agent: Moz/5.0 X11; ³in http://172.21.0.2
+Accept-EnLoding: Šzitent-Type: application/x-www-fo-GB,en-US;q-0.9,en;q=0.8
+
+iiiE65799BE65799B4A4AB98BCEE3223it/537.36 (KHTML, like Gec66D5C2=Admin&pžssword=66D5C2=Admin&pas0EE33EC332233EC3E65799-4AB9799B48BC66@5CB14

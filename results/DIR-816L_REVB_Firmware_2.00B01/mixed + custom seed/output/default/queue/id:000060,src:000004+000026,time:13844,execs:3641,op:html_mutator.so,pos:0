@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 110
+Connection: keep-alive
+User-Agent: Moz/5.0 (X11; Linux 86_64) AppleWebKit/537.36 (KHTML,                                 .0.0 Safari/537.36
+eontent-Type: application/x-www-form-urlencoded
+Accep: */*
+Origin: @ttp://172.21.0.2
+Accept-EncodC3E6572B2CÔRUNINF.PINQafari/537.36
+Coing: gzip, de2B2CRUNINF.PINQafari/537etpÅnaÿÿeA
+tncale 3-.ecLf-GB,en-US;q=0.9,en;q=0.8
+
+id=AdminÙp),Öassword=0EE326ECep-al3E65799B4uid8BCBXD5C2B14

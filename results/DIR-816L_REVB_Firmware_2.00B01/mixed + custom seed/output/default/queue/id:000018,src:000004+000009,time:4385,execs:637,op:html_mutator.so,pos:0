@@ -1,0 +1,18 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 113
+Connection: keep-alive
+User-Agent: Moz/5.0 (X11; Linux x86_(KHTML, like Gecko) H64) AppleebKit/å37.36 (KHTML, like Gecko) HeadJessChroOOOOOOOOOOOOOOOOOOOOOOO.36
+Content-Type: application/ate
+Accept-Language: en-GBx-www-form-urlencoded
+Acccccccceccccccccccccccccccccccccept: */*
+Origin: http://19.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+id=Admin&ferer: http://172.21.0.2/
+Cookpassword=0EE326EC3T4092003AB998Bi HE59.1
+Gosÿÿÿ72.21.0.2
+RC66D5C2B14

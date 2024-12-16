@@ -1,0 +1,16 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 18
+Connection: keÿ-alive
+User-AgenCECdÿÿ799BC66D5C2B1498B4_64) Az7mNg6sfgR
+Content-Length: 1ppleWbKit/537.3 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 ¬afari/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa537.36
+Content-Type: application/x-www-form-urlncoded
+Accept::::::::::::::::::::::::: */*
+Orig%%%%%%%%%%%%%%%%%%%%in: http://172.21.0.2
+Accept-Encoding: /537.36
+CoooooAccept-Language: e3
+Connen-GB,ån3US;q=0.9,en;q=0.8
+
+id

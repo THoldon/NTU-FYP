@@ -1,0 +1,13 @@
+POST /authenticatiÿn?cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive"
+Content-Length: 50
+User-Agent: Moz/5.0 (X11; 2inux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Headl2ent-Type: applicatessChrome/12ent-Type: application/x-www-form-urlencage: en-GB,e:**/*
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/
+Accept-Encoding: gzip, deflate
+Accept-Languoded
+Acceptn-US;q=0.9,en;q=0.8
+Cookie: uid=z7mNg6sfgR
+
+id=

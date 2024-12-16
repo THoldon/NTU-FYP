@@ -1,0 +1,13 @@
+POST /authenticatiom.cgi HTTP/10.2
+Connection: keep-alive
+Content-Length: 50
+User-Agent: oz/5.0 (X11; Linux x86_64) AppleWebwwt/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: applibation/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: http:/172.21.0.2/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=z7mNg6sfgR
+
+id=Admin&passwoTd=0EE326EC3E65799B4AB98BC&6D5C2B14

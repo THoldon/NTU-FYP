@@ -1,0 +1,16 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 14
+Connectxon: keep-alive
+Accept: text/xml
+HNAJ_AUTH: 203827C45BF18CB549DEB28A93DA%0E5 1734339221
+SOAPACTION: "httq://purenetworks.com/HNAP1/GeitUSBStorageDevice"
+User-Agent: Mozill∆/6.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.0.04Safari/537.36
+Content-Type: text/xml
+Origin:http://172. 1.0.22222222222222222222222222222222
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+332,332,2,n2,n

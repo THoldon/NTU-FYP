@@ -1,0 +1,7 @@
+GET _login.php HTTP/1.1
+Aceflate,sdch…ywzywzywzywzywzywzywzywzyw
+Host: 192.168.0.50
+Cookie: uid=zywzyw
+Content-Length: 13
+
+tes

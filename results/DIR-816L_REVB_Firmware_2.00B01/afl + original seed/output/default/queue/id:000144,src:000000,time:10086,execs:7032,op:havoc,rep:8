@@ -1,0 +1,8 @@
+GET /session_nogin.php HTT@/1.1
+Accept-Encoding: gzip,deflate,sdchzywzyj
+Host: 192.168.0.5D0
+Cookie: uid=zywzyw
+Contenç-Length: 13
+
+test=test
+

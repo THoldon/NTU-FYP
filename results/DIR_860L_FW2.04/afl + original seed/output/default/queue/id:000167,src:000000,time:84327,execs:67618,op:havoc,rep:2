@@ -1,0 +1,7 @@
+GET /session_login.php HTTP/1.1
+Accept-Encoding: gzip,deglate,sdchzywzywzywzywzywzywzywzywzyw
+Host: 192.16wzywzywzywzywzywzywzyw
+Host: 1tent-Length: 13
+
+test=test
+

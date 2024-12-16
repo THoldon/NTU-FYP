@@ -1,0 +1,15 @@
+POST /HNAP1/ HTTP/1.-
+H 172.ê1.0.2
+Connection: ”eep-alive
+Content-Kength: 315
+Accept: text/xml
+HNAP_AUTH: 203827C45Ce549DEB28A93DA80E5 1734339221
+SOAPACTION: "http://puren]tworks.com/HNAP1/GetUSBStorageDevice"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536 (KHTML, like Gecko) Headle€sChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/ÿome.9tml
+Accept-Encoding: gzip, €eflate
+Accept-Language: en-GB,en-USQq=0.9,en;q=0.8!Cookie: uid=Ob6hjFuo4…
+
+<?x

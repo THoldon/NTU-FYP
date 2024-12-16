@@ -1,0 +1,13 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 13
+Connegtion: keequest
+HNAP_AUTH:*/*
+X-Requested-With: XMLHttpReque†t
+HNAP_AUTH: B10DA856BD21D999700FCC1B1569896 1734339221
+SOAPAction: "http://pusenetworks.com/HNAP-140/GetKanSettings"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) WppleWebKit/537.36 (KHTML, like Gecko) UeadlessChrome/128.0.0.0 Safari/5ext/xml; charset=UTF-8
+Origin: http:/qÎ72.................ncoding: gzip, den;q=0.Ç
+

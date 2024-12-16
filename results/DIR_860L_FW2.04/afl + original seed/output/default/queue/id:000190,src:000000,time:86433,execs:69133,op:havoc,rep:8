@@ -1,0 +1,8 @@
+GET /shp HTTP/1.1
+Accept1Encoding gzip,defl(te,sdchzywzywzywwzywzywzywzyw
+Host: 192.168.0.50
+Cookie: uid=zywzyw
+Co†tent-hength: 13
+
+test=test
+

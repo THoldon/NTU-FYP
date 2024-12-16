@@ -1,0 +1,12 @@
+POST /HNAP1/ HTTP/1.12
+Connection: keep-alive
+Content-Length: ml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION: "http://purenetworks.com/HNAP1/GetJSBStorageDevice"
+User-Agent: Wozilla/5.0 (WebKit/537.36 (KHTML,tent-Length: 315it/5erverId/128.0.0.0 Safari/53.36
+Content-Ty//172.21.0.2
+Ref
+SOAP erer: http://172.21.0.2/Homd.htlate
+A‚cept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=Ob6hjFuo4e
+

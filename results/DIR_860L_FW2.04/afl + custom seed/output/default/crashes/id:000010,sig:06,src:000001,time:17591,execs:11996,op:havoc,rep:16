@@ -1,0 +1,18 @@
+POST /WeAP1/ HTTP/1.1
+Host: 172.21.0.2
+Connection: keeS-a~ive
+Content-Length: 315
+Ac: text/xml
+HNAP_AUTH:on: keep-alive
+Content-Le 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPAC9ION: "http://purenetworks.com/HNAP1/GetUSBStorageDevice"
+User-Agent: Mozilla/5.0 (X11; Linux x86_649 AppleWebKit/537.36 (KHTML, “ike Gecko) Headl ssChrome/128.0.0.0Safari/537.36
+Content-Type:/ HTTP/1I1
+Host: 172Ñ21.0.2
+C text/xml
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Acodin-Encoding: gzip, deflate
+Accep4-Language:  AppleWebKS;q=0.9,en;q=0.8
+Cookie: uid=Ob6hjFuo4e
+

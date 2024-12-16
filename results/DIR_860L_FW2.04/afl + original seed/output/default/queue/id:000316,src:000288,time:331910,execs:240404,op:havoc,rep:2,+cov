@@ -1,0 +1,13 @@
+POST /HNAP1/ HTTP/1.1
+Host: 10.0.0.90
+ttp://purenetworks.com/HNAP1/GetDeviceSettangs/zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw
+Proxy-Connection: keep-alive
+Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,applica=0.8
+Connection: keep-alive0 tion/xml;q=0.9,image/webp,*/*;q=0.8
+Connection: keep-alive0 (Windowsl;q=0.9,image/webp,*/*ebKit/e Gecko) Chrome/36.0.1985.143 Safari/537.36
+Accept-Encoding: gzip;
+Content-Length: 13
+
+t

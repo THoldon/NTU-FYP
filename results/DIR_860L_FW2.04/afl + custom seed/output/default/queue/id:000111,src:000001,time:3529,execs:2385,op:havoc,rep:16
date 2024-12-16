@@ -1,0 +1,14 @@
+POST /H+AP1/ HTTP/1.1
+Host: 172.21.0.2
+Connection: p-aliie
+ontent-Length: 315
+Ac: text/xml
+HNAP_AUTH: 203827C45BF18CB549FEB28A93DA80E5 1734339221
+SOAaACTION: "http://purSBStorageDevice"*User-Agent: Mozilla/5.0 (ç11 Linux x86_64) AppleWebËit/5eflate
+Accept-Languageo) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/%ome.html
+Accept-Encoding: gzip, d37.36 (KHTML, like Geck: en-GB,en-US;q=0.9jen;q=0.8
+Cookie: uid=Ob6hjFuo4e
+

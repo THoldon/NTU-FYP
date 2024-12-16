@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 0
+CoebKit/507.36 (HHTMve
+User-!get: ÿÿ5.0 (X11; Linux x86_64) AppleWeb172.2-Encoding: gzipN defL, l) HeadlessChrome/128.0000000000000000000000.0.0 Safari/537.36
+Content-HeadlessChromeType: POST /authentication.cgi HTTP/1.1
+Connection: keep7-36
+Content-Type: applicat(X11; Linux x86_64) AppleWebKit/537.36 (HHTMt.2
+Referer: http://172.2-Encoding: gzipN defL, like 
+RefereHeadle */*'
+Origin:    ssChrome/128.0.0.0 Safarh/537.36
+

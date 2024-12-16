@@ -1,0 +1,6 @@
+GET zip,deflate,sdchyw
+Host: 19yw
+Content-Length: 13
+
+testst=test
+

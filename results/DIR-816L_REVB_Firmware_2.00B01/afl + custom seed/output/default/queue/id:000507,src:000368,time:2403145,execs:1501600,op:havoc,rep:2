@@ -1,0 +1,15 @@
+POST /?ut HTTP/1.1
+Host: 172.21.0.2
+Cotion: keep-alive
+Content-Length: 50
+cser-Agent: Moz/q=0.8
+Co x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/18.0.0.0 Safari/537.36
+Content-Type:lencoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/
+Accept-Encoding: gzip deflate
+Accept-LanguageG0.9,eB,en-US;q=0.9,en;q=0.8
+Cookie: uid=z7mNg6sfgR
+
+id

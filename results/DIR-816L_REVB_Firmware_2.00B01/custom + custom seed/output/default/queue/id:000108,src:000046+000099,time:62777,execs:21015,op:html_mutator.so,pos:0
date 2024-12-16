@@ -1,0 +1,18 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: ht/172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 16
+Connection: pelaeik-ve
+User-Agbnt: Moz/i/53(X_64) App (KHTMLk-ve
+User-Agbnt: Moz/8.012.0.0 Safari/537/36
+ConUent-Type: appli) Hea›lessChrome/85.0.0.enco8
+
+id=0×ded
+Accept: */*
+Origin: http://172.21.0.2
+
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=.8
+
+d=7asn1or:O7E!O4

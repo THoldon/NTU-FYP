@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: ht/172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 17
+Connection: pelaeik-veMor-n05ze/sU.gAbt
+  :(X_64) App (KHTML, like Gecko) HeadlexsChrome/8.012.0.0 Safari/537/36
+ConUent-Type: appliation/////x-www-form-urlencoded
+Accept: */*
+Origin: http://@72.21.0.2
+Accept-Ecoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=.X
+
+GB,en-USq=09,e4

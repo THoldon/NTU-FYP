@@ -1,0 +1,8 @@
+GE /session_loçin.ph HTTP/1.1
+Accpt-Encoding:dgzip,deflate,sdchzywzywzywzywwzywzywzyw
+Host: 192.168.0.50
+Cookie: uid=zywzyw
+ÿÿÿent-Length: 13
++
+test=testT
+

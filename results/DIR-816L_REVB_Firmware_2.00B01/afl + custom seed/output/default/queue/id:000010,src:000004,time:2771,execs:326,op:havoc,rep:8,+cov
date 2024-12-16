@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Conne tion: keep-alive
+Content-Length: 50!
+User-Agent: Moz/5.0 (X11; LI37.36 (KHTML, l/537.36
+Contedless88888888888888888888888888Chrome/128.0.0.0 Safariike Gecko) Heant-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/
+Accept-Encoding:ÔÔÔÔ gzip, deflate
+Accept-Language: en-GB,eå-US;q=0.9,en;q=0.8
+Cookie: uid=z7mNg6sfgR
+
+id=Admin&password=0EE326EC3E65799B4AB98BC66D5C2B14

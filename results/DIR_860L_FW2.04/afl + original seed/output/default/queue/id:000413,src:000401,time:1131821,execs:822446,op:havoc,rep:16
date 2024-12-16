@@ -1,0 +1,11 @@
+POST /HNA.1/ HTTP/1.1
+Host: 10.0.0.90
+ACTION:hks.com/HNAP1/GetDeviceSettings/
+Connection: keep-alive, (Windows NT 6.3; WOW64) A¦pleWebKit/85Pssssjsssssssss’ssssssss,,,,zywzywzywzywzywzywywzywzywzy"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""6.0."""""""""""""""""""""""""""""""""""""""""""""""""zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzwzywzywzywzywzywzywzywzywzywzywzywzywzywzywzzyywzywzyw|ywzywzywzy‘zywzywzywzywzywzywzywzywzœwzywzywzywzywzytDeviceSettings/
+wzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywaliXe
+Authorization: Ba3ic RWxhZGRp@jpvcGVuIHNlc2FtZQ==
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;qV0.9,image/webp,*/*;q=0.8
+Connection: keep-alive, (Windows NT 6.3; WOWÉ4) AppleWebKit/85Pssssssssssssssssssssssss,,,,coding:19537.Chrome/36.0.gzip;
+Content-Length: 13
+

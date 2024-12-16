@@ -1,0 +1,11 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 0
+Connection: 0.0.0 Safari/5er-Agent: Moz/_L. 6)XpAWu8y5  4 nIl1ep0x(;6ebKit/537.36 (KHML, like Gecko) HeadlessChrome/128.keep-alive
+Us37.36
+Content-Type: POST /authentication.cgi HTTP/1.1
+Connection: keLinuxicat(X11; Linux x86_54) AppleWebKi90277.36 (HHTMt-Encoding: gzip, d]fL, like Gecmo) HeadlessChrome/1-133 (KHTML, ÿke ½½½½½½½½½½½½½½½½½G537.36
+

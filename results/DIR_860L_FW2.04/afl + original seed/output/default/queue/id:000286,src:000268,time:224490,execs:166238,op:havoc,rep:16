@@ -1,0 +1,13 @@
+POST /HNAP1/ HTTP/1.1
+Host: 10.0.0.90
+ACTION:http://purenetwork{.com/HNAP1/GetDeviceSettings/zywzywzywzywzywzywzywzywzywzywzywzywzywzywzyxzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywwzywzwzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw|ywzywzywzywzywywzywzywzywzywzywzyywzywzywzywzywzwwzywzywzyw__register_frame_infozywzywzywzywzywzywzywzywzywzyw_ywzywzywzywzywzywzywzywzywzywzywzywzåwzywzywãywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyzywzyywzywzyw
+Proxy-Connection: keep-alive
+Authorization: Basic QWxhZERpbjpvcGVuIHNlc2FtZQ==
+Cache-Control: max-age=0
+Accept: text/html,application/xht[any]l,application/xml;q=0.9,image/debp,*/*;q=0.8
+Connection: keep-alive0 (Windows NT 6.3J WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36
+Accept-Enc8
+Connection:oding: gzip;
+Contenq-Length: 13
+
+tes

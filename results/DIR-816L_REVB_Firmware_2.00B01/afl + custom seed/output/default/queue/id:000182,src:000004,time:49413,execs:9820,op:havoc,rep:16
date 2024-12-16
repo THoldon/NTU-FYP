@@ -1,0 +1,14 @@
+POST /authen~ication.cgi HTTP/1.1
+Host: 172.(1.0.2
+Connec‹ion: keep-alive
+Content-Lengtÿÿgent: Moz/5.0 (X11; Linux x86_on.cgi HTTP/1.1
+64) AppleWebKit/537.36 (KHTML,sChrome/128.0.0.0 Safari/537.36
+Content-Type: application/gent: Moz/5.0 encodïd
+@ccept: */*
+°rigin: htvp://17T.21.0.2
+Refer/172.21.0.2/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0H8
+Cookie: uid=z7mNg6sfgR
+
+id=Admin&password=0EE326EC3E65799BTAB98BC66D5C2B14

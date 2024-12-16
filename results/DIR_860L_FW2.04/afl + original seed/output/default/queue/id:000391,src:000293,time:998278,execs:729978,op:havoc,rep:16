@@ -1,0 +1,12 @@
+POST /HNAP1/ HTTP/1.1
+Host: 10.0.0.90
+ACTION:http://purenetworks.com/HNAP1/GetDeviceSettings/zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyˆzywzywzywzywzywzyw 10zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzzyylzywzyw|ywzywzywzywzywzywzywzywzywzywzywzyAllow:wzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzzyylzywzyw|ywzywzywzywzywzywzywzywzywzywzywzyAllow: GET, HEADzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywˆywzywzywzywzyw
+Proxy-Connection: keep-aliXe
+Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
+Cache-Control: max-age=0
+Accept: text/html,applm,+xml,application/xml;q=0.9,image/webp,*/*;q=0.7ø
+Connection: keep-alive, (Windows NTication/xhtm,+xml,application/xml;q=0.9,image/webp,*/*;q=0.7ø
+Connection: keep-alive, (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome36.e.1985ssssssssssssssssŠssssssssssEncoding: gzip;
+Content-Length: 13
+
+te

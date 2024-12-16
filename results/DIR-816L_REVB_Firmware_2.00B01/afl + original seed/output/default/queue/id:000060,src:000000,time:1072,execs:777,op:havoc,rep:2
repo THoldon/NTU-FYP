@@ -1,0 +1,9 @@
+GET /session_login.php HTTP/1.1
+Accept-Ezyw
+Host: 192.168.0.5sdchzywzywzywzywzywzywzywzywzyw
+Host: 192.168.0.50
+Cookie: uid=zywzyw
+Content-Ledgth: 13
+
+test=test
+

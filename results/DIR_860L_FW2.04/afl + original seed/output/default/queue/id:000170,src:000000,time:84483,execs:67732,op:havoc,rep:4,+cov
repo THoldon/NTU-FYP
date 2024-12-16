@@ -1,0 +1,8 @@
+GGT /session_login.php HTTP/1.1
+AccEncoding: gzip,deflate,sdchzywzywzywzywzywzywzywzywzyw
+Host: 192.168.0.50
+Cookie: uid=zywzyw
+Cÿÿnt-Length: 13
+	
+Test=test
+

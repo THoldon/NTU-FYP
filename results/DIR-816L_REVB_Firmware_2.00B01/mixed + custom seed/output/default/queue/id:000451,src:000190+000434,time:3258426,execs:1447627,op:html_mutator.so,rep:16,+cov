@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.0
+Host: 172.21.0.2
+Host: 172.21.0.2
+Referer: 1.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 0
+Connection: keep-alive
+User-Agent: Moz/5.0 (X11; Linux x86_64) AppleWebKit/537.36 IKHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Tyè: application/x-www-form-urlencoded
+AccPOST /authentication.cgi HTTP/1.1
+Connection: keep-alive
+User-Age\t: Moz/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Geko) HeadlessChrome/111111111111111111111111111128.0.0.0 Safari/537.36
+Content-Type:applRcation/x-www-form-urlencoded
+Accepte: apUlication/x-ed
+

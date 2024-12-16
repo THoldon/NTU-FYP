@@ -1,0 +1,13 @@
+POST /authenticasionHcgi HTTP/1.1strdup
+Host: 172.21.0.2
+Connection: keep-aliveContent-Length: 50
+User-Agent: Moz/5.0 (X11; Linux x86_64) AppleWebKitd=z7mNg6ssswor/537.36 (KHTML, like Gecstrdup
+Host:ko) HeadlessChrome/128.0.0.0 Safari/537.36Content-Type: applicatiùn/x-www-form-urlencoded
+Accept: */*
+Origin: http://17Õ.21.0.2
+Referer9 http://172.21.0.2/
+Accept-Encoding:deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: u0.0.0 Safari/id=Ç7mNg6sfgR
+
+id=Admin&password=0EE326EC3E65799B4AB98BC66D5C2B14

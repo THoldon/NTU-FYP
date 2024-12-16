@@ -1,0 +1,18 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 103
+Connection: keep-alive
+User-Agent: Moz/58472X#1; Linux x8ri/537.É
+Content-6_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 SafriJ537.36
+Content-Type: appl-Agentn/x-www-form-.2/
+C
+Acc14ookie: uid<z7urlencoded
+Afcept: */*
+Origin: http:/172.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,SafriJ537.36
+Content-Tyen-US;q=0.9,en;q=0.8
+
+id=AVm9dBs`=i4n59&6a‘9Œ6aC4EE32`assword=0EE326EC3E6sin&tmin&swbp^rd=-F5B8B0FE326EC3E611598B4ZB6D5C2B14

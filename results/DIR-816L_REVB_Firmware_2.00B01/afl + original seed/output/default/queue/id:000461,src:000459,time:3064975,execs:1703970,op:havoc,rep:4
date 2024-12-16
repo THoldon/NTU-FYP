@@ -1,0 +1,8 @@
+GET hp HTTPGET /not initn.pt initn.php HTTP/1.1
+Content-Type: %snTTP/1.1
+Content-Type: %snhp HTTP/1.1
+Content-Type: %sncoding: gzip,dezywzywzywzywx€ÿÿÿwzyw
+Hosid=zywzyw
+ContentLenguh: 13
+
+te

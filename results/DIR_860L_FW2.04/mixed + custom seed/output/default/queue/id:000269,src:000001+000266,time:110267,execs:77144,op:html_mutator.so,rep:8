@@ -1,0 +1,15 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Content-Length: 0
+Connection: keep-alive
+Accept: te22222222222222222222222222222555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555nÄ: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+.0.0 Safari/537.36
+˜Òpfcue0rlTe)0tntgU4(mm78 sMax z:ernGle7/b,l  e:xg"1 C/pta ec8 O lgnonnr-E1lc/Contemt-Type: texê/xml
+Origin: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=pfcue0rlTe)0tntgU4(mm78 sMax z:ernGle7/b,l  e:xg"1 C/pta ec8 O lgnonnr-E1lc/Content-Type: text/xml
+Origin: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8POST /HNAP1/ HTTP/1.1
+

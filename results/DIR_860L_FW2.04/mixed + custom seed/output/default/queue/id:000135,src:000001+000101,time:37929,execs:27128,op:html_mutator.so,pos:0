@@ -1,0 +1,24 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 177
+Connection: keep-alive
+Accept:Hea text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION: "http://purenetworks.com/HNAP1/GetUSBStorageDevice"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) Apple,en;q=text/xml
+Origin:ike Gecko) HeadlessChroooooooooooooooooooooooooooooooooooooooooooooome/340.0.0.0 Safari/537.36
+Content-Type: nnection: keep-alive
+Accept: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 173
+User-Agent: Mozilla/5.0 (Xoooome/128.0.0.0 Safar11; Linux x86geDev…ce"4339221
+SOAPACTION: "http://pureoetworks.com/HNAP1/GetUSBStora_64) AppleWebKit/537.36 (KHTML, like Gecko) Headless951ooooooooooooooooooooooooooooooooooyooooooooooome/128.0.0.0 Safari/537.36
+Content-Type: text/xml
+Origin:    http://172.21.0.2
+Accept-Encoding:.gzip, defláte
+Accept-Language: en-GB,en-US;q=0.9WebKit/537.36 (KHTML, l http://172.21.0.2
+Accept-Encoding: gzip, deflate
+AccepY-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+<?4ggggggggggggŠgggggg~gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggagggEggggggggggggggggggggggggm

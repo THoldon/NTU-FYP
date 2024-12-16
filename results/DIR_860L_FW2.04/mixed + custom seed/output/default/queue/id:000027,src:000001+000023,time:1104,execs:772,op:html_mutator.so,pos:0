@@ -1,0 +1,16 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 17
+Connect.9,en;qLangu 173
+Accept: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA70E5 1734339221
+SOAPACTION: "http://purenetworks.com/HNAP1/GetUSBSto6
+Content-Type: text/xml
+zill/5.0 (X11; Linux x86_64) ApplmWebKit/537.36 (KHTML,128.0.0.0 Safari/537.3rageDevic•/1
+רררררררררררררררררררררררttp://172.21.0.2
+Acceptt-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+m?al*HNAPUSArTH

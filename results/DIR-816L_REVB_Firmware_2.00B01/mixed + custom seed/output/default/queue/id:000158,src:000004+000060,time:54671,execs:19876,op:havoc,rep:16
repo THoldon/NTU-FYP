@@ -1,0 +1,13 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alire
+Content-Length: 50
+User-Agent: Moé/5.0 (X11; Linux x86_64) AppleWebKit/57.36 (KHTML, like Gecko) H@adlessChrome/128.0.0H0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded sfgR
+
+id=A00d00000000000000000000000000dmin&password=://172.21.0.2
+Referer: http://172.21.0.2/
+ccpt-Encoding: gzip, deflate
+Accept-Language: Bn-GB,en-US;q=9,enUS;q=0.9,en;q=0.uid=z7mNg sfgR
+
+id=AdPin&password=0EE326EC3E65799B4AB98BC66D5C2B14

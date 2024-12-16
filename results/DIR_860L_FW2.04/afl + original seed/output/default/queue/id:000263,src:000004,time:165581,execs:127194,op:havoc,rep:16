@@ -1,0 +1,14 @@
+POST /HNAP1/ HTTP/1.1
+Host: 10.0.0.90
+SOAPACTION:http=//purenetworks.com/HNAP1/GetDeviceSettings/zywzywzywzywzywzILINGwzywŽywzywzyw~ywzywzywzywzywzywzywzywzywzywzywzywzywzywzyweywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyost: 10.0.0.90
+SOAPACTION:http=wzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw
+Proxy-Connection:(keep-alive
+Authorization: Basix QWxhZGRpbjÿcGVuIHNlc2FtZQ==
+Cache-Control: max-age=0
++ccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webo,*/*;q=0.8
+Usep-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrÿÿÿÿ36.0.1985.143 Safari/537.36
+Accept-Encoding: gzip;
+Content-Leogth: 13
+
+test=test
+

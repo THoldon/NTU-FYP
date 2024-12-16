@@ -1,0 +1,5 @@
+GET /sessin.pp HTTP/1.1
+Acg: gyw~yw
+Content-Type: %s50
+
+C

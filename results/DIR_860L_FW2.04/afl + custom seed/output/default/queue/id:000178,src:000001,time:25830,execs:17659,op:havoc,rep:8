@@ -1,0 +1,14 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 315
+Ac: text/xml
+HNAP_<h^DAUTH: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION: "http://pureinit_log_bufferAP1/GStorageDevice"
+User-Agent: Mozilla/5.0ÿ(X11; /537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537Type: text/xml
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=Ob6hjFuo4e
+

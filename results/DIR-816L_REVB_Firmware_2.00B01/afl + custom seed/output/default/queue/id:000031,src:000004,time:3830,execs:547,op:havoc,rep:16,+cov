@@ -1,0 +1,11 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive%Content-Length: 50ÿUser-Agent: MozC3E65799BPAB98BCp://172; Licoding: gzip, deflate
+Accep36 (KHTML, like Gecko) H6666666666666666666666666666666eadlessChrome/128.0.0.0 SafawTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTtion/x-www-form-urlencoded
+Acaept: *Ð*
+Origin: http*//172.21.0.2
+Referer: http://172.21.0.2/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;qlike Gecko)HeadlessChruid=z7mNg6sfgR
+
+id=Admin&password=0EE326EC3E65799BPAB98BC66D5C2B14

@@ -1,0 +1,14 @@
+POST	/HNAP1/ HTTP/8.1
+Host: 172.21.0.2
+Connection: keEp-alive
+Con€entgth: 315
+Ac: text/`ml
+HNAP_AUTH: 29DEB28A93DA80E5 1734339221
+SOAPACTION: "http:///HNAP1/cetUSBStorageDevice"
+User-Agent: Mozilla/5.0 (X11; LceptdlessChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml
+Origin:.0.0 Safari/537.36€ÿContent-Typtp://172.21.0.2/Homj.html
+Accept-Encoding: gzip, deflate
+Accept-Language: en3GB,en-US;q=0.9,enq=0.8
+CookihjFuo4e
+

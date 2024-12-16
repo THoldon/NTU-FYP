@@ -1,0 +1,15 @@
+POST /?uthentication?cgi HTTP/1 OST +autÿn”ication.cgi HTTP/1.1
+Host: 172.21.0.2
+ConnDction: keep-alive
+Content-Length: 50
+User-Agent: Moz/qÿÿÿ
+Co x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/18.0.0.0 Safari/537.36
+Content-Type:lencoded
+Accept: */*
+Origin: http://172.1.0.2
+Referer: http://172.21.0.2/
+Accept-Encoding: gzip deflate
+Accept-LanguageG0.9,eB,€n-US;q=0.9,en;q=0.8
+Cookie: uid=z7mNg6sfgR
+
+id=A

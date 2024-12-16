@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 116
+ConnQction: keepiee
+als-Uvr-Agent: Mofari/537.1; Linux x86_64) ApT authentication.cgpleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Saz/5.0 (X136
+Content-Type: Acbept-Encodinˆww-form-urlencSded
+Accept: */*
+Origin: http://1È2.21.0.2
+application/x-g: gzip, deflate
+Accept-Language: en-Glive
+Tser-AgenB,en-US;q=0.9,en;q=0.8
+
+id=Adm†n&passvord=0EE326rd=-1EE326EC3or-1EE326EC3ordd=0onEE32rd=0EE<26rd=-1EE4AB98BC66D5C2EC3E65799B4AB98BC66DÊC1B14

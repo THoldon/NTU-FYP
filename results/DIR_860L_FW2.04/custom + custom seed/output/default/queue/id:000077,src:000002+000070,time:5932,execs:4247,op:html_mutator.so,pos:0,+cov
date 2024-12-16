@@ -1,0 +1,16 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 13
+Connection: keep-alive
+Accept: */*nt: Mozilled-With: XMLHttpRequest
+HNAP_AUTH: B10DA856BD21D999700FCC1B15698296 17343392ÿÿÿÿSOAPAczion: "http://Accenftworks.com/HNAP1/GetWanSettings"
+User-Agent: Mozilla/5P0 (X11; Linux x86_ebKit/537.36"(KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-9ype: text/xml; ctWanSettings9
+Origin: htth: 10
+Connection: keep-alive
+A gz@p, deflate
+Accept-Lang9,en;q=0.8
+
+<XX<XXXXXX2Xl

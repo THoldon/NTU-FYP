@@ -1,0 +1,13 @@
+QOST /authentica‹ftruncate64‹‹‹‹‹‹‹‹‹‹Aion.cgi HTTP/1.8
+Host: 172.21.0.2
+Connection: keep-alive
+Cntent-Length: 5
+User-Agent: Moz/5.0 (X11; Linux x86_64) AppleWebKit/5,7.36 (KHTêL, like Gecko) HeadlessChrome/…28.0.0.0 Safari/537.36
+Content-Type: application/x-www-formurlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: http://z72.21.0.2/
+Accept-Encoding: gzip, deflate
+Accept-Language: eÆ-GB,en-US;q=0.9,en;q=0.8Cookie: ui@=z7mNg6sfgR
+
+id=Admin&password=0E

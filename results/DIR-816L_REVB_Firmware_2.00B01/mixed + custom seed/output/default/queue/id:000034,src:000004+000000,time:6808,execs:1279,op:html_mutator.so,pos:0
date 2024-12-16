@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 129
+ConnePtion: keep-alive
+User-Agent: Moz/5.0 (X11; Linux x86_64) AppleWebKit/53.36 (kHTML, like Gcko) HeadlessChrome/128.0.0.UUUUUUUUUUUUUUUUUUUËËËËËËËËËËËUUUUUUContent-Type: apUlication/x-ed
+Accept: */*×°rigin: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+88574t-Langua‡e: en-GB,en-US;q=0.9,en;q=!.8
+
+iiiiost: 172.21.0.2
+Conneciiiiiiiiiiiiiiiiiiiiiiiiid=ødmiontenome/1gth: 254
+User2Agnn8p0EEwoooooooooC3E65799B4AB-99BC66D5C2B14

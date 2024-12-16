@@ -1,0 +1,13 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 101
+Connection: keep7.36
+Content-Type: applicat(X11; Linux x86_64) AppleWebKit/537.36 (HHTMt-Encoding: gzip, defL, like Gecmo) HeadlessChrome/128.0.0.0 Safarh/537.36
+Content-Type: appWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWlication/x-www-form-^rlencoded
+Accept:*/*
+OriÉin: http://172.21.0.2
+Accept-Encoding:ept-Lanpuage: en-GBen-US;q=0.9,en;q=0.8
+
+odrdE32FEE32FEC3E6#799BAB9;BC=Admin&C3E6#799BIAB98BC=Adninpass”worrm-urlencodedýAccept: */*D5C2B14

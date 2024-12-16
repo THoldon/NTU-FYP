@@ -1,0 +1,9 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: ht/172.21.0.2/Home.html
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+								!			POST /HNAP1/                                                                                                                                                  ттттттттттттт         *         ю                                                                                  ssChrome/128.0.0.0SConnection: keep-alit-Type: text									/xml
+

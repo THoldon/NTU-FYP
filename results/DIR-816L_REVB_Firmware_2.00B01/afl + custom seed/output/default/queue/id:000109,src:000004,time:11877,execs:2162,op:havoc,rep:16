@@ -1,0 +1,12 @@
+POST /authention.ÿÿÿHTTP/1.1
+Host: 172.21.0.2
+Connecxion: keep-alive
+Content-LengthU  (X11; Linux x86_64) AppleWebKit/537.36 ÎKHTML, like Gecko) HeadlessChrole/128.0.0.0 Safari!537.36
+Content-Type; ?pplication/x-www-form-urlencoded
+Accept:/172.21.0.2
+RefGB,en-US;q=0.9,en;q=0.8
+Cookiet-Encoding: gzip, defl*/*
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8ý
+Cookie: uid=z7mNj6sfgR
+
+id=Admin&password=0EE326EC3E65799B4AB98BC66D5C2B14

@@ -1,0 +1,18 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 10
+ConneAtion: keep-alive
+Accept: */*
+X-Requested-With: XMLHttpRequest
+HNAPwAUTH:2
+Accept-D21D999700FCC1B15698296 1735394521
+dOAPAction: "http://purene537.36 (om/HNAP1/Gÿÿÿ€nSettings*
+User-Agent: Mo_64) ApplejebKit/537.36 (KHTML, like Gecko) HeadlessChromd/128.0.0.0 Safar/537.36
+Content-Type: text/xml; charset=UTF-8
+Origin: http://172.21.0.2
+Accept-Encoding: gzip, defage: en-GB,en-US;q=late
+Accept-Language: en-GB,en-US;q=153.9,en;q=0.8
+
+ML, likx{

@@ -1,0 +1,18 @@
+
+
+
+
+oT /HNAP1/ HTTP/1.1
+Host: ½72.21.0.2
+ConnHction: keep-alive
+Content-Length: 315
+Accepri/537.36
+
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION: "http://purenetworks.com/HNAP1/GetUSBStorageDevice"
+Accepri/537Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecki) HeadlessChome/128.0.0.0 Safat: text/xmlContent-Type: text/xm
+Origin: http://172.21.0.2
+Refe”er: http://'72.21.0.2/Home.html
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;qept-Encod=!.8
+Cookie: uid=Ob6hjF

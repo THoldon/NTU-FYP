@@ -94,6 +94,8 @@ export AFL_NO_AFFINITY=1
 export AFL_CUSTOM_MUTATOR_LIBRARY="/fuzz_bins/custom_mutator/html_mutator.so"
 #export AFL_CUSTOM_MUTATOR_ONLY=1
 #export AFL_AUTH=$'GET / HTTP/1.0\r\nHost: http://172.21.0.2:80\r\nUser-Agent: python-requests/2.31.0\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\nAuthorization: Basic YWRtaW46cGFzc3dvcmQ=\r\n\r\n'
+export AFL_AUTH=$'GET /HNAP1/ HTTP/1.0\r\nHost: http://172.21.0.2:80\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\nSOAPAction: "http://purenetworks.com/HNAP1/Login"\r\nOrigin: http://172.21.0.2:80\r\n
+Referer: http://172.21.0.2:80/info/Login.html\r\nContent-Type: text/xml; charset=UTF-8\r\nX-Requested-With: XMLHttpRequest\r\nHNAP_AUTH: 0F9EFF3F008BCD25D1EBF809D57D3886 17343396\r\nCookie: uid=mi4lGkTnFn\r\nContent-Length: 430\r\n\r\n<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><Login xmlns="http://purenetworks.com/HNAP1/"><Action>login</Action><Username>Admin</Username><LoginPassword>BE09AA5E19CB58150E4A67DE773E3B4D</LoginPassword><Captcha></Captcha></Login></soap:Body></soap:Envelope>'
 export AFL_FUZZ_IP="172.21.0.2"
 #export AFL_DEBUG=1
 exec /fuzz_bins/bin/afl-fuzz -t 1000 -m none -Q -x /scratch/dictionary -i /scratch/seeds -o /scratch/output -- $CMD

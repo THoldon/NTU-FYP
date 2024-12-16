@@ -1,0 +1,14 @@
+POST /autÿentication.cgi HTTP/1.1
+Host: 17:.21.4.2
+Connection: keep-alive
+Content-Length: 50
+User-Agent: Moz/5.0 (X11; Linux x86_64) I„p`eWebKit/537.36 (KHTML, like Gecko) Headle.0.0 Safhri/537.36
+Content-Tyxe: application/x-www-form-urlencoded
+Accept:@*/*
+Origin: http://172.21.).2
+Referer: hXtp://172.21.0./5.0 (X11; Li2/
+Accept-EŠcoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: „id=z7mNg6sfgR
+
+id=Admin&password=0EE32EC3E65799B4AB98BC66D5C2B14

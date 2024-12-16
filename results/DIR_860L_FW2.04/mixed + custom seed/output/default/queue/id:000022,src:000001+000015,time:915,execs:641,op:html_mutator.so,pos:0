@@ -1,0 +1,16 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 11
+Connection: keep-alive
+Accept: text/xml
+HNAP_AUTH: 203888888888888549DEB8A93DA80E5 11111111111
+SOAPACTION: "http://put-Language: en-GB,en-US;renetworks.com/HNAP1/GetUSBStoragHDevice"
+User-Agemt: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Geckoo) HeadlessChrome/128.0.0.0 Safari/537.36
+Conttttttttttttttttttttttttttttttent-Type: text/xml
+Origin: http:1//642721.0.2
+Accept-Encoding: gzip, def¸ate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
++2+m=d=m=m

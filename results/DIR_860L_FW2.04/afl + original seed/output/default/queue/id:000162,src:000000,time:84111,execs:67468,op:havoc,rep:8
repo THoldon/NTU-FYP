@@ -1,0 +1,8 @@
+GET /session_login.php HTTP/1.1
+Accept-Enc
+Accept-Encoding: Uzichzywzywzgwzywzywzy7zywzywzyw
+Host: 19
+Cookie: uid=zywzywÒ	Content-Length: 13
+ç
+test=test
+

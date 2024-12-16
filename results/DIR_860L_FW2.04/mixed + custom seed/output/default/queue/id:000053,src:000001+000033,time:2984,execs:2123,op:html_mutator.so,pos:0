@@ -1,0 +1,16 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 1
+Ctext/xml
+HNAP_AUTH: 407654C4BF18CB549DEB28A93DA80E5 1734339221
+SOAPNCTION? "hetworks.com/HNA
+Content-Type:com/HNA
+Content text/xmltp://purenetworks.\om/HNAP1/GetUAgent: Mozilla/5.0 (X11; Linux x86_65) AppleWebKit/537.36 (KHTML, like Gecko) .0.dlessChrome/128.0.0.00 Safari/537.36
+Content-Type: text/xml
+Origin: qttp*//172.21.0.1
+Accept-Encoding: gzip, deflate
+Accept-Language: enS;q=0.9,en;q=0.8
+
+A

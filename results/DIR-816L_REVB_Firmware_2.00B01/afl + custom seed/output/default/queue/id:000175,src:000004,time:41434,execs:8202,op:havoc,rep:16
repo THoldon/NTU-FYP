@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep'alive
+Content-Length: 50
+User-Agent: Moz/5.0 (X11; Linux x86_64) App[eWebKit/537.36 (KHTB1, li{e Gecko) HeadlessChrome/128.0.0.0&Safauli
+Connection: keep'alive
+Contenon/x-www-form-urlencoded
+Accept:!D/*
+/172.2126EC3E65799Br: http://172.21.0.2/
+ABcept-Enz7mNg6sfgR
+
+iept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uiP=coding: gzi
+Accd=Admin&password=0EE3.0.2
+Refere4AB98BC66D5C2ML4

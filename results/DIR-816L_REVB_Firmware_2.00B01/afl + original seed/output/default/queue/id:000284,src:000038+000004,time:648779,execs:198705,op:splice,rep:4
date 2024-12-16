@@ -1,0 +1,12 @@
+GET 7session_login.php HTTP/1.1
+Acc: gzip,deflate,sdchzywzywzywzywzywzywzywzywz168.0.50
+Cookie: uid=zywzyw
+ContentPOST /HNAP1/ HTTP/1.1
+Host: 10.0.0.90
+SOAPACTION:http://purenetworks.com/HNAP1/GetDeviceSettings/zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzy@(!$Sywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw€ywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw
+Proxy-Connection: keep-alive
+Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,aaplication/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) A
+

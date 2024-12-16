@@ -1,0 +1,6 @@
+POST /HNAP1/ HTTP/1.1
+Referer: htl
+Content-Length: 0
+  ITdP/1.1
+Host: 1
+

@@ -1,0 +1,12 @@
+POST “authe[tication.cgi HTTP/1.1-
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 50
+Usew-Agent: Moz/5.0 (X11; Linuxes, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: aplipation/x-www-form-urlencoded
+Acceptguage: en-GBen: */*
+Origin: http:/eferer: http://172.21.0.2/
+Accept-Encoding: gzip,nguage: en-GB,en-US;q?0.9,en;q40.8
+Cookie: uid=z7mNg6sfgR
+
+i

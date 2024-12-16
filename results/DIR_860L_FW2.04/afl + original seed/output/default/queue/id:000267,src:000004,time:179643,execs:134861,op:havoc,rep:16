@@ -1,0 +1,15 @@
+POST /HNAP1/ HTTP/1.1
+Host: 
+S APACTION:http://purenetworks.com/HNAP1/GetDeviceSettings/zywzywzywzywzvwzywzywzywzywzywzywzywzywPathArgswzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzy: text/hywzywzywzywzywzyw9D$Hywzywzywzywzywzywzywzywzywzyw_ywzywzywzywzywzywzywzywzywzywzywzywzy÷zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywƒywzywzywzywzywzywzywzywzywzywzywzy
+Host: 
+S APACTION:http:/zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw
+Proxynnection: keep-alive
+Authorization: Basic SWxhZGRpbjpvcGVuIHNlc2FtZQ==
+Cache-Control: max-age=0
+Acceptwzywzywztml,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) ApNT 6.3; WOW64) AppleWefKitike Gecko) Chrome/36.0.1985.143 Safari/537.36
+Accept-Encoding: gzip;
+Content-Length: 13
+
+test=test
+

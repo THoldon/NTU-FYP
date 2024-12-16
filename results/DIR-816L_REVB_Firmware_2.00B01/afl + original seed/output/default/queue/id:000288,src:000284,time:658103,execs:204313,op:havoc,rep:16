@@ -1,0 +1,12 @@
+GET 7session_login.php HTTP/1.1
+Acc: gzip,deflate,sdchzywzywzywzywzywzywzywzywz168.0.50
+Hookie: uid=zywzyw
+ContentPOST /HNAP1/ HTTP/1.1
+Hos~: 10.0.0.90
+SOAPACTION:http://purenetworks.comwzywz168.0.50
+Hookie: ui/HNAP1/GetDPviceSettings/zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzy@(!$Sywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw€ywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzzywzywzywzyzywzyÿÿywzywzymemsetwoywzywzywzywzywzywzywzywzywzywxywzywzywzywzywzywzywywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw
+Prody-Connection: keep-alive
+Authorization: Basic QWxhZGRpbjpvcGVuIRNlc2FtZQ==
+Cache-Control: max-ade=0
+Accept: text/html,application/xhtml+xml,aaplication/xml;q=0.9,image/webp,*/*;q=M.(Windows NT 6.3; WOW64) A
+

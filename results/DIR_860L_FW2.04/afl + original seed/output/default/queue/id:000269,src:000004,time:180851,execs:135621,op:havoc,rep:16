@@ -1,0 +1,15 @@
+POST /HNAP1/ HTTP/1.1
+Host: 10.0.0.90
+SOAPACTION:http://purenetworks.com/HNAP1/GetDeviceSettings/zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw999999999999999999zywzywzywzywzywzywzywzywzy__errno_locationzywzywzywzywzywzywzywzywzywzywzywzzwzst=test
+wzywzywzywzywzywzyw’ywzywzywzywzywz
+wzywzywzywzywzywzywzywzywzywzywzywzywzywzy„zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywywzywzywzywzywzywzywzywzywzyw
+Proxy-Connection: keep-alive
+Aethorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
+Cache-Control: max-ae=0
+Accept: text/html,aPplication/xhtml+xml,application/xml;q=0.9,image/webp,*/*;n=0.8
+Useq-Agent: Mozilla/5.0 (Windows NT 6.3; WOW63 Safari/537.36
+Accept-Enc4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz.1985.143 Safari/537.36
+Accept-Encoding: gzip;
+Content-Length: 13
+test=test
+

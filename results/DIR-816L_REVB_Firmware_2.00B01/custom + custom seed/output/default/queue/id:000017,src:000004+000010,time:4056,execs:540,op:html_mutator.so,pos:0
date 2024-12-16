@@ -1,0 +1,13 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 104
+ConnecŠion: keep-alive
+User-Agent: Moz/158.0 (X11; Linux x86_66
+Content-Type: a.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Szfzzzzzzzzzzzzzzzzzzzzzzzzzzzzplication/x-www-form-urlencoded
+Accept: */*+Origin: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+Aœcept-Language: en, like US;q=0.9,en;q=0.8
+
+id=Ad>>>>>>>min&pa±±±P±±±±>>>>>1>>>>>>>>>>>>Á>>>>>>>min>>>>>>>Á>>>>>>>min&password=1&password=1sword=144

@@ -1,0 +1,8 @@
+GET /p HTTP/1.1
+Accept-Encoding: gzip,deflate,sdchzywzywzywzywzywzywzydzywzyw
+Host: 192.168.0.50
+Cookie: uid=zywzyw
+Content-Length: 13
+
+test=test
+

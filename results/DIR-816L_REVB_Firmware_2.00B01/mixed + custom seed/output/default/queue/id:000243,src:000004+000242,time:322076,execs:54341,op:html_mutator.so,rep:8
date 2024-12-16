@@ -1,0 +1,12 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 0
+Connection: keem-alive
+UUUUUUUUUUUUUUUUUUUUUUUUUUser-Agent: Moz/5.00000000000 000000000000pleWebKit/537.36 (KHTML, like Gecko) HeadllessChrome/128.0.0.0 Safari/537.36
+ContenTe-:ypt POST /authentication.cgi HTTP/11
+Connection:60Ê8805966
+Conuent-Type: applicat(X11; Linˆx x86_64) AppleWebKit/537.36 (HHTMt-Encoding: gzip, defL,ßlike Gecmo) HeadlessChrome/256.0.0.0 SEncoding: gzip, defL, like Gecmoafarh/64082*
+

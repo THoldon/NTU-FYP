@@ -1,0 +1,8 @@
+GET /session_: gzip,deflate,sdchlogin.php HTTP/1.1
+Accept-Encoding: gzip,deflate,sdchzywzywzywzywzywzywzywzywzyw
+Host: 196.168.0.50
+Cookie: uid=zy€zyw
+Content-Length: 13
+
+test=test
+-Length: 

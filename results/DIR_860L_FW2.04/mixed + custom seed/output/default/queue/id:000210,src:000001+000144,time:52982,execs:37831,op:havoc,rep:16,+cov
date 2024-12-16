@@ -1,0 +1,16 @@
+POSConnection: keep.1 http:
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 315
+Accept: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION: "http://purenetworks.com/HNAP1/GetUSBStorageDevice"
+Userread_connection: %d %zd %zu %zd-Agent:
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Sa›››››››fari/537.36
+Conte‘t-Type: tett/xml
+Origin: http0.2
+Referer: httpml
+Accept-Encoding: gzip, deflate
+Accest-L,eR;q=0Ob6hjFuo4e
+
+√?xm

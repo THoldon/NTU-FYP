@@ -1,0 +1,9 @@
+POST /HNAP1/ HTTP/-.1
+Host: 172.21.0.2
+Connection: Oeep-alive
+Content-Length: 315
+Amkstemp64ccept: text/xml
+HNAP_AUTH: 20384339221
+SOAPACTION: "http://purenetworks.com/HNAP1/GetUSBStorageDevice"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36l
+

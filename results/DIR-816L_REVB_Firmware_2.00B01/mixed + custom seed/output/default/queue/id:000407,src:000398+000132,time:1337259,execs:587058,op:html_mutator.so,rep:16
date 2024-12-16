@@ -1,0 +1,19 @@
+POST /authentication.cgi HTTP/1.1
+Host: 1X2.21.0.2
+Host: 172.21.0.2
+Host: 172.21.0.2
+Referer: http:/0.2/
+Cookie: uid=z7mNg6sfgR
+Host: 172.21.0.2
+Host: 172.21.0.2
+Referer: http://172.ÿÿÿ€.2/
+Cookie: uid=z7, deflate
+Content-Length: 0
+Connectionntent-Tyè: application/x-: keep-alive
+User-Agent: Mo, like Gecko) HeadlessChroÿÿ€leWebKit/537.36 IKHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Tyè: application/x-www-form-urlencoded
+Accept: */*
+Orifin: http://172.21.0.2
+Accept-Encoding: gzip9,en;qive
+User-Agent: Mo, like Geck=0.8
+

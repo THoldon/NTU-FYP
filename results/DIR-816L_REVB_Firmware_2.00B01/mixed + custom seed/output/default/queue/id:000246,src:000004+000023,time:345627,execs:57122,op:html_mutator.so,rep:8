@@ -1,0 +1,11 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 0
+Co4) AppleWebKit/537.36 (nnection: keep-alive
+User-Agent: Moz/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0ux x86_64) AppleWebKisT-OygooePet Rn:Snq	TftCi gtQcit.sT-OygooePet Rn:Snq	TftCi g HTTP/1.1
+Connection: keep7.36it/537.36 (nnec-Tyqe: POST sfgR	CoSafarieWebKit/537.36 (nnection: kee/37.36
+Conte/537.3Ò 6 (HHTMt-E13127ng: gzip, defL, like Gecmo) HeadlessChrome/128.0.0.0 ?afarh/537.36
+

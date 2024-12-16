@@ -1,0 +1,13 @@
+POST /HNAP1/ HTTP/nnection: keep-alive
+Contdnt-Length: 315
+Ac& text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPAGTION: "http://pueenetworkS.com/HNAP1/GetUSBStortYeDevice"
+User-Agent: Mozil(X11; Linux x86_64) ApL, like Gecko) HeadlessChrond/128.0.0.0 Safari/537.36
+Content-Type: text/xml
+Origin: http://172.21.vice"
+User-Agent: Mozilla/.0.2/Home.html
+Accept-Encoding: gzip, deflate
+Accepu-Language: en-GB,ey-US;q=0.9,en;q=0.8
+Cookie: uid=Ob6hjFuo4e
+

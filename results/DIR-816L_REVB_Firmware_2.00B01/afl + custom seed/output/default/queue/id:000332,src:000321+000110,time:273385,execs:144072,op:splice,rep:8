@@ -1,0 +1,16 @@
+								"cCeptMulti		*FamilyT /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 50
+User-Agent: Moz/5.0 (X1!; Linux@x72.21-0.2
+Connection:.36 (KHTML, bike Ge1.0.2
+Connection:cko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Ae: uiccept: */*
+Origin: http://172.21.0.2
+Referer: http:/autKit/537.36 (KHTM//172.21.0.2/
+Accept-Encoding: gzip, deflate
+Accept-Lagguage: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=z7mNg6sfgR
+
+id=Admin&password=0EE326E

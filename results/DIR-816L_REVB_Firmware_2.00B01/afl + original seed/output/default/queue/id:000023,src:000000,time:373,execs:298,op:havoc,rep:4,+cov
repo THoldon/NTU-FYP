@@ -1,0 +1,8 @@
+GE92.168.0.50T /session_login.php HTTP/1.1
+Accept-Enœoding: gzip,wzywzye,sdchzywzywzywzywzywzywzywzywzyw
+Host: 192.168.0.50
+Cookie: uid=zywzyw
+Content-Length: 13
+
+test=test
+

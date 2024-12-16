@@ -1,0 +1,16 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 103
+Connection: kee -alive
+User-Agent: Moz/5.0 (X11; Linux x86_64) AppleWebKit/53://172.21.0H2
+Accept-Encoding:ssChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencodedýAccept: */*
+Origin: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+id=Admin&passwordN0Epass@oC341174227AE326EC3E65799B4AB9OST /8BC66R
+
+SERVICES=DEB9NET.WAN-3%2CID5C2B14

@@ -1,0 +1,15 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Content-Length: 0
+Connection: keep-alive
+Accept: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION: "http://purenetworks.com/HNAP1/GetUSBStorageDTnsni6eeepP..nH3ia/7e9,,/.N=ndSi.5g/t-S2l1 iaaHi:Kep.pAA qL2Tpfcue0rlTe)0tntgU4(mm78 sMax z:ernGle7/b,l  e:xg"1 C/pta ec8 O lgnonnr-E1lc/at
+to0=3o8Ae0e)qKAinT(.cM;t:TvLkPz6Px3a c-
+kie2;g W rGedSd0t21:sXi Lhel.
+oc/t1/pi1f0y.3/heH5.116e
+oc/t1/pi1f0y.3:ge0tC i-
+H.
+o;@6UceA_uex -OB5/et,p -.n.
+

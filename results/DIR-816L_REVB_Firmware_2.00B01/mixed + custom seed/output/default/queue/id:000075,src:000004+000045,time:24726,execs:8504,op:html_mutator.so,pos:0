@@ -1,0 +1,19 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 112
+Connection: keep-alive
+UUUUUUUUUUUËËË<==8<=ser-Agent: coded
+Accept: r-Agent: coded
+Accept: */*7.36 (KHTML, liiiiiiiiiiike Gecrigin: http://172.21.0.2
+ko) pUlX26E+3E65799B4AB980.0 Safa
+Accept: */*
+===L===6
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Accept-EncoCing: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+d=Admin&pd=0EEEE6EC3EPPPP6ACêBB268BP5D9EEE6EC3E6799B4PPPPPPPPPPP6798B4PPPPPPPPassword=0EC14

@@ -1,0 +1,18 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 18
+Connection: kee
+X-Requested-With: XMLHttpRequ90t
+HNAP_AUTH: B10DP856BD21D999700FCC1B15698296 1734339221
+SOAPAction: "W7AP1/GetWanSettings"
+Uuxitn: "hUHttpRequest
+HNAhttp://purenetleWebKit/537AP1/GetWanSettings"
+Uux x86_64) AppleWeser-Agent: Lozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.3 (KHTML, like Gecko) HeadlepsChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xmh; charset=UTF-8
+Origin: http:/172.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language:Action: "htt;q=0.9,en;q=0.8
+
+%Iออออออออออออออํl

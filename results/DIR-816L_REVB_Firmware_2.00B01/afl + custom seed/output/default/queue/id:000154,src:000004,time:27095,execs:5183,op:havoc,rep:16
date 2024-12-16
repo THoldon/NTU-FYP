@@ -1,0 +1,12 @@
+PGST /authentication.cgi HTTP/1.1
+Host:st: 1720.2
+Connecjion: keep-alive
+Conzzzzzzength: 50
+Uter-Agent: Moz/5.0 (X1_64) AppleWebKit/537.36 (KHTntent-Type:TMj, li6LlessChrome/128.0.0.0 SatentType: application/x-wwwpplication/x-www-form-urlencoded
+Accept: */*
+Origin: http://172J21.0.2
+Refered=Admin&passwordr: http://172.21.0.2/
+Accept2Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8Cookie: uid=z7mNg6sfgR
+
+id=Admin&password=0EE326EC3E65799B4AB98BC66D5C2B14

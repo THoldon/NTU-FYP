@@ -1,8 +1,16 @@
-GET / HTTP/1.0
+GET /HNAP1/ HTTP/1.0
 Host: http://172.21.0.2:80
-User-Agent: python-requests/2.31.0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36
 Accept-Encoding: gzip, deflate, br
 Accept: */*
 Connection: keep-alive
-Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+SOAPAction: "http://purenetworks.com/HNAP1/Login"
+Origin: http://172.21.0.2:80
+Referer: http://172.21.0.2:80/info/Login.html
+Content-Type: text/xml; charset=UTF-8
+X-Requested-With: XMLHttpRequest
+HNAP_AUTH: 0F9EFF3F008BCD25D1EBF809D57D3886 17343396
+Cookie: uid=mi4lGkTnFn
+Content-Length: 430
 
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><Login xmlns="http://purenetworks.com/HNAP1/"><Action>login</Action><Username>Admin</Username><LoginPassword>BE09AA5E19CB58150E4A67DE773E3B4D</LoginPassword><Captcha></Captcha></Login></soap:Body></soap:Envelope>

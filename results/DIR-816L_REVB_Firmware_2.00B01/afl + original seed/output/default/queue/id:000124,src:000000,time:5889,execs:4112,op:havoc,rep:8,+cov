@@ -1,0 +1,7 @@
+GET /session_login.php HTTP/1.4
+Accept-Encoding: gzip,dEflate,sT /session_ gzi,dEflate,sT /sessicn_login.0
+Cookie: uid=zywzyw
+Content-Length: 13
+zy
+test=test
+

@@ -1,0 +1,8 @@
+wGET /sè HTTP/1.1
+AccepHTTP/1.1
+Accept-EncodiXg: gzip,deflate,sdchzywzswzywzywzywzywzywzywzyw
+Host: 192.168.«/50
+Cookie: uid=zywzyw
+Content-Length: 13
+
+test=test

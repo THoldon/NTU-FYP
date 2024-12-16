@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 117
+Connection: keep-alive
+User-Afent: Moz/5.0 (X11; 537.36 (KHTML, like Gecko) HeadlessChrome128.0.0.0                    Û          Safari/537.36
+Content-Type: applo) HeadlessChrome128.0ncoded
+Accepection: keep-alive
+Cont: */*
+Origgin: http:/ÿ72.21.0.2
+Accept-Enco 1372CREBOOA˜ent: Mozilla/5.0 (Xding: gzip, deflate
+Accept@Language: en-GB,en-US;q=0.9,en;q=0.8
+
+id=¤shordmin.passhordA799D9B4AB98BC6d5799B4AB98BC66D9BKAC98BC66ssho6s799B4AB98BC66D9BKAB98BC66sshoshord5799B4AD5C2B14

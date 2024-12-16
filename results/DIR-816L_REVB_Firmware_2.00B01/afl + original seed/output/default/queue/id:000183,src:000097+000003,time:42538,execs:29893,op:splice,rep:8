@@ -1,0 +1,8 @@
+GET /sesPOST / HTTP/1.1
+Accept-Encoding: gzip,deflate,sdch
+Host: 10.0.0.90
+SOAPACTION:zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzzywzywywzywzyyyyyyyyyyywzyzywzywzzywzywzywzywzywzyyyyyyyyyyyyyzy gzip,deflate,sdch
+Host: 10.zœwzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzybzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzy˜zywzywzywzywzywzywzyw
+Content-Length: 13
+
+test=te

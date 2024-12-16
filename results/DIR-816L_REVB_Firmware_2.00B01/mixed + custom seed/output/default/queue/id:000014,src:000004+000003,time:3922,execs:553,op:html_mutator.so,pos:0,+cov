@@ -1,0 +1,16 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 108
+Connection: keep-alive
+User-Agent: Moz/5. (X11; Linux x86_64) AppleWebKit/537.36 (KHTMdlessChrome/1tÿ//172.Safari/537.36
+Coe: en-GB,en-US;qication/x-www-form-urlencoded
+Accept: */*
+Origin: ht28.0.0.0 21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-U¬;q=0.9,en¼q=0.8
+
+id=Admin&pass@oC341174227A: uid=z7mNg66666666666666666666sfgR
+
+SERVICES=DEB9NET.WAN-3%2CINET.W8BC66D5C2B14

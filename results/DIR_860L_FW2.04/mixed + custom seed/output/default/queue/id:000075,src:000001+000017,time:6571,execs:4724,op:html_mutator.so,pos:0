@@ -1,0 +1,16 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 10
+Connection: keep-alize
+AAAAAA: text/xml
+HNAP_AUTH: 203827C45BEB28A93DA80E5 1734339221
+SOAPACTION: "http://purenetworks																		torageDevice"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.36 (KHTML, like Gecko) HeadlessChromM/128.0.0.250 Safari/537.36
+Content-Type: text/xml
+Origin: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: eko) Hen-US;q=0.9,en;q=0.8
+
+€Ãæ

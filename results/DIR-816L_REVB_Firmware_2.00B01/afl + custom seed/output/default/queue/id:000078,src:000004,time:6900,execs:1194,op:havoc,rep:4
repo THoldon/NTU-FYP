@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21=z7mNg6sfgR
+
+id=Adminalive
+Content-Length: 50
+User-Agent: Moz/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: htÿÿÿ/172.21.0.2/
+Accept-*ncoding: gzip, deflate
+Accept-Language: en-GB,en-ŽS;q=0.9,en;q=0.8
+Cookie: uid.0.2
+Connection: keep-&password=0EE326EC3E65799B4AB98BC66D5C2B14

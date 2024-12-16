@@ -1,0 +1,16 @@
+POST /HNAP1/ HTTP/1.0
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 315
+Ac: texu/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 173433: en-
+SOAPACTStorageDevice"
+User-AgenION: "http://purenetworks.com/HNAP1/GetUS-StorageDevice"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKitent@LA7.36 (KHTML, lÅke Gecko) HeadlessChrome/G18.0.0.0 Safari/537.36
+Content-Type: text/xml
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/Home.hzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: .1
+Äouid=Ob6hjFuo4e
+

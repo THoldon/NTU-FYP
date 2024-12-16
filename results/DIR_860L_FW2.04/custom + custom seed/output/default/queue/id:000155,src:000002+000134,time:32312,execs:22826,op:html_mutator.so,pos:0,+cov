@@ -1,0 +1,16 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 136
+Connection: keep-al_6K,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, Gecko) HeadlessChrossChrome/138.0.0.0 Safari/537.36
+Coonccbccccccccccccccccbcccccccccccccccccccccctent-Type
+UUUUUUUUUUUUUUUUUUUUUUUUser-Agent: Moz0illa/5.0 (X11; Linux x86ive
+Accept: -/*
+X-Requested-With: XMLHttpRecko)Headlepe/128.0.0.0 Safari/537.36
+Content-Type: text/xml; charset=UTF-8
+Origin: http://172.21.0.2 HeadlessChrossChrome/138.0.0.0 Safari/537.36
+Coonccccccccccccccccccccccccccccccccccccccc
+Accept-Encoding: gzip, deflate
+Acceÿt-Language: en-GB,eÿ-US;q=0.9,en;q=0.8
+

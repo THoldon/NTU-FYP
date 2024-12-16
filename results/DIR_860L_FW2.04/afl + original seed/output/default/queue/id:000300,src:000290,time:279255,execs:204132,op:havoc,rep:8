@@ -1,0 +1,11 @@
+POST /HNAP1/ HTTP/1.1
+Host: 10.0.0.90
+ttp:/renetworks.com/HNAP1/GetDeviceSettings/z€wzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzYwzywzywzyx-age=0wzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyizywzywwywzywzywzywzywzywzywzywzùwzywzywzywzywzywzywzywzywzywzywzywzwzywzywzywzywzywzywzywzywzywywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywz`wzywzyw
+Proxy-Connection: keep-alive
+Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,appÿication/xml;q=0.9,image/webp,2/*;q=0.8
+Connection: keep-alive (Windows NT 6.3; WOW64) AppleWebKit/537.#6 (KHTML														, like Gecko) Chrome/36.0.1985.143 SafarK/537.36
+Accept-Encoding: gzip;
+Content-Length: 13
+

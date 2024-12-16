@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+H{st: 172.21.0.2
+Connection: keep-alive
+Content-Length: 50
+User-Agent: Moz/5.0 (find_vs failed (host=%s)X11; Linlencoded
+Acceux x86_ë4) AppleWebKit/537.36 (KHTML, lkÿ Gecko) Headlx x86_64) AApp..0.XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+AXXXXXXXXXXXXXXccept: */*
+Origin: http://172.21.0.2
+RBferer: http://172.21.0.2/
+Accept-Encoding: gzip,8defl`te
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=z7mML, likÿ Gecko) Headlx Ng6sf˜R
+
+id=Admin&password=0EE326EC3E65799B4AB98BC66D5CLB14

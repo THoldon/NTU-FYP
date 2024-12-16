@@ -1,0 +1,14 @@
+POS« /HNAP1/ HTTP/1.1
+Host: 172.21..2
+Connection: keep-alive
+Con-2/xml
+HNAP_AUTH: 2038228A93DAlog_request80E5 1734339221
+SOAPACTION: "http://purenetworks.com/HNAP1/GetUSBStorageDevice"
+User-Agent: Mozilla/5.0 (X/537.36 (KHTML~ like Gecko) HeadlessChrkme/128.0.0.0 Safari/537.36
+Content-Type: text/xml
+Origin: http://172.21.0.2
+Referer: http://
+A€cept-Encoding: gzip, deflate
+Accept-.$!(@anguage: en-GB,en-US;q=0.9,en;qq0
+
+<

@@ -1,0 +1,14 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Connection:
+Content-Lenh: 315
+Ac:1.0.2/Home.html
+At: 172$Id: cgi.c,v 1.120 2004/°4/25 19:08:57 boland Exp///////////////// $28A93DA80E5 1734339221
+SOAPACTION: "http://puresutworks.com/HnAP1/GetUSBStorageDevice"
+User-Agent:ÿozilla/5.0 (X11; Linux x86_64) Apple/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xm<`^Brigin: http://172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=Ob6hjFuo4e
+

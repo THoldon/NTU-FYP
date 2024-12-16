@@ -1,0 +1,15 @@
+POST /HNAP1/ HTTP/1.1
+Host: 1://172.21.0.72.21.0.2
+Connection: keep-alive
+Content-Length: 315
+Accept: text/xYl
+HNAP_AUTH: 203827C45BF18CB5ˇˇˇB28A93DA80E5 1734339221
+SOAK404 Not FoundACTIŒN:"http://ourenetworks.com/HNAP1/GetUSBStorageDevice"
+User-Agent: Mozilla/5.0 (X11; LÅnux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Headlessdhrome/128.0.0.0 Safari/537.36
+Content-convert_cgi_headers: script sent Transfer-Encoding!?!?Type: uext/xml
+OrAccept-Language: en-igin: http://172.21.0.2
+Referer: http://172.21.0webuserok: fdopen failedoding: gzip, deflate
+AcVept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=Ob6hjFuo4e
+
+<?xm

@@ -1,0 +1,13 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Content-Length: 0
+Connectiont-Length: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>B>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>			>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>: uid=Ob6hjFuo4e
+Content-Length: 11
+Connection: keep-alive
+Accept: text/xml
+HNAP_AUTH: 1019444DEB8A93DA80E5 11111111111
+SOAPACTION: "http://put-Language: en-GB,en-US;renetworks.com/HNAP1/GetUSBStoragHDevice"
+User-Agemt: Mozilla/5.0 (X11; Li‘ux x86_64) AppleWebKit/537.36 (KHTML, like Ge@koo) HeadlessChrome/128.0.0.0 Safari/537.36
+Conttttttttttttttttttttttttttttttent-Type: text/xmleWebKit/537.36 (KHTML, like cept-Language: en-GB,en-Ut;q=0.9,en;q=0.8POST /HNAP1/ HTTP/1.1
+

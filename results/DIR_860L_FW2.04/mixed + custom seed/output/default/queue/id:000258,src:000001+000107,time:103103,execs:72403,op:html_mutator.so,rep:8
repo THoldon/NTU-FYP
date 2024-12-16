@@ -1,0 +1,15 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Content-Length: 0
+ie: uid=Ob6hjFuo4e
+Content-Lengt27669
+Connection: keep-alive
+Accept: te29201182HNAP_AUTH: 203827C45BF18CB549DEB234339221
+SOAPACTION: "eadlessChrome/128.0.0.0Safari/537.36
+Content-Type:thttp://pu8A93DA80EQ 1734339221
+SOAPACTION: "http://purenetworks.com/HNAP1/GetUSBStorageDevice"
+User-Agent: Mozilla/5.0 (68058153ux x86_64) AppleWebKit/537.36 ((((ML, like Gecko) HeadlessChrome/128.0.0.0Safari/537.36
+Content-Type:text/xml
+Origin: http:
+

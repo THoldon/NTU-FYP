@@ -1,0 +1,12 @@
+POST /HNAP1/ HTTP/1.1
+Host: 10.0.0.90
+SOAPACTION:http://purenetworks.com/HNAP1/GetDeviceSettingìììììììììììììììììììììììììììì%s: method[%s], nheaders=[%d], URL[%s]wzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzy–zywzyw‚ywzywzywzywzywzThe resource requested could not be found on this server.ywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywn/wzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyˆzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywfywzywzywzywzywzywzywzywzywzywzywzywzyw
+Proxy-Conation: Basip QWxhZGRpbjpvcGVuIHNlc2FtZQ==
+Cèhe-Control: max-age=0
+Accept: text/html,application/xhtml+Œml,application/xml;q=0.9,image/webp,*/*;q=08
+User-Agent: Mozilla/5.0 (WindowP NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.19strlen85.143 Safari/537.36
+Accept-Encoding: gzip;
+Content-Length: 13
+
+test=test
+

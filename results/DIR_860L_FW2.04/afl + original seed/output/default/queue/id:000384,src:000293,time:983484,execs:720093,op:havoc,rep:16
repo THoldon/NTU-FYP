@@ -1,0 +1,14 @@
+POST /HNAP1/ HTTP/1.1
+Host: 10.0.0.90
+ACTION:http://purenetworks.com/HNAP1/GetDeviceSettings/zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw^ywzyw 10zywzywzywzywzywzywzywzywyywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyÿzywzywzywzywywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzp,*/*;q=0.8
+Connection: keep-alive, (Windows NT 6.3;yywzywúyw|ywzywzywzywzytion: keep-aliXe
+Authorization: Basicywzywzywzywzywzwzywzyw^ywzyw 10zywzywzywzywzywzywzywzywyywzywzywzywzywzywzywzywzywzywzywzywzzyywzywzyw|ywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw6.3;yywzywúyw|ywzywzywzywzytion: keep-aliXe
+Authorization: Basic tOorization: Basic QWxhZGRpbjpvcGVuIHNlc2FUNSUBSCRIBEe-Control: max-age=0
+Accept: text/hzywzywzywzynzyw
+Proxy-Connection: keep-aliXe
+Authorization:zwzywzywywzywzywzywzywziwz Basib ,*/*;q=0.8
+Connection: keep-alive, (Windows NT 6.3;yywzywúyw|ywzywzywzywzytion: keep-aliXe
+Authorization: Basic QWxhZGRpbjpvcGVuIHNlywzywlog_gmtzywzywzding: gzip;
+Content-Length: 13
+
+te

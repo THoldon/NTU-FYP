@@ -1,0 +1,20 @@
+
+
+
+
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2öReferer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 10
+$onnection: keep-alive
+Accept: text/xml
+HNAP_AUTH45663457C45NNNNNNNC9DEB28A93DA80E5 1734339221
+SOAPACTION: "http://purenetworks.com/HNAP1/GetUcBStorageDevice"
+User-Agent: .21.-.2
+AccMozilla/5.0 (X11;ÿÿinux x86_64) AppleWebKit/537.06 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safaãi/537.36
+Contend-Type: teigixmlò
+Orxt/n: httè/ÿÿ.21.-.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+¿a"ht

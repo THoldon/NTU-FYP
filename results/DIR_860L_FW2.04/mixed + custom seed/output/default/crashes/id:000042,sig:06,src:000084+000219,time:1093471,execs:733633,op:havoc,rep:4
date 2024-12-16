@@ -1,0 +1,20 @@
+POST /HNAP1/ HTTP/1.1
+<,5D$H172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 1
+Connection: keep-alive
+Accept: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION: "ht7
+ConnectTP/1.1
+Host: 172.21.SBStorageDevice!ë
+User-Agent: Mozilla/5.0 (X71254inux x86_64) AppleWebKit/537.36 (KHTML, like GecpleWebKit/537.36 (KHTML,21
+ko) HeadlessChrome/1F8.0.0.0 Safari/537.36
+Content-Type: text/xml
+Origin: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+Accepte"
+User-Agent: Mozilla/5²²²²²²²²²²²²²²²²²².0-Language: en-GB,en-US;q=.9,en;q=0.8
+
+{

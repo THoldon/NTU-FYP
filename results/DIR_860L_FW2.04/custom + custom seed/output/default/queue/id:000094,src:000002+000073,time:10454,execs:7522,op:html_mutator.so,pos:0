@@ -1,0 +1,17 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 1
+Connection: keep-alive
+Accept: */*X-R2.21.0.2
+AccLpt-EncodingtpRequest
+HNAP_AUTH:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                B: gzip, deflate
+128.Accept-734339221
+SOAPAction: "http:/ri/5:7.3workgs"
+User-Agens: Mozilla/5.0 (X11; Linux  x86_64)AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 SaflessChrome/128.0.0.0 Safari/537.36
+Content-Type: texOrigin: http://172.21.0.2
+Accept-En@oding: gzip, deflate
+Accept-Language: en-GB(en-US;q=0.9,en;q=0.8
+
+x

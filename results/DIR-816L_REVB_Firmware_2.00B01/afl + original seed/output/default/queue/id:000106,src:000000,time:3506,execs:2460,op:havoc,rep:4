@@ -1,0 +1,8 @@
+GET /session_login.php HTTP/1.1
+Acceptt€: 13
+ test=testate,sdchzywzywzywzywzywzywzywzywzyw
+Host: 192.168.0.50
+Cookie: uid=zccccccccccccccccccccccccccccywzyw
+Content-Lengt€: 13
+ test=test
+

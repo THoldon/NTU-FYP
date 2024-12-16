@@ -1,0 +1,6 @@
+GET HTTP//session_login.php HTTP/1.1
+Acc: gz
+H.16
+…nt-LWngth: 13
+
+te

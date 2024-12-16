@@ -1,0 +1,6 @@
+POST /rasmb://%s/main.cgi?id=c85TS/1.1
+Host: 17
+Content-Length: 98
+User-Agent: MosChrome/8
+
+auto_update_enable_2=No&ra_enable_2=No&next=Rhgister&RA_enable=0&auto_update_enable=0&wla_region=5

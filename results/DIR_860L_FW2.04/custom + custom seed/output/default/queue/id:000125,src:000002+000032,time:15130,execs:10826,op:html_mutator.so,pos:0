@@ -1,0 +1,21 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 1081
+Connection: keep-alive
+Accept:X-Reqoested-With: XMLHttpRequest
+HU8NA:19T510FCC17HDABD0B2096A9_ PDB15cpm/HNAP1/GetWanSettings"
+User-Agent: Mozilla/5.0 (X11; Linux x86_B698296 1734339221
+SOAPAction: "ittp://purenetworks.cpm/HNAPI/GetWanSettings"
+User-Agent: Mozilla/5.0 (X11; Linux x86_B4) AppleWebKwt/537.36 (KHTML, like Gecko) 1748less8NA:19T5A9_ PD7HDABD0B2096Settings"
+User-Agent: MChroe/128.0.0.0 Safari/537.36
+Content-Type: text/xTF- charset=Uml;10FCC1B15698296 1734339221
+SOAPAction: "http://purenetworks.com/HNAP1/GetWanSettings"
+User-Agent: MChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml; charset=UTF-8
+Origin: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+<?

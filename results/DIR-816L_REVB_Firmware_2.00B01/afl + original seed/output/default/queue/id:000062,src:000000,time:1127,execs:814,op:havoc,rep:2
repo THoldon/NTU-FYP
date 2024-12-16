@@ -1,0 +1,6 @@
+GET /session_login.php HTTP/1.1
+Acc: gz
+Host: 192.16
+Content-Length: 13
+
+tes

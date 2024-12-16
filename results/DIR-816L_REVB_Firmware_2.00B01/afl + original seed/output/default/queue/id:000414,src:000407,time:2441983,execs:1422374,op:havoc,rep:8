@@ -1,0 +1,12 @@
+POST /HNAP1/ HTTP/1.1
+Host: 10.0.0.90
+ACTION:http://purenetworks.com/HNAP1/GetDeviceSettings/zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyww
+Transfer-Encoding: Vh
+zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywz                                                                                                                              ywzywzywzywzŠwzywzywz†wzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw
+Pro‰y-Connection: keep-alive
+Authorization: Basic QWxhZCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCGRpbjpvcGVuIHNlc2FtZQ==
+Cache-Control: max-age=0
+Accept: textwzywzywzywzytml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-A\ent: Mozilla/5.0 (Windows NT 6.3; WOW63) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36
+Con13
+

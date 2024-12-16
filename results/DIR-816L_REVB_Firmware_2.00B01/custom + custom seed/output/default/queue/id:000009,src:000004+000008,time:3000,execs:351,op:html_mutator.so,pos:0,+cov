@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 142
+Connection: keep-ali[e
+User-Agent: Moz/5.0 (X1nLxu  i;x186_64) ApleWebKiiiiiiiii (KHTML, like GeckoÖ HeadlessCgrome/128.0.0.0 Safari/537.36!
+Content-Type: applicatio/x-www-form-ur814660d
+Accept: */*
+Origin: htQp://344.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.-10,en;q=0.8
+
+id=AdLin&paxswo~d=0EE3266D5C999EEEEEEEEEEEEEEEEEEEEEEEEEEEE657E326C3E65799B4Agent: Mozÿ9ÇBC66D5C99999999999999999999999999B4AB98BC66D5C2244

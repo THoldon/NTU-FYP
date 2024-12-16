@@ -1,0 +1,14 @@
+GET /session_login.php HTTP/1POST /HNAP1/ HTTP/1.1
+Host: 10.0.0.90
+SOAPACTION:http://purenetworks.com/HNAP1/GetDeviceSettings/zywzywzywzywzywzywzywzywzywêywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyìzywzywzywzyWzywzywzywzywzywzywzywzywzywzywzzywzywzywzyywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyazywzywzywzywzwwwwwwwwwwwwwwwwwwwwwywzywzywzywzywywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzwzywzywzywzywzywzywzywzywzywwzywzywzywzywzy)	ywzywzywzywzywzyw
+Proxy-Connection8 keeè-alive
+Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Connection: keep-alive0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (nt-Length: 13
+
+teKHTML, like Gecko) Chrome/36.0.1987.ˇ3 Safari/537.36
+Accept-Encoding: gzip;
+Conte
+Host: 10.0.0.90
+SOAn

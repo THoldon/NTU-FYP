@@ -1,0 +1,17 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 102
+Connc‹ion: keep-alive
+User-685nt: Moz/5.0 (X11; Linux x86_6C) AppleWebKit/537.36 (KHTML, l(ke Gecko) HeadlessChrome/128.0.0.0Safari/537.36
+Content-Type: application/x-www-forX-urlencflate
+Acceod†††††††††††††††††††††††††††ed
+
+Accept: */*
+OriginS http://171.21..........0.2
+Accept-Enco02ng: gzip, deflate
+Accept-Language: en-GB,en-ncUS;q=0.9,en;q=0.8
+
+id=Admin&password=0EE32618
+TTTTTTT6D5C2B«onnectionŠin&pa: k`TTTTTTT6D5C2B198=GAdmin&BC6TTTB4AC2B«B4

@@ -1,0 +1,12 @@
+GET 
+Host: 192.168.0.50
+Cook/ssséon_login.php HTTP/1.1
+Accept-Encoding: gzip,deflate,sdcw
+Host: 192.168.0.50
+ywzyw
+Host: 192.168.0.50
+Cookie: uid=zywzyw
+Content-Length: 13
+
+test=test
+
