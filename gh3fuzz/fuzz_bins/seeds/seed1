@@ -1,17 +1,15 @@
-POST /HNAP1/ HTTP/1.1
+POST /newgui_adv_home.cgi?id=8a44ca3928c72e57214a3ec03d0f69fb1f65c614 HTTP/1.1
 Host: 172.21.0.2
 Connection: keep-alive
-Content-Length: 400
-Accept: */*
-X-Requested-With: XMLHttpRequest
-HNAP_AUTH: 128A3B959F4EFF00983A63B1CC6A4493 1734339221
-SOAPAction: "http://purenetworks.com/HNAP1/Login"
-User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
-Content-Type: text/xml; charset=UTF-8
+Content-Length: 43
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
 Origin: http://172.21.0.2
-Referer: http://172.21.0.2/info/Login.html
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.21.0.2/ADVANCED_home2.htm
 Accept-Encoding: gzip, deflate
 Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
-Cookie: uid=null
 
-<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><Login xmlns="http://purenetworks.com/HNAP1/"><Action>request</Action><Username>Admin</Username><LoginPassword></LoginPassword><Captcha></Captcha></Login></soap:Body></soap:Envelope>
+buttonSelect=2&wantype=dhcp&enable_apmode=0

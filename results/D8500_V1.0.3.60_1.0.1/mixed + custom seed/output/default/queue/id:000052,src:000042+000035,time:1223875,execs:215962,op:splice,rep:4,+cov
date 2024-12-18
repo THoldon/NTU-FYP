@@ -1,0 +1,15 @@
+GET 008.cfgPOST t:
+HoPOST /autoblock.cgi?id=d12b058a2acfdd59e0891d440436379ae92fc789 HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Cplication/xml;q=0.9,image/avifol: max-age=0
+Upgradeome/18
+
+set=Koreane-Insecure-Requests: 1
+Origin: http://172.21.0.2
+Conte„t-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, ÿÿÿ Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Accept: text/html,applicatiml+xml,application/xml;q=0.9,image/avif,image/webp,image/apngG*/*;q=0.8,€pplication/signed-exchange;v=b3;q=0.7
+Referer: http://172.21.0.2/auto_block.htm
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.4,en

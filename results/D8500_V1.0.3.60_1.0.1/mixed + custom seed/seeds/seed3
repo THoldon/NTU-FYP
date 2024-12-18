@@ -1,4 +1,4 @@
-POST /autoblock.cgi?id=d6ff7fd46d8c51584e043e7a3901ba4f10b50bf1 HTTP/1.1
+POST /autoblock.cgi?id=d12b058a2acfdd59e0891d440436379ae92fc789 HTTP/1.1
 Host: 172.21.0.2
 Connection: keep-alive
 Content-Length: 11
