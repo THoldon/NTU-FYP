@@ -397,14 +397,17 @@ size_t afl_custom_fuzz(my_mutator_t *data, uint8_t *buf, size_t buf_size,
 	u32 pre_to_mutate_len = strlen(to_mutate); //get length of header fields to mutate
 	u32 pre_body_to_mutate_len = strlen(body_to_mutate); //get length of body to mutate
 	u32 havoc_steps = 1 + rand_below(data->afl,16); //set up havoc
-
+	
+	unsigned int is_exploration = rand()%2; //randomly select if mutation should exploit or explore
+	//printf("is_exploration %i\n",is_exploration);
 	/*printf("header unmutaed\n"); //DEBUG check fields to be mutated before mutation
 	for(i=0;i<pre_to_mutate_len;i++){
 		printf("%c",to_mutate[i]);
 	}*/
 	
 	to_mutate = realloc(to_mutate,max_size);
-	u32 post_to_mutate_len = afl_mutate(data->afl, to_mutate, pre_to_mutate_len, havoc_steps,true,true,add_buf,add_buf_size,max_size); //mutate header fields
+	//u32 post_to_mutate_len = afl_mutate(data->afl, to_mutate, pre_to_mutate_len, havoc_steps,true,true,add_buf,add_buf_size,max_size); //mutate header fields
+	u32 post_to_mutate_len = afl_mutate(data->afl, to_mutate, pre_to_mutate_len, havoc_steps,true,is_exploration,add_buf,add_buf_size,max_size); //mutate header fields
 	to_mutate = realloc(to_mutate,post_to_mutate_len);
 	
 	/*printf("\nheader mutated\n"); //DEBUGcheck fields to be mutated after mutation
@@ -418,7 +421,8 @@ size_t afl_custom_fuzz(my_mutator_t *data, uint8_t *buf, size_t buf_size,
 	}*/
 	
 	body_to_mutate = realloc(body_to_mutate,max_size);
-	u32 post_body_to_mutate_len = afl_mutate(data->afl,body_to_mutate,pre_body_to_mutate_len,havoc_steps,true,true,add_buf,add_buf_size,max_size); //mutate body
+	//u32 post_body_to_mutate_len = afl_mutate(data->afl,body_to_mutate,pre_body_to_mutate_len,havoc_steps,true,true,add_buf,add_buf_size,max_size); //mutate body
+	u32 post_body_to_mutate_len = afl_mutate(data->afl,body_to_mutate,pre_body_to_mutate_len,havoc_steps,true,is_exploration,add_buf,add_buf_size,max_size); //mutate body
 	body_to_mutate = realloc(body_to_mutate,post_body_to_mutate_len);
 	
 	/*printf("\nbody mutated\n"); //DEBUG check body after mutation
@@ -551,7 +555,7 @@ void afl_custom_deinit(my_mutator_t *data) {
 	/*FILE *seed;
 	seed = fopen("/home/ubuntu/FYP/NTU-FYP/seed_scraper/seed1","r"); //change the seed location if needed
 	char *post;
-	fseek(seed,0,SEEK_SET); 
+	fseek(seed,0,SEEK_SET);
 	post = calloc(770,1); //change values based on length of packet
 	fread(post,1,769,seed); //change values based on length of packet
 	//printf("og post %s\n",post);
@@ -567,7 +571,7 @@ void afl_custom_deinit(my_mutator_t *data) {
 	unsigned char *mutated_post = NULL;
 	for(int j=0;j<10;j++){
 		size_t mutated_size = afl_custom_fuzz(html_mutator,post_addr,post_size,&mutated_post,NULL,NULL,9999);
-		//post = realloc(post,mutated_size);
+		post = realloc(post,mutated_size);
 		memcpy(post,mutated_post,mutated_size); //run the mutated packet into the mutator again, comment out this and the next 2 lines if not needed
 		post_size = mutated_size;
 		*post_addr = post;
