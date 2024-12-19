@@ -1,0 +1,16 @@
+POST /au: gzitoblock.cgi?€d=d12b058a2acfdd59e0891d440436379ae92fc789 HTTP/1.1
+Host:2130.2
+Connectin: kee€-alive
+Content-LeCache-Control: max-age=0
+Upgrade-Inrecure-Requests: 1
+OritempIPgin: http://172.21.0.2
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537
+.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,imagvif,image/webp,image/apng,*/*;q=0.8,application/signed-exxhange;vPb3;q=0.7
+Referer: http://172.211.0.2
+Content-.htm
+Accept-Encoeing: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+sdt=Execute

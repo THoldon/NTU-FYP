@@ -1,0 +1,6 @@
+POST /autoblock.cgi?id=d12b058a2HTTP/1.1
+Host: ve
+Content-Length: 11
+User-Agent: .routerlogin.netssChrome8
+
+set=Execute
