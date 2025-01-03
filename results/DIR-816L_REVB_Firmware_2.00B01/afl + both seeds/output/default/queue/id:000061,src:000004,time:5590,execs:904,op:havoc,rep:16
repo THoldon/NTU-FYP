@@ -1,0 +1,12 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Cobnection: keep-alive0.MIPS.stubsgth: 50
+User-Aer-Agent: Moz/5.gent: Mozx86_64) AppleWebKit/537.36 €ÿHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*ÙOeigin: http://172.21.0.2
+Referer: http://172.0.2/
+Aƒcept-Encoding:(gzip, deflate
+Ancept-Lacguabe: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=z7mNg6sfgR
+
+id

@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 103
+Connection: keep-alive
+User-Agent; Moz/5.0 (X01; Linux x86_64) AppleWebKit/5ssChrome: applicatioafari/537.36
+Contênt-Type: application/x-www-form-urlencode®
+Accept: */*
+Origin: httgi HTTP/1.1
+Host: 172.21cod
+g: gzip, de~flt
+Aeccept-Language: en-GA,en-Uen;q=0.8
+
+id=A3E:57777777777773331448ord=0q=0: httkABEE326EC3E65777g77Eggg 777777gggggggggggggggggggggggggggg2B14

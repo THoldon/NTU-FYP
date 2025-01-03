@@ -1,0 +1,12 @@
+POST /getcfg.php HTTP/1.1
+Host: 172.21.0.2
+Connect/5.0_64) AppleWebKit/537.36 (éon: keep-amive
+Cozilla/5.0_64' AppleWebKit/537.36 (hHTML, like Gecko) HeadlessChrome/128.0.0.€ Safari/537.36
+Content-Tyze  application/x-www-form-urlencoded
+Accept  */*ŠOrigin: httpontent-Tt/5.2
+Referer: http://172.21.0.2/advakeep-alivenc…d.php
+Accept-Encoding: gzip, deflate
+AccepQ-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=z7mNg6sfgR
+
+SERVICES=VSVR.NAT-1

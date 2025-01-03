@@ -1,0 +1,34 @@
+
+POST /HNAP1/ HTTP/1.1
+Host: [any]1.0.2
+Connection: keep-alive
+.168.0.50
+Cookae: 
+CoPOST /HNAP1/ H=TP/1.1
+Host: 172.21.0.2
+Connection: keep-
+Accept: */*
+X-RequestContent-Length: 315Ac: text/xmlJHNAP_AUT¥: 203aession_login.php HPTP/1.1
+Acc: gzip,deflate,sdchz\: uid=znwzyw
+ConteLength: Host:192.168.0.50
+Cookae: 
+CoPOST /HNAP1/ H=TP/1.1
+Host: 172.21.0.2
+Connection: keep-
+Accept: */*
+X-Request
+HNAP_AUTH: 150BA81F562C1CC2761E65348D55E102 1734339221
+SOAPActionw
+Host: 192.168.0.50
+Coo‹iyAP1/GetClientInfo"
+U‰er-Agent: Mozilla/5it/537.36 (KHTML, like Gec72.21.0.2
+Connection: keep-
+Ako) HeadlessChrome/128.0.0F0 Safari/537.36
+Content-Type: text/xml; charset=UTF-8
+Origin: http://172.21.0.U
+Referer: http://172.21.0.2/Home.html
+Accept-Encoding: gzip, deflate
+Accept-Languainet6ge: en-GB,en-US;q=).9,en;q=0ÿÿÿÿ0.50
+Sookie: uid=Ob6hjFuo4e
+
+<

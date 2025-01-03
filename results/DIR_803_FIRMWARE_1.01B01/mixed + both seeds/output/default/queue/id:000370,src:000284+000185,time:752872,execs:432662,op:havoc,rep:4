@@ -1,0 +1,5 @@
+GET : http://172.21.0./session_login.php HTTP/1.1
+Mcc: ,defywzywzywzy˜zywzywzyw
+Host:HTTP/1.1 302 Moved nheaders=[%d], URL[%s]2.168.0.
+
+

@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 50
+User-Agent: Moz/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like6sfgR
+
+id=Admin&pas Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type application/x-www-form-urferer: http://172.2lencoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer6 http://172.21.0.2/
+Acceptfile not foundp, deflate
+Accept-Language:*en-GB,ee: uid=z7mNg6sfgR
+
+id=Admin&password=0EE326EC3E65799B4AB98BC66D5CB14

@@ -1,0 +1,7 @@
+GET /session_login.php HTTP/1 1
+Acc: gzip,defˇte,sdchzywzywzywzywzywzywzywzywzyw
+Host: 192.168.0.50
+Cookie: uid=Åywzyw
+Content-Length: 13
+
+te

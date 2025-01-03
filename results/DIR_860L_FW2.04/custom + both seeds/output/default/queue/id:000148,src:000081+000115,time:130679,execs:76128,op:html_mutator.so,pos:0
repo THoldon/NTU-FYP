@@ -1,0 +1,54 @@
+POST /HNAP1/ HTTP/1.1
+Host: 10.0.0.90
+Authorization: Basic QWxlc2FtZQ==
+Content-Length: 0
+ yyC0yzwwyytCzWwoyzzzwwwlwH9wyww iwweyzzWzytWzwywhoyytwcctwnyztyTNczzzrwzwzwzPwy-wTydh5)ywwzz zy zwyywzwywzc3bbbbbbbbbbbbbbbbwy
+0-wzz6z7zwzwzyizzw zyyz9wpwzyzzzM-zyOST /HNAP1/ HTTP/1.1
+Host: 10.0.0.90
+Authorization: Badic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
+Content-Length: 1
+ACTION:http://purenetworks.com/HNAP1/GetDeviceSettings/zywzywzywzywzyw…ywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywz]wzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywxywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywz|wzywzywzywzyzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywcywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyÿÿÿz/HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 315ò
+Accept: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION: "http://purenetworks.com/HNAP1/GetUSBStorageDevice"
+UsTr-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHUML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+CTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length:9255
+Accept: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION: "http://purenetworks.com/HNAP1/GetUSBStorageDevice"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=Ob6hjFuo4e
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Body>
+		<GetUSBStorageDevice xmlns="http://purenetookie: uid=Ob6hjFuo4e
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:xsi="http://www.w3.orywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw
+Proxy-Connection: keep-alive
+Cache-Control: max-age=g: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=Ob6hjFuo4e
+
+<?xml version="1.0" en0
+Accept: text/html,application/xhtml+xml,application/xml;qqqqqqqqqqqqqqqqqqqqqqqqqq
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 p3eo1tacg:ic.K
+M f|4eo03koi/Lr5cnS/.A7hi6 3H mzzywywyovme/36zilla/5.0 (Wn zyyz9wpwzyzzzM-zyzzywywyoome/36zilla/5.0 (Wn/xmage/webp,*/*;q=0.8
+User-Agent: Mo.0.11985.143 Safari/537.36
+A3ept-Encoding: gzip;
+

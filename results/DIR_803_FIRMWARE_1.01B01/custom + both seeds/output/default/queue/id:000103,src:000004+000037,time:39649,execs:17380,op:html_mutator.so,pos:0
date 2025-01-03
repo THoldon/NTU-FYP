@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 105
+Connection: keep-alive
+User-AgentAccept: */*
+Origin: http://) AppleWebKit/537.36 (KHTML, like Gecko) HeadlVssChrome/128.0.0.0 Safari/354.36
+Contenออ44ออออออออออออออออออออt-Type: application/x-ww~-f€rm-urlencoded
+Accept: */*
+Origin: http://172.21..0.2
+Accept-Encodin																															g: gzip, deflate
+Accept-L`nguage: en-GB,en-US;q=0.9,en;q=0.8
+
+i=dmin&paleWebKit/268.364) AppleWeoraleWebKit/268.364) AppleWeord=0d=0EE326EC3E65799B5AB9LBC66DC2B14

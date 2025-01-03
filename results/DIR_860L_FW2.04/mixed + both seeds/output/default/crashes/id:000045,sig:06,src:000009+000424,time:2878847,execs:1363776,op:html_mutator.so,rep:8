@@ -1,0 +1,19 @@
+POST /HNAP1/ HTTP/1.1
+Host: 10.0.0.90
+Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
+Host: 17P/1.1
+Host: 172.1.0.2
+Content-Length: 0
+SOAPACTION:http://purenetworks.com/HNAP1/GetDeviceSettings/zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyRL[%s]tent-Lie: uid=Ob5hjFt/xml
+Host: 172.21.0.ost: 10.0.0"90evice"
+Host: 172.21.0.2øøøøøøønt-Length: 0
+Accep172/1.1
+Connection: keep-a"""-instanp,,,,,,,,,,,,4) Appte""""liive
+Content-oenNth: 315
+Accept: texo/xml
+HNAP_AUTH: 203
+Host: 172.21.0.2øøøøøøønt-Hength: 0
+Accep172/1.1
+Cyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyçyyyyyyyyyyyyyyyyyyyst: 172.yyyyyyyyyyyyyyyyyyyyyTPywzywzywzPOST /HNAP1/ HTTP/1.1
+Connection: keep-alive
+

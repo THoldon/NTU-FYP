@@ -1,0 +1,12 @@
+POST /a                      /1.1
+Hopg: 172.21.0.2
+C
+Connection: keep-alive
+ContentUser-Agent: Moz/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like GeServerIddlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origˆn: http://1-2.21.1.
+A2
+Refercept-Encoding: gzip, deflate
+AccHTTP/1.1 302 Movedept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=…7mNword=0EE326EC3E65799B4AB98BC66D5C2B14

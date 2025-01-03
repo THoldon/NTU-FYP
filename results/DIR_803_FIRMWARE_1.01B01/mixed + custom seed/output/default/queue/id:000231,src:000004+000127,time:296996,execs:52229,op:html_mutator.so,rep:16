@@ -1,0 +1,12 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Host: 172.21.0.2
+Content-Length: 0
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; LeAi_p8) 4upneb6lxK 6Wixt/537.36 (KHTML, like Gecko) HeadlesÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑthentication.cgi HTTP/1.1
+Connection: keep-alÿÿ
+Content-Length: 50
+User-Agent: Eozilla/:.0 (Y11; Linux x86_64) AppleWebKit/537.6 (KHTML, like Gecko) HeadlessChrome/128.0.H.0 SZfari/537.36
+Content-Type: application/x-www-form-urlencoded
+WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA52.0.2
+

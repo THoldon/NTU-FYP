@@ -1,0 +1,13 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 10
+ConHTL, like nection: keep-alive
+Useren-US;q Moz/5.0 (X11; Linux x86_64) AppleWebKi”/537.36 (KHTML, l21.0.2
+Referer: http://172.2.0.0.0 oafaaaaaaaaaaaaaaaaaaaaaaaaaaaaalicationcoded
+A€cept:*/*
+Origin: ŠŠŠŠŠŠ¼¼¼¼¼ŠŠŠŠŠŠŠŠŠŠŠŠŠ¢-3B1ÕÕÕÕng: gzip, deflate
+Aÿcept-Language: en-GB,-Agent:=0.9,en;q=0.8
+
+id=A5C2B14

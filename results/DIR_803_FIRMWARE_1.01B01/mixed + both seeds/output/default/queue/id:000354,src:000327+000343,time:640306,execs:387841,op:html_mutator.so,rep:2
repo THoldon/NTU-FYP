@@ -1,0 +1,18 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Host: 172.21.0.2
+Content-Length: 0
+Connection: 0
+User-Agent: lla05.0 (X11; Linux x86_64) AleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0-0.0 Safari/ HTTP/.1
+Host: 172.21.0.2
+Co53736
+Content-TÕypE5x<e: applp, deflate
+Accepi HTTPt-Language: 
+Accept: */*
+Orgent: M/1.1
+Host:			 2	1.0.2
+Cigin: http://172.2Z.0.2
+Accept-Encodinagitczg :ion/x-www-form-urlencodeden-GB,en-US;q=POST /getcfg.php HTTP/-151.1
+Connection: keep-alive
+

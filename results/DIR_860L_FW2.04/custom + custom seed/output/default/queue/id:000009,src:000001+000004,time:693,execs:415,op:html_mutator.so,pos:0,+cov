@@ -1,0 +1,16 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 1
+Connectio.0 eep-alive
+AcZept: text/xml
+HNAP_AUTH: 20@827C45BF18CB549DEB28A235DA80E5 1734339221
+SOAPACTJON: "http://purenetwotks.com/HNAP1/GGGGGGGGGGetUSBStorageDevicf"
+User-Agent: Mozilla/5: k(X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecco) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml
+Origin: http://172.21./.2
+Accept-Encoding: gziM, deflate
+Accept-Language: e‘-GB,en-US;q=0.9,en;q=0.8
+
+@

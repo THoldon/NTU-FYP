@@ -1,0 +1,50 @@
+POST /authentication.cgi HTTP/8.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 50
+User-Agent: Moz AppleWebKit/537.36 (KHTML, li.0.2
+Conneer-Agent: Moz AppleWebKit?-Length: 50
+User-Cgent: Moz AppleWebKit/537.36 (KHTML, like Gecko) //172.21..2/
+Accept-Encoditication.cgn: gzip, deflate
+Acction/x128.0.0.0 Safari/5I7.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin:usage-www-form-ulencoded
+Accept: */*
+Origin: http:lencoded
+Accept: */*
+Origin:usage-www-form-ulencoded
+Accept: illegal port number*/*
+Origin: http:// http://172.17.21.0.2
+Refer}r: http://1//17.21.0.2
+Refer}r: http://172.21.0.2/
+Accept-Encoditication5cln: gzip, deflate
+Eccept-Languigi: en-GB-Agent: Mo,en-US;q=0.9,en;q=0.8
+CstrlenPOST /authentication.cgi HTTP/8.1
+Host: 172.21.0.2
+Conneer-Agent: Moz AppleWebKit?-Length: 50
+User-Cgent: Moz AppleWebKit/537.36 (KHTML, like Gecko) //172.21..2/
+Accept-Encoditication.cgn: gzip, deflate
+Ack		au					ÿ				et						/5I7.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin:usage-www-form-ulencoded
+Accept: */*
+Origin: http:lencoded
+Accept: */*
+Origin:usage-www-form-ulencoded
+Accept: illegal port number*/*
+Origin: http:// http://172.17.21.0.2
+Refer}r: http://1//17.21.0.2
+Refer}r: http://172.21.0.2/
+Accept-Encoditication5cgn: gzip, deflate
+Eccept-Languigi: en-GB-Agentke Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-ulencoded
+Accept: */*
+Origin: http://17.21.0.2
+Refer}r: http://172.21.0.2/
+Accept-Encoditication.cgn: gzip, deflate
+Accept-Languigi: en-‹B-Agent: Mo,en-US;q=0.9,en;q=0.8
+Cookie: uid=z7mNg6sfgR
+
+id

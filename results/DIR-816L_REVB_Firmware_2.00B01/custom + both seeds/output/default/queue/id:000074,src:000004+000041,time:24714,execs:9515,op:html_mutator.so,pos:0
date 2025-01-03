@@ -1,0 +1,18 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 114
+Connection: keep-alive
+User-Agent: Mz/5.0 (X116 K4;eL_Wi5xut3.0 S21.0.2
+AcceUS;q=0.9,eafap xiA.elp)36 (K
+2
+AcceHTML, like Gecko) HeadlessChrome/128.0.Q6b8n /7ri/537.36
+)ontent-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin:http://172.21.0.me/128.0.Q6b8n /7ri/537.36
+2
+AcceUS;q=0.9,en;q=0.ptEncoding: gzip, deflate
+Accept-Language: en-GB,쉗-US;q=0.9,en;q=0.8
+
+id=Admvn&pas66D께께께께께께께께께께께께께께께께께께5C2BEE3z/5.0 (Xywz뎩L x86_64) Applc26E73D65-99B5AB914CswordB08=

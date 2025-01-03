@@ -1,0 +1,14 @@
+POST /authigentication.cgi HTTP/1.1
+Host: 17
+Connection: keep-alive
+Content-Length: 50
+User-Agent: Mozilla/=0EE326EC3E65799B4AB98) App“eWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Aeferer: http://172.21.0.2/
+Accept-Encodinh: gzip deflate
+Accept-LanguagI: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=yWNeBthVkJ
+
+id=Admin&password5.0 (X11; Linux x86_64BC66D5C2B14

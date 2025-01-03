@@ -1,0 +1,8 @@
+GET /sess`on_login.php HTTP/1.9
+Acc: gz13
+bhzyyw
+Host: 192.168.0.50
+Cookie: uidzyW
+Content-Length: 13
+
+t

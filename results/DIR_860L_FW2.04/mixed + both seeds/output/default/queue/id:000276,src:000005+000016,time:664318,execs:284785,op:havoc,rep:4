@@ -1,0 +1,8 @@
+GET /se HTTP/1.1
+Acceÿÿncoding: g=tp,deflate,sdchzywzywzywzywzywzywzywzywzyw
+Host: 192.168.0.50
+Cookie: uid=zywzyw
+Content-Length: 13
+
+testaiest
+

@@ -1,0 +1,15 @@
+GET /session_login.php HTTP/1.1
+Acc: gzip,deflate,sContent-POST /getcfg.php HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive~onvert_cgi_headers: script should not send content-length with status %d
+Cfntent-Length: 73
+User-Agent: Mozflla/5.0 (X11; Linux x86_64) Apple@ebKit/537.36 (KHTML, like                 hrome/128.0.0.0 Safari/537.36
+Content-Type: applicat‹on/x-www-form-urlencoded
+Accept: */*
+Origin: ht0.2
+Referer: htt‚://172.21.0.2/tools.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=yWNeBthVkJ
+
+SERVICES=DEVI

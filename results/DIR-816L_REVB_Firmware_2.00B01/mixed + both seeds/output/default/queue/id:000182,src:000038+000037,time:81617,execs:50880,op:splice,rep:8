@@ -1,0 +1,18 @@
+GET /session_login.php HTTP/1.1
+Acc: gzip,deflazywzywzywzywzywzyw
+Host: 192.168.0.50
+Cookie: uid=zywzyw
+Content-LengtGET /session_login.php ME%2CRUNTIME.DEVICE%2CRUNTIMEPOST /getcfg.php HTTP/1.1
+Host: 172.21.0.2
+Connection: keep
+alive
+Conontent-Type:tttent-Length:"254
+User-Agent: Mozilla/5.0 (x86_64' AppleWebKit/537.36 (Kt/537.36 (KHTML, like Gecko) HeadlessChrome/12/session_lo8.0.0.0 Safari/537.36
+Content-Type: aurlencoded
+Accept: */*
+Origin: http://152.21.0.2
+Referer: hdtp://172.21.0.2/status.php
+Acspawn: failed to create child processLanguage: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=z7mNg6sfgR
+
+SERVICES=RUNTIME.TIME%2CRUNTAME.DEVICE%2CRUNWIFI.PHYINF%2CSCHEDU\E%

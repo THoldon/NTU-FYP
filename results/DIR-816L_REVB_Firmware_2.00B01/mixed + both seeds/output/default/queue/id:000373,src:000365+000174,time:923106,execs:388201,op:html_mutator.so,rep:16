@@ -1,0 +1,9 @@
+POST /HNAP1? HTTP/1.1
+Host: 10.0.0.90
+Host: 172.21.0.2
+Cookie: uidzywzywzywzywzywzywzywzwzywzywzywzywzywzywzywzywzywzywzywzDeviceywwzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyGET /session_login.php HTTP/1.1
+Content-Length: 0
+AOiiOGzt:/ N:Cy//eT/gn1w/PxNzyi5Ihildre-US;q=0.9,en;q&&&&&&&&&&Cookie: ui
+Connection:""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""key HTTP/1.1
+Connectiên:"keep-aliive
+

@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/tools.php
+Content-Length: 0
+Connection: keep-alive
+User-Agent: Mozilla/5.08 1)Lx eWW646 XxpiupA1_(n;“ ebKit/537.6 (KHTCoMLntent-Pzilla/5.0 (X11; ´´´´´´´´´´´´´´´´´´´´´´´´´´Linux x86: 172.21.0.2
+Connection: keep-alive
+User-Agent: MOOST /getcfZ.ph HTTP/1ost_64) RppleWebKit/537.36 (KHTML, dlessChrome/128.0.0.0 Safari/537.36
+Content-Ty0.2
+Connection: keep-alive
+Us‘cod61
+Adcept: 
+Origin: htrigin172.21.0.2
+

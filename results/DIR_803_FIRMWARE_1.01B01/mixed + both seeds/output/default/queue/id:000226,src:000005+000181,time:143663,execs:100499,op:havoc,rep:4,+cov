@@ -1,0 +1,6 @@
+GET /session_login.php HTTP/1.1
+Acc: gzip,deflate,sdch_ytzywzywzywzywzywzywzywzyw
+: 192.168.0.50
+-Length: 13
+
+te

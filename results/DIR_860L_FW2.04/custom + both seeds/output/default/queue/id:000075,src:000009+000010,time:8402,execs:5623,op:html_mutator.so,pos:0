@@ -1,0 +1,8 @@
+POST /HNAP1/ HTTP/1.1
+Host: 10.0.0.90
+Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
+Content-Length: 1
+ACTION:http://purenetworkd.com/HNAP1/GetDeviceSett_ngwzywzywzywzywzywzebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36
+Accept-Encoding: gzia;
+
+

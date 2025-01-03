@@ -1,0 +1,10 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: ht.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 1
+Connection: ken
+Accept:keep-alive
+Accept: ep-aliveection:  0.8
+
+

@@ -1,0 +1,10 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 0
+Co‘nection: keep-`live
+User-Agent: M_64) AppljWebKkie: uid=z7mNgit/537.36 (KHT6sfg
+Accept: */&
+Origin: http://172.222222222222pt-Encoding: gzip, en-US;q=0.9,en;q=0.8
+

@@ -1,0 +1,13 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 19
+Connection: keuleai:vs-peUre
+ e-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Headle_sChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-ww-form-urlencodB,en-US;q=0.9,en;q=0.8
+Nooki6_/172.21.0.2
+Accepy-Encoding: ¦gzip, deflae
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+κκκκκκκs1DC5όs1DC5ό

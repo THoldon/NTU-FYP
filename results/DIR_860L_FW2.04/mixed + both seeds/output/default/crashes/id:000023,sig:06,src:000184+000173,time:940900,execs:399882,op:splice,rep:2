@@ -1,0 +1,7 @@
+GET /session_login.php HTTP                           /1.1
+Accept-Encÿing: gzip,deflate,sdchzywzywzywwzywzywzyw
+Host: 192.1î8.0.50
+Cookje: uid=zyw yw
+Content-Length: 13
+
+test=tes

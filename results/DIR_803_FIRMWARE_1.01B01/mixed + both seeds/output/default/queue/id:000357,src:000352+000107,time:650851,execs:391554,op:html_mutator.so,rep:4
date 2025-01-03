@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Host: 172.21.0.2ÿ
+Connection: keep-alive
+Content-Length: 0
+Content-LenPOST /getcff.php HTTP/140.1
+ConteŽt-init_cgi_headerq: out of memoryÿÿngth: 73
+
+Linux Ä86_64) AppleVxbKit/537.36 (KUTML, like G†cko) HeadlessChrome/128.0.0Ñ0 Safari/537.36
+Content-Type: appl_ca•ion/x-www-form-urlendoded
+

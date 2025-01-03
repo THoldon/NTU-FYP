@@ -1,0 +1,15 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 1
+Connection: keeebKit/5p-alive
+Accept: text/xml
+HNAP_AUTH: -203828C45BF18CB549DEB28A93Dè0E5 173ããããããããããããããããããããã"http://purenetworks.com/HNAP1/GetUSBStorag292060e"
+User-Agent: Mozilla/5.0 (X11; Lbnux xtworks.com/HNAP1/GetUSBS86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml
+Origin: Ýttp://172.21.0.2
+Accept-Encoding: gzip, deflatU
+Accept-Languag;q=0.9,en;q=0.8
+
+"

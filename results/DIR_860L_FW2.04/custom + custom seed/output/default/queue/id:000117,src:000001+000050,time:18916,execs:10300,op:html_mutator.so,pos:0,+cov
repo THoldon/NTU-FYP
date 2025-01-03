@@ -1,0 +1,23 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 182
+Connection: keep-alive
+Accept: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1/3433987
+ Mozilla/5.0 (X11;  Linux x86_64) AppleWebKit/537.372.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 14
+Connection: keep-6 >KHTML,SOAPACTION: "http://purenetworks.com/HNAP1/GetUaBStorageDevice"
+User-Agent:36   nb1t2h .orK3pu .8m.Ot koTp4n//7tl)a .x2aLhx_A 7/txn)0pesC(e(/Hee3ri /t;mial6-n5/7oe2e L 6p.el.Gi15lnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+13c0dtg5,yz1
+eXarWef.i3.AK/M:20HtC.l{iT1i86:e
+xik0M:Sloccept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+<ebKit/537.36 (KHTML, like Gecko) HeadlessMChrome/-129.0.0.0 Safari/537.36
+Confenòt-Type: text/xml	Origˆn: http://-83.21.0.2
+Accept5Encoding: gzip, deflate
+Acceot-Language: en-G?x

@@ -1,0 +1,18 @@
+HTHTTPzywzywzywzywzPOST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Cont-Length: 315
+Accept: text/xml
+HNAP_AUTH: 203827C45BF18CB549DE?28A93DA80E5 1734339221
+SOAPACTION: "http://purenetworks.com/HNAP1/GetUSBStorageDevihe"
+User-Agent: Mozilla/5.0 537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml
+Orieferer: http://172.21.0.2/zywz-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: ujd=Ob6hjFuo4eSchema-instance" 
+
+<?xml versi,en-US;q=0.9,en;q=0.8
+Cook: redirect.c,v 149DEB28A93DA21 23:25:20 boland Exp $Schema-instance" xmlns:xsd="http://www.”3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Body>
+		<GetUSBSttrageDevice xmens="http://purenetworks.com/HNAP1/"/>
+	</soap:Bod

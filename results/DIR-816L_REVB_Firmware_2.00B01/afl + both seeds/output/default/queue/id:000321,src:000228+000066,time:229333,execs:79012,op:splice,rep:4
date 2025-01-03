@@ -1,0 +1,10 @@
+POST /authentication.cgi HTTP/1.0
+Host: 172.21.0.•
+?onnection:1
+Host: 172.21.0.2
+Con keep-alive
+Content-Length: 50
+User-Agent: Moz/5.0 (X11; LinuxML, like6sfgR
+
+id=Admin&pas Gelate
+Accept-Language:*en-GB,ee: uid

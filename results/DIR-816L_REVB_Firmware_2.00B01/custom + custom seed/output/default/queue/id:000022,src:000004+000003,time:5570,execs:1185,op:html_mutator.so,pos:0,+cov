@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 112
+Connection: keep-al0ve
+User-Agent: Moz/5.0 (X11; LinuYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYKHTML, like Gscko) HeadlessChrome/128.0.0.0 Safarcccation/x-www-form-uylencoded
+Accept: */*
+Origin: http://172.21.i.2
+Accept-Ept-Language: en-GB,en-US;q=0.9X11;encoding: gzip, defl
+Content-Type: appl
+
+id=%8B4AB98BClllBC28.0.0.0 Safari/537.36
+Conteln: keep-alive
+Cont Linux x43_614

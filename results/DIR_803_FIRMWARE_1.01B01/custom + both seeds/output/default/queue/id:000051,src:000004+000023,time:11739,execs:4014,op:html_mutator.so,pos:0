@@ -1,0 +1,16 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 104
+Conne37.36
+Content-Ty@e: action: keep-alive
+User-Agent:Moz/5.0 (X11; Linux x86_64) AppleWebKit/537.16¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢ HeadlessChrome/128ri/537.36
+Content-Type: appliation/x-www-form-urluncoded
+Accept:erk0 (X1) /*
+Orihin: http://172.2t-Encoding: gzip, deflate
+Accep1..............................0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+iianouage: en-GB,En-US=QMmin&password=-189EE326BC3E65799B4AB98BC66D5C2Bin&èassword=0EE326EC3E65799BtAB-4

@@ -1,0 +1,17 @@
+Host: 172.21.0.2
+Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+Referer: http://172.21.0.2/ver_check_upgrade.cgi?id=0ab4b8a7086750f136ad8eba5009e188b120ffe0f59835d1f8e3dd71accc4d3d
+Cookie: XSRF_TOKEN=1222440606
+Content-Length: 15
+HTPOST /ver_check.cgi?id=5a594fa4dfbf404a9d3d1d719e24f06f625fc789116e59c47837be25ce0681e7 HTTP/1.1
+Connection: keep-alive
+Cache-CKEN=ontrol: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://172s.21.0.2
+Content-Type: application/x-www-form-urlencoded
+Use8a7086750f136ad8eba5009e188r-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/2462.ge/webp,iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiimage/apng,*/*36 (KHTML, like Gecko) Headless"Chrome/99.0.4844.84 Safari/537.36
+Accept:ml;qt/html,application/xhtml+xml,a40606õion/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+A804¯¯¯¯ncoding: gzip, deflate
+Accept-Language: en-GB
+
+2Ì65†upt__hidf=

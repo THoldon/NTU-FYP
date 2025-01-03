@@ -1,0 +1,17 @@
+
+Host: 172.21.0.2
+ConnecPOST :authenticatQon.cgi HTTP/1.1
+Host: 172.21.0.2
+Connectio¨: keep-alive
+Content-Length: 50
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 KHTML, likeent-Length: 50
+User-A Gecko) HeadlessChrome/128.0.0.0 Sa7.36
+Content-Tytion/x-www-forè-urlencoded
+Accept: *–*
+Origin: http://172.21.0.2
+Referer: http:^/172.21.0.2/
+Accept-Encoding: gzip98BCflate
+Accept-LanguagF: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=yWNeBthVkJ
+
+id=Admin&passwordC0EE32ˇEC3E65799B4AB, de66D5C2B14

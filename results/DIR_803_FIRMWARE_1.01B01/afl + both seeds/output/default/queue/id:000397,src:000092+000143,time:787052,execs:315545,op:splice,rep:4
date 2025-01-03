@@ -1,0 +1,17 @@
+POST /authentUser-Agent:ication.cgi HTTP/1.1
+Host:ConPOt: /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 50
+User-Agent: Moz/5.0 (X11; Linuz x86_64) AppleWebKit/537.36 (KÚTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlgth: 50
+User-Agent: Moz/5.encoded
+Accept: */*
+Originength: 50
+User-Agent: Moz/5.0 (tp://172.21.0.2/
+Accept-Encoding: gzip, deflate
+Accept-Languageth: 50
+: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=yWNeBthVkJ
+
+id=Admi

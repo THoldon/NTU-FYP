@@ -1,0 +1,21 @@
+GET /sess			,de<@Id HTTzyost:*19~ing ‡GET /aession_login.php HTTP/1.1
+Acc: gzip,deflate,sdchz\wzywzywzywzywzywzÅwzywzyw
+HostE192.168.0.50
+Cookae: 
+CoPOST /HNAP1/ HTTP/1.1
+Host: 172.21.0.ÎÎÎÎÎÎÎÎÎÎÎÎÎÎÎÎÎÎÎÎÎÎÎ2
+Connection: keeq=0.8
+Cookie: uid=Ob6h: 302
+Accept: */*
+X-Requested-With: XMLHttpRequest
+HNAP_AUTH: 150BA81F562C1CC2761E65348D55E102 1734338221
+SOAPAction: "http://purenetworks.com/HNAP1/GetClientInfo"
+User-Agent: Mozilla/5.0 (X11; Lin,x 86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml; charset=UTF-8
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;p-alive
+Content-LengthjFuo4e
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchem

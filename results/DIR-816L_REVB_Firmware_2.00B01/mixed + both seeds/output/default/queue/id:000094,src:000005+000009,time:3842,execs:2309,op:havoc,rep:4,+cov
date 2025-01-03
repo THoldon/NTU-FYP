@@ -1,0 +1,7 @@
+GET /session_login.php HTTP/1.3
+Acc: gzip,dhzywzywzywzywzywzywzywzeflate,sdchzywzywzywzywzywzywzywzywzyw
+Host: 192.168.0.zyw
+Host: 192.168.zyw*
+Content-Length: 13
+
+te

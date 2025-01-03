@@ -1,0 +1,49 @@
+POST /HNAP1/ HTTP/1.1
+Host: 10.0.0.90
+Authorization: Basic QWxlc2FtZQ==
+Content-Length: 0
+ yyC0yzwwwyytCzWwoyzzzwwwlwH:wyww iwweyzzWzytWzHTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 3wzywzywzywzywzywzywzywzywzywzywz|wzywzywzywzyzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywcywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyÿÿÿz/HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 315ò
+Accept: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION: "http://purenetworks.com/HNAP1/GetUSBStorageDevice"
+UsTr-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHUML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+CTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length:9255
+Accept: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION: "http://purenetworks.con/HNAP1/GetUSBStorageDevice"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.15ò
+Accept: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION: "http::/purenetworks.com6219226GetUSBStorageDevice"
+UsTr-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHUML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+CTTP/1.1
+Host: 172.21.0.2
+Connection: krep-alive
+Conten-Length:9255
+Accept: text/xml
+HNAP_AQTH: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+OAPACTION: "http://purenetworks.com/HHHHHHHNAP1/GetUSBStorageDevice"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HewywhoyytwcctwnyztyTcNczzzrwzwzwzPwy-wTydh5)ywwzz zy zwyywzwywzc3b ywCywwwiwwzzawwy
+yy,yžLy4zizxwywy6zyyOywyyy.ywywhypezpwwzpywz0-w™z6z7zwzwzyizzw zyyz9wpwzyzzzM-zyzzywywyoome/36zilla/5.0 (Wn/xmage/webp,*/*;q=0.8
+User-Agent: Mo.0.1985.143 Safari/537.36
+A35ept-Encoding: gzip;
+

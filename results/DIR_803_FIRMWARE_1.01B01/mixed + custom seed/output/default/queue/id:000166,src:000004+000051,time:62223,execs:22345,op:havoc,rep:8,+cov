@@ -1,0 +1,15 @@
+POST /authentication?cgi HTTP€1.1
+Host: 172.21.0.2
+Connection: keep-aljve
+Content-Length: 50
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Reÿerer: http: http://.0.2/
+Accepp-Encoding: gzip, deflate
+Accept-Language: en-=0.9,en;q=0.8
+Cook=0.8
+Cookie: uid=yWNeBthVkE
+
+id=Admin&password=0EE326EC3E65799B4AB98BC66D5C2B14

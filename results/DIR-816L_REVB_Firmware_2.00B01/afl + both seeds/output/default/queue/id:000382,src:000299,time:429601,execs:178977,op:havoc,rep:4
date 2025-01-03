@@ -1,0 +1,12 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 50
+User-Agent: x86_64) AppleWebKit/537.36 (KHTMLi HTTP/1.1
+Host: 172.21.0.2/128.0.0.0 Safari/537.36
+Content-T
+User-Agent: x86_6ype: applicationtp://17221.0.2
+
+Refe */*
+Origin: ht/x-wqw-form-urlrncoded
+: http:/

@@ -1,0 +1,27 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 173
+Connection: keep-alive
+Accept: */*
+X-Requested-With: XMLHttpRequest
+HNAP_A>TH: B10DA856BD21D999700FCC1B15698296 1734339221
+SOAPAction: "http://purenetworks.com/HNAP1/gth: 0
+/1.1
+Host: 10N:hts.c[m/HNAP1/GetDeviceSettings/zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzy/purenetworks.com/HNAPzywzywzywzywzywz-Type: text/xml; charset=UTF-8
+Origin: http://86.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=/1.1
+Host: 10.0.0.90
+Authorization: Blc2FtZQ==
+Content-Length: 0
+/1.1ò
+Host: 10N:hts.c[m/HNAP1/ÿtDeviceSettings/zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywz†wzywzywzywzywzy0.9,en;q=0.8
+
+POST /HNAP1/ HTTP/1.1
+Host: 10.0.0.90
+Authorization: Blc2FtZQ==
+Content-Length:$0
+/1.1
+Host: 10N:hts.c[m/HNAP1/GetDeviceSettings/zywzywzy

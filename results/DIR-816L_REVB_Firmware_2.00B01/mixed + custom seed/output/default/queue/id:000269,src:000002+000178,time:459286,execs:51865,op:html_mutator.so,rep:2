@@ -1,0 +1,11 @@
+POST /getcfg.php HTTP/1.1
+Host: 172.21.0.2
+Host: 172.21.0.2
+Content-Length: 0
+Connection: keep-alive
+User-Agent: Mozill0 Safari/ AppleWebKit/537.36 (KHTML, liie GVcko) HeadlessChrome/128.0.0.0 Safari/537.36
+CoPOST /getcfg2php HTTP/1.1
+CoHTTP/1.1
+Host:aliveçUser-Agent: Mozilla/5.0_64) AppleWebKit/537,36 (KHTML, like Gecl0 Safari/ AppleWebKi8.0.0.a/5.0_64)537.36
+Content-Type: ap‹lication/x-www-form-uìlencoded	Accept: */*
+

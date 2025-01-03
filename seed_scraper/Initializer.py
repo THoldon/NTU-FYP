@@ -624,29 +624,40 @@ class Initializer:
 
     def find_post(self): #self-added to find POST
         print("Find POST request\n")
-        htm_regex = "\w+\.htm"
-        #print("--------HTML--------")
         #print(self.driver.page_source)
-        #print("--------HTML--------")
+        #different webservers have different formats so try them all
+        htm_regex = "\w+\.htm\w?"
         all_htm = []
         all_htm = get_scripts(self,htm_regex,all_htm)
         print("all_htm ", all_htm) # look for other htmls that might have method="post"
 
         php_regex = "\w+\.php"
         all_php = []
-        #all_php = re.findall(php_regex,self.driver.page_source)
-        #all_php = list(all_php)
-        #all_php = list(dict.fromkeys(all_php))
         all_php = get_scripts(self,php_regex,all_php)
         print("all_php ", all_php)
+        
+        asp_regex = "\w+\.asp"
+        all_asp = []
+        all_asp = get_scripts(self,asp_regex,all_asp)
+        print("all_asp ", all_asp)
+        
+        shtml_regex = "\w+\.shtml"
+        all_shtml = []
+        all_shtml = get_scripts(self,shtml_regex,all_shtml)
+        print("all_shtml ",all_shtml)
 
         start_sniff = subprocess.Popen('docker exec $(docker ps -q -f name=debug_gh) bash -c "apt-get install sudo -y; sudo apt-get install tcpdump -y; mkdir pcap; cd pcap; rm seed.pcap; sudo tcpdump -U -w seed.pcap;"', shell=True)
         time.sleep(10) #set some time for installing tcpdump
         click_buttons(self) #click on buttons on main page
+        
         all_htm = get_scripts(self,htm_regex,all_htm) #update if new scripts found
-        all_php = get_scripts(self,htm_regex,all_php) # update if new scripts found
-        all_scripts = [all_htm,all_php]
-        for one_scripts in all_scripts: #one_scripts -> all htm/php in a list, a_script -> one htm/php
+        all_php = get_scripts(self,php_regex,all_php) #update if new scripts found
+        all_asp = get_scripts(self,asp_regex,all_asp) #update if new scripts found
+        all_shtml = get_scripts(self,shtml_regex,all_shtml) #update if new scripts found
+        all_scripts = [all_htm,all_php,all_asp,all_shtml]
+        all_regex = [htm_regex,php_regex,asp_regex,shtml_regex]
+        
+        for one_scripts in all_scripts: #one_scripts -> all htm/php/... in a list, a_script -> one htm/php/...
             for a_script in one_scripts: #go through each script in sequence
             #for i in range(len(one_scripts)): #go through each script randomly, may repeat, use if you want different seeds/firmware crashes if it goes in sequence
                 #a_script = one_scripts[random.randint(0,len(one_scripts)-1)] #uncomment if using i in range, otherwise comment out
@@ -657,9 +668,10 @@ class Initializer:
                 #print(self.driver.page_source)
                 click_buttons(self) #click on buttons there
                 time.sleep(1) # set some time for loading after clicking
-                new_scripts = re.findall(htm_regex,self.driver.page_source) # find any new scripts that may have been discovered after clicking
-                for new_one_script in new_scripts:
-                    one_scripts.append(new_one_script)
+                for one_regex in all_regex:
+                	new_scripts = re.findall(one_regex,self.driver.page_source) # find any new scripts that may have been discovered after clicking
+                	for new_one_script in new_scripts:
+                    		one_scripts.append(new_one_script)
                 one_scripts = list(one_scripts)
                 one_scripts = list(dict.fromkeys(one_scripts))
 
@@ -691,9 +703,9 @@ class Initializer:
                     print("    - creating json dump", creds_dump_path)
                     with open(creds_dump_path, "w") as credFile:
                         json.dump(credentials, credFile)
-            #initializer.find_post()
+            initializer.find_post()
             initializer.Run()
-            initializer.find_post() #self added
+            #initializer.find_post() #self added
 
             initializer.Logout()
 
@@ -773,14 +785,15 @@ def click_buttons(self): # click buttons on page
     #links = self.driver.find_elements(By.XPATH,"//*[@method='POST']//button") #find every button under a method=POST element (might miss stuff)
     links = self.driver.find_elements(By.XPATH,"//*[@onclick]") #find everything that is clickable
     links = links + self.driver.find_elements(By.XPATH,"//button") #find every button
-
+    #random.shuffle(links)
+    
     for e in links:     
         try:            
-            if e.is_displayed():
-                try:    
-                    print("    - trying button", e.text)
+            if e.is_displayed() or True:
+                try:
                     if((e.text).upper() == "LOGOUT"): #don't accidentally log out
-                        continue
+                        continue    
+                    print("    - trying button", e.text)
                     e.click()
                     try:
                         WebDriverWait(self.driver,2).until(EC.alert_is_present()) #deal with alerts
@@ -789,6 +802,10 @@ def click_buttons(self): # click buttons on page
                         print("alert cleared")
                     except TimeoutException:
                         print("no alert")
+                    '''links = self.driver.find_elements(By.XPATH,"//*[@onclick]") #find everything that is clickable
+                    links = links + self.driver.find_elements(By.XPATH,"//button") #find every button
+                    links = list(links)
+                    links = list(dict.fromkeys(links))'''
                 except ElementNotInteractableException as e:
                     print("    - elem [%s] not interactable" % e.text)
                 except ElementClickInterceptedException as e:

@@ -1,0 +1,8 @@
+POST /HNAP1/ HTTP/1.1
+Host: 10.0.0.90
+Authorization: Basic QWxlc2FtZQ==
+Content-Length: 0
+171
+ACTION:http://purenetworks.com/HNAP1/Gez2oy6yze3zzyaWww	ywyPywwzwyyzzwywzywzwรรรรรรwzNSwwรรรรรรรรร
+Host: 10รรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรร<รรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรAP1/Gรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรร
+

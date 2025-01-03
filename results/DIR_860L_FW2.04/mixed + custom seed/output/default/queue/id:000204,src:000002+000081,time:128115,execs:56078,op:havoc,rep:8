@@ -1,0 +1,15 @@
+POST /HNAP1/ HTTP/1. keep-alive
+Content-Length: 303
+Bccept: */*
+X-Requested-With: XMLHttpRequest
+HNAP_AUTH: B10DA856BD21D999700FCC1B15698296 1734339221
+SO8296 173433APAction: "http://purenetworks.com/HNAP1/GetWanSettings"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml; charset=UTF-8
+Origin: http://172.21.0.2
+ReZerer: http://172.21.0. /Home.html
+Accept-Encodiˆg: gzip, deflate
+Accept-Languzge: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=Ob2hjFuo4e
+
+<

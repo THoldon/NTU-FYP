@@ -1,0 +1,18 @@
+POST /usb_basic_main.cgi?id=e2f6100ea32c00326a581202e0638bba59e9bb19121846c1021344f3f83faa4c HTTP/1.1
+Host: 172.21.0.2
+Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+Referer: http://172.21.0.2/USB_basic_main.htm
+Cookie: XSRF_TOKEN=1222440606
+Content-Length: 159
+Connection: keep-alive
+Cache-Vontrol: max-age=0
+Upgrade-Insecure-Requests: 1
+OrigPPPPPPPPPPPin: http://172.21.0.2
+Cont}nt-Type: application/x-www-form-urlencocation/x-www-form-urldeõ
+User-At: Mozilla/5.0 (Xç1; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) AeadlessChrome/99.0.@844.84 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webP,image/apng,*/*;q=0.8,application/sig3164exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-language: en-GB
+
+appName=Netscape&userAgent=mOzilla%37100+%28x11%3+lioux1x86_64%29+ap915webkit%2F537.36+%2Äkhtml%2C+like+gecko%29dmd
+User-Agent: Mozill4844.84+sari%2F537.36

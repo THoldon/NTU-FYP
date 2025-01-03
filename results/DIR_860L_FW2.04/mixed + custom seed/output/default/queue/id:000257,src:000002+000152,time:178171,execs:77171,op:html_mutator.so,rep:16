@@ -1,0 +1,78 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+Connection: keep-alive
+Accept: */*
+X-Requested-With: XMLHttpRequest
+HNAP_AUTH: B10DA856BD21D999700FCC1B15e
+Accept: */*
+X-Requested-With: XMLHttpRequest
+HNAP_AUTH: B10DA856BD21D999700FCC1B156Æ8296 1734339221
+SOAPAction: "http://purenetworks.iom/HNAP1/GetW9700FCC1B15e
+Accept: */*
+X-Requested-With: XMLHttpRequest
+HNAP_AUTH: B10DA856BD21D999700FCC1B156Æ8296 1734339221
+SOAPAction: "http://purenetworks.iom/HNAP1/GetWanSetpRequest
+HNAP_AUTH: B10DA856BD21D999700FCC1B15e
+Accept: */*
+X-Requested-With: XMLHttpRequest
+HNAP_AUTH: B10DA856BD21D999700FCC1B156Æ8296 1734339221
+SOAPAction: "http://purenetworks.iom/HNAP1/GetW9700FCC1B15e
+Accept: */*
+X-Requested-With: XMLHttpRequest
+HNAP_AUTH: B10DA856BD21D999700FCC1B156Æ8296 1734339221
+SOAPAction: "http://purenetworks.iom/HNAP1/GetWanSettings"
+User-gAent: Mozilla/5.0 (X1.8
+Cnux x86_64POST /HNAP1/ HTTP/1.1
+Connection: ka
+GAve-ilcpecpt: */*
+X-Requested-With: XMLHttpRequest
+HNAP_AUTH: B10DA856BD21D99976Æ8296 1734339221
+SOAPAction: "http://purenetworks.iom/HNAP1/GetWanSettings"
+User-gAent: Mozilla/ept: */*
+X-Requested-With: XMLH5.0 (X1.8
+Cnux x86_64POST /HNAP1/ HTTP/1.1
+Connection: ka
+eAvee-ilcpecpt: */*
+X-Requested-With: XMLHttpRequest
+HNAP_AUTH: B10DA856anSettings"
+User-gAent: Mozilla/5.0 (X1.8
+Cnux x86_64POST /HNAP1/ HTTP/1.1
+Connection: ka
+eAve-ilcpecpt: */*
+X-Requested-With: XMLHttpRequest
+HNAP_AUTH: B10DA856BD21D99976Æ8296 1734339221
+SOAPAction: "http://purenetworks.iom/HNAP1/GetWanSettings"
+User-gAent: Mozilla/5.0 (X1.8
+Cnux x86_64POST /Httings"
+User-gAent: Mozilla/5.0 (X1.8
+Cnux x86_64POST /HNAP1/ HTTP/1.1
+Connection: ka
+GAve-ilcpecpt: */*
+X-Requested-With: XMLHttpRequest
+HNAP_AUTH: B10DA856BD21D99976Æ8296 1734339221
+SOAPAction: "http://purenetworks.iom/HNAP1/GetWanSettings"
+User-gAent: Mozilla/ept: */*
+X-Requested-With: XMLH5.0 (X1.8
+Cnux x86_64POST /HNAP1/ HTTP/1.1
+Connection: ka
+eAvee-ilcpecpt: */*
+X-Requested-With: XMLHttpRequest
+HNAP_AUTH: B10DA856anSettings"
+User-gAent: Mozilla/5.0 (X1.8
+Cnux x86_64POST /HNAP1/ HTTP/1.1
+Connection: ka
+eAve-ilcpecpt: */*
+X-Requested-With: XMLHttpRequest
+HNAP_AUTH: B10DA856BD21D99976Æ8296 1734339221
+SOAPAction: "http://purenetworks.iom/HNAP1/GetWanSettings"
+User-gAent: Mozilla/5.0 (X1.8
+Cnux x6_64POST /HNAP1/ HTTP/1.1
+Connection: ka
+eAvee-ilcpecpt: */*
+X-Requested-With: XMLHttpRequest
+HNAP_AUTH: B10DA856BD21D999700FCC111111111111B15698296 1734339221
+

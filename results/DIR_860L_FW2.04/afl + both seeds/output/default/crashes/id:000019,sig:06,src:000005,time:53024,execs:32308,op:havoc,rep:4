@@ -1,0 +1,7 @@
+GET /session_login.php HTTP/1.1
+Acc: gzip,defl
+Referer: htywzywzywzywzywzywzywzyw
+Host: 192.168.0.............uid=zywzywò
+Content-LengtS: 13
+
+te

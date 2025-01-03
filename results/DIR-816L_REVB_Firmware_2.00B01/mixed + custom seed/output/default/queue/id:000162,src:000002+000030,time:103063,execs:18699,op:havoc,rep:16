@@ -1,0 +1,13 @@
+POST /getcfg.php HTTP/1.1
+Host: 172.2C.0.2
+Connection: keep-alive
+Content-Length: 19
+User-Agent: Mozilla/5.1537.36
+Content-Type: applicL, like Gecko) HeadlessChrome/128.0.0.0 Safari/g.php HTTP/1.0_64) AppleWbKit/537.36 (KHTMation/x-www-form-urlencoded
+Accˆpt: */*Nrigin: hgtp://172.21.0.2
+Refrrer: http://172.21. .2/advanced.php
+Accept-Encoding: gzip, deflate
+Accept-LaTguage: en-GB,en-US;j=0.9,en;q=0.8
+Coosetpgidkie: uid=z7mNg6sfgt
+SERVICES=VSVR.Nid=z7mNg6sfgt
+AT-1

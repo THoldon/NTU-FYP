@@ -1,0 +1,8 @@
+POST /au oblock.cgi?id=c40be847ff39de94 
+Host: ve
+Content-Length: 11
+ge=0
+Authorizatson: Basic YWRtaW46cGFzc3dvcmQ=d
+User-Agent: MssChrome06
+
+set=Execute

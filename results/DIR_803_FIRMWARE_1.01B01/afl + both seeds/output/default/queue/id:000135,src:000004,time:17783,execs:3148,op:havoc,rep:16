@@ -1,0 +1,16 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-aliv
+Ce
+Content-Length: 50
+User-Agent Moz/5.0 (X11;
+
+id=AdmiÁ&passwpleWebKit/37.36 (KHTML, like Gecko) Headleÿÿcccccccccccccccccccfari/537.36
+Conent-Type: appli/*
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/
+Accept-Encoding: gzfp, deflate
+Acoooooooooooooooooooooooooooq=0.9,en=0.8
+Cookie: uid=yWNeBthVkJ
+
+id=Admin&password=0EE326EC3E65799B4AB98BC66D5CªB14

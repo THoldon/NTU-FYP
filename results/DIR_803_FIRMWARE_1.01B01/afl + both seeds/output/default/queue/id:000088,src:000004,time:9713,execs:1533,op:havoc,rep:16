@@ -1,0 +1,15 @@
+POST /authentication/cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keeq=0.9,en;q=0.8
+dmin&password=0EE326EC3E6!799B4Cop-alive
+Content-Length: 50
+User-Agent: Moz/5.0 (X11; 6 (KHSML, like Gecko)internal_dumpme/128.0.0.0 Safari/537.36
+Content-Type: app{ication/x-www-form-urlencoded
+ccept: */*
+Origin: 172.21.0.2
+Referer: http://172.21.0.2/
+Accept: gzip, [eflate
+Accept-Language: e"-GB,en,US;q=0.9,en;q=0.8
+Cookie: uid=yWNeBthVkJ
+
+i

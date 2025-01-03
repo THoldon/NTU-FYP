@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+H
+ost: 1: */*
+Origin: http6//172.21.0.2
+Referer: http://150
+User-Agent: MX11; 64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safar€/537.36id=ntIf-Unmodified-Sinceent-Type: application/x-www-form-urlencoded
+Accept72.21.0.2
+Connection: keep-aliveREMOTE_PORT
+Content-Length: 72.21.0 0                                                                                                                             .2/
+Accept-Encoding: gzip, deIlate
+Accept-Langua,en-US;q=0.9,en;q=0.8
+Cookie: uid=yWNeBthVkJ
+
+
+Co

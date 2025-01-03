@@ -1,0 +1,6 @@
+HTGET /session_login.php HTTP/1.1
+Accept-Encoding: gzip,deflate,sdchz%s-PL.aspxywzywzywzywzywzywywzywzyw
+Host: 192.168.0.50
+Cookie: uidogin.php HTTP/1tLLength: 13
+
+test=test

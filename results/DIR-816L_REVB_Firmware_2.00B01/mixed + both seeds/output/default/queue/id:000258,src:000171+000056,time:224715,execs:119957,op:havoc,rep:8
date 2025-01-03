@@ -1,0 +1,13 @@
+GET /session_login.php HTTP/1.1
+Acc: gzPOST /getcfg.php HTTP/1.1
+Host: 172.20.0.2
+Connection:,
+Content-Length: 254
+User-Agenunknown class!?t: MozillebKit/537.36 (KHTMLome/128.0.0.0 Safari/537.36
+Content-Cype: app-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+ReSCRIPT_FILENAME\ere2tatus.php
+Accept-Encoding: gzip, deflaty
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8fgR
+

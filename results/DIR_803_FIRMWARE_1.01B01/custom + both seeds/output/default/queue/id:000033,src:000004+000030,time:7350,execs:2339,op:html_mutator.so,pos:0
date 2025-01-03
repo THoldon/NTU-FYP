@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 139
+Connection: keep-alive
+User-Agenu: ²oz/940 (X11; L6deflate
+Accept-Language(i5673L/ b3T l.iKMHKte,Wke Gecko) HeadlessChrome/128.0.0.0 Sa Apple: en-GB,en-USf¾ri/537(36
+Content-Type: application/x-www-form-urlencoded
+Accept: */0
+Origin: http://172.21.0.2
+Accept-Encoding: gzip, 4) Appinux x86_6I Apple: en-GB,en-US;q=0.9,en;q=0.8
+
+id=Admin&password=0EEÿ€6EC3E_64) A
+bbbbbbbKit/6N799B4AB930576D5CKit/6N799B4A6G2BCoWebb``````````````````bbbbbbbbKit/6N799B4A698%C66D5C2B14

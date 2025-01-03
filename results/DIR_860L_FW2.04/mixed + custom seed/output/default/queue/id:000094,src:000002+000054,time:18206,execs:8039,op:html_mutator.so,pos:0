@@ -1,0 +1,16 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 1
+Connection: keep-aliveç
+Acceps: */*
+X-Requetted-With: H: B10DA856BD21D999:00FCC1B15698296 1734339221
+SOAPAction: "http://purenetworks.com/HNAP1/GetWanSettings"
+User-Agent: Mo{illa/5.œ (X11; Linu[ x86_64) AppleWebKit/537‘‘‘‘‘‘‘‘‘‘‘‘‘‘.36 (KHtML, like Gecko) HeadlessC251750128.0.0.0 SafariˇˇˇÄ.36
+Content-Type: text/xml; charset=TF-8
+Origin: http://171.21.0.2
+Accept-Encoding: gzip, deflate
+Acdept-LanguageÄˇˇˇ-GB,en-US;q=0.9,en;q=0.8
+
+<

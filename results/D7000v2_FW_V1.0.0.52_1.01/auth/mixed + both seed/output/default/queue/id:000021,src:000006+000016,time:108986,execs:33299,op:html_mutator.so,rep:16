@@ -1,0 +1,19 @@
+Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+Referer: http://172.21.0.2/ver_check_upgrade.cgi?id=0ab4b8a7086750f136ad8eba5009e188b120ffe0f59835d1f8e3dd71accc4d3d
+Cookie: XSRF_TOKEN=1222440606
+Content-Length: 13
+HTHos3m-urêent: 172.21.0.2
+HTPOST /ver_check.cgi?id=5a5zywzywzywzywzyd3d1d719e24f06f625fc789116e59c47837be25ce340e7 HTTP/1.1
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://172.21.0.2
+Co‘tent-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/99.0.4844.84 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Langu13
+
+test=t
+
+/Encel=^]anid

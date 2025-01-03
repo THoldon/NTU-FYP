@@ -1,0 +1,16 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 1
+Connection: keep-alive
+Accept: text/xml
+H;AP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACkI16ÿÿÿÿt0.0 Safari/537tp://pur.com/HNAP1/GetUSBStoraaaaagMDevice"
+User-Bgent: Mozilla/5.0 X11; Linux x86_64) AppleWebKit/537.36 (KHTML, _ike Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xRl
+Origin: http://172.21.0.2
+Accept-Encoding:ontent-Length: 17
+Connecnguage: en-GB,e-US;q=0.9,en;q=0.8
+
+

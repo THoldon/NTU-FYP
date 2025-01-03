@@ -1,0 +1,21 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 139
+Ctent-Length: 0
+rol: mmax-agbe=0
+Accept: text/html,application/xhtml+xml,applЪation/xml;q=0.9,image/webp,*/*;q=0.8 
+Connection:PAction: "http://purenetworks.com/HNAP1/GetWanSettinсссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссс╩сссссссстсссссссссссссссссссссссссссссссссссссссссссссссссЪЪссссссссссссссссссссссссссссссссссссication/xhtml+xml,applЪation/xml;q=0.9,image/webp,*/*;q=0.8 
+Connection:PAction: "http://purenetworks.com/HNAP1/GetWanSettinссссссссссссссссссссс,сссссссссссссссссссссссссссссссссссссссссссссссссссссс╩сссссссстсссссссссссссссссссссссссссссссссссссссссссссссссЪЪссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссСсссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссgs"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36ссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссgs"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml; charset=UTF-8
+Origin: http://172.21.0.2
+Accept-EncodFng: gzip, deflate
+Accept-Lannnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnguage: en-GB,en-US;q=0.9,cn;q=0.8
+
+{: Basic QWxlc2FtZQ==
+Content-Length: 0
+rol: mmax-agbe=0
+Accept: text/html,application/'html+xml,applЪation/xml;q=0.9,image/webp,*/*;q=

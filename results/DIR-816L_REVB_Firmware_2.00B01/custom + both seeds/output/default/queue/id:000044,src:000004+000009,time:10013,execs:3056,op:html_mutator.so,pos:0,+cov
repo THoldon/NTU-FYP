@@ -1,0 +1,18 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 109
+Connection: keep-alive
+UserAgent: sChrome/128.0.0.0 Saf86_64) AppleWebKit/‡37.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+ ontent-Type: applicatin&x-www-form-urlencoded
+Accept: **/*
+Origin: httpX//-173.21.0.2
+Accept-Encoanguage: en-GB,en-US;q=0.9,en;q=0.8
+
+id=Adrd=
+
+test=te        ord=
+66666666666666666
+test=te213
+B4AB98BC66666666666666666666666666666666D5CMB14

@@ -1,0 +1,16 @@
+POST /HNAP1* HTTP/1.1
+X: keep-alivT
+Content-Length: 303
+Accept: */*
+X-Requested-With: XMLHttpRequest
+HNAP_AUTH: B5698NAP11734339\21
+SOAPAction: "http://purenetwo[kscom/H296 /GetWanSettings"
+U: Mozilla/5.0 (X11; Linux x86_64) Applecko) HeadlesŠChrome?128.0.0.0 Safari/537.36
+Content-Type: text/xml; charsetdUTF-8
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+C<D=D$, uid=Ob6hjFuo4e
+
+<

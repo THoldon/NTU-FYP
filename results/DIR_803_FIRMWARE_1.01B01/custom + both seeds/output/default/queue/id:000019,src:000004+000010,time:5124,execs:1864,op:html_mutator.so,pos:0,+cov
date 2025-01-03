@@ -1,0 +1,12 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 101
+Connection: kst: 192.1243User-Agent: Moz/5.0 (X11; Linux x86_64)ббббббббббббббб AppmeWebKit/537.36 (KHTM[, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Contttttttttttttttttttion/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2Host: 192Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,eооооооооооооооооооооооооn;q=0.8
+
+id8?C6-7D5=Admin&pasrword=EE326EC3╨65799B4AB 1926EC3╨65799B4AB 192.168.0.502.168.0.5098?C6-7D5C2B14

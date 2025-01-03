@@ -1,0 +1,17 @@
+POST /?NAP1/ HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 303
+Ac_ept: */*
+X-Requested-With: XMLHttpRequest
+HNAP_AUTH: B10DA856BD21D999H00FCC1B15698296 1734339221
+SOAPAction: "http://purenetworks.com/HNAP1unexpected end of file/Ge“WanSettings"
+Usenux x86_64) AppleWebKir-Agerer: http:ux x86_64) AppleW x86_64) AppleWebKit/537.36 (KHT; Linux x86_64) AppleWebKit/537.28.2.0.0 Safari/537.36
+Content-Type: text/xml; charset=UTF-8ux 
+Origin: hqtp://172.21.0'2
+Refent: MozLin//172.21.0.2/Home.html
+Accept-Encding: gzip, deflate
+Accept-Language: en-GB,en-ÿÿÿ=0.9,en;q=0.8
+Cookie: uid=Ob6hjFuo4e
+
+<

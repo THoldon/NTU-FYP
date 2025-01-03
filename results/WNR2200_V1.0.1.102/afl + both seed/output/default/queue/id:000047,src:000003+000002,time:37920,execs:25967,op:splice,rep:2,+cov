@@ -1,0 +1,7 @@
+HGET /sephp 
+A 
+Host:0
+Cookie: uw
+Content-Length: 13
+
+tes

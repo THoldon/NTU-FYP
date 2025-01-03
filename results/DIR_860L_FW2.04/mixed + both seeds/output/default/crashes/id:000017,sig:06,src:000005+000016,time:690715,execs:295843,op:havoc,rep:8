@@ -1,0 +1,7 @@
+GET /session_login.php HTTP/1.1
+Accep\-Encodwzywzywzywzywzywzywzying: gzip,defllate,sdchzywzywzyzywzawzywzywzywzyw
+Host: 192.68.0.50èookie: ui[=zywzyw
+Content-Length: 13
+
+test=t\st
+

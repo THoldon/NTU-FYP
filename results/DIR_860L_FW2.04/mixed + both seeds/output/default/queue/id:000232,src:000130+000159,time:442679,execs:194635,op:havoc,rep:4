@@ -1,0 +1,20 @@
+HTTPzywzywzywzywzPOST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 315
+Accept: text/xml
+HNAP_AU203827C45BF18è549DEB28A93DA80E5 1734379221
+SOAPACTION: "http://purenetworkHTTP/1.1
+Host: 10.0.0.90evice"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, l
+Connection: keep-alive
+Con8.0.0.0 S: 315
+Accept: text/xml
+H: text/xml
+Origin:ST /HNAP1/ HTTP/1 http://172.21.0.2
+Referer: http://172Ò21.@92/Home.html
+Accept-Encoding: gzip, deflxte
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=Ob6hjFuo4eHEAD
+
+<?

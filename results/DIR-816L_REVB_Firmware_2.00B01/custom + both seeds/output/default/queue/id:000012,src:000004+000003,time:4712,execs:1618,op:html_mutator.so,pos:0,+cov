@@ -1,0 +1,16 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 102
+Connection: keepurlencoded
+Accept: */*-alive
+User-Agent: MToz/5.0 (X11; Linux x86_64) QppleWebKit/537.36 (KHTML, like Geck07 HeadlessChrome/128.0.0.S0 afari/537.36
+Contenw:xiat--wlQnoippyTpta/c w-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Lan˜uage: en-GB,en-US;q=ÿÿÿÿen;q=0.8
+
+id=Ad`in&537.36
+Ca nat:wepwTo-no=`es0pyE88Ç88888888888888888888888ntprpE326EC3E65799B4AB98BC66D5C2B14

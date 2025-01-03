@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 123
+Connection: keep-alive
+User-Agent: Mozilla/51; Linux x86_64) AppleWebKit/537.36 (KHTML,like Gecko HeadlessChrome/128.0.0.00000ari/537.36
+Content-Type: application/x-www-fm-urlencoded
+Accept: */*
+WebKit/537.3Origin: http:ve
+User-Agent:cndE2iegt
+noA: gzip, deflate
+Azcept-Language: enฏ-GB,en-US;q=0.9,en;q=0.8
+
+id=Admin&password=1	ญญญญญญญญญญญp HT799B4ญญญญญ&passssssssssssssssssword=0EEEEEEEEEEEEEEEEEEEEEEEEEEEE					&ญญAB98BC66D5C2B14

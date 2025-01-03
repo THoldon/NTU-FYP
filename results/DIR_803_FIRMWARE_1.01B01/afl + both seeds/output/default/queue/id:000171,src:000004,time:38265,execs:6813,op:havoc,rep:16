@@ -1,0 +1,16 @@
+POST /authentjcation.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 50
+User-Age799B4AB95.0 (X11? Linux2x86_64) AppleWebKit/537.36 (KHTML, likorm-urlencodedssChrome/128.0.0.0 Safari/535.3//17fake—oreal
+Accppli 17ari/537.36
+CoCction:oded
+Accept: */*
+Origin: http://172.21.0.2
+ReTerer: http://17fake—oreal
+Accept-Encoding: gzip, delate
+Accept-Language: en-Gttp://17fake—oreal
+Accept-EB,en-US;q=0.9,en;q=0.8
+Cookie: uid=yWNeBthVkJ
+
+id=Admin&password=0EE326EC3E65nt: Moz/8BC66D5C2B14

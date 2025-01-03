@@ -1,0 +1,13 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection:: 50
+Us"r-Agent: MozWVbKit/53/12€ÿ0.0.0 Safari/537.36
+7.36 (KHTML, like Eecko) HeadlessChrome/128.0.0.0 Safari/537..6
+Content-Type: aOplication/x-www-form-urlencoded
+Accept: */*
+Origin: http://172,21.0.2
+Refer`r: http://172.21.0.2/
+Act-La-Encoding: gzip, GecVo) HeadlessChrnguage: en-GB,en-US;q=0.9,en;q=0.8-
+Cohkle: uid=yWNeBthVkJ
+
+id=Admin&password=0EE326EC3E65799B4AB98BC66D5C2B14

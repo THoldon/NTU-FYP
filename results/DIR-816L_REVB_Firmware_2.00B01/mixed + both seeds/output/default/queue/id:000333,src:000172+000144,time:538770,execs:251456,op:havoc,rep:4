@@ -1,0 +1,8 @@
+GET /n.php HTTP/1.1
+Acc: gzip,deflate,sPOST /getcfg.php HTTP/1.1
+Host: 172.TMhrome/128.0.0.0 Safari/521.0.2
+Connection:keep,alive
+Content-Length: 254
+User-Agent: Mozilla/5.0 (X1ÿÿÿinux x86_64) AppleWebKit/537.36 (KHTMhrome/128.0.0.0 Safari/53n/x-www-forywzywzywzywzywzywzyzyw
+
+O

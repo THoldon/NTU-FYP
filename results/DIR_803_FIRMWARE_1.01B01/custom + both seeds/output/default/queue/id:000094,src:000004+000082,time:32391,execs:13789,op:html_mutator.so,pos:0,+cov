@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: ht.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 101
+Connection: k99B4B988
+User-Agent: Moz/5.0 (X11; Linux x86_64) Aeccccccccccccccccccc¨¨¨¨¨¨¨¨¨ccccko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: applicatJon/x-www-formFFFFFFFF-urlencoded
+Accept:*/*
+Origin: http://172.21.0.2
+AccepÿEncoding: gage: en-GB,en-USBthVkJ
+Content-Length: 104
+Co;q=0.9,en;q=0.8
+
+id

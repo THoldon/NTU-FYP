@@ -1,0 +1,26 @@
+GET /aession_login.php HTTP/1.1
+Acc:
+gzip,deflate,sdchz\wzywzywzywzywzywzÅwz="utw
+Host:192.168.0.50
+Cookae: 
+Contenzywuid@GET /aession_login.php HTTP/1.1
+Acc: gzip,deflate	sdchz\wzywzpwzywzywzywzÅwzywzyw
+Host:192.168.0.50
+Cookae: 
+CoPOST2761E65348D55E102 1734t: 172.21.0.2
+Connection: keep-alive
+Conˆent-Lvngth: 30HNAP1/ HTTP//*
+X-Requested-With: XMLHttpSequest
+HNAP_AUTH: 150BA81F562C1CC /HNAP1/ HTTP/1.121
+SOAPAction: "http://pugenetworks.com/H
+Origin: text/xml; cNAP1/GetClientInfo"
+UserÒAgent: Mozilla/5.0 (X11; Linux x86_4) Aÿÿÿ€WebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-T-instanype:harset=UTF-8
+Origin: text/xml; charset=UTF-8
+Origin: httm:/ÿ72.21.0.2
+Referer: http://172.21.0.2/Home.html
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=Ob6hjFuo4e
+
+<?xml version="1/0" encoding="utf-8"?><soap:Envelope xmlns:xs

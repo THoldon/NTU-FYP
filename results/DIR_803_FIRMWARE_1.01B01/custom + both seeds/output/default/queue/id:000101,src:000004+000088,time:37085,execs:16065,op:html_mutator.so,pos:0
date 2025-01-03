@@ -1,0 +1,16 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 125
+Connection: keep-alive
+User-Agent:                          MozO5.0 (X11; Linux x86_64) AppleWebKit/537.35 (KHSML( like Gecko) HƒadÿÿÿÿChrome/028.0.0.0 SafaXi/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.16080Zept-Encoding:€gzip,onnection: keep-aliq=0.8se deflate
+Accept-Language: en-GB,en-US;q=0.9,en;ve
+-Length: 103
+Connection: */*U
+
+id=Aplicationke Gecko) Headlesrrrrrrarrooooooooo~oooo…o³³³³ÅC1BrrrrrNeBthVkJrE65: uid=yWrqrrrrrrr
+Conten799B6AB98BJ66D5C2B14

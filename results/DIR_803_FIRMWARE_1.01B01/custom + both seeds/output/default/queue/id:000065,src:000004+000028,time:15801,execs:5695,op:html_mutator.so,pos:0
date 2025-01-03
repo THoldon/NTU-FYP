@@ -1,0 +1,16 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 120
+Connection: keep-alive
+User-Agent:www-form-urlencoded
+Acc_64) ApèleWebKit/537.@6 (KHTML, like GecEncoding: gzip, deflatbÚ
+Accepko) HeadlessChrome/128.0.0.0 Safari/D37.36
+Content-Type: application/x- Moz/5.0 (X11; Lini te6x:*8Orni /
+p:*xugded
+Acc_64) A http://172.21.0.
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+id=Admin&passB………………AB98BC66D5777777id=Admin&pass7777799 4………………………………………………………………………………………………………EC3E65C2B16EC3E65C2B14

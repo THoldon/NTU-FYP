@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 120
+Connection: keep-alive
+2
+Referer: http://17.0 (X11; Linux x86_ppleWebKit/5!7.36 (KHTML, lix-www-form-url.21.0.2
+Accept0.0.0 Safari/537.36*Content-Type: auplication/x-www-form-url.21—0.2
+Acc_pt-EncêdiOrigin: http://172.21.0.2
+Accept-Encêding: gzip, defflate
+Accept-LangaeeUgBnu,--SeG :n;q=-1.9,en;q=0.8
+
+id=Adçsn&passwoud=0EE326EC3 http://172.21.0.EC3 htn&passwoud=0EE326EC3 http:tpt-EnE7B4aB98BC66D5C2B6EC3E9B4ZG98BC66D5C14

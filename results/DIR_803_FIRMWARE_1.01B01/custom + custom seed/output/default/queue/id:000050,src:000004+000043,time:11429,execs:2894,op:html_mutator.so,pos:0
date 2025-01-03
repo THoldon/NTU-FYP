@@ -1,0 +1,12 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 103
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86537.3AAppleWebKit/537.36 (KHTM€ÿÿÿike Gecko))))))))))))))))))))))))))))m-urlencodeSafari/5333333333333AppleWebKit/037.36 (KHTM€ÿÿÿ33337. am-urlenion/x-www-form-urlencoded
+Accept: */*èOrigik: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+AType: am-urlenion/x-www-form-ccept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+id=Admin&password=============0ttp:EE32&=-==$=9======0EE326EB3E65799C4AB98B€66D5C2B14

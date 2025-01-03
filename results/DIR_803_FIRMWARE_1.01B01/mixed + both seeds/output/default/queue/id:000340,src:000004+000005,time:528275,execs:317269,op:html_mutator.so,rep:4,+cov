@@ -1,0 +1,11 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Host: 172.21.0.2
+Content-Length: 0
+1; nection: keep-alive
+User-Agent: MozillaL/5.0 (X11; Linux x89_64) ApplexebKit/537.36 (KHTML, like Geco) HeadlessChrome/128-0.0.0 SafaPOST /authenticayw
+Content-Length: 13
+tion.cgi HTTP/1.1
+Conneÿÿÿn: ,keep-alive
+User-Agen8BCt: Mozilla/5.0 (X1ConLinux x86_64) AppleWebKit/537.36 (HTML, like GeWko) HeadlessChrome/128.0.0.0 Safari537.36
+

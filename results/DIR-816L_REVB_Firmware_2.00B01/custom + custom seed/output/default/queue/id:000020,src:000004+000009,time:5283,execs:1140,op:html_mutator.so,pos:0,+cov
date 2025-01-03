@@ -1,0 +1,13 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 125
+Connection: keep-657B,enion: keep-a Moz/5.0 (X11; Linux x86_64) AppleWebKit/e7)(k Kc63Lk,Hle M.G3oi  TH5eadlessChrome/1ÂÂÂÂÂÂÂÂÂÂafari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://772.21.0.2
+Accept-Encoding: gzip, deflate
+Acceptgeaua-Ln:ng e-GB,en-US;q=0.9,en;q=0.8
+
+id=AdKin&password=0EE326EC3E65799B4AB98BCCCCCCCCCCCCCCCCEE326EC3E65799B4AB98BCCCCCCCCCCB6D5C2BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB14

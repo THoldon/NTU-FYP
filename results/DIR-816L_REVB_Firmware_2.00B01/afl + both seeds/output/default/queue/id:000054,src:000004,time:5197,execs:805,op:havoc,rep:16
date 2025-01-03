@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+ uidHost: 172.21.0.2
+Connection: keep-alive
+Content-Length: 50
+User-Agent;ßMoz/5.0 (i11; Linux x86_64) AppleWfOri/537.36
+Content like Gecko) HeadlessChromeo128.0.00.0 Safari/537.36
+Content-Type: applic>tion/x-www-form-urlencoded
+Accept: */*
+Origin: init_logs2.21.0.2
+Referer: http://172.21.0.2/
+Accept-Encoding: gzip, def,a
+Accept-LanguAge: en-GB,en-US;q=0.9,enTq(0.8
+Cookie: uid=z7mNg6sfgR
+
+id=Admin&password=4EE326EC3E65799B4AB98BC66D5C2B14

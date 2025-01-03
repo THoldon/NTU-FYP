@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 120
+Connecpion: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/5336 (KHTML, like 0.0.0 Safari/5377.36 (KHTML, like 0.0.0 ÿÿÿri/537.36
+Co‘tentType: appliitwnxo-/w-acwform-urlenckded
+Accept: */*
+Origin: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;ƒ=0.8
+
+id=Admin&Ðasvwowd=0EE326EC3E65799E326Ed=0EE326EC3E65799E326ECC3E65799B/AB98BC66TB4AB98BCW6Tpolle411 Ljngth Req:  D5C2B14

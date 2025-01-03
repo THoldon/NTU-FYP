@@ -1,0 +1,16 @@
+POST /HNAP1/ HTTP/1.1Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 303
+Accept: */*
+X-Requested-With: XMLHttpRequest
+HNAP_AUTH: B10DA856BD21D999700FCC1B15698296 1734339221
+SOAPAction: "http://purnetworks.com/HNAPWWWWWWWWWWWWWWWWWWWWser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: textaaaaaaaaaaaaaaaaaaaaaaaaaaa/xml; charset=UTF-8
+O@igin: http://172.21.0.2
+Referer: http://172.-1.0.2/Home.html
+Accept-En`oding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Co1.0.2
+Referer: http://okie: uid=Ob6hjFuo4e
+
+<

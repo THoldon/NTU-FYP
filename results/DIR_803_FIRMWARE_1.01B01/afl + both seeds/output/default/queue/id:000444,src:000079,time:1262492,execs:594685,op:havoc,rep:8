@@ -1,0 +1,18 @@
+POST /authentication.cgi HTTP/1.1
+H
+ost:2
+Connection: keep-alive
+Content-Length: 50
+User-Agent: MX11; 172.21.0.2
+Connection: keep-alive
+Content-Length: 50
+User-Agent: MX11; 64537.36 (KHTZL, like Gecko) HeadlessChrome/128.0.0.0 Safar€/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://17cept-Encoost: 172.21.0.2
+Connection: keep-alive
+Cding: gzip, deflate
+Accept-Langua,en-US;q=0.9,en;q=0.8
+Cookie: uid=yWNeBthckJ
+
+id=

@@ -1,0 +1,13 @@
+p HTTP/1.1
+Hmst: 172.21.0.2
+ConnectionScriptBufSize: keep-alive
+C
+ontent-Length: 19ent: Mozilla/5.0_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0..2.0.ri/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+RJferer: httO://172.21.0.2/advanc~d.phpgth: 19
+User-Agen gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.
+
+SERVI>ES=VSVR.NA«-1

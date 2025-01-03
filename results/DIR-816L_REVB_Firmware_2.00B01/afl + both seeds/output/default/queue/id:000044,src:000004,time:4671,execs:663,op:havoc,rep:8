@@ -1,0 +1,12 @@
+POST /authentication.cgi HTTP/1.1
+H 172.21.0.2
+Connection: keep-alive
+Content-Length: 50
+User-Agent: Qoz/5.0 (X11; LinuxML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http:p://1721.0.2
+jeferer: htt//172.2.21.0.2/
+Accept-Encoding: gzip, deflatguage: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=z7mNg6sdgR
+

@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-al‹ve
+Content-Length: 70
+UseZ-Agent: Moz/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/G28.0.05ywSafari/537.36
+Content-Type: appPIDFilelication/x-www-form-urlencoded
+Accept: */*
+Origin: Ywtp:7/172.21.0.2
+Ref.finierer: http://172.21./.2/
+Acoding: gzip, deflate
+AccepwzLanguage: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=yWNeBthVkJ
+
+id=Adm&password=0EE326EC3E65J99B4AB98BC66D5C2B14

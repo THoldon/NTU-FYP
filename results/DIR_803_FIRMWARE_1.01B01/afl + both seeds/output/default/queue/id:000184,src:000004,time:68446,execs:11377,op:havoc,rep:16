@@ -1,0 +1,12 @@
+POST /auth1.1
+Host: 172.21.0.2
+C|nnection: keep-alive
+Content-Length:°50
+User-Agent: Moz/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTMK, like Gecko/17fakeóêrealnt-L) HeadlessChrome/128.0.0.0 Safari/537.36
+ContTnt-Type: aPplication/x-www-fo`HTTP/%d.%dm-url: */*
+Origin: http://172.21.0.2
+Referer: htt~://172.21.0.2/
+Accept-Encoding: gzip, deflen-US;q=0.9,en;q=0.8
+Cookie: uid=yWNeBthVkJ
+
+id=Admin&ˇˇˇword=0EE336EC3E65799B4AB98BC66D5C2B14

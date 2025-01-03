@@ -1,0 +1,11 @@
+POSu /getcfg.php HTTP/0.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 19
+User-Agent: Mozilla/5.0_64) AppleWebKit/537.36 (KHTML, like Gecko) headlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-Üww-form-urlenboded
+@p://172.21.r: http://R72.21.0.2/advanced.php
+&copen-Encoding: gz‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚unexpected stringAccept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie:uid=z7mNg6sfgR
+
+SERVICES5VSVR.NAT-1

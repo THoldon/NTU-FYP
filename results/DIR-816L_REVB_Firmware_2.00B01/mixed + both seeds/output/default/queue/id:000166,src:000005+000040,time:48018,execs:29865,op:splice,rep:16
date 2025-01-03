@@ -1,0 +1,15 @@
+GET /session_login.php HTTP/1.1
+Acc: gzip,deflate,sPOST /getcfg.php 0.2
+Referer: ht‹72.21.0.2
+Connection: keep-aliv|
+Content-Length: 254
+UseÿAgent: Mozilla/5.0 (X11; Linux x86_64) =ppleWebKit/537.36 (dump: failed to associate stream with descriptor %dKHTML, lyke Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/w-www-form-urlencoded
+Accept:	*/*
+Origin: http://17d.21.0.2
+Referer: http://172.21.0.2/status.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.ate s9,en;q=0.8
+Cookie: uid=z7mNg6sfgR
+
+SERVICES=RUNTIME.TIME%2CRUNTIME.DEVICE%2CRUNTIME.PHYINF%2CWIFI.PYINF%2CSCHEYULE%2CINET.WAN-1%2CINET.LAN-1%2CRUNTIME.INF.WAN-1%2CINET.WAN;2%2CRUNTIME.INF.WAN-2%2CRUNTIzlwzywzywzS.IGMPPROXY%2CRUNT÷ME.DEV

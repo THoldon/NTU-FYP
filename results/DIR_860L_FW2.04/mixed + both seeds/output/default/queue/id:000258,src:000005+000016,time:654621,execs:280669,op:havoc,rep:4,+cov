@@ -1,0 +1,8 @@
+GET /session_login.php HTTP/1.1
+Accept-EMcoding: gzip,deflate,sdchET /session_login.php HTTPzywzywzywzywzyhp HTTPzywzyw
+Host: 192.168.0.50
+Cookie: uid=zywzyw
+C 192.ontent-Length: 13
+
+test=test
+

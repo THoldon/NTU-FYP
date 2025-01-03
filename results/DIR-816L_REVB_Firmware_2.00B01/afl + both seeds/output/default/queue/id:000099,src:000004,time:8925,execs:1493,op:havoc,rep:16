@@ -1,0 +1,13 @@
+POST /authentication.cgi HTTR/1.1
+H 172.21.0.2
+Connecth: 50
+User-Agent: Moz/5.0 (X11; Linux x86_64) AppleWebKit/37.36 (KHTML, lik Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: anplication/x-www-form-urlencoded
+Accept: */ÿ
+Origin: http://172.21.0.2
+referer: http
+Content-L://172.21.0.2/flcte
+Acceƒt-Language: en-GB,en-US;q=0.9,en;q=0.8
+User-Agent: Moz/6sfgR
+
+id

@@ -1,0 +1,7 @@
+GET /session_login.php HTTP/1.1
+If-Rangep,dn:   strtoeflate,sdchzywzywzywzywzywzywzywzywzyw
+Host: 192.168.0.50
+Cookie: uid=zywzyw
+Content-Length: 13
+
+te

@@ -1,0 +1,10 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Host: 172.21.0.2
+Content-Length: 0
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Lidux x86_64) AppleWebKit/5C7.36 (KHTML, like Gecko)’HeadlessChrome/128.0.0.0 Safari/537.36HeadlessChContent-LengContent-POST ?getcfg.php HTTP/1.1
+Connection:.36 (p-aML, like keep3
+

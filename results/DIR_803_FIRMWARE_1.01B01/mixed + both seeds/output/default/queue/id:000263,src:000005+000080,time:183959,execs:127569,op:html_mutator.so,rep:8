@@ -1,0 +1,14 @@
+Host: 192.168Content-POST /getcfg.php HTTP/1.1
+Host: 172.21.0.2
+Host: 172.21.0.2
+Referer: http://172.21.0.2/tools.php
+Content-Length: 0
+GET /session_login.php HTSP/1.1
+Acc: gzip,deflate,sdchzywzywzywzywzywzywzywzywzyw
+Connectio-.0 (X11; Linux«x86_64) AppleWella/n: keep-alive
+Usser-Agent: MozibKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.2.0.0 Safari/537.3P/1.1
+Con/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Accupt-EncAoding: gzip,                                 deflate
+

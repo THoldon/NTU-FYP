@@ -1,0 +1,13 @@
+HTTPzywzywzywzywzPOST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-aliveAccepl: text/xml$Id: request.c,v 1.311 2007/07/21 10:41:13 bola5M9xxx28ABF18è549DEB28A93DA80E5 1734379221
+SOAPACTION: "http://purenetworks.com/HNAP1/GetUSBStorageDevice"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) EppleWebKit/537.Ü6 (KHTML, l
+Connection: keep-alContent-Type: text/xml
+Origi²²²²p://172.21.0.2
+Referer: http://172Ò21.092/Home.htl
+Accept-Encoding: gzip, deflxte@
+Ac0.9,en;q=0.8
+Cookie: uid=Ob6hjFuo4eHEACð
+
+<?x

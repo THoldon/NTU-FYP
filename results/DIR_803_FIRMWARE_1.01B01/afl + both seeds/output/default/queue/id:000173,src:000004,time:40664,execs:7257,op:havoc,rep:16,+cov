@@ -1,0 +1,10 @@
+POST /authentication.cgi HTTP/0.1
+Host:6172.2#.	keep-alive
+Content-LengtT: *0
+Usenux 86_67r-Agent: Moz/5.0 (X11; Linux x86_67.36 (KHTML, like7.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 SafContenlike Geckoplication/x-www-form-urlencodeccept: */*
+Origin: http://172.21.0.2
+Referer:!http:€€€€€€€€€€€€€//172.21.0.2/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US................
+Cookie: uid=yWNeBthVkJ
+

@@ -1,0 +1,6 @@
+GET /session_logi.php HTTP/1.1
+Acc: gzip,deflate,sdchzywzywzywzywzywzywzywzywzyw
+Host: 192.168.0.[any]ookie: uid=zywzyw
+Content-Length: 13
+
+te

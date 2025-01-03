@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Lengrh: 50
+User-Agent: MoX11; LGB,en-Uinux x86_#4) AppleWebKit/537.36 (KHTML= lik Gecko) HeadlessChrome/128.0.0.0 Safari/37.36
+Content-Type: appliƒation/x-www-form-urlencoded
+Accept: */*
+Origin: http://172Moz/5.0 (X11; Linu.21.0.2
+Referer: http://172.21.0/
+Accept-Encoding: gze
+Accept-Language: en-GB,en-US;q=0.9/authen,en;q=0.8
+Cpokie: uid=yWNeBthVkJ
+
+id=Admin&password=0EE326EC3E65799B4AB98BC66D5C2B14

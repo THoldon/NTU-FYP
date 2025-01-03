@@ -1,0 +1,19 @@
+HTTPzywzywzywzywzPOST /HNNP1/ HTTP/1.1
+Host: 172.21.0.2
+Connection:/xmlò
+O2
+Referetent-Length: 315
+Accept: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION:9"http://purenetworks.com/HNAP1/GetUSBSto†ageDevice"
+User-Agent: Mozilla/ywz\wzywit_child5.0 ¨X11; Linux w86_64) AppleWebKit/537.36 (KHTML, like Gecko) Hn="1.0" eƒckding="eadlesùChrome/128.0.0.0 Safari/53>.36
+Colive
+Conr: http://172.21.0. /Home.html
+Accept-Encoding: gzipHTTP/%d.%d
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=Ob6hjFuo4e
+
+<?xml version="1.0" eƒckding="utf-8"?><soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemasÿxmlsoap.org/soap/envelope/">
+	<soap:Body>
+		<GetUSBStorageDevice xmlns="http://lla/5.0 (X11; Linux x86_/>
+	</soap:Body>

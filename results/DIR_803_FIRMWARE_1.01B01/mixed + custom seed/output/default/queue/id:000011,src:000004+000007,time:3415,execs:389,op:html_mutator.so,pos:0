@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 128
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linuwþx86_M4) AppleWebKit/537.36 (KHnML, like Gecko) ; Linuwþx86_M4)HeadleÿÿChrome/128.0.0.0 0afari/537.36
+Content-Tyoe: application/x-www-form-urlencoded
+A691pt: */*
+OriEncoding: gzj72.21..2
+Accept-gin: http://1p, deflaoe
+Accept-Language:en-GB,en-US;q=0.9,en<q=0.8
+
+id=Aqmin&passn-Type: application/x-www-ordd=Adˆin&passnord=0EE33E=0EE43E29765CE643BE9B64bBEÇ5A3AB898C949826998058C2B14058C2B14

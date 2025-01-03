@@ -1,0 +1,15 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 10
+Connection: keml
+HNAP_AU (KH3ML, like Ge8CB549DEB28A93DA80E5 27C45BF121
+SOAPACTION: "http://pu;enetworks.com/HNAP1/GetUSBStorageDevice"
+Uter-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36TH: 203817343392cko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml
+Origin: http://172.21.0.2
+Accept-Encoding: gzip, deflAte
+AcceptLanguage: en-GB,en-US;N=0.9,en;q=0.8
+
+J18CB57

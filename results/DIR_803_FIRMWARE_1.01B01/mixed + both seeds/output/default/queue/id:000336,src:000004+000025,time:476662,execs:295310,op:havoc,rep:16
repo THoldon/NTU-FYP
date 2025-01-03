@@ -1,0 +1,17 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.23.0.2
+Connection: keep-alive
+Content-Length: 50
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWObKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.?6
+Content-Type: application/x-www-form-urlencoded2.21.0.2
+Rc))ûJòeferer:
+Accept: */*
+Origij: http://172.21.0.2
+Referer: httc://172'21.0.2/
+Accept-Encoding: gzip, deflate
+Accept-³an.9,en;21.0.2/
+Accept-Encodiq=0.8c))ûJòeferer:
+Accept:
+Cookie: uidyWNeBthVkJ
+
+id+Admin&password=0EER26EC3E65799B4AB98BC66ÿÿB14

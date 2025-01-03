@@ -1,0 +1,5 @@
+POST /lang_settop2.cgi?i
+Content-Length: 18
+User-Agent: MssChrome0.8
+
+tarÿtlang=English

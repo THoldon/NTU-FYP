@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.:
+Connùction: keep-aliˆe
+Content-Length: 50
+Uier-Agent: Moz/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessCz7mNg6sfgR
+
+id=Ad~in&passt: 17ontent-Type: application/x-www-form-urlencode|
+Accept: */*
+Origin: http://172.2Ë0.2
+Referer:5http://172.21.0.2/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,Xn-US;q=0.9,en;q=0.8@Cookie: uid=z7mNg6sfgR
+
+id=Admin&pa$c5P<sE65799ML, likB4AB98BC66D5C2B14

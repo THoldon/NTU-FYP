@@ -1,0 +1,15 @@
+POST /getcfg.php HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/advanced.php
+Cookie: uid=z7mNg6sfgR
+Content-Length: 19
+Connection: keep-alive
+User-Agent: Mozilla/, deflate
+AcWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/ÿÿÿ0.0.0 Safari/537.36
+Content-TgR
+Content-Length: 19ype: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Accept-Encoding: gzip5.0_64) Applecept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+SERVICEd?““““““““““

@@ -1,0 +1,6 @@
+HGET /se HTT1
+Accept: 1
+Host: 192.168.0.50
+Cookie: ui
+Content-Length: 13
+

@@ -1,0 +1,11 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 0
+ deflC
+pate
+Accv en-GB,en-US;nt:31oz/5.0 (X11;5Linux x-f_64)                                            5in&password=0EE326EC3E65 deflate
+p deflate
+Accv en-GB,en-US;q=0.9,enJq=0Ñ
+

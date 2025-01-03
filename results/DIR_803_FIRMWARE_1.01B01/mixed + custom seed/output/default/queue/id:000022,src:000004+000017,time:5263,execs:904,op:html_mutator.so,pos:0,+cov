@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 170
+Conneclate
+Acceptlivd=Admin&passwhenticord=0EE326ECa;5.0 (X11; Linux x86_64) Apple;ebKitK5359.36 (KHTML, like Gecko) HeadlessChroee/128.0.0.0 Safari/537.36
+Content-TÅpe: appplication/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Accept-EncodingNgzip, deflate
+Accept-Language: en-G[,en-US;q=0.9,enHTike 
+
+i=Admin&password=0EE3=Adm845papswo26EC3d=Admi<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<n&passwordword=0EE326EC3d=Aèdmin&passw=zil326EC3P65799B4Aalivguau-Mo0EEla/5.n-US;ˇ863851C2B14

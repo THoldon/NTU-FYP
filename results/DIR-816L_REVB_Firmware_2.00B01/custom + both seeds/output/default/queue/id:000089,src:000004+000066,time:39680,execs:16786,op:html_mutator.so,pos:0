@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 123
+Connection: keep-aliÿÿUser-Agent: Moz/5.76 (X11; LinuxbKiiiiiiiiiiiiiiiiiiiiiiiiiiio)ded
+Acc HeadlessShrome/128.0.0.0 SafPri/537.36
+Content-Type: application/x-www-form-urlenc: httoded
+Accept: */*
+ÿÿÿÿin: http://172.21.0.3
+Accept?Encoding: gzip, deflate
+Ac11529Language: e-GBHen-US;q=0.9,en;q=0.8
+
+id=Admin&password=EE3EE326E<3E657992ÉE0837059sword=0EE3EE326EB3E9B4Bd98B<3E9B4Ad98BC66D5ppleWebKit/537.3ÑÑÑÑÑÑQÑÑÑÑÑÑÑC2B14

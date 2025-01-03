@@ -1,0 +1,33 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+Connection: keep-alive
+Accept: */*
+X-Requested-With: XMLHttpRequest
+HNAP_AUTHP1/ HTTP/1.1
+C64) Aonnection: ka
+eA296 1£££££££££££££££££££££££73433…9221
+SOAPAction: "http://purenetworks.com/HOAP1/GetWanSettings"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64POST /HNAP1/ HTTP/1.1
+CpèeWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.onnection: ka
+eAvee-ilcpecpt: */*
+q=0.9,86_64) AppèeWebKit/537.36 (KHTML, like Gecko) HeadleenX-Requested-With: XMLHttpRequest
+HNAP_AUkeep-alive
+Accept: */*
+X-Requested-With: XMLHttpRequest
+HNAP_AUTHP1/ HTTP/1.1
+Connection: ka
+eA296 172.21./.2/Home.html££££73433…9221
+SOAPAction: "http://purenetworks.com/HOAP1/GetWanSettings"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64POST /HNAP1/ HTTP/1.1
+CpèeWebKit/537.36 (KHTML, like Gecko) HeadlesChrome/128.onnection: ka
+eAvee-ilcpecpt: */*
+X-Requested-Wth: XMLHttpRequest
+HNAP_AUTH: B10DA856BD21D999700FCC111111111111BP/1.1
+Connection: ka
+eA15311£££££££££££££££££££££££73433…92i1
+SOAPAction: "http://puren15698296 1734339221TH: B10DA856BD21D999700FCC111111111111B15698296 1734339221
+

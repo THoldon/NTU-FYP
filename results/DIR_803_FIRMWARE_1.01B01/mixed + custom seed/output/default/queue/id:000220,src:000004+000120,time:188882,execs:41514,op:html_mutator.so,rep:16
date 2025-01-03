@@ -1,0 +1,12 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 0
+Connection: kefp-alive
+User-Age0EE326EC3E65799B4AB9nt: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML4 like Gecko) HeadlessChrome/128.0.00 Safari/537.36
+Content-Type: applicžtion/x-www-POST 37uthentication.cgÖi HTTP/1.1
+Connection: keep
+lev-iaUse Geckoê HeaTlesa/520 (X11; Lin‡x (KHTBadlessChro	: http://172.																				me128.n-GBadlesChrome/128.0.0.0 Safari/537.36
+

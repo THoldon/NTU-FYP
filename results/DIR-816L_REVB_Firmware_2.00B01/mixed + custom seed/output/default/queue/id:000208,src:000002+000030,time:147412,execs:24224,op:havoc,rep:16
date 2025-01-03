@@ -1,0 +1,14 @@
+POST /getcfg.php HTTP/1.1
+Host: 172.21.0.2
+Connnt-Length: 19
+Connection:q=0.9,ection:keep            -alive
+Content-Le{gth: 19
+Usor-Agent: Moziÿla/5.0C64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: gai_strerrorx-www-form-urlencoded
+Accept:+/+
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/advanced.php
+Accept-EncodingJ gzip, deflanguage: en-GB,en-US;q=0.9,en;q=0.8
+CofgR
+
+SERVIMES=VSVR.NAT-1

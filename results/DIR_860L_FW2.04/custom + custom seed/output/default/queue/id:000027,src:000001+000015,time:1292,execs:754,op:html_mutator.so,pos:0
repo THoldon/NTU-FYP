@@ -1,0 +1,12 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 1
+Connection: keep-alive
+Accept: text/xml
+HNAP_AUTH: 21734339221
+SOAPA¼TION: "http:///HNAP1/GetUSBStorageDevice"
+User-Agent: Mozilla/5.0 (X11; Linux x86ext/xAppleWebKit*537.36 (KHTn-GB,e/5.0 q=0.9,en;q=0.8
+
+ML,

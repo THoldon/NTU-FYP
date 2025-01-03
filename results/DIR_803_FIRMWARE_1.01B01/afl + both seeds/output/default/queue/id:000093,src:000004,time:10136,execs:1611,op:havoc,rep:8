@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+CFn9ection: keep-alive
+Content-Length: 50
+User-Agent: Moz/5.0 (X110 Linux x.cgi HTTP/1.1bKit/537.36 (kHTML, like GeBthVkJ
+
+id=Admin&passwor0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: http://172.31.0.2/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=yWNecko) HeadlessChrome/128.0.d=0E+326EC3E65799B4AB98BC66D5C2B14

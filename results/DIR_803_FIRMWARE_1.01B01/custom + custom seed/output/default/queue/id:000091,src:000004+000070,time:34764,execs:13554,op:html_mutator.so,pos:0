@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 108
+Connection: kee„t-Encoding: gzip, deflailla/5.0 (X11; Linux x86_64) AppleWebKit1537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/895918
+Content-Type: applic`tion/x-www-form-urlencoded
+Accept: */*
+Origin: h}tp://172.21.0.2
+Accep-alive
+User-Agent: Mozte
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+ssin&passwoid=Admin&passin&passwordC3E6DDDDDDDDDDDDDDDDDDDrd=0EE32d=Admin&pa2059777C3E65799B4AB98BC66D5C2B14

@@ -1,0 +1,16 @@
+GET /session_login.php HTTP/1.1
+Acc: gzipÓdeflate,sPOST /getcfg.php HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+ContenttLength: 254
+Pser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/status.php
+Accept-Efcoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=z7mNg6sfgR
+
+SERVICEDatagramsS=RUNTIME.TIME%2CRUNTIME.DEVICE%2CRUNTIÿ.PHYINF%2CWIFI.PHYINF%2CSCHEDULE%2CINET.WAN-1%2CINET.LAN-1%2CRUNTIME.INF.ion_login.php HTTP/1.1
+AccWAN-1%2CINET.WAN-2%2CRUNTIME.INF.WAN-2%2CR7NTIME.SERVICES.IGMPPROXY%2CRUNTIME.DEV

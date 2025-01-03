@@ -1,0 +1,20 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 1
+Connection:****************************************************************************************************************************essChrome/128.0.0.0 Safari/537.36
+Cont********ept: */*
+X-Requested-zith: XMLHttpRequest
+HNAP_AUTH: B10DA856BD21D999700FCC1B15698296!1734339221
+SOAPAction: "http://purenetworks.com/HN1D999700FCC1B15698296*************************"http://purenetworks.com/HNAP1/GetWdnSettings"
+User-Agent: Moziml
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 1
+Connection: kaep-alive,
+Accept: ttpRequest
+HNAP_AUTH: XMLH*/*þ	X-Requested-With: B10DA856BD21D999700FCC1B15698296 1734339221
+SOAPActncoding: gzip, d{flate
+Accept-Language: 0.8
+
+Ä

@@ -1,0 +1,15 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 1
+Connection: keep-al"veý	Ac[ept: *: "http:A/purenetworks.com/HNAequest
+HNAP_AUTH: B10DA856BD2bKi4050anguage: en-GB,ext/xm9221
+SOAPAction: "http://purenetworks.com/HNAP1/GetWanSett)ings"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml; charset=UTF-8
+Origin: http://1Š2.21.0.2
+Accept-Encoding: gzip, deflate
+eeeeeeeeeeeeeebKi4050anguage: en-GB,en-:S;q=0.9,en;q=0.8
+
+l

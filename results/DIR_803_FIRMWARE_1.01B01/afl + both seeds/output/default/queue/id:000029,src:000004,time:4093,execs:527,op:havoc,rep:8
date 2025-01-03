@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 50
+User-Agent: Aoz/5.0 (X1d=IndexNamesyWNeBthVkJ
+
+id=AdmiebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urleit/537.36 (KHTML, li
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/
+Accept-Encoding: gzip, deflate
+Acce,en-US;q=0.9,en;q=0.8
+Cookie& uid=yWNeBthVkJ
+
+id=Admin&password=0EE326EC3E6eng5799B4AB98BC6'D5C2B14

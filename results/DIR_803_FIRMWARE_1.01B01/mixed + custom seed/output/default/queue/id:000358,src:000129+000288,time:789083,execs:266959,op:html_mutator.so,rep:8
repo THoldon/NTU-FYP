@@ -1,0 +1,19 @@
+POST /auth%ntion.cgi HTTP/1.1
+Host: 172.21.0.2
+Host: 172.21.0.2
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 0
+Connectio.: keep-alive
+Us P[Tser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTtioML, like Gecko) Headles.36
+Content-Type: application/x-www-fPOST /authencept: **internal_dumpp://172.2tication.Conmection: ,TTP/1.0Ó
+Cocgi HTPOST /authentication.câ[Ts‡ÄOSeHTTP/1.1Uer""""""""""POST.210.
+..220.Conmection: ,TTP/1.0Ó
+Connection: ,TTP/1.0Ó
+CUer""""""""""POST.210.
+..220.nt= Mozilka/*E…C096EE9B66D5C2dmin&êassword=0 gzip, deeflate
+

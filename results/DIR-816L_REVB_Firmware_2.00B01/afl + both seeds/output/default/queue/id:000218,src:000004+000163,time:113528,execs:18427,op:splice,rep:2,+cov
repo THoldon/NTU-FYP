@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.cation.cgi HTTP/0.1
+Host: 172.21.0.2
+Connection: keep-alB,en-USive
+Content-Length: 50
+User-Agent: Mo11; Linux x86_64e Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urencoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/
+Accept-Encoding: gzip, deflate
+Accept-Languag|: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=z7mNg6sfgR
+

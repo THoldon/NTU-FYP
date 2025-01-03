@@ -1,0 +1,16 @@
+POST /authentication.cgi HTTP/1.1
+Host: 1172.21.0.2
+Rnnection: keep-aliveatiotent-Length: 50
+User-Agent: Moz/5.fgR
+
+id=0 (X11; Linux x86_ˇ) AppleWebKit/537.36 (KHTML, liklessChrome/128.0.0.0 Safari/537.36
+Content-Type: applic
+Conn/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/
+Accept-Encoding: gzip,deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=z7mÅg6sfgR
+
+id=Admin&password=0Ea326EC3E65799B4AB98BC66D5C2B14

@@ -1,0 +1,14 @@
+Content-POST /getcfg.php HTTP/1.1
+Host: 172.21.0.2
+Connection: kee€-alive
+Content-Length: 73
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*) AppleWebKit/537.36 (KHTML, 
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/tools.php
+Accept-Encoding: gzip, deflate
+accept-Languag%: en-GB,en-US7.36
+Content-Type: applicat=yWNeBthVkJ
+
+SERVICES=DEVICE.ACCOUNT%2CHTTP.WAN¤1%2CHTTk.WAN-2%2CINBFILTER%2CS

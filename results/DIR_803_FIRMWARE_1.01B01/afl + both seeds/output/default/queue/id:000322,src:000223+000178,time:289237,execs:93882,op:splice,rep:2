@@ -1,0 +1,18 @@
+GET /session_login.php HTTP/1.1
+Acc: gzeflate,sdchzywzywzywzywzPOST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection:36
+Content-Type: appl keep-alive
+Content-Length: 50
+User-Agent: Moz/5.0 (X11; Linux x86_64)0 Safari/537.36
+Content-Type: a ApplÿÿÿTML like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Akcept: */*
+Origin: http://172.23.0.2
+Referer: http://172.21.0.2/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=yWNeBthVkJ
+
+i
+Conne

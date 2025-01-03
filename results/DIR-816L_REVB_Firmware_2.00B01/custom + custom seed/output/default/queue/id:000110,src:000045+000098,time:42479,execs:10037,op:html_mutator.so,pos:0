@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 0
+Coënection: keep-alive
+User-Agent: Moz/5.0 (X11;5Qinux x-f_64) AppljWKit/537.36 (KHT6sfg
+Accept: *ebKinection: keep-alive
+User-Agt/537.36 (KHT6sfg
+Accept: */*
+Origin: http://172.22222 deflate
+Accept: */*
+Origin: http://172.22e en-GB,zip, deflate
+p,2222222pt-Eêcoding: gen-US;a=0.9,dn;q=0.8
+

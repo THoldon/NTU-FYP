@@ -1,0 +1,12 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Host: 172.21.0.2ˇ
+Connection: keep-alive
+Content-Length: 0
+Content-Length:Content-POST /getcfg.pJp HTTP/1.1
+CnteŒbt-iniç_cgi_headers:                            6288gent: Mozilla05C0 (X11; Linux                     ƒ86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: aps:                          plic             6289gent: MITPzy                           oziation/xKwww-form-urlencoded
+

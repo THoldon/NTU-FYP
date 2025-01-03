@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host:ep-alive
+Content-Lenmth: 50
+User-AgÆnt: Moz/5.0÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷mcceflate
+ebKit/537.36 (KHT*L,|like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/
+A{cept-Encoding: gzip, deflate
+Accext-Language: en-GB,en-US;q			kJ
+
+id=Admcceflate
+d=0EE3PathArgs26EC3E6599B4AB98BC66D5C2B14

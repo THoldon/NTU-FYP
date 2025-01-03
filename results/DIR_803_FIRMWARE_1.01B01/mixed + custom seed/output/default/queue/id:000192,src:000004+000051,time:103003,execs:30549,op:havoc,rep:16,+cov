@@ -1,0 +1,5 @@
+POST /authenticat€on.cgi HTTP/1.0
+Hos4: 1720.2
+Connection: keep-alleMccept: */*
+
+Use

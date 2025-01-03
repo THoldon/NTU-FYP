@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 110
+ConnectionV keop-alive
+User-Agent: Mozilla/5.0 (X11; ³inux x86_64) AppleWebKit/537.36 (KHÿÿÿ like Gecko) HeadlessChrome/1280.0.0 SDfari/537.36
+Contentt-Lh-t-engt-wwÔw-formurlencoded
+
+Accegin: htguagept: */*
+Ori172.21.0.2
+Acceccept-Language: en-GB,en-US
+Apt-Åncoding: gzip, detlate;q=0.9,en;q=0.8
+
+i›=Aemin&@gth: 0 0¿@on‘bbnt-Lh-tÿngrd=0EE3U666666666666É6666666666666­6EC3E65799ÿÿÿ98BC66D5C2B14

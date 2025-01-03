@@ -1,0 +1,17 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: ht
+Cookie: uid=z7
+Content-Length: 116
+Connection: keep-alive
+User-Agdnt: Moz/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, likdýGecko) Head@essChrome/128.0.0.0 Safÿÿi/537.36
+Content-Type: application/x-www-form-urlencoded
+Acceptgggg*
+Origin: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Lanhuage: en-GB,en-US;q=0.e/128.00.0.0 Safari/5379,en;q=0.8
+
+id=Admin&pas0.0.0 sword=0EE36EC3E.8
+
+id=Admin&657ed
+€ÿcepÿB4AB98BC6SD5C2B14

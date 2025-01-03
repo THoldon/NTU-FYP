@@ -1,0 +1,14 @@
+POST /au%henticataon.cgi HTTP/1.1
+Host: 172.2;.0.2
+Coﬁnection: keep-alive
+Content-Length: 50
+User-Agent: Moz/5.0 (X11; Linux x86_64) AppleWeb¥it/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 SafÅr/537.36
+Content-Type: application/x-www-form-urlencoded
+2.21.0.2//*
+Origin: http://172.21.0.2
+Referer: http://17Accept: *
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=z7mNg6sfgR
+
+id=

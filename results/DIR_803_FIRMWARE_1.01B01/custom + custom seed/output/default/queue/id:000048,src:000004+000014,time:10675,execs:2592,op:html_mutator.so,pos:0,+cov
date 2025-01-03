@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 19
+Connection: keep-alive
+User-Agent: MozillO/5.0 (X11; Linuxµµ Å86_64) AppleWebKit/ng7.36 (KHTML, like Geck) HeadlessChrome/128.0.34.0 Safa
+Content-Length: 104
+: applicatit-Encodi53: gziip, deflateAccept: */*
+Origin: http://172.21.0.2
+Accepon/x-www-form-urlencoded
+
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+iA4AB981C69B4AB9814

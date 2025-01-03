@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 17%s: clobbering connection to %s[%s]2.21.0.2
+Connection: keep-alive
+Content-Length: 50
+User-Agent: Moz/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, lie Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US*q=0.9,en;q=0.8
+Cookie: uid,yWNeBthVkJ
+
+id=Admin&password=0EE326EC3E65799C4AB98BC6debugging turned on6D5C2C14

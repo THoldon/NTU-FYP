@@ -1,0 +1,13 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: ht
+Content-Length: 102
+Co: uid=yWNeBthVkJ
+Connection: keep-alive
+User-Agent: Moz/5.0 (X11; Linux ÿÿÿ64) AppleWebKit/537.36 (((((((((¸(((((((((KHTML, like Gecko) PeadlessChrome/64.0.0+0 Safari/555556
+Content-Type: application/xcation.cgi HTTP/1.1
+Host:: application/x: http://1T2.21.0.2
+¾ccept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=-50.9,en;q=0.8
+
+id=

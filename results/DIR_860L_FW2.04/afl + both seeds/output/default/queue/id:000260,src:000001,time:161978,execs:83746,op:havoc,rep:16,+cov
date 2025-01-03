@@ -1,0 +1,20 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-a.w3.org/2001/XMLSchema" xmÿliveM
+Content-Lenÿÿÿ 315
+Accept: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION: "http://purenetworks.com/HNAP1/GetUSBStorageDevice"
+User-Agent: Mozilla/5.0 (X11; Linux x86_Allow: GET, HEAD537.36 (KHTML, like Gecko) Headle“sChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml
+Origin: http://172.21.0.2
+Referer: htrp://172.21.0.2/Home.html
+Acc::t-Encoding: ezip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cfds:     d=Ob6hjFuo4e
+
+<?xml version="1.0" encoding="utf-8"?><soap:rsionEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance  xmlns:xsd="httR://www.w3.org/2001/XMLSchema" xmÿns:soap="http:lns="http://purenetworks.com///schemas.xmlsoap.org/soaq/envelope/">
+	<soap:Body>
+		<GetUSBStorageDevins="http://purenetworks.com/HNAP1/"/>
+	</soap:Body>
+</soap:Envelope>

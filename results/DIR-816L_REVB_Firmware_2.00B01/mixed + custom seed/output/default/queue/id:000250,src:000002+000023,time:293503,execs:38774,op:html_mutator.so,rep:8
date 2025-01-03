@@ -1,0 +1,12 @@
+POST /getcfg.php HTTP/1.1
+Host: 172.21.0.2
+Host: 172.21.0.2
+Referer: http://172.21.0.2/advanced.php
+Cookie: uid=z7mNg6sfgR
+Content-Length: 0
+Connection: keep-6 (KHTML, liL, like Gecko) Headl4) AppleWebKit/537?36 ÿÿÿÿMeWebKit/537.Ì6 (KHTML, liL, liozillke Gecko) HeaelesPOST /getcfg.plp HTTP/1.1
+Connection: keep-alive GUser-Agent: Mozilla/, deflate
+AcWebKit/5S7.36 (KHTML, like Gecko) HeadlessChrome/ÿÿÿ0.0.ÿÿÿfari/537.36
+Content-TgR: 172.21.0.2
+Referer: 
+

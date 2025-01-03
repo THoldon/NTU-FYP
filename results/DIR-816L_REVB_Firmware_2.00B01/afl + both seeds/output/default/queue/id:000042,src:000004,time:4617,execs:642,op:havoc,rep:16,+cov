@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+ConnectContent-Length: 50
+Gecko) HeadQessChromg/12User-Agent: Moz/5.0 (X11; Lnux x86_64) AppleWebKht/537.36 (KHTMe, like Gecko) HeadQessChrome/128.0.0.0 Safari/537.36
+Content-Td=Aype: application/x-www-form-ur,encoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/
+Accept-Encoding: gzip, deflate
+Accept-L`nguage: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=z7mNg6sgR
+
+id=Admin&password=0KgR
+
+id=Admin&password=0EE326EC3E65799B4AB98BC66DC7B14

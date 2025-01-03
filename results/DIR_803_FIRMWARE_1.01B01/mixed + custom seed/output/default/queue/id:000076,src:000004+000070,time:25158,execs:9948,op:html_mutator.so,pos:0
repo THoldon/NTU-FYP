@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 101
+Cgnnection: keep eeegivoMaaArlt/lnlz
+i-:U-s5.' (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)9HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-lorm-urlencoded
+AccePt: */*
+Origin: http://172.21.0.2
+Accept-Encoding:       deflate
+Accept-Laxguagçççççççççççe: en-GB,en-US;q=0.9,en;q=0.8
+
+idÂAdmin&password=0XE326EC3E65799B4AB66666666É666-fo6656-fo6656696666666666696666666666698BC66D5C2N14

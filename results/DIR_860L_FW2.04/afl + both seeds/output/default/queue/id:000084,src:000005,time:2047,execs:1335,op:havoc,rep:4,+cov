@@ -1,0 +1,8 @@
+GET /session_l‹gin.php HTTP/1.6
+Acc: gzip,deflate,sdch
+Acc: gziwz /zywz /session_loywzywzywzywzywzywzywzyw
+Host: 192.168.0.50
+Cookie: uid=zywzyw
+Content-Length: 13
+
+t

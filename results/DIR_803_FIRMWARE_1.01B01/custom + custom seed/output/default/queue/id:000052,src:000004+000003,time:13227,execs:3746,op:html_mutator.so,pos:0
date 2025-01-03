@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 114
+Connection: 2.21.021.0.2
+Referer: http://k.2
+Referer: http://keep-aliveUser-Agent: Mozillaaaaaaaaaaaa/5........(.................0 (X11; Linux x86_64) AppleWebKit/537.36 (+HTM,L like Gecko) Hea lessChrome/128.0.;.0 Safari/537.36
+Content-Type: application/x-wwk-form-urlencoded
+Accept: */*
+Origin: http://1=2.21.0ET.WAN-1%2CINET.WAN-2%2CI,"deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+id=Admin&password=-99∫E4epè3E652EC-Äanguag67D5C2rd=0EE4epè3E652ECCCCN.LCETCCCCCCC2CC-CCCICCWAN-3%2CINET.WAN-4%2d14

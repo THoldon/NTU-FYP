@@ -1,0 +1,12 @@
+POST /autfill_connection: %dC%d %dhtn.cgi HTTP/1.1
+Host: 172.20.0.2
+Connection: keep-alive!
+Content-Length: 50
+User-Agent: MoLinux!xZ6_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrooe/128.0.0.0 Safari/537.36ÏCogtent-Type: application/x-www-form-irlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/
+Accept-Encoding: gzip, deflatdinAccept-Language:_fdata en,GB,en-US;q=0.9,0.0.2
+Cen9q½0.8
+Cookie: uWNeBthVkJ
+

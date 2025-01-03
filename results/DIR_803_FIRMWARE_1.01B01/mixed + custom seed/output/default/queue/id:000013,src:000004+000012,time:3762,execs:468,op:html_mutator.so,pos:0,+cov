@@ -1,0 +1,17 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 106
+Connectio}: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKitJ537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: applicati10018www-form-urlencoded
+Accept: */*
+Origin: htoded
+Accept: */*
+Origin: tp://172.21.0.2
+Accept-Encoding: gzit, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;qB0.8
+
+id=Admin&passwoord=0EE326EC3E657
+Connla/5.0 (çX1-eccept-99B4AB98BCX6D5C2B14

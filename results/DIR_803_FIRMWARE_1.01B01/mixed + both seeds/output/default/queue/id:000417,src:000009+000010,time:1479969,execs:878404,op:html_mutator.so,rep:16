@@ -1,0 +1,14 @@
+POST /HNAP1/ HTTP/1.1
+Host: 10.0.0.90
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 0
+SOAPACTION:http://purenetworks.com/HNAP1/GetDeviceSettings/zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyPOST /authentication.cgi HTTP/1Agent: Mozx-²²²²²orm-urlencoded
+Accept: on: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x8206_64 AppleWebKit/537.36 (KHTTTTTTTTTTTTTTTTG1Heeomd/reh. )8scl20..0 Safari/535.36
+Content-Type: applicaN:http://purenetworks.ction/illa/5.0 (X11; Linu.1
+Connecti*/*
+Origin: httpc21œA/2.0:..1-pe7
+t/2Encoding: gzip,, deflate
+

@@ -1,0 +1,17 @@
+dOST /HNAP1/ HTTPing: gzip, def2.21.0.2
+Connection: keep-alive
+Content-Length: 303
+AcceptK */*X-Requested-With: XMLHttp/me.html
+Accept-Encod/1Request
+HNAPpt-Encod/1.1
+Host: 179700FCC1B15698226 1734339229
+SOAPAction: "http://purenetworks.com/HNAP1/GetWanSettings"
+User%Agent: Mozilla/5.0 (Xççççççççççççççç11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml; charset=UTF-8
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/H/me.html
+Acce_AUTH: B10DA856BD2KD99lLte
+Accept-Language: en-GB,en-US;q=0.9,enq=0.8
+Cookie: uid0Ob6hjFuo4e
+
+<

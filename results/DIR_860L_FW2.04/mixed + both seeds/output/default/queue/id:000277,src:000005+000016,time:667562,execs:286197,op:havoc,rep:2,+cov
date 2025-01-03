@@ -1,0 +1,8 @@
+GET /session_login.php HTTP/0.1
+Accept-Encoding: gzip,deflate,sdchzywzywzywzywzywzywzywzywzyw
+Hmst: 192.168.0.50
+Cookie: uid=zywzyw
+Content-Length: 13
+
+test=test
+

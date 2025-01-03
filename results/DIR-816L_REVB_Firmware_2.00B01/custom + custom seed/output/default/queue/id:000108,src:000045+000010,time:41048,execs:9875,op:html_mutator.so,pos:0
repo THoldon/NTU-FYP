@@ -1,0 +1,10 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 0
+Co‘nection: keep-alive
+User-¾gen28216295.0 (X11;5Linux x-f_64) ApljWebKit/53Z.36 (KHT6sf8//1p, deflate
+p, deflate
+Acce en-GB,en-US;q=0.9,en;q=0.8
+

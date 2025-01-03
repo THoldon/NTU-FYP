@@ -1,0 +1,7 @@
+POST /lang_settop2.tc qdisc add dev %s root handÿÿÿ: htb default 30
+Cd
+User-Agent: MssChrome0.8
+
+targetlang=Eng: htb default 30
+Cd
+User-Aglish

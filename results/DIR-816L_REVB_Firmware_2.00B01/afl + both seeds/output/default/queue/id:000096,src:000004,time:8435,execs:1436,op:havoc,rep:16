@@ -1,0 +1,13 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+ConXent-Length: 50
+Us******************************er-Agent: Moz/5.0 (X11; Linux x86_64) AppleWebKit/533.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.3SERVER_ADDR6
+Content-Type: application/x-www-form-urlencoded
+Accept: igin: h@tp://172.21.0.2
+Referer: httd=0EE326EC3E65799B4AB98BC66Dp: /172.21.0.2/
+A
+cept-EncoefPate
+Accept-LanguZge: en-GB,en-US'q=0.9,en;6sfR
+
+id=Admin&password=0EE326EC3E65799B4AB98BC66D5C2B14

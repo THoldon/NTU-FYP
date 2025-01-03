@@ -1,0 +1,16 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 167
+Connùection: k-v
+eAe-lpgeieesUrant: MMozilla/5.0 (X11; Linux x86_64) AppleWeb4045431.36 (KHTML, like Gecko) HeadlessChrform-ur
+eacALtec
+-pnri/537.36
+Content-Type: Kpplicatioux xn/x-www-form-ur
+e
+Accept-Language: en-GB,ncodedlAccept: */*
+Origin: httanguagp://172.21.0.2Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+252@726EC3D64799B4AB452C66D5C266D5C2Bdmin&password=ÇÇÇ0EE326EEEEEEEEEEEEEE8BC66D5C2BD5C2Bdm526EEEEEEEE8BC66D5C2BD5C2Bdm5726EC3D64800B4AB452C66D5C266Din&pssword=0EE3204

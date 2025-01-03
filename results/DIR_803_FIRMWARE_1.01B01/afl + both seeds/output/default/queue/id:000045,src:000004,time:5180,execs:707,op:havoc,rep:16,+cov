@@ -1,0 +1,6 @@
+POST /authentication.cgi HTTP/1.
+H0.2
+Con
+Conten: 50
+User-Agent:
+

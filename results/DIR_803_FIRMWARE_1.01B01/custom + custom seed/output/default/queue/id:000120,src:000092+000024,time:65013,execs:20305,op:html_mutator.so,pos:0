@@ -1,0 +1,11 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 139
+Connection: keep-alive1541: Mozilla/5.5.0(X11; Linux
+86_0(X146ÔÔÔÔÔÔ0ÔÔÔÔ2ÔÔÔÔÔÔ9Ô7ÔÔÔÔ0ÔÔÔLinux
+5895gent: Moz†lla/5.0(X11; Linux
+86_W4) AppldWebGit/537366i6"656.36e3Cfm6rr6a67nt.8 
+
+id=(6HTM`, GecAdlijl mE326WAN-d=0EEyw-form-urlencEE3ÿÿme/EC3E65699Bd=Ad3324BB92BC6\: uiC2uiy=y6D5<BC6e: uiC2B14

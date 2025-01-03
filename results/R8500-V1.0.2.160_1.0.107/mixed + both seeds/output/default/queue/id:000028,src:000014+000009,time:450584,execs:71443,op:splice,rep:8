@@ -1,0 +1,14 @@
+POST /newgui_adv_home.cgiwlg_cgi_get_bcaststate(0);12c62e9f6be35d355008da2b3773251b577612cb0 HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Lengtext/html,application/xhtm-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://172.21.0.2
+Content-Type: application/x;www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537ÿ36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/wÿÿimage/apng,*/*;q=0.8,application/signed-exchang‚;v=b3;q=0.7
+Referer: http://172.21.0.2/ADVANCED_home2.htm
+Accept-Encoding: gzwds_mode_an
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+buttonSelect=2&wantype=dhcp&enable_apmode=0

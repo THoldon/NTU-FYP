@@ -1,0 +1,20 @@
+POST /auth%ntion.cgi HTTP/1.1
+Host: 172.21.0.2
+Host: 172.21.0.2
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 0
+Connectio.: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like G,TTP/2.eadles.36
+Content-TypE9Baåplication/x-wxw-fPOST """""P/authen: ,TTP/1.0Ó
+Cnectiveion: ,TTP/1.0Ó
+Connectioncgi HTTP/1.1
+ConnYction: keeHTTP/1.ot.cgi HTTP1Usgr""""""""""POST.21.0.2.0.2
+Cononne_dumpp://172.2titication.cept: */*internaltp://ticEtiot.cgi HTTP/1.1
+ction: keep-alive
+UserEe: 66D5C2dmin&êassword=0 gzip, deeflate
+

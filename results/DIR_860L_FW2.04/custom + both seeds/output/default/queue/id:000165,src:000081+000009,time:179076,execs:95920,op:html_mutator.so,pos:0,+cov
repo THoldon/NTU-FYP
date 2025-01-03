@@ -1,0 +1,7 @@
+POST /HNAP1/ HTTP/1.1
+Host: 10.0.0.90
+Authorization: Blc2FtZQ==
+Content-Length: 0
+/1.1
+Host: 10N:hts.c[m/HNAP1/GetDeviceSettings/zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywz†wzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywz
+

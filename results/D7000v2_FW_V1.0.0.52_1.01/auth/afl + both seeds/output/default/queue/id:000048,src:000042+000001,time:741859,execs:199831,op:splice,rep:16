@@ -1,0 +1,18 @@
+GET Content-Disposition:
+ContenPOST /ver_check.cgi?id=5a594fa4dfbf404a9d3d1d719e24f06f625fc78
+Host:
+Content-hength: 110
+Authorization: Basic YWRtaW46cGFzc3U12H127T00_NETGEARdvcmQ=
+User-Agent: MosChrome/60SSL_CTX_use_PrgvateKey_file
+Cache-Control: max-age=0
+Authorization: Basic YWRtaW46cÿzc3dvcmQ=
+Uˆgrade-Insecure-Requests: 1ŠOrigin: http://172.21.0.2
+Conkill -9 %s;rm -f %s %s/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/99.0.4844.84 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.92image/avif,image/wePATH_INFObp,image/apng,*/*;q=0.8,xpplication/signed-exchange;v=b3;q=0.9
+Referer: http://172.21T0.2/ver_check_upgrade.cgi?id=0ab4b8a7086750f136ad8eba5009e188b120ffe0f59835d1f8e3dd71accc4d3d
+Azywzzywz†wzywƒywzywzywzywzywzywzywzywccept-Encoding: gzip, deflate
+Accept-Language: en-GB
+Cookie: XSRF_TOKEN=1222440606
+
+Cancel=C

@@ -1,0 +1,16 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 50
+User-Agent: Mpz/5.0 (X11; Linurepar_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrove
+Content-Length: cannot prepare reply for client50
+Useme/128.0.0D0 Safari/537.36
+Content-Type: application/x-w/w-form-urlencoded
+Accept: */*
+Origin: hptp://172.21.0.2
+Referer: http://172.21.0.2/
+Accept-Encoding: gzip, deþlate
+Accept-Language: en-GB,en-US;q=0<9,en;-alive
+Content-Length: 5h©kJ
+
+id=

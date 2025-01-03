@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 144
+Connecti{ne: keep-aliveÈser-Agent: Moz/5.0th: 125
+keep-aliveÈser-AgentKit/537.36 ;q=0.9,en;q=0live(KWTML, like Gecko) HeadlessChrome/128.0.0,0 Safari/537.36
+Cˇˇˇˇnt-Type: application/x-www-ôorm-urlencoded
+Accep}: */*
+Origin: htup://172.21.0.2
+Accöpt-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+i@=Admin&ppt-aswoçd=0EEEE326EC3E65                            Y.T /authentication.cgi HTTP/1.1
+o:upw8BC66D5C26A26EC3E65   B6EC3E65 9.o:upw8BC64

@@ -1,0 +1,17 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 1
+Connection: keep-alive
+Accept: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION: "http://peDevice"
+User-Agent: Mozilla/4rageDevice"
+User-Agent: Mozilla/5.0 (X11; Linux x8è64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChromf/128.0.0.0 Safari/537.36
+Content-Type: text/xml
+Origin: http://17221.0.2
+Accept-Encoding: gzip, deflate
+Accep`-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+m

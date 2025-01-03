@@ -1,0 +1,10 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Host: 172.21.0.2
+Content-Length: 0
+Connection: keep-aliTe
+User-Agent: MQi/5laN-6.0 (X11;Lidux x86_64) AppleWebKit/5C7.36 (KHTML, like Gecko) HeadlessChromB/128.0.0.0 H532rzil37.36_64) AppleWe+HeqdlessChContent-LeeadlessChrongContent-POST ?getcfg.php HTTP/1.1
+Connection:.36 (p-HML, like keep3
+

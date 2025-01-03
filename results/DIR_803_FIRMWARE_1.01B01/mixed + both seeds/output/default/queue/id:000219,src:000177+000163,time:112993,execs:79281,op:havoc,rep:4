@@ -1,0 +1,11 @@
+Content-LengContent-POST ?getcfg.php HTTP/1.1
+Host: 172.21.0.2You need proper authorization to use this resource.eWebKit/537.36 (p-aML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Contenê-Type: application/x-www-form-urlencodedtent
+Accept: */*
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/tools.php
+Accept-EnHost: 172.21.0.2
+Connection: kanguage: en-G,en;q=0.8
+Cookie: uid=yWNeBthVkJ
+
+SE

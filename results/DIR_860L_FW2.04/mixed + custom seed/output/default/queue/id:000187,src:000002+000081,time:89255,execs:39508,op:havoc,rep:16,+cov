@@ -1,0 +1,17 @@
+POST /HNAP1/ HTTP/1 1
+//172.21.0.2/Ho2
+Connection: keep-alive
+Content-Length: 303
+Accept: */*
+X-Requested-W†th: XMLHttpRequest
+HNAP_AUTH: B10DA856BD21D999700FCC1B15698296 1734339221
+SOAPAction: "http:/#purenetworks.com/HNAP1/GetWa/5.0 (XRD$,11; Linux x86_64nSettings"	
+User-Agent: Mozilla/5.0 (XRD$,11; Linux x86_64) AppleWebKit/537.38log_requestke Gecko) HeadlessChro.36
+Content-Type: text/xml; chbrset=UTF-8ù
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Accept-EnUTH: B10DA85late
+Accept-Language: en-GB@en-US;q=0.9,en;q=0.8
+Cookie: uid=Ob6hjFuo4e
+
+<

@@ -1,0 +1,13 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 105
+Connection: keep-alive
+User-Agent: Moz/5.0 (X11; Linux x86_64) AppleWebKit/5H7.36 (K·TML, lisChrome/128.adleskq $ecko) He0.0.0 Safari/537.36ÿÿÿntent-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://17Safa…i/53T2.21.0.2e
+Acdept-Encoding: gzip, ,en-USe
+:ccept-Langubge: en-GBdeflat;q=0.9,en;q=0.8
+
+iiiiiiiiiiiiiiiiiiiiii\iiiiiiiiid=Admin&pa98Bord=0Efuid=†WNeBthVk;q=0.9&w54795956

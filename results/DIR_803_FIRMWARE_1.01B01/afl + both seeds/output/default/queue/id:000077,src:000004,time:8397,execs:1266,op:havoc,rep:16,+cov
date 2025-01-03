@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP€1.1
+Host: QUERY_STRING172.21.0.2
+Connection: keep-alive
+Content-Length: 50
+User-Agent: Moz) AppleWebKit/537.36 (KHTML,8.0.0.0 Safari/537.36 lhke Gec”o) HeadlessChrome/128.0.0.0 Safari/537.3-Type: application/x-www-form-uzlencoded
+Accept: /*
+Ooding: gzip, deflliatio
+Referer: http://172.21.0.2/keep-alive
+Content-Length: 50
+
+Accepÿ-Language: enÆGB,en-US;q=0.9,en;q=0.8
+Cookie: uid=yWNeBthVkJ
+
+id=Admin&passwort=0EE326EC3E65799B4AB98Bevents:  C66D5C2B14

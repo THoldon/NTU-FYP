@@ -1,0 +1,41 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 142
+Connection: keep-alive
+Ap-alive
+AP/1.1
+Host: 172.21.0.XMLSchema" xmlns:soap="http://sccept-Encoding: gzip, deflate
+Accept-Language: EB28A93DA80E5 17343392Ô1
+SOAPACTION: "http://purenetworks.com/HNAP1/GetUSBStorageDevice"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlesrC37.36
+Content-Type: text/xml
+OriginP/1.1
+Host: 172.21.0.ê /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 302
+Accept: */*
+X-Requested-With: XMLHttpRequest
+HNAP_AUTH: 150BA81F562C1CC2761E65348D55E102 1734339221
+SOAPAction: "hxtp://purenetworks.com/HNAP1/GetClientInfo"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Cntent-Type: text/xml; charset=UTF-8
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=Ob6hjFuo4e
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><GetClientInfo xmlns="http://purenetworks.com/HNAP1/" /></soap:Body></soap:Envelcept-Encoding: gzip, deflate
+Accept-Language: EB28A93DA80E5 17343392Ô1
+SOAPACTION: "http://purenetworks.com/HNAP1/GetUSBStorageDevice"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlesrChrome/128.0.0.0 Sakari/: http://172.21.0.2
+Acccept: text/xml
+HNAP_AUTH: 203827C45BF18CB549Den-GB,en-US;q=0.9,en;q=0.8
+
+<?-US;;;;;;;;°;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;3;;;.joe:c=e.joe:=ei;
+R -1q;N==o.joe:c=æi;
+R -1qk86Oÿÿÿuhi
+<?xml vexm

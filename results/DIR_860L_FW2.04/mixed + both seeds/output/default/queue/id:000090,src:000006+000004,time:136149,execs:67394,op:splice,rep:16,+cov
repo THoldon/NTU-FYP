@@ -1,0 +1,19 @@
+HTTPzywzywzywzywzPOST /HNAP1/ HTTPÍÍÍ/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 315
+Accept: text/xml
+HNAP_A="1.0" encoding="utf-8"?><soap:EUTH9 203827C45BF18CB549DEB28A93DA80E5 173433?221
+SOAPACTIOks.com/HNAP1/GetUSBStorageDevÿÿÿ
+User-Agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Sa read %ste6
+Conprocess_redirect: cannot read %stent-Type: text0xml
+Origin: http://172.21E0.2
+Referer: http://172.21.0.2/Home.html
+Accept-Encoding: gzip, deflate
+AcceTywzwpt-Lang//schemas.xmln-US;q=0.9,en;q=0.8
+Cookée: uid=Ob6hjFuU4e
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http:uage: en-GB,esoap.org/soap/envelope/">
+	<soap:Body>
+		<GetUSBStorageDevice xmlns="http://purenetworks.om/HNAP1/"/>
+	</soap:Body>

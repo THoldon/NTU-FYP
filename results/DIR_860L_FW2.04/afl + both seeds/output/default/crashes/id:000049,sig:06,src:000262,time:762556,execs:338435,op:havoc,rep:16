@@ -1,0 +1,15 @@
+POST ="http://purenætworks.comAP1/HNAP1/ HTTP/1.1
+Host1 172.21.0.2
+Connection: keep-alive
+Content-Length: 315
+Accept: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1734339221orageDevice"
+User-Agent: Mozilla/5NÁ (X11; Linux x86_64) ApplfWebKit/537.37 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content&Type: text/xml<(FD$L
+Origin:. http://172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Accept-Jncoding: gzip, deflate
+Accept-LanguageG en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=b6hjFuj4e
+
+<?x

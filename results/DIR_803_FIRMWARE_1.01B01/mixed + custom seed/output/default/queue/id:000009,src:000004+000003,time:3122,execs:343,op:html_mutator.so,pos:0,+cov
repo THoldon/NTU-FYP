@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 143
+Connection: keep-alive
+User-Agen†: MZzilla/5.0 (X11; Linux x86_64) Appl17115636537.36 (UHTML, like GGeko) HeadlessChrome/128.0.0                           dpe: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://12.cept-Encoding:pe p,ÿÿÿafari/537.3d
+Content-Tyeflte
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+id=Addmiÿÿpassword=0EE32OEn7t-Lennnnnnnnnnnnnnnnnnnnnnnnnnnnnnnngth: 137ò
+User-Agent: Mopa_sB4AB98BC(KHTML, l1332EC3E65799wordM0EE32DD5C2B14

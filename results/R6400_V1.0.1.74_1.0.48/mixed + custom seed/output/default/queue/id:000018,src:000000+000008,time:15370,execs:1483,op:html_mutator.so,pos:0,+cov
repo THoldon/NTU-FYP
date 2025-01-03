@@ -1,0 +1,15 @@
+POST /ramain.cgi?id=c8554dc8e30ca9fa36313edee3c064b2a695cd9ae2343e3ab58a540f07ee8364 HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/start.htm
+Content-Length: 122
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://172.21.0.2
+Cn/xent-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_63) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Accept: text/html,applicatioonthtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+auto_update_enable_2=N,&ra_enable_2=No&next=Rdgister&RA_enable=0&auto_update_enable=0&wlto_update_enable_2=No&raa_region=5

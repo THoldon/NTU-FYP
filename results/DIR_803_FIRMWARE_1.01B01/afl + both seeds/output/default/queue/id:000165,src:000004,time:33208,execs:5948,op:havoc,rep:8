@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host• 172.21.0.2
+Connection: keContent-Tçpe: applicagth: 50
+User-Agent: Moz/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (Kcept-Encoding: gzip, deflHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36										
+ep-alive
+Content-Lention/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: hTtp://172.21.0.2/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=yWNeBthVkJ
+
+id=Admin&pass4C66D5C2B14

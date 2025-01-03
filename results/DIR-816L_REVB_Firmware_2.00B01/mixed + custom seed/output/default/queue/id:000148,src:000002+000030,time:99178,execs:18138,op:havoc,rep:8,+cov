@@ -1,0 +1,11 @@
+POST ction: keep-aliv/getcfg.php HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 19
+User-Agent: Mozilla/5.0_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Contation/x-www-form-urlencoded
+Accept: */* 
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/advancednguage:,eccept-Language: en-GB,en-US;q=%.9,en;q6sfgR
+
+SERVICES=VSVR.NAT-1

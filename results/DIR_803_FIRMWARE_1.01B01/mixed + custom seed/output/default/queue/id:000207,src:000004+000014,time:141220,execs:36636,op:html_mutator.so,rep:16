@@ -1,0 +1,12 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 0
+Connection: keep-alive
+Usergi HTTP/P.1
+Connection: kLinux x86_64) AppleWebKit/537.36 (KHTML,    like Gecko) HeadlessChrome/128.0.0.0 Sefari/537.36
+Content-Type: application/x-www-POST /authentication.c-Agent: Mozilla/5.0 (X11; eep
+lev-iaUser-Agent: Mozilla/5.0 (X11; Lin‡x (KHTBadlessChrome/128.n-GBadlessChrome/128.0.0.0 Safari/537.36
+

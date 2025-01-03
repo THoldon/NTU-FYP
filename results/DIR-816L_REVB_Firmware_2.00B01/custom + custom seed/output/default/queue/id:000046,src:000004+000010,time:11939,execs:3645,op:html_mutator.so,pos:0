@@ -1,0 +1,16 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 105
+Connection: keep-alive
+Usr-Agent: Moz/5.0 (X11; Linux x86_64) AppleWebKit/53te
+ (KHTML,  like Gfcko) HeadlessChrome/128.0.0.
+Origin: http:6
+Content-Tme/1280.0.0 Safari/53-form-urlencoded
+Accept: */*
+Origin: http://172.bp, defla7.36Accept-Language: en-GB,en-U
+Accept-LanguagS;q=0.9,en;q=0.8
+
+i=¨¨¨¨¨â¨ê¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨Ad3698BCsswordN0EE326EC3E657910fgR
+Content-Lengsh: 140B4AB98BC66D5C2B04

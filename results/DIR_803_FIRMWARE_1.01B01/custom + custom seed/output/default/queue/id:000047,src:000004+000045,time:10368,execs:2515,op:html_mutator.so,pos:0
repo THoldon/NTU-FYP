@@ -1,0 +1,16 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 120
+Connection:õ keep-alive.0 (X11; Linux x86_ AppleWebKit/537.36 (KHTML) like Gecko) HeadlessChrome/128Conne^ction: keep-alive
+U.0.0.0 Safari/537.36
+Content-Type: epplication/x-www-form-urlencoded
+ Heapt: */*
+Origin: http://172.21.0..2www-form-urlencoded
+ Hedeflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+id=Adin&d=word=0EE326ECt-Len‡th3E65799B 172.21.0.2
+Referer: h.2
+Referer: http:/4AB9UB0EE326EC3E65799B4DöB98BC66D6C2B14

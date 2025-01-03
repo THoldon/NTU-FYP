@@ -1,0 +1,6 @@
+POST /l1
+Host:d
+Content-Length: 18
+User-Agent: MssChrome0.8
+
+targetlang=English

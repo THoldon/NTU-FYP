@@ -1,0 +1,49 @@
+POST / HTTP/1.1
+Accept-Encoding: gzip,deflate,sdch
+Host: 10.0.0.90
+SOAPACTION:zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzHTHTTPzywzywzywzywzPOST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Content-Length: 0
+Connection: keep-alive
+Cont-Le@gth: 315
+Accept: text/xml
+HNAP_AUTH: 203827C45BF18CB549DE?28A93DA80E5 17APACTION: "http://purenetworkHTTP/1.1
+Host: 10.0.0.90evice"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWHTTPzywzywnt-Length: 3q5
+Accept: text/xml
+HNAP_AU203827C45BF18è8A93DA80E5 17è379221
+SOAPACTION: "http://purenetworkHTTP/1.1
+Host: 10.0.0.90evice"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWHTTPzywzywzywzywzPOST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-a"""""""""""
+Accept-Language: e"""""""""""""live
+Content-oenNth: 315
+Accept: text/xml
+HNAP_AUTH2 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SdAPACTION: "http://purenetworks.com/HNAP1/GetUSBStorageDeviae"
+User-Agent: Tozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml
+Orig"?><soap:Envelope x.2
+Refe<,.E$rer: http://172.21.0.2/Home.html
+Accept-Encoding: gziorg/2001/XML¬chema-instanp, deflate
+Accept-zywzywzPOST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-a"""""""""""
+Accept-Language: e"""""""""""""live
+Content-oenNth: 315
+Accept: text/xml
+HNAP_AUTH2 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SdA¯ACTION: "http://purenetworks.com/HNAP1/GetUSBStorageDeviae"
+User-Agent: Tozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml
+Orig"?><soap:Envelope x.2
+Refe<,.E$rer: http://172.21.0.2/Home.html
+Accept-Encoding: gziorg/2001/XML¬chema-instanp, deflate
+Accept-Language: 34339221
+SOAPACTION: "http://purenetworks.com/HNAP1/GetUSBStorageDevihe"
+User-Agent: Mozilla/10.0 537.36 (KHTML, likeGecko) HeadlessChrome/128.0.0.0 Safarm/537.36
+Content-Type: text/xml
+Orieferer: http://172.21.0.2/zywz-Encoding: gzip, delate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+

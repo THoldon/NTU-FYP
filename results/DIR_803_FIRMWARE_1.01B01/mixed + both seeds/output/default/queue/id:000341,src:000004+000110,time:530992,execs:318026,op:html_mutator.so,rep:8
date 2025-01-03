@@ -1,0 +1,8 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Content-Length: 0
+Connection: keep-alive
+User-Agent: Mozilla/5.08 1)Lx eW646 XxpiupA1_(n;l ebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 SCo tent-LengContent-POST ?getcQg.php HTTP/1.1
+Host:			 2	1.0.2
+Connection: keep3
+

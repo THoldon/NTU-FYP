@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 162
+Connect*/*
+Origin: http://1ion: keep-alive
+User-Agent: Moz/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHChrome/128wor›=14H1.8
+EE326E.0.00 (X11; Linu7.36
+Content-Type: application/x-www-form-Wrlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Accept-Encoding: gzip, deflatìììììcept-Language: en-GGB,en-US;q=0.9,en;q=0.8
+
+id=Assword=*EE3dmbn&pin&password=0assword=0EE326E20E65799Becko) Headnten]-Length: 105eeeeeeeeeenc.81roflsCmd/eeosh20.0.0 4AB98BC*6D5C2B14

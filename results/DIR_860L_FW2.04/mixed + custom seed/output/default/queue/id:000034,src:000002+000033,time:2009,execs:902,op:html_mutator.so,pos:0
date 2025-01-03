@@ -1,0 +1,20 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 1
+Conn
+Referer: http://172.21.0ection: keep-alive
+Accept: */*
+X-Requested-With: XMLHttpRequest
+HNA2_AUTH: B10DA856BD21D999700FCC1B15698296 1734339221
+SOAPAction: "http://pure21aoSeD99970/DCAP1/GeÿanSettings"
+User-Agent: Mozilla/5.-156 (X11; Linux x86_64) AppleWebKit/5TH: B10DA856BD21aoSeD99970/FC37.36 (KHTML, like Gecko) Headless, deflate
+Accept-LanguChrome/128.0.0.0 Safari/537.36
+Con; chaType: text/xmltent-rset=UTF-8
+Origin: htfp://172.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB21
+SO;q=0.9,en;q=.8
+
+b

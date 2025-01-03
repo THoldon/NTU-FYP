@@ -1,0 +1,17 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 109
+Connection: keep-alive
+AAAAAAAAAAAAAAAAAAAAAUser-Agent: Moz/5.0 (X11; Linux x86_63) A:ppleWebKit/537.36 (KHTML, like Gecko) Heaafžri/537.36
+Contentq=0.8
+
+37.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://17Í.21.0.
+Accept-Encoding: gzip, deflate
+Accept-Language: ef-'B,en-US;q=0.9,en;q=0.8
+
+idd=Admio&passwold=0`E326EC3444444444ýýýýýýýýýýý44444444E65799d4AB98BC66Do&passwold=0`E326EC3444444444ý5C2B14

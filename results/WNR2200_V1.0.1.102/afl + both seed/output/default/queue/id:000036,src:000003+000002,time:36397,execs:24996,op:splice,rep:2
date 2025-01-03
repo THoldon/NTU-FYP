@@ -1,0 +1,9 @@
+HGET /se HTTP/1.1
+Accept-TP/1.1
+Accept-Encoding: gzip,deflate,sdchzywzywzywzywzywzywzywzywzyw
+Host: 192.168.0.50
+zip,deflate,sdchzw
+Content-Length: 13
+
+test=test
+

@@ -1,0 +1,16 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 103
+Connection: keep-alive
+Useww-form-urlencoded
+Accept: *r-AMozilla/5.0 (u n1 ;6x€8Liÿx_64) AppleWebKit/537.36 (KHTML6 like Gecko) BeadlessCeom/.82.h001r.0 Safari/537.36
+onteion.cgi HTTP/1.1
+Host: 172.21.-u;lencodedAccept: */*
+Origin: http://172.21.0.2
+Accept-En2/
+Cookie: uid=yWNee
+Accept-Language: en-GB,en-US;q=0.9,enq=0.8
+
+icÿdmPi&password=0EE326EC3EU5799BR¾B9?BC66D5C¸B14

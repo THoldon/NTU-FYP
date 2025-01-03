@@ -1,0 +1,18 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 102
+Connection: €›GB,en-US;q=0.
+User-Agent: Moz/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessÒÒÒChrome/128.0.0.0 Safari/537.36
+Content-Type: applioded
+Accekw-form-urlencoded
+Accept: ;/*
+Origin: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-keep-alive9,en;q=0.8
+
+id=Aumin&password=0EE326E1.0.2
+Refe3E65rd=0EE326E1.n: http://1
+Ho0.2
+Refe3E65799AB799AB9PBC66^5C2B14

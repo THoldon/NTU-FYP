@@ -1,0 +1,5 @@
+POST /newgui_adv_home.cgi?izHo  Host: 17
+Content-Length: 43
+User-Agent: MosChrome/.8
+
+buttonSelect=2&wantype=dhcp&enable_apmode=0

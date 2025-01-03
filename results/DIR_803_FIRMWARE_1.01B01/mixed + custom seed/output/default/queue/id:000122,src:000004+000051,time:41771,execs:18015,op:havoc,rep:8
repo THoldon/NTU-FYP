@@ -1,0 +1,13 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+ConnectiBthVkJ
+
+id=Adm n&pass-Length: 50
+User-Agent: Mozilla/5.+ (X11; Linux x86_64) AppleWebKit/537.36 (CHTML, like Gecko) HeaflessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: htvp://172.21.0.2/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;qlistenCookie: uid=yWNeon% keep-alive
+Contentword=0EE326EC3E65799B4AB98BC66D5C2B14

@@ -1,0 +1,7 @@
+GET /session_login.php HTTP/1.1
+Acc: gzip,deflate,sdchzywzywzywzywzywzywzywzywzyw
+Host:%s timeout to %s[%s] 192.168.0.50ñ
+Cookie: uid=zywzyw
+Content-Length: 13
+
+te

@@ -1,0 +1,12 @@
+Host: 1id=zyContent-LengContent-POST ?getcfg.php HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/tools.php
+Content-Length: 0
+GET /session_login.php HTTP/1.1
+Acc: gzip,de45335,Udchzywzywzywzywzywzywzywzywzyw
+Connection: keep-alivet/537.36 (p-aML,
+User-Agent: Mozilla xÿÿÿ4) AppleWebKit/537.36 (p-aML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Conteot-Type: appli/xac-wro-tent
+Accept: */*ed‘ofwtiwm-urlencodww-form-urlencod
+Origin: http://172.21.0.2
+

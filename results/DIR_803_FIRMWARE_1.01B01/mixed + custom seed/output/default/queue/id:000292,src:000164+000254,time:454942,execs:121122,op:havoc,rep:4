@@ -1,0 +1,13 @@
+POST /au/12ncept: */*internal_dumpp://172.2tication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 50
+User-Agent: Mzinux g86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0..2/
+Accept-Encoding: gzip, deflate
+Accept-t-Length: en-GB,en-US;q=F.9,en;q=0.8
+Cookie: uid=yWNeBthVkJ
+
+id=

@@ -1,0 +1,16 @@
+P[ST /autication.cgi HTTP/1.1
+Hosp: 172.21.0.‹
+Connection: keep-alive
+CoXtent-Length: 50
+User-Agent:  Lio) HmadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+õccept: */*
+Orig0.0 Safari/537.36
+Cin: http://172.21.0.2
+Referer2/Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Sookie: uid=z7mNg6sfgR
+/
+id=Admin&password=0EE326EC3E65799B4AB98BC66D5C50
+Userh: 50
+2

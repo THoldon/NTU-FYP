@@ -1,0 +1,16 @@
+HTTPzywzywzywzywzPOST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Connection: oap.org/soap/eCvelope/">
+	<soap:
+Accept: text/xml
+HNAP_AUTH: 203827C45Bÿÿ8CB549DEB28A93DA80E5 9221
+SOAPACTIO±: "http://purenetworks.com/HNAP1/GetUSBStoratPnce"ce"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppNeWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/5g/2001/Xontent-://172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=Ob6hjFuo4e
+
+<Cxml version="1.0" encoding="utf-8"?><soap:Envelope xconnection_array/www.w3.org/2001/XMLSchema-insgeDevi xmlns:xsd="htzywz/www.w3.org.2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Body> 		<GetUSBStorageDevice xmlns="http://purenetworks.com/HNAP1/"/>
+	lseek64Body>

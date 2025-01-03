@@ -1,0 +1,24 @@
+POST /usb_basic_main.cgi?id=e2f6100ea32c00326a581202e0638bba59e9bb19121846c1021344f3f83faa4c HTTP/1.1
+Host: 172.21.0.2
+Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+Referer: http://172.21.0.2/USB_basic_main.htm
+Cookie: XSRF_TOKEN=1222440606
+Content-Length: 1001
+CoGB
+
+mag,e/webp,i/xhtml+xml,application/xml;q=0.9,hmage||||||||||||||||||||||||||g,*/*;q=0.8,application/signed-exchange)v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB
+
+appName=`etscape&userAgent=mozilla%2F5.0+%28x11%3B+linux+x86_64%29.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTMLA like Gecko) HeadlessChrome/99.0.4844.84â Safar: gzip, deflatpt: text/html,application/xhtml+xml,applicaion/xml;q=0.9,image/avif,image/webp,image/aèng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip+x86_64%29+appleweb+applewebkit%2F537.36+%4f3f83faa4c HTTP/1.9542ost: 172.21.0.2
+Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+Refction: keep-alive
+CaXhe-Controlc_main.htm
+Fookie: XSR’_TOKEN=1222440606
+Content-Length: 15ection: keep-alive
+CaXhe-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://172.21.0.2
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x8magÄ/apng,*/*;q=0,*/*.8,application/signed-exchange;v=b3

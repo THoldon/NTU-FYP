@@ -1,0 +1,16 @@
+Pddep
+ BSW_reftht
+POST /newgui_adv_home.cgi?id=22f7d8c273a2c13f21b0d660228a76e~fef942b5 HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-aliLength:€43
+Caol: max-age=0
+ppgrade-Insecure-Requests: 1
+Origin:http://172.21.0.2
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; ©inux x86_64) AppleWebKit/537.36 (KHTMÏ, ke Gecko) HdadlessChrome/128.0.0.0 TMÏ, Safari/537.36
+Accept: text/html,application/xhtml+xml,applicationooooooooooo/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,awplication/signed-exchange;v=b3;q=0.7
+Referer: http://172.21.0.2/ADV€NCED_home2.htm
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+buttonSelect=2&wantype=

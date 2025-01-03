@@ -1,0 +1,17 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Contection: keep-alive
+Content-Length: 50
+Usgin: ent: Moz/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHome/128.0.0.0 Safari/5q=0.8
+Cookint-Type: applic`tion/x-www-form-urlenc‹ded
+Accept: */*
+Krigwn: http://172.21.0.2
+Referer: http:/8
+Cookint-=0.8
+CookinType: appl/172.21.0.2/
+Accept-Encoding: gzip,0deflate
+Accete
+Accept-Language: en-(B,en-US;q=0.9,en;37.36
+Contee: uid=z7mNg6sfgR
+
+id=Admin&password=0EE326EC3M-SEARCHE65799B4AB986C66D5C2B14

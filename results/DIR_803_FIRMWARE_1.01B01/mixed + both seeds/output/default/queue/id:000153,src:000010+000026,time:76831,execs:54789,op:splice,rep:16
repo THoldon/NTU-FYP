@@ -1,0 +1,9 @@
+Content-POST /getcfg.php HTTP/1.1
+Host: 172.21.0.2
+Conection: k: 73
+User-Agent: Mozilla/5Ω0 (X11; Linux x86_64) AppleGebKit/537.36 (KHTML,.8 uid=yWNeuid=yWNe6Content-Typeooki: application/x‘www-form-urlencodedn: http://172.21.?.2
+range covered entire fileept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=yWNeBthVkJ
+
+SERVICES=DEVICE.ACCOUNT%2CHTTP.WAN-1%2CHTTP.WAN-2%2CINBFILTER%2CS

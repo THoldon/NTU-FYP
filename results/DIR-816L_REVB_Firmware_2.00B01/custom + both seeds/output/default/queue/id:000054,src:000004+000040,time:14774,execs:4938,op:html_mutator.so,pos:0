@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 108
+Connection: keep-alive
+User-Agent: Moz/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTMLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL, li								ke Gecko) Head
+Accept-LanguagelessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-gorm-urlencodddddddddddddddddddddddddddddded
+Accept: */*
+Origin: http://172.dco ne-inA.21E2
+pct0g:c.gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+id=Admin&paid=Admin&passwordssword=0EE326EC3E65799BDB98BC66D%C2B14

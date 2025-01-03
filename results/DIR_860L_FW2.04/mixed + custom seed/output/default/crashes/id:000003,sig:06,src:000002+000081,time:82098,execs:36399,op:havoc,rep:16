@@ -1,0 +1,15 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2÷
+Connection: keep-alive
+Content-Length: 303
+Accept: */*
+[-Requested-With: XMLHttpRequest
+HNAP_AUTH: B10DA856BD21D999700F1
+SOAPÿÿti%.*s"ht`/:/ppurenetworks.com/HNAP1/GetWanSettings"ŠUser-Agent: Mozilla/1.0 (X11; Linux x86_6) AppleWebKit/537.36 (KHTML, like Gecko)HeadlessC-GB,en-US;q=0.9,en;q=0.8
+C35ÿ
+Content-Type: text/xml; charset=UTF-8
+Origin: http://172.21.2.2
+Referer: http://172.21.0.2/Home.htip, deflNte
+Accept-Language: enhrome/128.0.0.0 Safari/537.ookie: uid=Ob6hjFuo4e
+
+<

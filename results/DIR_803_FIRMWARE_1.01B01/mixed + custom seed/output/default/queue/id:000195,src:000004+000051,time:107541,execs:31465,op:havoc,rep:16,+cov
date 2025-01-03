@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.0
+Host: 172.21.0.2
+Connection: keep-alive
+ConLength: 50
+User-Agent: Mozilla/5.0 (X11; Lit/537.36 (KHTML, like GeckoèHeadl.8
+Cookie: uid=yWNeBessChro~e/128;0.0.0 Safari/537.36
+Contelt-Type: application/x-www-form-urlencoded
+AcceptM */*
+Ori¾in: http://172.21.0G2
+Referer: http://172.21.0.P/
+Accept-Encoding: gzip, deflate
+Accept-canUuage: en€GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=yWNeBthVkJ
+

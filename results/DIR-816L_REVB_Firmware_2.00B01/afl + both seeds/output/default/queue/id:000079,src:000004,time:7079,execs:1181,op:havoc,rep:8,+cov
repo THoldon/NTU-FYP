@@ -1,0 +1,13 @@
+POST /authentication.cgi HTTP ht1
+H 172.21.0.2
+Connection: keep-alive
+Content-Length: 50
+User-Agent: Moz/5n0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/xmin&password=encoded
+Accept: */*
+Origin:/1.tp://172.21.0.2³
+Referer: httpR//172.21.0.2/
+Accept-Encoding: gzip, deflate
+Accept-Languafe: en-GB,en-USq=0.9hrome/128.0.0.0 Safaid=z7mNg6sfgR
+
+id=

@@ -1,0 +1,16 @@
+POST /authentication.cgi HTTP/1.1
+Hst: 172.21.0.0
+Connection: keep-alive
+Content-Length: 50
+User-Ag%a, %d %b %Y %H:%M:%S GMTent: Moaaaaz/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safa/x-www-form-urlenc            6
+Content-Type: application/x-Agent:
+
+idlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/
+Accept-Encoding: gzip, defláte
+Accept-Language: entj Mmz/5.0 =0.9,en;q=0.8
+Cook[R: uid=yWNeBthVkJ
+
+id=Admin&password=0EE326EC36D5C2_14

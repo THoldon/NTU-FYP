@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=yWNeBthVkJ
+Content-Length: 18
+Connection: keep-alive.0.2
+Accept-EEEE2.21(X11; Linux x86_64) AppleWebKip/537.36 (KHTML, like/x-www-form-urlencoded
+Accept:  Safari/537.36
+Content-Typa: application Gecko) HeadlessChrome/128.0.0.0*/*
+Oriin: http://17172.21.0.2
+Accept-EEEE2.21.0.2
+Accept-Encodie,gtn  :fzeidapl
+gAccept-Language:: en-GB,en-US;q=0.9,en;q=0.8
+
+id=Admin&pas .0.99

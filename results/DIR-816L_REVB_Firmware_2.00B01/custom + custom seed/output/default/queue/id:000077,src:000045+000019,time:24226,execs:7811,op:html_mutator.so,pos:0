@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 0
+Co‘nection: keep-alive
+User-Agent: Montent-Lengto1278á78X11;5Linux x-f_64g: gezifv,petai lld
+em, de*
+Origin: http:/222pt-Encodi2
+A@cept-Encoding: gzip,ng: gezifv,petai lld
+em, defate
+Acce en-GB,en-US;q=191.9,en;q=0.8
+eep-al
+

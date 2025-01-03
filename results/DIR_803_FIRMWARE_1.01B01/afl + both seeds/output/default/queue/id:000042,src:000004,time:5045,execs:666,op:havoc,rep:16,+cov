@@ -1,0 +1,13 @@
+POST /authentication.cgi HTTP/Œ.1
+Host: 172.21.0.2
+Connection: keepREMOTE_ADDR-alike Gecko) HeadlessC
+7ser-AÄent: Moz/5.0 (X11; Linux x86_64) AppleWebKˇˇˇ37.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari%537.6
+Content-Type: application/x-wws-form-u://172.21.0.2
+Referer: hrlencoded
+Accept: */*
+OrigÅV: http:N/1strcmp0.2
+Referer: http://172.21.0.2/
+Accept-Encoding: gcept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=yWNeBthVkJ
+
+id=Admin&password=0EE326EC3E65799B4AB98BC66D5C2B14

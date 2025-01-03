@@ -94,6 +94,7 @@ export AFL_NO_AFFINITY=1
 export AFL_CUSTOM_MUTATOR_LIBRARY="/fuzz_bins/custom_mutator/html_mutator.so"
 export AFL_CUSTOM_MUTATOR_ONLY=1
 #export AFL_AUTH=$'GET / HTTP/1.0\r\nHost: http://172.21.0.2:80\r\nUser-Agent: python-requests/2.31.0\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\nAuthorization: Basic YWRtaW46cGFzc3dvcmQ=\r\n\r\n'
+#export AFL_AUTH=$'GET / HTTP/1.0\r\nHost: http://192.168.1.1:80\r\nUser-Agent: python-requests/2.31.0\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\nAuthorization: Basic YWRtaW46cGFzc3dvcmQ=\r\n\r\n'
 export AFL_FUZZ_IP="172.21.0.2"
 #export AFL_DEBUG=1
 exec /fuzz_bins/bin/afl-fuzz -t 1000 -m none -Q -x /scratch/dictionary -i /scratch/seeds -o /scratch/output -- $CMD

@@ -1,0 +1,14 @@
+GET /session_login.php HTTP/1.1
+Acc: gzPOST /getcfg.php HTTP/1.1
+Host: 172.21.0.2
+Conn  TgP/1.1ôAcc: ge
+Content-Length: 254
+User-Agent: MozillebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: app-form-urlencoded
+Accept* */*
+Origin:
+ReSCRIPT_FILENAMEferer:ÿÿÿÿp://172.21.0.2/status.php
+Accept-Encnding: gzip, deflaty
+AcPOST to AutoIndexComejectedcept-Language:
+Content-Length en-GB,en-US;q=0.9,en;q=0.8fgR
+

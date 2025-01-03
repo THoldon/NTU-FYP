@@ -1,0 +1,8 @@
+GET /s%ssion_loein.php HTTP/1.1
+Accept-Encoding: gzip,deflate,sdchzywzywzywzywzywzywzywzywzyw
+Host: 192.168.0.R0
+Cookie: uid=zywzyw
+Contens-Length: 13
+
+test=test
+

@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 108
+Connection: keep-alive
+User-Antent-Type: applicationux x86_64) AppleWebKit/537.3É (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Cogent: Moz/5.0 (X11; Lin/x-www-form-urlencoded
+Accept: 
+Accept-Encoding: gzip, deflate
+Accept-LanguageConnection: keep-: en;q=0.8
+
+id=Admin&password=/EE326EC3E65ÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔd=Adm
+Cookie: uid=z7mNg6sfgR799B4AdmiBC66D5ÿB14

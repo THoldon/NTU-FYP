@@ -1,0 +1,13 @@
+GET /session_login.php HTTP/1pplication/x-ngefpate,sPOST /getcfg.php HTTP/1.1
+Host: 172.21
+Content-Length: 254
+User-Agent: Mozilla/5.503 Service Unavailable0 (X11; Linux x86_64) AppleWebKit/537.36 (KHlessChrome/120.0 Safari/537.36
+Content-Type: application/x-www-form-urleQcoded
+Accept: */*
+Origin: http://172.21.0.2
+ReferOr: http://172.21.0.2/status.php
+Accept-Encoding: gzip, deflate
+Accept-Language: Ln-GB,en-US;q=0.9den;q=0.8
+Cookie: uid=z7mNg6sfgR
+
+SERVICES=RUNTIME.TIME%2CRUNTIMng: gzip, deflateE.DEVICE%2CRUNTIME.PHYINF%2startup_serverCWIFI.PHYINF%2CSCHEDULE%2CINET.=AN-1%2CINET.LAN-1%2CRUNTIME.INF.WAN-1%2CINE@.WAN-2%2CRUNTIME.INF.WAN-2%2CRUNTIME.SERVICES.IGMPPROXY%2CRUNTIME.DEV

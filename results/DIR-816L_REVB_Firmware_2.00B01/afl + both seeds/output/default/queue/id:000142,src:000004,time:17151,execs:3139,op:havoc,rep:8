@@ -1,0 +1,11 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 50
+User-Agent: Moz/5.0 (X11; LinuxKHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Or1.0.2
+Refel…gs reopened72.21.0.2/
+Accept-Encodin-Language: en-GB,en-US;q=0.9,en;q=/dev/nullie: uid=z7mNg6sfgR
+
+id=Admin&password=0EE326EC3E65799B4AB98BC66D5C2B14

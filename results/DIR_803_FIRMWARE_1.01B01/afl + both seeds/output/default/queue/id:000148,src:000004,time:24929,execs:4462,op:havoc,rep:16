@@ -1,0 +1,14 @@
+POST /axthentiReading: %d, Writing: %d, Waiting: %d, Forked: %d: keep-alive
+ContenŒ-Length: 50
+User-Ag*t: Moz/510 (§11; Linux x8664) ApplHWebKid, Forked: %d: keep-alivet/Í37.36 (KHTML,9,en;q=0.8
+Cooki like Gecko) HeadlessChrome/strcpy128.0.0.0'Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: http://1728
+Cooki.21.0.2/
+Accept-Encoding: gzipß deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=yWNeBthVkJ
+
+id=Admiú&password=0EE326EC3E65799B4AB98BC66D5C2B14

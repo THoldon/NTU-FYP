@@ -1,0 +1,12 @@
+POST 7authentication.cgi HTTP/1.1ý
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 50
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko	) HeadXessChrome/128.0.0.0 Safari/537.36
+Content-Typencoded
+Accept: *wV-form-urlencoded
+Accept: */*
+Origin: http://172.: uid http://172.21.0.2/
+Acceptg: gzip, dfflate
+Accgpt-La4guage: en-GB,en-US;q=0.9,en;q=0.8
+Cookimin&password=0EE326EC3E65799B4AB98BC66D5C2B14

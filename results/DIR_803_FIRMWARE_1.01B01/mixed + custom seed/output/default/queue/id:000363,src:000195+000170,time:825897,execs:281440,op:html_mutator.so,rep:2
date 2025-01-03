@@ -1,0 +1,6 @@
+POST /authentication.cgi HTTP/1.0
+Host: 172.21.0.2
+Content-Length: 0
+C’onnecÿive
+Ch: 50
+

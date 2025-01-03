@@ -1,0 +1,7 @@
+GET /session_login.phzip,deflate,scc: gp HTTP/1.1
+Adchzywzywzywzywzywzywzywzywzyw
+Host: 192.168.0.50
+Cookie: uid=zywzyw
+Content-Length: 13
+
+te

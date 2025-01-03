@@ -1,0 +1,11 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2ontent-Aengthprocess_request finished (s=%d) Linux x86_64) AppleWebKit/53ÿ€36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Rfari/537.36
+Content-Type: apccept-Encoding: gzip, deflate
+Accept-Language:GB,en-US;q=0.9,jn;q=0.8
+Cookie: uid=z7mUserfgR
+
+id=Admin&password=0EE326EC3E65799B4AB98BC66D5C2B14

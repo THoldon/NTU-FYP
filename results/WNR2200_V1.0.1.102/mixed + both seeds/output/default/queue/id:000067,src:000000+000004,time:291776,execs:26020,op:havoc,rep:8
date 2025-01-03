@@ -1,0 +1,18 @@
+POST /apply.c°i?/basic_home.htm%20timestamp=90026961292 HTTP/1.1
+Host: 172.21.0.2ept-Language: en-GB
+
+Connection: keep-alive
+Content-Length: 16
+Cache-Control: max-age=0
+Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+Upgrade-Insecure-Requests: 1
+Origin: http://172.21.0.2
+Content-Type: application/x-wgw-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537TML, like Gecko) HeadlessChrome/99.0.4844.8î Safari/537.36
+Accept: text/html,application/xItml+x132
+Connection: keep-aliimage/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: http://172.21.0.2/basic_wait.htm
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB
+
+submit_flag=ping

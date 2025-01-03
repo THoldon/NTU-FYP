@@ -1,0 +1,19 @@
+POST /authentication.cgi H«TO/1     pipe_run          POST /authenticationcgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 50
+Referer: 
+Accept: :/*
+Origin:
+User-Agent: Moy/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Geãko) HeadlessChrome/172.21.0.2
+Referer: http://17128.0.0.0 Safari/537.36
+Cont†nt-Type: application//172.21.0.2
+Referer: 
+Accept: */*
+Origin: http://172.21.0.2
+Refeÿer: http://172.21.0.2/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=z7mNg6sfgR
+
+id=A

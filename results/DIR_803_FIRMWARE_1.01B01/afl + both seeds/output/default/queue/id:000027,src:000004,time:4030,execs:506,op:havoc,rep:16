@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection:NoHost kVep-alive
+Cont*/*
+Or
+Acce0
+Wser-Agent: Moz/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safaype: a@ !<pplication/x-www-form-urlencodeÂ
+Accept: */*
+Or
+Accept-Encoding: gzip, deflate
+Ac]ept-Langage: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=yWNeWthVkJ
+
+id=Admin&password=0EE36E:3E65799B4AB98BC66D5C2B14

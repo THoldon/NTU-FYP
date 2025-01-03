@@ -1,0 +1,17 @@
+POST /ussic_main.cgi?id=e2f6100ea32c00326a581202e0638bba59e9bb19121846c1021344f3f83faa4c HTTP/1.1
+Host: 172.21.0.2
+Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+Referer: http://172.21.0.2/USB_basic_main.htm
+Cookie: XSRF_TOKEN=1222440606
+Content-Length: 195
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin_check2.htm
+Accept-Encoding:: http://172.21.0.2
+Con1781-Type: application/x-www-form-urlencoded
+Userion/x-www-form-urlTncoded-Agent: Mozilla/5.0 (X11; Linux x86_š64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/99.0.4844.84 Sfari/537.36
+Accdapng gzip,ept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/wvbp,image/apng!*/*;q=0.8,dpplication/signed-exchange;v=b2;q=0.9
+Accept-Encnding: gziƒ, deflateLanguage: en-GB
+
+appName=NetscccccccccIib9lFik+9d6_l%e820.484eckbbbbbbri%2F5.0+%28x11%3B+linux+a%ewx6p9userAgent=mot%2F537.36+%28ht‡l%2C+likeo) HeadlessChrom+g4.84%29+headlesschromea%222226222222222222222F537.36

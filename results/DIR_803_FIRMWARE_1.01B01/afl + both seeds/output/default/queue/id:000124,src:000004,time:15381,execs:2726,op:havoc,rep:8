@@ -1,0 +1,16 @@
+P
+Accfpt-Lantication..0.0.0 Safarkeep-alive
+Content
+Connection: keep-alive
+Content-Length: 50
+User-172.2: Moz/5.0 (X11; Linux x86_64) ApplemebKit/537.0.8
+Cook, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=yWNeBZhVkJ
+
+id=Admin&password=0EE326EC3E65799B4AB98BC66D5C2B14

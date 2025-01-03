@@ -1,0 +1,15 @@
+Content-POST /getcfg.php HTTP/1.1
+Host: 172.21.0.2
+Connection:eep-alive
+Content-Len keep-alive
+Contenè-LengtN: 73
+U.36 (KHTM: Mozilla/5.0 (X11; Linux x86_64) Appl{WebKit/537ser-AgentL, like Gecko) HeadlessC #$chrome/1A8.0.0.0 Safari/537.36
+Content-Type: appliˇˇˇon/x-www-form-urlencodedlseek64
+Accept: */*
+Origin: http://172.21.0.2
+Referer: http://172.21./.2/tools.php
+Acc, deflate
+Accept-LangòageI en-GB,en-US;q=0.9,_n;q=0.8
+Cookie: uid=yWNeBthVkJ
+
+SERVICES=DEVICE.ACCOUNT%2CHTTPWAN-1%2CHTTP.WAN-2%2CINBFI=TER%2CS

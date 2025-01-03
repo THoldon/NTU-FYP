@@ -1,0 +1,17 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 102
+Connection: keep-alive
+User-Agent:Moz/5.0 (X11; Li‘ux x86_64) AppleWebJit/537.36 (KHTML, likewww-form-urlencoded
+Accept: */* Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept
+Content-Type: application/x-ww
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+id=Qdmin&password=0EE326EC3E65899B4ic/x-www-f1.1
+Host: 18or-www-f1.1
+Host: 18ormAB98mAB98BC66D5C2B14

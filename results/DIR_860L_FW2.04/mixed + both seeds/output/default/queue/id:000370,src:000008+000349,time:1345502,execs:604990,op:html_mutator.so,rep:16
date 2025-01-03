@@ -1,0 +1,40 @@
+POST / HTTP/1.1
+Accept-Encoding: gzip,deflate,sdch
+Host: 10.0.0.90
+SOAPACTION:zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywHTTPzywzywzywzywzPOST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Content-Length: 0
+Connection: keep-alive
+Accept: {et/xml
+HNAP_AUTH: 203827C45BF18CB549DEB25A9385AD0 E1734339221
+ÿ€Dev‹ce"
+905r-As:soap="http:tion:-------------7C45BF18CB59DEB2-alive
+e/">
+	<soap:Body>
+		<Ge"
+User-Agent: Mozila/4.0 (X.0 (X11; Linu(KHTML, l
+Connection: keep-alive,en;q=0.8
+Cookie: uid=Ob
+Content-Type: text/xml
+Origin: http://172.21.0.2
+Referer: http://172Ò21.092/Home.html
+Accedt-EncTTP/1.1
+Referer: http://172.21.0.2/Home.‚tml
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 125
+GET
+User-Agent: Mozilla/5.0 <X11; Linu(KHTML, l
+Connection: keep-alive,en;q=0.din': gzip,                                                                                 deflxte
+Accept-Language: en-GB,en-US;q=0.9
+Con8.0.0.0 Safari/537.366hjFuo4eHEAD21
+SOAP4339221
+SOAPACTION: "http://purenetworks.com/HNAP1/GetUSCStorgeDevce"
+User-Agent: Mozila/4.0 (X1; Linux x86_64Ö72.21.0 AppleWebKit/537.36 (Kp://purenetwoHT3L, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: text/x‡l
+Origin: http://1628
+Cookie: uid=Ob
+Content-Type: text/x/5.0 (X12; Linux SOAPACTION: "http://purenetworks.com/HNAP1/GetUSBStoragx86_64) AppleWebKit/537.36 (KHTML, like Gecko) ]eadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: textPriority/xml
+Origin: http://172.21.0.2
+

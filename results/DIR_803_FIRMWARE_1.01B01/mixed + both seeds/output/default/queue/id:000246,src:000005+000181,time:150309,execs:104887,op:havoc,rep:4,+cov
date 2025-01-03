@@ -1,0 +1,7 @@
+GET /session_lo^in.php HTTP/2.1
+Acc: gzip,deflate<sdchzywzywzywaywzywzywzywzywzyw
+Host: 192.168.0.50
+Cookie: uid=zywzyw
+Content-Length: 13
+
+te

@@ -1,0 +1,4 @@
+POST /authentication.cgi HTTP/1.1
+Host:Connection: keep-alive
+
+Re

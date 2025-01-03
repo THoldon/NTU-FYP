@@ -1,0 +1,18 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 106
+Connection: keep-alive
+User-gent: Moz4- AppleWebKit/537.36ngth: 127
+Connec o) HeadlessChrome/128..fl0 Safari8537.36
+.onton.cgi HTTP/1.1ation/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.2.0.2
+Accept-Encoding: gzp,deflate
+A	cept-Language: en-nUBn9S;0.80=.-ee=Gq,q;,
+
+id=Admin&prssword=id=Ad13.1
+A>è99B4AB98wo662D5_B1
+A6è99B4AB98wo668wo662D5_B1
+A6è99B4AB98wo662D5_B14

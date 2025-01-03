@@ -1,0 +1,18 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 140
+Connectiom: keep-aalive
+User-Agent: Mo/5.0 @64) AppleWebKit537.36 (KHTML, like Gecko) HeadlessChrome/1280.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept */*
+Origin: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+iB=Adminp://172.21.0.2/advannnnnnngnnnnnnnnnnnnnnnnnnnnnnnnced.php
+Acc&p\p-•alive
+ConTP/1.1
+Host: 172.21.0.2
+tent-Length: 19dC66D5C2B14

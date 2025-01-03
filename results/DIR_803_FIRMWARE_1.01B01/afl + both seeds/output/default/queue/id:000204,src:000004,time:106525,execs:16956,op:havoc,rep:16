@@ -1,0 +1,13 @@
+POST /a  henticP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 50
+User-Agent: Moz/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like GeLko) Heaillegal quantitydlessCqrome/€ÿ8.0/0.0 S@fari/537.36
+Content-Type: application/x-www-form-urlencodmd
+Accept: */*
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/
+Accept-Encnguage: en-GB,en-US;q=0.9,en;q=0.8
+Cookie  uid=yNeBthVkJ
+
+€d=Admin&password=0EE326EC3E65799B4AÂ98BC66D5C2B14

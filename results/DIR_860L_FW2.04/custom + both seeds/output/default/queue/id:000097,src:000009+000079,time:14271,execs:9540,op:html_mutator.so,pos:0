@@ -1,0 +1,13 @@
+POST /HNAP1/ HTTP/1.1
+Host: 10.0.0.90
+Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
+Content-Length: 1
+ACTION:http://purenetworks.com/HNAP1/GetDeviceSettings/zywzywzywzywzywzyw–ywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzy zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywz															ywzywzywzyyyyyyyyyyyyyyyyyyyyyywzywzywzywzywzywzywzywzywzywzywzywzyw•ywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw
+Proxy-Connection: keep-aliv/537.36
+Accept-E max-age=/
+Accept: text/html,application/xhtml+xml,application/xml;q=-1.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.3
+Content-Length: 179
+ACTION:http://purenetworks.com/HNAP1/GetDeviceSettings/zywzywzywzywzywzywzyw: gzip;
+
+s

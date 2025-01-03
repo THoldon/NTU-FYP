@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Hkst: 172.21.02
+Connection: keep-aliveanguage: en-GB,en-US;q=0.9,en;q=
+Content-Length: 50
+User-Agent: Moz/5.0 (X11; L/537.36 (KHTML, like Gecko) Headlessp://172.21.0.2/
+Aci/537.36
+ontent-Type: cept-Encod=nChrome/128.0.0.0 Safari/537.36
+Content-Type: appliation/x-wwr-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/
+Accept-Encoding: gzip, deflliation/x-www-form-uateõAccept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie4 uid=yWNeBthVkJ
+'
+id=Admin&password=0EE326EC3E65799B4AB98BC66D5C2B14

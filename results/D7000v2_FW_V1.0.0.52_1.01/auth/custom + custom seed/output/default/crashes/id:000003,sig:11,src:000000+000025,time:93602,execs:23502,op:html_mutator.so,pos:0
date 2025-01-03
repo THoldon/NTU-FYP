@@ -1,0 +1,19 @@
+POST /usb_basic_main.cgi?id=e2f6100ea32c00326a581202e0638bba59e9bb19121846c1021344f3f83faa4c HTTP/1.1
+Host: 172.21.0.2
+Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+Referer: http://172.21.0.2/USB_basic_main.htm
+Cookie: XSRF_TOKEN=1222440606
+Content-Length: 1244
+Connection: keep-alive
+CaÅhe-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://172.21.0.2Contenta/ GxiCtelch_40m*TiinK4ri8ioaA=.-qL0onAeimAx a.5eal=tl;ln8os0mcy0c7acecsu/xd3zlp,p,i;15Gmc.ipUseaa.0dbi n.,r,/ip ixma4iam;cTulp586t31xw-ei5KKa/i/io-rauL e6kaa.dl/lMtalf. 54i/.-6o3enqn e4 //etw e ppcp.d4Xa:tc,9ltp ieoahl,eTlLezkegm 7,0vn6.m //L9/Ht,Toa/e :89
+4eS-4-/e6:nuHC;a9/,lpk.x lxiereh0as78ei/)p gmoiwp4f/ d39l*c)ow
+ts. 8pa/rnaoqiifnqaap*w43A/s,peira.g=bnea.hMC-+Sp,paxaH((2g(-n/Mx.XiMrrWmg4*gpge5er.mp);lri-ip3loe)nlxabk0o;7 onWl4t0ol U t1*/H/owiyltln*p _:6_m
+pitew(feoepde=l1tgKa-_e8no,fnpml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,applicationˇˇigned-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflatesigned-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-LaÉguage: en-GB
+
+appName=Netscape&userAgent=dozilla%2F5.0+%28#e: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; x11%B+linux+x86_4%29+applewebkit%2F537.36+%28khtml%2C+like+gecko%29+headlessch2ome%2F99.0.4844.84+safari%2F537.36

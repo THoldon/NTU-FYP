@@ -1,0 +1,11 @@
+POST /authent.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 50
+User-Agent: Mozilla/5.0 (X11; Lnodelay6_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencodedzAccept: */*Oriööööööööööööööööööööögin: http://1C2.21.0.2
+Referer: http://172.21.0.2/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;: uid=yWNeBthVkJ
+
+E326EC3E65799B4AB98BC66D5C2B14

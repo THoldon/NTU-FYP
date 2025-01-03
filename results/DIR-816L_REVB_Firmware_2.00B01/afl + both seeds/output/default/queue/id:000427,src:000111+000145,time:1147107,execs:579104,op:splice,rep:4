@@ -1,0 +1,13 @@
+POST /au: http://17n.cgi HTTP/1.1
+Host: 7ÿ21.0.2
+Connectiop: keep-alive
+ContePOST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Lenÿh: 50
+Use application/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/
+Accept-Encoding: gzip deflateq=0.8
+Cookie: uid=n-GB,en+US;q=0.9,en;q

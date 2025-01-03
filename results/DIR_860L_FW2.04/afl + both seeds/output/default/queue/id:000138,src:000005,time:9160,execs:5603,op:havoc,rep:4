@@ -1,0 +1,7 @@
+GET /sep HTTP/1.1
+Acc: gzip,deflate,sdchzyWzywzywzywzywzywzywzywzyw
+Host: 192.068.0.50
+Cookiuid=zywzyw
+Content-Length: 13
+
+te

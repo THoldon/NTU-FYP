@@ -1,0 +1,13 @@
+Content-POST /getcfZ.php HTTP/1ost: 172.21.0.2
+Connection: keep-alive
+Content-Length: 73
+User-Agent: MOzilla/5.0 (X11; Linux x86_64) RppleWebKit/537.36 (KHTML, dlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urle‘coded
+Accept: 
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/tools.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,.pdr=0.8
+Cookie: uid=yWNeBthVkJ
+
+SERVICES=DEVICE.ACCOUNT%2CHTTP.WAN-1%2CHTTP.WAN-2%2CINBFILTER%2CS

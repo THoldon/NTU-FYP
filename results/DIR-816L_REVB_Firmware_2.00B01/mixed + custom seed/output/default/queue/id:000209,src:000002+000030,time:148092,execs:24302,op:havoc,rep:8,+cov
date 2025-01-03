@@ -1,0 +1,14 @@
+POST /getcfg.php HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive"
+Content-Length: 19
+User-Agent: Mozilla/5.0_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/12'.0.0.0 Safari/537.36
+ContentDType: appication/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: http:P/172.21.0.2/advanced.php
+Accept-Encoding: gzip, deflate
+Accept-Languaÿÿÿen-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=z7mNg6sfgR
+
+SERÖICES=WSVR.NAT-1

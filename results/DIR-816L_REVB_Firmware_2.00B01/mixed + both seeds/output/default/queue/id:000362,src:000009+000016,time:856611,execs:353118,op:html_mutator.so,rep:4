@@ -1,0 +1,10 @@
+POST /HNAP1/ HTTP/1.1
+Host: 10.0.0.90
+Host: 172.TMhrome/128.0.0.0 Safari/521.0.2
+Content-Length: 0
+ACTION:http://purenetworks.com/HNAP1/GetDeviceSettings/zywzywzywzywzywzywzywzyd.2
+Connection:keep,aliveõAcc: gzip,d.2
+Connection:keep,alive
+P/1.1
+Connection:keep,alive
+

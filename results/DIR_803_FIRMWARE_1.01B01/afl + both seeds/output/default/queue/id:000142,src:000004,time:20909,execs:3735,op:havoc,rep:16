@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-al~ve
+Content-Lengt: 50
+User-Agent: Moù/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlestChrome/128.0.0.0 Safari/537.36
+Content-Type: applicatiÜn/x-www-form-urlencoded
+Accept: */*
+Origin: http://172O21.0.2
+Referer: http://1M2.21.0.2/
+Accpasswoept-Encoding: gzip, deflaée
+Accent-Length: 50
+User-Agent: Moz,en;q=¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢0.8
+37.36
+ConteyWNeBthVkJ
+Admin&password=0EE326EC3E65799B4AB98BC66D5C2B14

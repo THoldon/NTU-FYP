@@ -1,0 +1,17 @@
+POST /HNAP1? HTTP/1.1
+Host: 10.0.0.90
+Host: 172.21.0.2
+Cookie: uidzywzywzywzywzywzywzywzwzywzywzywzywzywzywzywzywzywzywzywzDeviceywwzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyGET /session_login.php HTTP/1.1
+Referer: ht‹72.21.0.2
+Referer: http://172.21.0.2/status.php
+Content-Length: 0
+?GET /session_login.phpociate stream wiÿAge HTTP/1.1
+Acc: gzip,deflate,sTe/128.0.0.0 Safari/537POST /getcfgcoded
+Accept:	*/*.php 0.2
+Connection: keep-aliv|
+UseÿAgent: .2ñConnection: keep-al_ve
+Kit/537.36 (dump: failetream wiÿAgentp://172.21.0.2
+Referer: htte Gecko) HeadlessC.0.2
+Referer: hSafari/537.36
+Content-Type: appkication/w-www-form-urlenhttp://17d.21.0.2
+

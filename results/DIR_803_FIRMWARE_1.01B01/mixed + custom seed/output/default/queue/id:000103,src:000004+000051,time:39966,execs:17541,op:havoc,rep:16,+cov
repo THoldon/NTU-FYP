@@ -1,0 +1,13 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 50
+User-Agent: Mozilla/5.0(X11; Linux x86_64) A…pleWeRemoteAddressbKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Ssocket option %d errorafari/537.36
+Content-Type: appl/128.on/x-www-formurlencoded@Accept: */*
+Origin: hte
+Content-Length: 50
+Usehtžžžžžžžžžžžžžžžžžžžžžžžžžžncoding: gzip, deflate
+AScePt-Language: en-fB,en-US;q=0.9,en;q=0.8
+Cookie: uid=yWNeBthVkJ
+
+id=Amin&password=0EE326EC3E65799B4AB98BC66E5C2B14

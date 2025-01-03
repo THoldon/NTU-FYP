@@ -1,0 +1,13 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 106
+Connection: keep-aliveUser-Agent: Moz/5.0 (X11; Linux x--------ppleWebKit/50732460KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/53736
+Content-Type: application/x--------------86_64) A--cept: */*
+Origin: http://172.1.0.=
+Aion: kEncodi21.0.=
+Aion: kEncodgng: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+idCAdmin&passwoeftaRe657C3E65799B4ABÆ8BC66D5C2B1EE326I-Ln:ng e-Grd=1EE326IC3E657C3E65799B4ABÆ8BC66D5C2B14

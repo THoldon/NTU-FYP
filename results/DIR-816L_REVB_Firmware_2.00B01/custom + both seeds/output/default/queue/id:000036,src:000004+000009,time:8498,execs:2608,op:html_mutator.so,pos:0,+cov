@@ -1,0 +1,13 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 125
+Connection:  eep0.0 Safari//128.0.0.0 Safari/53533.36t: Moz/5.wzywzywzywzx1x1u8y i ;L 0(Xn6_64) AppleWe}Kit/537.3нннннннннннннннннннннннннннннннн6 (KHTML,like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: ap╕lication/x-www-form-urlencoded
+Accept: */*
+Or┌gin: http://172.21.0.2
+Accept-Enoding: gzip, deflate
+Accept-Language: en?GB,en-US;q=0.9,en;q=0.8
+
+id=============================Admin=0EEmin26EC3E|ord=ywzywzyw┤0EEmin&pC3E657|!ss|ord=0EEmin&paZs NT 6ss|oSd=0EE32BC66J5C2B14

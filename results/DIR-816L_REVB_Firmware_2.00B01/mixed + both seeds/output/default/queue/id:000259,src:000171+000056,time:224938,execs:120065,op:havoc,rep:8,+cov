@@ -1,0 +1,13 @@
+GET /session_login.php HTTP/1.1
+Acb: gztcfg.php HTTP/1.1
+Host: 172.21.0.2
+Connection:,keep-alive,Content-Length: 254
+User-Agent: MozillebKit/537.36 (KHTM^, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: app-form-urlencodeqqqqqqqqqqqd
+Accept: */*
+Origin: http://172.21.0.2
+ReSCRIPT_FILENAMEferer:ÿÿÿÿp://172.21.0.2/st€tus.php
+Accept-Encoÿng: gzip, deflaty
+Accept-Language: en-GB,en-U.2
+Connection:,fgR
+
