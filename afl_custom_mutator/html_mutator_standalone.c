@@ -568,8 +568,8 @@ int main(){
 	seed = fopen("/home/ubuntu/FYP/NTU-FYP/seed_scraper/seed1","r"); //change the seed location if needed
 	char *post;
 	fseek(seed,0,SEEK_SET);
-	post = calloc(712,1); //change values based on length of packet
-	fread(post,1,711,seed); //change values based on length of packet
+	post = calloc(828,1); //change values based on length of packet
+	fread(post,1,827,seed); //change values based on length of packet
 	//printf("og post %s\n",post);
 	fclose(seed);
 	int i = 0;
@@ -583,20 +583,18 @@ int main(){
 	unsigned char *mutated_post = NULL;
 	for(int j=0;j<10;j++){
 		size_t mutated_size = afl_custom_fuzz(html_mutator,post_addr,post_size,&mutated_post,NULL,NULL,9999);
-		post = realloc(post,mutated_size+1);
-		memcpy(post,mutated_post,mutated_size); //run the mutated packet into the mutator again, comment out this and the next 2 lines and 1 above if not needed
-		post_size = mutated_size;
-		*post_addr = post;
-		post[0]  = mutated_post[0];
 		printf("\n\nin main\n\n");
 		for(i=0;i<mutated_size;i++){
-			printf("%c",post[i]); //check mutation
+			printf("%c",mutated_post[i]); //check mutation
 		}
 		/*printf("\n");
 		for(i=0;i<mutated_size;i++){
-			printf("%x ",post[i]);
+			printf("%x ",mutated_post[i]);
 		}
 		printf("\n");*/
+		post_size = mutated_size;
+		memcpy(post,mutated_post,mutated_size); //run the mutated packet into the mutator again, comment out this and the next 2 lines and 1 above if not needed
+		post[mutated_size] = '\0';
 	}
 	afl_custom_deinit(html_mutator); //deinit custom mutator
 	free(post);
