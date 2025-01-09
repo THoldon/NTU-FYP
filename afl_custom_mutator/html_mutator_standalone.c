@@ -546,7 +546,7 @@ void afl_custom_deinit(my_mutator_t *data) {
 
 }
 
-int main(){
+int main(int argc, char *argv[]){
 	//char post[] = "POST /wizsetup.htm HTTP/1.1\r\n" //sample post packet
 	//		"Host: 172.21.0.2\r\n"
 	//		"User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n"
@@ -565,16 +565,21 @@ int main(){
 			"ReplySuccessPage=wizsetup.htm&ReplyErrorPage=wizsetup.htm";*/
 	
 	FILE *seed;
-	seed = fopen("/home/ubuntu/FYP/NTU-FYP/seed_scraper/seed1","r"); //change the seed location if needed
+	//seed = fopen("/home/ubuntu/FYP/NTU-FYP/seed_scraper/seed1","r"); //change the seed location if needed
+	seed = fopen(argv[1],"r");
 	char *post;
+	fseek(seed,0,SEEK_END);
+	size_t post_size = ftell(seed); //buf_size
+	post = malloc(post_size+1);
 	fseek(seed,0,SEEK_SET);
-	post = calloc(828,1); //change values based on length of packet
-	fread(post,1,827,seed); //change values based on length of packet
+	fread(post,1,post_size,seed);
 	//printf("og post %s\n",post);
 	fclose(seed);
 	int i = 0;
 	uint8_t *post_addr = post; //buf
-	size_t post_size = strlen(post); //buf_size
+	post[post_size] = '\0';
+	//printf("og post %s\n",post);
+	//size_t post_size = strlen(post); //buf_size
 
 	afl_state_t *html_afl = calloc(1,sizeof(afl_state_t)); //for init
 	

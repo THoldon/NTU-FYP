@@ -1,16 +1,17 @@
-POST /langbrscheck.cgi HTTP/1.1
-Host: 192.168.1.1
+POST /newgui_adv_home.cgi?id=21ab2edcc268843cc22e3da216af57a910beb87c9d17cb534d6b99700541bf00 HTTP/1.1
+Host: 172.21.0.2
 Connection: keep-alive
-Content-Length: 155
+Content-Length: 61
 Cache-Control: max-age=0
 Authorization: Basic YWRtaW46cGFzc3dvcmQ=
 Upgrade-Insecure-Requests: 1
-Origin: http://192.168.1.1
+Origin: http://172.21.0.2
 Content-Type: application/x-www-form-urlencoded
 User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
-Referer: http://192.168.1.1/LANG_check_brslang.htm
+Referer: http://172.21.0.2/ADVANCED_home2.htm
 Accept-Encoding: gzip, deflate
 Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: XSRF_TOKEN=1222440606
 
-brslanguage=&version=5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F128.0.0.0+Safari%2F537.36&browser=chrome
+buttonSelect=2&wantype=mer&enable_apmode=0&enable_modemmode=0
