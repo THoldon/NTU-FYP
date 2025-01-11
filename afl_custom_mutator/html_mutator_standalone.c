@@ -109,24 +109,22 @@ my_mutator_t *afl_custom_init(afl_state_t *afl, unsigned int seed) {
 char* get_input_name(char *input,unsigned int cur_start,unsigned int cur_end){ //get name of each header field
 	int byte = 0;
 	int pos = 0;
-	char *dummy = malloc(6);
-	strncpy(dummy,"Dummy:",6); //so that it can be freed later
+
 	for(byte=cur_start;byte<cur_end;byte++){
 		if(*(input+byte) == 0x20){ //find the space character, every header has this after : or POST or GET
 			char *field_name = malloc(pos+1);
 			if(!field_name){
 				perror("field_name alloc");
-				return dummy;
+				return "Dummy:"; 
 			}
 			memcpy(field_name,input+cur_start,pos); //copy out the name
 			field_name[pos] = '\0';
-			free(dummy);
 			return field_name; //return it
 		}
 		pos++;
 	}
 	
-	return dummy;
+	return "Dummy:"; //Dummy name if name cannot be found
 }
 
 http_fields_t *get_input_fields(char *input, size_t buf_size,unsigned int *num_fields){ //split packet into each individual field
@@ -229,15 +227,25 @@ void split_fields(char* local_input,char** to_mutate, char** to_maintain,char** 
 	int body_size = 0;
 
 	for(i=0;i<*num_fields;i++){ //go through each field
+		int field_name_len = strlen(input_fields[i].name);
+		char field_name[field_name_len];
+		strncpy(field_name,input_fields[i].name,field_name_len); //get the field's name
+		field_name[field_name_len] = '\0';
+		if(!(strcmp(field_name,"Dummy:")) == 0 && !(strcmp(field_name,"BODY")) == 0){
+			free(input_fields[i].name); //free it 
+		}
 		bool maintain_set = false; //boolean to check if maintain field was reached
 		int j = 0;
-		if(strcmp(input_fields[i].name, "Content-Length:") == 0){ //skip content-length since its value has to adapt to body, append to the full packet last
+		/*if(strcmp(input_fields[i].name, "Content-Length:") == 0){ //skip content-length since its value has to adapt to body, append to the full packet last
 			free(input_fields[i].name);	
+			continue;
+		}*/
+		if(strcmp(field_name, "Content-Length:") == 0){ //skip content-length since its value has to adapt to body, append to the full packet last
 			continue;
 		}
 		int field_size = input_fields[i].end_byte - input_fields[i].start_byte + 1; //get size of field to copy
 
-		if(strcmp(input_fields[i].name, "BODY") == 0){ //if body reached
+		if(strcmp(field_name, "BODY") == 0){ //if body reached
 			*body_to_mutate = malloc(field_size);
 			if(!body_to_mutate){
 				perror("body_to_mutate malloc");
@@ -250,8 +258,7 @@ void split_fields(char* local_input,char** to_mutate, char** to_maintain,char** 
 
 		//while(maintain_names[j]){ //scan through array of fields to maintain
 		while(j<6){ //6 is len of maintain names, change if needed
-			if(strcmp(maintain_names[j], input_fields[i].name) == 0){ //check if current field is a field to maintain
-				free(input_fields[i].name);
+			if(strcmp(maintain_names[j], field_name) == 0){ //check if current field is a field to maintain
 				if(maintain_offset == 0){ //if first field to be maintained
 					*to_maintain = malloc(field_size); //allocate necessary size
 					if(!to_maintain){
@@ -274,7 +281,6 @@ void split_fields(char* local_input,char** to_mutate, char** to_maintain,char** 
 		}
 		
 		if(maintain_set == false){ //if field is not to be maintained
-			free(input_fields[i].name);
 			if(mutate_offset == 0){ //if first field to be mutated
 				*to_mutate = malloc(field_size); //allocate necessary size
 				if(!to_mutate){
@@ -565,15 +571,13 @@ int main(int argc, char *argv[]){
 			"ReplySuccessPage=wizsetup.htm&ReplyErrorPage=wizsetup.htm";*/
 	
 	FILE *seed;
-	//seed = fopen("/home/ubuntu/FYP/NTU-FYP/seed_scraper/seed1","r"); //change the seed location if needed
-	seed = fopen(argv[1],"r");
+	seed = fopen(argv[1],"r"); //get the seed from the argument given in command line
 	char *post;
 	fseek(seed,0,SEEK_END);
 	size_t post_size = ftell(seed); //buf_size
 	post = malloc(post_size+1);
 	fseek(seed,0,SEEK_SET);
 	fread(post,1,post_size,seed);
-	//printf("og post %s\n",post);
 	fclose(seed);
 	int i = 0;
 	uint8_t *post_addr = post; //buf
@@ -587,7 +591,7 @@ int main(int argc, char *argv[]){
 	//u8 *mutated_post = afl_realloc(&mutated_post,9999);
 	unsigned char *mutated_post = NULL;
 	for(int j=0;j<10;j++){
-		size_t mutated_size = afl_custom_fuzz(html_mutator,post_addr,post_size,&mutated_post,NULL,NULL,9999);
+		size_t mutated_size = afl_custom_fuzz(html_mutator,post_addr,post_size,&mutated_post,NULL,NULL,MAX_FILE);
 		printf("\n\nin main\n\n");
 		for(i=0;i<mutated_size;i++){
 			printf("%c",mutated_post[i]); //check mutation
@@ -598,6 +602,8 @@ int main(int argc, char *argv[]){
 		}
 		printf("\n");*/
 		post_size = mutated_size;
+		post = realloc(post,mutated_size+1);
+		post_addr = post;
 		memcpy(post,mutated_post,mutated_size); //run the mutated packet into the mutator again, comment out this and the next 2 lines and 1 above if not needed
 		post[mutated_size] = '\0';
 	}
