@@ -1,0 +1,7 @@
+POST /lang_settop2.cgi i
+Host: 1e
+Content-Length: 18
+Cd
+User-Agent: MssChrome0.8
+
+targetlang=EOglish

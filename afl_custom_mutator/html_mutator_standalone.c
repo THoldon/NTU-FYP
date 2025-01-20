@@ -196,6 +196,15 @@ http_fields_t *get_input_fields(char *input, size_t buf_size,unsigned int *num_f
 		else{
 			pos++; //move one byte forward
 			cur_end++; //move end byte one byte forward
+			
+			if(cur_end == buf_size - 1){ //if end of file reached, but /r/n/r/n misssing
+				(*num_fields)++; //increase number of fields
+				input_fields = (http_fields_t *)realloc(input_fields, *num_fields*sizeof(http_fields_t)); //set more memory for input_fields array
+				input_fields[*num_fields-1].start_byte = cur_start; //get start byte
+				input_fields[*num_fields-1].end_byte = cur_end; //get end byte
+				input_fields[*num_fields-1].name = "Dummy:"; //name couldn't be found
+				break; //end the loop
+			}
 		}
 
 
@@ -216,8 +225,8 @@ http_fields_t *get_input_fields(char *input, size_t buf_size,unsigned int *num_f
 
 }
 
-void split_fields(char* local_input,char** to_mutate, char** to_maintain,char** body_to_mutate,http_fields_t* input_fields,unsigned int *num_fields,unsigned int **pre_to_mutate_len, unsigned int **pre_body_to_mutate_len){ //split packet into fields to maintain and 
-																		      //fields to mutate
+void split_fields(char* local_input,char** to_mutate, char** to_maintain,char** body_to_mutate,http_fields_t* input_fields,unsigned int *num_fields, u32 **to_maintain_len, unsigned int **pre_to_mutate_len, unsigned int **pre_body_to_mutate_len){ //split packet into fields to maintain and 
+							     //fields to mutate
 	//OKF("in split_fields"); //DEBUG
 	int i = 0;
 
@@ -323,6 +332,7 @@ void split_fields(char* local_input,char** to_mutate, char** to_maintain,char** 
 	if(!to_maintain){
 		perror("to_maintain realloc");
 	}
+	*to_maintain_len = maintain_offset;
 	/*for(int i = 0;i<maintain_offset;i++){ //DEBUG check if to maintain fields are correct
 		printf("%c",(*to_maintain)[i]);
 	}
@@ -389,29 +399,32 @@ size_t afl_custom_fuzz(my_mutator_t *data, uint8_t *buf, size_t buf_size,
 		printf("%c",buf[i]);
 	}*/
 
+	
 	http_fields_t *input_fields = get_input_fields(buf,buf_size,&num_fields);//find out all fields present in packet
 	if(!input_fields){
 		perror("input fields fail");
 	}
 
 	int i = 0;
-
+	
 	unsigned char *to_mutate = NULL; //header fields to mutate
 	unsigned char *to_maintain = NULL; //header fields to maintain
 	unsigned char *body_to_mutate = NULL;//body to mutate
+	unsigned int *pre_to_maintain_len = 0; //length of header fields to maintain
 	unsigned int *pre_to_mutate_len = 0; //length of header fields to mutate
 	unsigned int *pre_body_to_mutate_len = 0; //length of body to mutate
 
-	split_fields(buf,&to_mutate,&to_maintain,&body_to_mutate,input_fields,&num_fields,&pre_to_mutate_len,&pre_body_to_mutate_len); //split fields into their respective arrays
+	split_fields(buf,&to_mutate,&to_maintain,&body_to_mutate,input_fields,&num_fields,&pre_to_maintain_len,&pre_to_mutate_len,&pre_body_to_mutate_len); //split fields into their respective arrays
 
 	if(!to_mutate || !to_maintain ||!body_to_mutate){
 		perror("split fields fail");
 	}
 
-	u32 to_maintain_len = strlen(to_maintain); //get length of header fields to maintain
+	u32 to_maintain_len = pre_to_maintain_len; //get length of header fields to maintain
 	u32 havoc_steps = 1 + rand_below(data->afl,16); //set up havoc
 	
 	unsigned int is_exploration = rand()%2; //randomly select if mutation should exploit or explore
+
 	
 	/*printf("header maintained\n"); //DEBUG check if to maintain is correct
 	for(i=0;i<to_maintain_len;i++){
@@ -466,7 +479,7 @@ size_t afl_custom_fuzz(my_mutator_t *data, uint8_t *buf, size_t buf_size,
 		perror("adjusted_content_length malloc");
 	}
 	sprintf(adjusted_content_length,"%s%d\r\n",content_length_field,post_body_to_mutate_len); //concat them all together
-	//adjusted_content_length[adjusted_content_length_len] = '\0';
+	adjusted_content_length[adjusted_content_length_len] = '\0';
 
 	/*printf("adjusted content length len %i\n",adjusted_content_length_len);
 	for(int i = 0;i<adjusted_content_length_len;i++){ //DEBUG check if content-length is put together correctly
@@ -519,7 +532,7 @@ size_t afl_custom_fuzz(my_mutator_t *data, uint8_t *buf, size_t buf_size,
 	free(body_to_mutate);
 	
 	data->buf -= mutated_len; //move pointer back to start
-	mutated_len += post_body_to_mutate_len; //keep track of packet length
+	mutated_len += post_body_to_mutate_len; //keep track of packet length*/
 	
 	/*printf("\nmutated packet\n"); //DEBUG check if mutated packet successfully assembled
 	for(i=0;i<mutated_len;i++){

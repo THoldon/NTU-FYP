@@ -1,6 +1,0 @@
-POST./lang_settop2.cgi?id=2ae3981.1provider=%s&should_exist=%d&hostname=%s4email=%s&password=%s&mac=%s&firmware=%s&seril=%s&model=%T
-Host:
-Contnt-Length: 18
-User-Agent: MssChrome0.8
-
-targetlang=English

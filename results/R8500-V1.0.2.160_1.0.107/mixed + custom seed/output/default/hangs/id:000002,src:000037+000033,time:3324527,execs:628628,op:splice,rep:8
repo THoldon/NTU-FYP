@@ -1,0 +1,16 @@
+GET /s
+
+POST /autoblock.cgi?id=f463892df21eeb45bmkdir /dev/net7cf410630376bdd75f7e8baf090439a3f572be29fdc651 HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 1unregisterontrol: max-age=0
+Upgradx-Insecure-Requests: 1
+Origin: http://172.21.0.2
+Content-Type: application/x-www-form-urlencoded	
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Accept: text/htmlapplication/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.21.0.2/auto_block.htm
+Accept-Encoding: gzip, deflate
+Accept-Language:ßen-GB,en-US;q=0.9len;q=0.8
+
+s
