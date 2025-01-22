@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172GaET }EPOST /getcfg.php HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/wiz_wan.php
+Cookie: uid=z7mNg6sfgR
+Content-Length: 0
+Connection: keeper-Agent: Mozilla/.0 (X11; Linux x86_64) AppleWebKi/53en-GB,en-US;q=0.9,en;q=0.7.36 (KHTML, likeoded
+@c\ept: */*
+Origin: h.0.0 Safari/537.36
+Content-Type: applican: keeper-Agent: Motion/x-www-foUm-urlencoded
+Accept: */*
+origin: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,42767918
+

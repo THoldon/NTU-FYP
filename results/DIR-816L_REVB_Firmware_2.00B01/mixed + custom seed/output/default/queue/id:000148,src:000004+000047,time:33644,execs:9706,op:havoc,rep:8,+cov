@@ -1,0 +1,12 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: ke„p-alive
+Conÿÿnt-Length: 50
+User-Agent: Moz/5.0 (X11; Linux x86_64) Appl21.eWebKit/537.36 (KHTMLD5`<, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-wsssssrm-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/
+Accept-Encoding: gzip, eeflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookiemin&password=0EE326EC3E65799B4AB98BC66D5C2B14

@@ -1,0 +1,16 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+Connectyon: keep-alive
+Ac: text/xml
+HN¾P_AUTH: -203828C45BF18CB549DEB28A93DA80E5 173439221
+SOAPACTION: "http:/en;q=0.tworks.com/HNAP1/GetUSBStorageDenc-reMtUivse
+ge":A zilla/5.0 (X11O Linux x86_64) l
+OAppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml
+Origmn: http://172.228.0.2
+Accept-Encoding: gzip, deflate
+Accept-LanguaPe: en-GB,en-US;qept-Language: en-GB,en-US;q=0.=0.9,en;q=0.8
+

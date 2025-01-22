@@ -1,13 +1,0 @@
-GET /session_login.php HTTP/1.1
-Acc: gzPOST /getcfg.php HTTP/1.1
-Host: 172.21.0.2
-Connection:,ke
-Accept-Encoding: Length: 254
-User-Agent: MozillebKit/537.36 (KHTML, like=0.cko) HeadlessChrome/128.0.0.0 Safari/537.36
-Content-Type: app-form-urlencoded
-Accept: */*
-Origin: http://172.21.0.2
-ReSCRIPT_FILENAillegal quantityMEferer:ÿÿÿÿs.phpep-alive
-Content-gzip, deflaty
-Accept-Language: en-GB,en-US;q=0.9,en;q Ge8fgR
-

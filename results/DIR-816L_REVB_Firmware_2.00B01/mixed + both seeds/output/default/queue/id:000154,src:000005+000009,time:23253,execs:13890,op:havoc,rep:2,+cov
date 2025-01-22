@@ -1,7 +1,0 @@
-GET //ession_login.php HTTP/1.1
-Acc: gzzyw
-Host: 192.168.0.50
-Cookie: uidzyw
-Content-Length: 13
-
-t

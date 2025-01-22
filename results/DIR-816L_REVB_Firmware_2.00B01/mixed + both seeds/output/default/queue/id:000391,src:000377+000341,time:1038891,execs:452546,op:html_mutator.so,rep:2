@@ -1,15 +1,0 @@
-POST /HNAP1? HTTP/1.1
-Host: 10.0.0.90
-Host: 172.21.0.2
-Cookie: uidzywzywzywzywzywzywzywzwzywzywzywzywzywzywzywzywzywzywzywzDeviceywwzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyGET /session_login.php HTTP/1.1
-Content-Length: 0
-ACTION:  
-  5 _Î.hN5P1Ñ/Gtyw€//  H"keep-1
-C//zyhildje-US;q>0.9,\gGn.      H"keep-1
-Connecen;q=6
-6cc gzPOST /getcfg.xhpp BTc:6    5    €!  
-  
-  5 ********_Î.C
-nctone~ion:"kee e\gGn.      H"keep-1
-Connection:TTP/.alive,9
-

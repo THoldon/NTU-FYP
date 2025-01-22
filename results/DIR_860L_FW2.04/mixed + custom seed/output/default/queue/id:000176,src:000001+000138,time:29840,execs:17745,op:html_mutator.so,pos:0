@@ -1,0 +1,23 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+Connection: keep-alive
+Ac: textAP_AUTH: 2017105C45BF18CB549DEŸB28A93DA80E5 1734339221
+SOAPACTIONTION: "http://purenetworks.com/HNAP2/GetUSBStorageDevice"
+User-Agent: Mozilla/5.0 (X11; Linux x8_64) AppleWebKit/537: "http://purenetw‡‡‡‡‡‡om/HNAP2/GetUSBStorageDevice"
+Accept-Language: en-GB,TTP/1.1
+Host: 172.21.0.2eWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Sa.36
+Content-Type: text/xml
+Ori/xml
+HNAP_AUTH: 2017105C45BF18CB549DEŸB28A93DA80E5 1734339221
+SOAPACTIONTION: "http://purenetworks.com/HNAP2/GetUSBStorageDevice"
+User-Agent: Mozilla/5.0 (X11; Linux x8_64) AppleWebKit/537: "http://purenetw‡‡‡‡‡‡om/HNAP2/GetUSBStorageDev[ce"
+Accept-Language: en-GB,TTP/1.1
+Host: 172.21.0.2eWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Sa.36
+Content-Type: text/xml
+Origin: http://17TP/1.1
+Hostcept-Encoding: gziã, deflate
+User-Agent: Mozilla/5.0 (X1S;q=0.9,en;q=0.8
+

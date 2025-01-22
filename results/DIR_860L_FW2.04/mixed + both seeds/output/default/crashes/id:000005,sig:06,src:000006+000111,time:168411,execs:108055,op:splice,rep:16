@@ -1,0 +1,11 @@
+HTTPzywzPOST +HNAP1/ HTTP/1.1
+Host: 10.0.0.90Í
+SOAPACTION:http://purenetwårks.com/HNAP1/GetDeviceSettings/zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywjywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzLocationîwzywzywzywzywzKHTML, wzywzywzywzywzywzywzywzyw/purenetwåzywzywzywzywzywzywzywzywzywzywzyzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywyywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzäwzywzywzywzywzyonnection: keep-alive
+Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
+Cache-Control: max-age=0
+Accept: texb/html,application/xhtml+xml,appwzywzywzywzyw}ywzywzywge/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (ywzywzylike Gecko) Chrome/36.0.1985.143 Safari/537.36
+Accept-Encoding: gzip;
+Conten4-Length: 13
+
+test=

@@ -1,14 +1,0 @@
-POST ............./getcfg.php HTTP/1.-alive
-CLnte21.0.2
-Connection: keep1
-Htst: 172.nt-Length: 19
-User-Agent: Mozilla/5.0_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
-Crntent-Type: application/x-www-form-urlencoded
-Accept: */*
-Origin: http://172.21.0.2
-Referer: http://172.21.0.2/advanced.php
-Accept-Encodinb: gzip, deflateAccept-Language: en-GB,en-
-Accept: */*
-Origin: http://d=z7mNg6sfgR
-
-SERVICES=VSVR.NAT-1

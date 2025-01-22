@@ -1,0 +1,53 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: htl
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+Ce: uFuo4e
+33559POST /HNAP1/ HTTP/1.1
+Connection: keep-alive¾
+Ac: mextxml
+HNAP_AUTH: 2038277777777777777EB28A93DA80E5 174039221
+SOAP@CTION: "http://purenetworMozilla/5.0 (X11¾Linux x86_64) ÿÿÿeWe-Agent: ks.comh: 315
+AY: text/xml
+HNAP_AUTH: 203827C45text/xml
+Origin: http://172.ion: kevp-alive
+Ac: texe'xml
+HN22291498 2Ï38h: 0
+Connection: keep-alanguage: en-GB,en-US;q=0POST /HNAP1/ HTTP/1.1
+Connection: keep-alive¾
+Ac: mextxml
+HNAP_AUTH: 2038277777777777777EB28A93DA80E5 174339221
+SOAP@CTION: "http://purenetworMozilla/5.3 (X11¾Linux x86_64) ÿÿÿeWe-Agent: ks.comh: 315
+AY: text/xmlip, deflate
+Accept-LLength: 0
+Connection: keep-alanguage: en-GB,en-US;q=0.9,(KHTML, like en;q=0.8.36 Gecko) HeadlessCh21.0.2
+Accept-Encoding: gzip, deflate
+Accept-LLength: 0
+Connection: keep-alanguage: eDA80E5 174039221
+SOAP@CTION: "http://purenetworM, like en;q=0.8.36 Gecko) HeadlessChrome/1/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1POST /HNAP1/ ITTPread_cSunection: NUL in headersion: keep-aliveýContent-Lhngth: 315
+AY: text/xml
+HNAP_AUTH: 203827C45text/xml
+Origin: http://172.ion: kevp-alive
+Ac: texe'xml
+HN22291498 2Ï38h: 0
+Connection: keep-alanguage: en-GB,en-US;q=0.9,(KHTML, like en;q=0.8.36 G27C45BF18CB549DEB28A93DA80(X11; Linux x86_64* AppleWebKit/537636 (KHTML, like Gecko) HeadlessChromÿÿÿ8.0.0.0 Safari/537.36
+Content-Type: text/xml
+Origin: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-LLength: 0
+Connection: keep-alanguage: en-GB,en-US;q=0.9,(KHTML, like en;q=0.8.36 Gecko) HeadlessCh21.0.2
+Accept-Encoding: gzip, deflate
+Accept-LLength: 0
+Connection: keep-alanguage: en-GB,enBF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION: "http://purenetworks.co
+User-Agent: Mozilla/5. (X11; Linux x86_64) AppleWebKit/53736 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-T\pe: teozilla/5.0 (X11¾Linux x86_64) ÿÿÿeWe-Agent: ks.comh: 315
+AY: x x86_64) AppleWebKit/53736 (KHTML, like Gecko) HeadlessChr/HNAP1/GetUSBStoragnDevice"
+UserbKjri/537.3 H6
+Conteit/537.36 (KHTML, like GeEko)!HeadlessChrome/128.0.0.0 Safari/537.36
+C6176nt-Typ
+

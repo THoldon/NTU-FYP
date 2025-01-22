@@ -1,0 +1,8 @@
+GET /ses HTTP/1.1
+Accept-EncodingNE$<: gzip,deflate,sdchzywzywzywzywzywzywvywzywzyw
+Host: 192.168.0.50
+Cookie: uid=zyrecvfromwzyw
+Content-Length: 13
+
+test=test
+

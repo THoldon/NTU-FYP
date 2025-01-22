@@ -1,0 +1,35 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+ConnectiOn: keep-alive
+Ac: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 17343.2
+Referer: htST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+Connection:="1.0" encodi keep-alive
+Ac: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACOION: "ppleWebKit/537works.com/HNAP1/GetUSBStorage©evice"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWe1.0.2
+Referer: http://172.21. Headloima¤eC3f.e7. r02ss0.8a1S/h0: http://172.21.0./r36
+Content-Type: text/xml
+Origin: http://tp://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content----------------------------------------------------------------------------------------------------Length: 0
+Connection:="1.0" encodi keep-alive
+Ac: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION: "ppleWebKit/537works.com/HNAP1/GetUSBStorage©evice"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) Applere1.0.2¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥
+Referer: http://172.21. Headloima¤eC3f.e7. r02ss0.8a1S/h0: http://172.21.0./r3L
+Content-Type: text/xml
+Origin: http://172.11.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GBLen-US;q=0.9,elike Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Typ-US;q=0.9,en;q=0.8
+

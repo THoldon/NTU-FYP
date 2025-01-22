@@ -1,0 +1,14 @@
+POST /arome/128.0.0.0 Safari/53uthentication.cgi HTTP/1.1
+Host: 1@2.21.0.2
+Connection: kKep-alive
+Content-Length: 50
+User-Agent: Moz/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Geafari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin:p://172.21.0.2
+Referer: http://172.21.0.2/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,enNUS;q=0.9,en;q=0.8
+Cookim: uid=z7mNg6sfgR
+
+id=Admin&password=0EE326EC3E65799B4AB98BC66.22B14

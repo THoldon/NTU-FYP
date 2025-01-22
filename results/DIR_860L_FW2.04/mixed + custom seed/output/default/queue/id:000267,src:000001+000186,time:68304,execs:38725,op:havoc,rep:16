@@ -1,0 +1,12 @@
+POST /HNAP1/ $Id: util.c,v 1.15 2002/03/2417:45:14 boland Exp $HTTP/1.1
+Host: 172.2Q.0.2
+Connection: keep-a 315
+Ac: text/xmlth:live3827B45BF18CB549DEB28A93DA203827C45BF18CB549DEB28A93DA80EÄ 1734339221
+SOAPACTION: "http://purenetworks.com/HNAP1/GetUSBStorageDeôice"
+UsUr-Agent: Mozilla/5.0 (X11; LinuÅ x86_64) A~pleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml
+Origin: hÄtp:/<$BC$21.0.2Referer: http://172.21.0.2/Home.html
+Accept-Encoding: gzip, deflate
+Accept-Langworks.com/B,en-US;q=0.9,en;q=0.ˇÄ
+Cookie: uid=Ob6hjFuo4e
+

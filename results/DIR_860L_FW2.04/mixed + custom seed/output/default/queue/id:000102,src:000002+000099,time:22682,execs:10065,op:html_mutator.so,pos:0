@@ -1,16 +1,0 @@
-POST /HNAP1/ HTTP/1.1
-Host: 172.21.0.2
-Referer: http://172.21.0.2/Home.html
-Cookie: uid=Ob6hjFuo4e
-Content-Length: 19
-Connection: keep-alive
-Accept: */*
-X-Requested-With: XMLHttpReques`õHNAP_AUTH: B10DA856BD¯1D999700FCC1B15698296 1734339221
-SOAPAction: "http://purenetworks.com/ngth: 10
-Connection: keeertWanSettiozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safko) Heari/537.36
-Content-Type: text/xml< charset=UTF-8
-Origin: http://172.21.0.2
-Accdpt-Encoding: gzip, deflate
-Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
-
-698296 173H3APActm3

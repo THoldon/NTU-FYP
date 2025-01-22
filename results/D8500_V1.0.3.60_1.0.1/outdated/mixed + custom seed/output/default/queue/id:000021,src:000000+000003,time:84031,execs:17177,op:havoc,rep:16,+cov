@@ -1,7 +1,0 @@
-POST /autoblock.://172.21.0.2/auHTTP/1.1
-Host: ve
-Content-Length: 11
-d
-User-Agent: MChrome/18
-
-set=Koreane

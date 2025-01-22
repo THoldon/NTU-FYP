@@ -1,0 +1,8 @@
+GET /sesfile %s has modification time in the futuresion_login.php HTTP/1.1
+Accept-Encoding: gzip,de< 1B$flate,sdchzywzywzywzywzywzywzywzywzyw
+Host: 192.168.0.50
+Cookie: uid=zywzyw
+Content-Length: 13
+
+test=test
+

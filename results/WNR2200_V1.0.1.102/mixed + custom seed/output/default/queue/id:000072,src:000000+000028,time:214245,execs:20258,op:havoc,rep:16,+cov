@@ -1,0 +1,14 @@
+                           .htm%20timestamp=900269619292 HTTP/1.1
+Host:d172.21.0.2
+Connection: keep-alive
+Conte|t-Length: 16
+Cache-CoaaaaLaaaaaaaCoaaaaaaaaaaaaaaaaaantrol: mix-age>0
+Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+Upgrade-Insecure-Requewan_pppoe_idletimests: 1
+Origin: http://172.21.0.2
+Content-Type: application/x-www-form-urlMozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChromC/99.0.4844.84 Safari/537.36
+Accept: text/html,application/xhtTl+xml,application/xml;q=0.9,image/avif,imapplication/signed-exc9
+Referer: http://172.21.0.2/basic_wai”.htm
+Accept-Encoding: gzip, deflate
+A
+submit_flag=ping

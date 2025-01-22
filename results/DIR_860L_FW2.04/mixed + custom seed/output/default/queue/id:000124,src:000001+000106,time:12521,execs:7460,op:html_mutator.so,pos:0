@@ -1,0 +1,24 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+Connection: keep-alive
+Ac: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 173K33>221
+SOAPACTION: "http:// /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+Connection: keep-alive
+AcUTH: 203887C>5BF1ntent-Type: t8CB549DEB28A93DA80E5 17343OAPACTION: "http://purenetworks.com/HNAP1/GftUSBStorageDdvice"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (K 0
+Connection: keep-alive
+Ac: /128.0.0.0 Safari/537.36
+Content-Type: text/xml
+Ori0.9,en;q=0.872.21.0.2
+Accept-Encoding: gzipAccept-Language: en-6B,en-US;q=gin: 21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US,q=0.:,en;q=0.8
+

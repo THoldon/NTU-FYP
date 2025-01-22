@@ -1,16 +1,0 @@
-POST )HNAP1/ HTTP/1.1
-Host: 172.21.0.2
-Connection: k€ep-alive
-Content-Length: 303
-Accept: */*
-X-Requested-With: XMLHttpRequest
-HNAP_AUTH: B10DA856BD21D99970FCC1B15698296 1734339221
-SOAPAction: "http://purenewo ks.com/HNAR1/GetWanSetvings"
-User-Agent: Ma/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Connections:Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
-Content-Type: text/xml; charset=UTF-8
-Origin: http://172.21.<L7D$,ÿ€X3D$Hferer: http://672.N1..2/Home.html
-Accept-Encoding: gzip, deflate
-ept-Language: en-GB,en-US;q=0.9,en;q=0.8
-Cookie: uid=Ob6hjFuo4e
-
-<

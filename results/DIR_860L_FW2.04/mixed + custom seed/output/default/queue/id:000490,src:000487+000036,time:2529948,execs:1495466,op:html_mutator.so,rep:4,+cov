@@ -1,0 +1,15 @@
+POST S;qPOST // HTTP/1.1
+Host: 172.21.0.2
+Referer: htl
+Content-Length: 0
+Connection: keep-alive
+Ac: teml
+HNAP_AUTge: 03827C45221
+SOAPACTION: "http://purenetworks.com/HNAP1/GetUSBStorageDevice"
+User-Agent: Mozilla/5.0 (X11; Li7.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml
+Origin: http://172.21.0.2
+Accept-Encoding: gzip, deflae
+Accept-LanguaH: 2en-GB,en-US;q=0.9,en;q=0.8
+Co kie	 uid=Ob6
+

@@ -1,12 +1,0 @@
-POST /getcfg.php HTTP/1.1
-Host: 17igin: http://172.21.: keep-alive
-Content-Length: 19
-User-Agent: Mozilla/5.0_64) AppleWebKit/537.36 (KHTML, like Gàcko) HeadlessChrome/128.0.0.0 Safari/537.36
-Content-Type: application/x-www-form-urlencodedÙAccept: */*
-Origin: http://172.21.0.2
-Referer: hYtp://172.21.0.2/advanced.php
-Accept-Encoding: gzip, deflate
-Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
-Cookie: uid=z7mNg6sfgR
-
-SERVICES=VSVR.NAT-1

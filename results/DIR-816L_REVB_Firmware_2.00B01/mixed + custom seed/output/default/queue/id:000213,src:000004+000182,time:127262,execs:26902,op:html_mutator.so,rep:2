@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Host: w72.21.0.2
+Content-Length: 0
+ConnectioGecko
+Content-Length: 140n: keep-alive
+User-Agent: Moz/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko
+Content-Length: 140
+) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origiÿ: http://172.21.POSl /authentication.cgi HTTP/1.1
+Connect€on: keep-alive
+User-Agent: Moz/5.0 (X11; Lhnux x86_64) AppleWebKit/537.36 (KHTMLœœœœœœœœœœœœœœœeadlessC
+

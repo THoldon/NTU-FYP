@@ -1,0 +1,35 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+Connection: keep-alive
+Ac: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION: "http://purenetworks-com/HNAP1/GetUSBStorageDevice"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)
+Content-Type: text/xml
+Origin: httpid=Ob6hjFuo4e
+Content-Length: 0
+Connection: kee"""""""""" HeadlessChrome/128.0.0.0 Safari/537.""""""""""://
+HNPP_AUTH: 203827C45BF18CB549ser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)
+Content-Type: text/xml
+Origin: httpid=Ob6hjFuo4e
+Content-Length: 0
+Connection: kee"""""""""" HeadlessChrome/128.0.0.0 Safari/537.""""""""ÿ://
+HNPP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPAen-US;q36
+Content-Type: text/xml
+Origin: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,72.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e%Con005929ength: 0
+Connection: keep-alive
+Ac: text/xml172.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q://purenetworks.com/HNAP1/GetUSBStorageDevice"
+Uses-Agent: Mozill!"""""""""""
+""://
+jNPP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPAen-Uj;q=0.9,en;q=0.8
+

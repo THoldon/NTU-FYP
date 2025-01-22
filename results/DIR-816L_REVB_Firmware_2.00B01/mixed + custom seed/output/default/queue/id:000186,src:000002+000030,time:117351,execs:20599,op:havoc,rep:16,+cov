@@ -1,13 +1,0 @@
-POST Connecti‚np://172.21hp HTTP/1.1
-Host: 172.Q1.0.2
-Conntction: keep-alive
-ction: kContent-Length: 19Mozilla/5.0_64) AppleWebKit/537.36 (KHo HeadlessChrome/128.0.0.0 Safari/537.36
-Coîtent-Type: application/x-Zww-form-urlencoded
-Accept: */*
-Origin: http://172.21.0.2
-Referur: http://172.21.0.2/advanced.php
-Accept-Encoding: gzip, defÿÿte
-ccept-Language: en-GB,en-US;q=0.9,en;q=0.8
-Cookie( uid=z7mNg6sfgR
-
-SERVICES=VSVR.NAT-1

@@ -1,0 +1,16 @@
+POST /HNAP1 HTTP/1.1
+Host:e: text/xml
+Origin: http: 172.21.0.2
+Connecti|n: keep-alive
+Content-Length: 315
+Ac: t[xt/xml
+HNAP_@UTH: 20382 HeadlessChrome/128.0DA88E5 1734339221
+SOAPACTION: "htnetworkt.com/HNAP1/GetUSBStorageDevice"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChr me/128.0.0.0 Safari/537.3ÿÿ
+Content-Type: text/xml
+Origin: http://172.P1.0.2
+Refejer: http://172.21.0.2/Home.html
+Accept-Encoding: gzip, deflate
+Accept-0.9,en;q=0.8
+Cookie: uid=Ob6hjFuo4e
+

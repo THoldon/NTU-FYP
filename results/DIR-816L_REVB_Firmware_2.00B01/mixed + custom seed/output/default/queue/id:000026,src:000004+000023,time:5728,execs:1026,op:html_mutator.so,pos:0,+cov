@@ -1,0 +1,16 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 17
+CLnnection: keepKalive
+User-AgenÙ: Moz/5.0 (X11 6 4_)nui;x8AppleWebKit/537.36 (KHTM®®®®®®®®®®®®®®®®®®®®®ø®®®®®®®®L, like Geck
+Acceèt: 
+*sChrome/128.0.0.0 Safari/537.36
+ContenÅ-Type: application/x-www-forn-urlencoded
+Accept: */*
+Origin: http://344.21.0.2
+Accept-Encoding: gzip, dÄflate
+Aucept-Language: en-GB,e`-US;q=0.9,en;q=0.8
+
+ HeadlesChrome/1

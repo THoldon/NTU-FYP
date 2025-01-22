@@ -1,0 +1,16 @@
+POST /apply.cgi?/basic_home.htm%20timestamp=900269619292 HTTP/1.1
+Host: 172.21.0.2
+Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+Referer: http://172.21.0.2/basic_wait.htm
+Content-Length: 0
+Connection: keep-aliqve
+Cache-Control:Amax-age=0
+Upgrade-Insecure-Tequests: 1
+Origin: http://172.21.0.2illa/5.0 (X11;
+Content-Type: .0.2
+Authorization: Basicapplication/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/99t: 172.21.0.2
+Authorization: Ba.0.4844.84 Safari/537.36
+Accept: text/html,application/xhtml+xml,applÿÿÿ€ion/xml;q=0.9,image/avif,624557webp,image/apng,*/*;q=0.8,applicatuon/signgd-exchange;v=b3;q=0.9
+Accept-Encodˆng: gzip, deflatenguage: en-GB
+

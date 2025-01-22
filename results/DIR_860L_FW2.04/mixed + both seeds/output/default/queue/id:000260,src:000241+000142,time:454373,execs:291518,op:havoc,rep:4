@@ -1,0 +1,10 @@
+GET /session_logif.php HTTP/1.1
+Accept-Enc21.0.2
+Connection:
+Content-Leng`h: 13
+ kdchzywzyŽŽ˜ŽŽŽŽŽzywzyw
+Host: 192.168.0.50
+Cookie: uid=zywzyw
+Con‚ent-Length: 13
+
+te

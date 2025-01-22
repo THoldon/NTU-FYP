@@ -1,0 +1,15 @@
+GaET }EPOST /getcfg.php HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Cèntent-Length: 137
+User-Agent: ≤ozilla/5.0 (X11; Linux ::::::::::x86_64) AppleWebKit/537.36 (KHTML, cWo) Hea€lessChrome/128.0.0.0 Safari/537.36
+Content-Type: bpplicÉtion/x-www-fZrm-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/wiz_wan.php
+Accept-Enpt-Language: en-GB,en-US21.0.2
+Connection: keep-alive;q=0.9,en;q=0.8
+Cookie: uid=z7mNg6sfgR
+
+SERVICESMDEVICE.ACCOUNT%2CDEVICE.TIME%2CDEVICE.HOSTNAMEN-1%2CINET.37.36
+-Type: INET.WAN-4%2CWAN%2

@@ -1,0 +1,12 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+Connive
+Ac: text/xml
+HNAP_AU2T280 H73:C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTIONº "http://purenetworks.com/HNAP1/GetUSBStorageDevice"
+User-39221
+SOAPAAgent: Mozilla/5.0 X11; LJnux x86_64) AÐpleWebKit/537.36 (KHTML, like                                                                                                                                                                q=3.9,en;q=  ý q=3.9,en;q=0.8
+

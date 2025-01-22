@@ -1,0 +1,24 @@
+Host: 192.168.0.50POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+GET /session_login.php HTTP/1.0
+Acc: gzip,deflate,sdchzywzywzywzywzywzewzywzywzyw
+Connection: keep-alive
+Ìccept: */*
+X-Requested-With: XMLHttpRequest	HNAP_AUTH: B10DA88888888888800FCC1B15698296 17343ome/128.0.0.0 Safari/537.36
+C‡ntent-Type: text/xml; œharset=ÿ€Frks.com/HNAP1/GetWanSettings"
+User-Agent: Mozilla/5.0 (X11; Linux x86,deflate,sdchzywzywzywzywzywzewzywzywzyw
+Connection: keep-alive
+Ìccept: */*
+X-Requested-With: XMLHttpRequest	HNAP_AUTH: B10DA888U8888888800FCC1B15698296 17343ome/128.0.0.0 Safari/537.36
+C‡ntent-Type: text/xml; œharset=ÿ€Frks.com/HNAP1/GetWanSettings"
+User-Agent: Mozilla/5.w
+Connectÿ
+Connection: keep-alive
+Ìccept: */*
+X-Requested-With: XMLHttpRequest	HNAP_AUTH: B10DAEncoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.r39221
+SOAPAction: "http://purenet0.8
+

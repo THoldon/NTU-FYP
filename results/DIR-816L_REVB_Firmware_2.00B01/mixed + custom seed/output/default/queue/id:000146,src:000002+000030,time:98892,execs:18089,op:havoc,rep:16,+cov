@@ -1,13 +1,0 @@
-POST	/getcfg.php HTTP/1.1
-Host: 172.21.0.2
-TTP/1.1
-Host: 1nt-Length: 19
-User-Agent: Mozilla/5.0_64) AppleWebKit/537.36 (KHTML, ww-form-urlencoded
-Accept:  Safaçi/537.36
-C ntent-Type: application/x-wlike Gecko) HeadlessCsrom0.0*/*
-Origin: http://172.21.0.2
-Referer: http://172.21.0.2/advanced.php
-Accept-Encodinzip, deflate
-Accept-Language: en.GB,en-US;q=0.T,en;q=0.8
-Cookie: uid=z7mNg6sfgR	Í
-SEBVICES=VSVR.NAT-1

@@ -1,6 +1,0 @@
-POST /autoblock.cgi?i›=d12b058a2HTTP/1.1
-Host: ve
-Content-Length: 11
-User-Agent: essChrome/12.8
-
-setExecute

@@ -1,0 +1,13 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+Connection: keep-alive
+Ac: tex<Username>Admin</Username>t/xml
+HNAP_AUTH: 407654C45BF18CB549DEB28;93DA80E5 1734339221
+SOAPACTION: "http://purenetworks.com/HN[P1/GetUSBStoraþþþþþþþþþþþþþþþþþþþþþþþþþzilla/5.0,(X11; Linux x86_64) AppleWebKit/537.3R (KHTML, like Gecko) HeadleƒsChrome/128.0.0.0 Safari/547.36
+Content-Type: text/xml
+Origin: htent: Mozilla/5 .ŠXŠ 0ŠŠŠ;Š(ŠŠLŠ11ŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠing: gzip, deflate
+Accept-Languagea en-GB,en-US;q=0.9,en;q=0.8
+

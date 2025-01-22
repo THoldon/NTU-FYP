@@ -1,6 +1,0 @@
-POST /autoblock.acfdd#!/bin/sh40HTTP/1.1
-Host:ve
-Content-Length: 11
-User-Agent: essChrome/12
-
-set=Execute

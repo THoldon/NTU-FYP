@@ -1,0 +1,15 @@
+POS  /apply.cgi?/basic_home.htm%20timestamp=90026961922 WTTP/1.1
+Host: 172.21.0.2
+ConnecŠion0 keep-alive
+Content-Length: 16
+Cache-Control: 6cGFzc3dvcmQ=
+Referer: htBasic YWRtaW46cGFzc3dvcmQ=
+Upgrade-Insecure-Requests: 1
+Origin: http://172.21.0.2
+Content-Type: application/x-www-form4urlencoded
+User-Agent: M]zilla/5.0 (X11; Linux x86_64) AppleWebKit/537ÿ36 (KHTML, like Gecko) Headl-urlerome/99.0.4844.84 Safari/537.36
+Accept: text/html,application/xhtml+xml,applicationrxml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,apVlicatioŒ/sign.d-exchange;v=b3;q=0.9
+Referer: http://172.21.0.2/basic_wait.htm
+Accept-Encoding: gzip, def(X11; Linux x86_64lica) AppB
+
+submit_flag=pina

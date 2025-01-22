@@ -1,37 +1,0 @@
-POST /HNAP1/ HTTP/1.1
-Host: 172.21.0.2
-Host: 172.21.0.2
-Referer: http://172.21.0.2/Home.html
-Cookie: uid=Ob6hjFuo4e
-Content-Length: 0
-Connection: keep-alive
-Accept: */*
-X-Requested-With: XMLHttpRequest
-HNAP_AUTH: B10D2.21.0.2
-Referer: http://172.>1.0.2/Home.html
-Cookie: uid=Ob6hjFuo4e
-Content-Length: 0
-Connection: keep-alive
-Accept: */*
-X-Requested-With: XMLHttpRequest
-HaAP_AUTH: B10DA856 Linux x86_64POST /HNAP1מממממממממממממממממction: ka
-eAvee-ilcpecpt: */*
-X-Requested-With: XMLH6 1734339221
-SttpRequest
-HNAP_AUTH: B10DA856BAction: "http://puטnetw0 (X11;BD21D999700FCC1B15698296 173433T /HNAP1/ HTTP/1.1
-Connection: ka	eAvee6ilcpecpt: */*
-X-Requested-With: networks.com/HNAP-75/GetWanSettings"
-UseW-Agent: Mozilla/5.orks.com/HNAP74/GetWanSeAP-75/GetWanSettings"
-UseW-Agent: Mozilla/5.orks.com/HNAP74/GetWanSet.1
-Connection: ka	eAvee6ilcpecpt: */*
-X-Request49027th: XMLHttpRequest
-HNAP_AA856BD)1D999700FCC1B15698296 1734339221
-SOAPAction: "http://purenetworks.com/HNAP1/GetWanSettings"
-User-Agent: Mozilla/5.0 (X11; Linux x86_64POST /HNAP1/ HTTP/1..0 (X11; Linux x86_64POST /HNAP1/ HTTP/1.1
-Connection: ka	eAvee6ilcpecpt: */*
-X-Requested-With: XML1
-Connection: ka
-eAvee-ilcpecpt: */*
-X-Requested-With: XMLHttpRequest
-HNAP_AUTH: B20DA856BD21D999700FCC111111111111B15698296 17S4339221
-

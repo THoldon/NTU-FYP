@@ -1,0 +1,6 @@
+POST /HNAP1/ %4d HTTP/1.1
+Host: 172.21.0.2
+Referer: htl
+Ce: ue
+C33559ý
+

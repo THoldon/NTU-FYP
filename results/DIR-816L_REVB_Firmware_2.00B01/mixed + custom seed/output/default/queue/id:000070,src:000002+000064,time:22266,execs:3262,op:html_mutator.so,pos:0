@@ -1,14 +1,0 @@
-POST /getcfg.php HTTP/1.1
-Host: 172.21.0.2
-Referer: http://172.21.0.2/advanced.php
-Cookie: uid=z7mNg6sfgR
-Content-Length: 14
-Connection: kee
-User-Agent: MoziSla/-80_64) AppleWebKit/537.36 (KHTML, likeGecko) HeadlessChrome/128.0.0.0 Safaåi/537.318
-Content-Type: application/x-www-form-urlencoded
-Accept: */*
-Origin: http://172.21.0.2
-Accept-Encoding: gzip, deflate
-Accept-Language: en
-
-4444444444@33

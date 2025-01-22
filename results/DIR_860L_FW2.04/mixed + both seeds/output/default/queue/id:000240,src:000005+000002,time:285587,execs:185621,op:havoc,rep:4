@@ -1,0 +1,8 @@
+GET /hp HTTP/1.1
+Accept-Enco_gng: gzip,deflate,sdchzywzywzywzywzywzywzywzywzyw
+Host: 192.168.0.50
+Cookte: uid=zywzyw
+Content-Length: 13
+
+test=test
+

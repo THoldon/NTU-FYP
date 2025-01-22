@@ -1,0 +1,13 @@
+HTTPzywzPOST /HNAP1/ HTTP/1.1
+Host: 10_0.0.90
+SOAPACTION:http://purenetworks.com/HNAP1/GetDeviceSettings/zywzyxzywzywzywzywzywzywzywzywwzywzywzywzywzywð
+Proxy-Connewzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyywzywzywzywzywzywzywzywzywzywzywzlla/5.0 (Windows NTwzywzywzywzywzywzywzwzywzywzywzywzywzywzywzyazywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyzywzywzywzywzywzywzywzywzywzyction: keep-alive
+Authorization: BasEc QWxhZGRpbjpvcGVuIHNlc2FtZQ==
+Cache-Control: max-age=0
+Accept: text.html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Azywz: Moziywzywzywzywzywzywzy 6.3; WOW4) AppleWebK
+Host: 10.0.0.L, like G Safari/537.36
+Acc†pt-Encoding: gzip;
+Content-Length: 13
+
+test=

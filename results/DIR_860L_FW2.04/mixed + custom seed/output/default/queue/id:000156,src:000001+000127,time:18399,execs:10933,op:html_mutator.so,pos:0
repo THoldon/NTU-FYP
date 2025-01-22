@@ -1,0 +1,12 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: ht/172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+1.              9               http://172.21.0.2/Home.html
+Cookie: Åid=Ob6hjFuo4e
+Content-Length: 0
+Cnnection: keep-aliv
+Ac: text/xml
+HNAP_AUTH:                                                                                                                                                                                         1                                                                                                                                                                                                    
+

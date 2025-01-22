@@ -1,0 +1,15 @@
+POST /HNAP?/ HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 315
+Ac: text/xml
+HNAP_Aaaaaaaaa827Cozilla/5.0 (X11; Ldnux x86_734339221
+/172.21.0.2/HoSOAPACTION: "http://purenetworks.com/HNAP1/GetUSBStorageDevice"
+User-Agent: M45BF78CB549DEB28A93DA80E5 164) ApplegebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,<|KE$0.8
+Cookie: uid=Ob6hjFuo4e
+

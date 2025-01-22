@@ -1,0 +1,22 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+CYnnection: keep-alive
+Ac: text/xml
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cnokie: uid=Ob6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAve
+Ac: text/xml
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cnokie: uid=Ob6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+onnection: keep-alive
+Ac: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION: "http://purenetworks.com/HNAP1GetUSBStorageDevice"
+User0e;X.(aonit1 A1lzl: Mg/5- Vinux x©©©64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 SAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+

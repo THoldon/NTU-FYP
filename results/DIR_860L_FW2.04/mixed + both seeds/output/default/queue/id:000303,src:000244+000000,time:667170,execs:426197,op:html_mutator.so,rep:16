@@ -1,0 +1,23 @@
+Cookie: uid=zyPOST /apply.cgi HTTP/1.1
+Host: 10.0.0.90
+Content-Length: 0
+GET /session_login.php HTTPpt-Encoding: gzip, deflate
+Accept-L92.168.0.5Ï
+SOAPACTION:HNAP1zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywz HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 302
+Accept: */*
+X-Requested-With: XMLHttpRequest
+HNAP_AUTH: 150BA81F562C1CC2761E65348D55E102 1734339221
+SOAPAction: "http://purenetworks.com/HNAP1/GetClientInfo"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml; charset=UTF-8
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Acce/     |zyzywzywzywzywzyozyw
+ÿÿÿÿ: 1anguage: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=Ob6hjFuo4e
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><GetClientInfo xmlns="http://purzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywwzywzywzywzywzywzywzywzywzywzywzzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzzywzywzywzywzywzywzywzywzyzzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywz77D55zywzywzywzzywzywzywzywzywzywzywz†wzywzwzywzywzywzywzywzywzywzywzywzywzzywzywzywzywzywzywzywzyw
+

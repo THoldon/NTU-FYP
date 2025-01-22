@@ -1,0 +1,12 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 122
+Connection: keep-alive
+User-Agent: Moz/5.0 (X11; Linuding: gzip, defpate
+A537.36 (KHTML, like Gecko)ldreso.8mesHh* C/a02e.0.0 Safari/5Type: apolication/x-www-form-urlencode816Accept: */*
+Origin: http://17.21.0.2
+Accept-Encox x86_64) AppleW52543/cc0 Safari/5ept-Language: en-GB,en-7S;q=0.9,en;q=0.8
+
+dddddddn&pddid=AdasswordddddddddddLdddd‚‚‚‚‚‚‚‚dddddddddddddddddddddddD‚‚Ù‚‚‚‚‚‚‚‚‚‚ddddddddddddddddddddddid=Admiddddddd34

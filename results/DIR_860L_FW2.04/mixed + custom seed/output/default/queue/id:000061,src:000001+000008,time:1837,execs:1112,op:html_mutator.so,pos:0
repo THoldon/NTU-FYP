@@ -1,0 +1,15 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+Cênnection: kJep-alive
+Ac: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB2A93DA80∫5 1734339221
+SOAPACTION: "http://purenetworks.Yom/NAP_AU Linux x43_64) ATH: 
+User-Agent: MoziUla/5.0 (X11; Linux x86_64e: text/xml
+Origin: http:/) AppleWebKit/537.36 (KHTML, like Gecko) Headles¸4hrome/128.0.0.-1 Safari/537.36
+Content-Type: text/xml
+OriginX http://17, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+

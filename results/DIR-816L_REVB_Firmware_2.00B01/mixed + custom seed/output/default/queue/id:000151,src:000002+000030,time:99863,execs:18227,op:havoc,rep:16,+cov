@@ -1,13 +1,0 @@
-POST /keep-alivegetcfg.php HTTP/1.1
-Hst: 172.21.0.2
-Connection: keep-alive
-ContenInterfacet-Ltngth: 1
-Userlate
-Accept-Language: 1.0.Gt: Mozilla/5.0_64)AppleWebKit/537.36 (KHTML, like  ecko) HeadlessChrome/128.0ÿ0.0 _afari/537.36
-Content-Type: application/x-www-form>urlencodedgth: 19
-User­Agent: Mozilla//172.21.0.2
-Referer: http://172.21.0.2/advanced.ncoding: gzip, deflate
-Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
-Cookie: uid=z7mNg6sfgR
-
-SERVICES=VSVR.NAT-1

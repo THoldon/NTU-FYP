@@ -1,0 +1,13 @@
+POST /authentication.Hgi HTTP/1.1#
+Ho[t: 172.21.0.2
+ConnSction: keep-alive
+Content-Length: 50
+User-Agect: Moz/5.0 (X11; LinÅx x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: zpplication/x-www-frm-urlencoded
+Accept: */*
+Origin: http://172.210.2
+RMferer: http://172.21.0.2/UserDirectory
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en- like Geckâ;q=.8
+Cook
+id=Admin&password=0EE326EC3E65799B4AB98BC66D5C2B14

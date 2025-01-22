@@ -1,7 +1,0 @@
-GET /session_login.php HTTP/1.1
-Acc: gzip,deflzyw
-Host: 192e: uid5yzywzywzyw
-Host: 192e: uid5zywzyw
-Content-Length: 13
-
-te

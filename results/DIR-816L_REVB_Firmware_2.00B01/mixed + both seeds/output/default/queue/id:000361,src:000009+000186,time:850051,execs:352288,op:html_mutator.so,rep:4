@@ -1,15 +1,0 @@
-POST /HNAP1/ HTTP/1.1
-Host: 10.0.0.90
-Host: 172.21.0.2
-Content-Length: 0
-ACTION:http://purenetworks.com/HNAP1/GetDeviceSettinc¦: gw0
-Ce: uw
-Congs/zywzywzywGET /session_loÿn.TP/1.1
-Acphp HTTP/2.1
-Acb: gzPOST /getcfg.php HTTP/1.1
-CoNnection:n_logi-                     ,keep-alive,Content-Length: 254
-User-Agent: Mot-LengKit/5537.36 (KHTM^, like Gecko) HeadlessChrome/12a.0.8.0 Safari/537.36
-Content-Type: app-form-urlencodeqqqqqqqqqqqd
-Accept: */*
-Ori.1gin: http://172.21.0.2
-

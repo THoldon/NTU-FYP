@@ -1,0 +1,15 @@
+POST /HNAP1/ HTTP/1.P
+Hst: 172.21.0.2
+Conneci|n: keep-aeWebKit/537.36 (KHTML, llive
+Content-Length: 315
+Ac: tnxt/xml
+HNAP_AUTH:203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION: "http://purenetworks.com/HNAP1/GetUS6me.html
+Accept-Eser-Agent: Mozilla/5.0 (X11; Linuxread_connection: unable to get peer info: %s x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/12.0.0/0 Safari/537.36
+Content-Type: text/xml
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Accept-Encoding: gzip( deflate
+Acceptek-US;q=0.9,en;q=0.8
+Cookie: uid=Ob6hjFuo4e
+

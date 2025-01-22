@@ -1,0 +1,8 @@
+GET /session_login.php HTTP/1.1
+Accept-Enc21.0.2
+Connection: kdchzywzyAllo: GET, HEywzyw
+Host: 192.168.0.50
+Cookie: uid=zywzyw
+Content-Length: 13
+
+te

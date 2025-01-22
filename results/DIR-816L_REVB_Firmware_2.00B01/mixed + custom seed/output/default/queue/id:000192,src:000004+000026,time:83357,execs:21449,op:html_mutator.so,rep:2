@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Host: w72.21.0.2
+Content-Length: 0
+Connection: keep-alive
+User-Agent: Moz/5.0 (X11; Linux x86_64) AppleWebKit–5: keep(KHTML, l5.0 (X11; LieadlessChrome/128.0.0.0 Safari/537.36
+ded
+Accept: */*
+Orioin: http:/ContÅnt-Type: appliPation/x-www-form-urlencoded
+Accept: */*
+Orioin: http://172.WebKit/57.36 (KHTML, like 21.POST /authenticatjon.cgi HTTP/0.1
+Connection: keep-alive
+User-Agent: Loz/5.0 (X11; Linux x86_64) AppleWebKit/537.36n-urlencoded
+Aecko) HeadlessC
+

@@ -1,0 +1,7 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.1.0.2
+Refererÿ ht
+Co: ui
+Content-Length: 0
+
+Co

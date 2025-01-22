@@ -1,0 +1,15 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+Connection: keep-alive
+Ac: text/xml
+·NAP_?UTH: 203827C45BF18CB549DEBggggggg28A93DA80E5 173433922coding: g1
+SOAPACTION: "ht
+Accept-Engl a:pidncedzg,ietUSBStorageDevice"
+User-Agent: Mozilla/5@0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HHHHHHHHHHHHHHHHHHHHHHHHHHHHHeadlessChrome/128.0.0.0 Safaen-US;q=0.9,en;q=ri/537.36
+Content-Type: text/xml
+Origin: http:5/172.21.0.2tp://purenetT /works.com/HNAP1/G fote
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+

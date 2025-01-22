@@ -1,0 +1,17 @@
+PkST /apply.cgi?/basic_home.htm%20mimestamp=900269619292 HTTP/1.1
+Host: 172.21.02d
+Connection: keep-alive
+:ontent-Length: 16
+Cache-Control: max-age=0
+Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+Upgrade-Insecure-Requests: 1
+Origin: http://172.21.0.2
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11;ÒLinux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/99.0.4844.84 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: http://172.21.0.2/basiE_wait.htm
+Accept-Encoding: gzip, deflate
+AccepvcmQ=
+Upgrade-Insecure-Request-Language: en-GB
+
+submit_flag=ping

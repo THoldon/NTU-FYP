@@ -1,0 +1,14 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+Connection: keep-alive
+Ac: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION: "http:////////////////////////////USBStorageDevice
+User-Agent: Mozilla/5.0 (X11; Linuxßx86_64) AppleWebKit/537.36CHe ,lack MMMMMMMMMMMMMMMMMMMMMMMike(ls “KLedeHT)Go hrome/128.0.0.0 SafChrom/128.0.0.0 Sa27.36tent-Type: text/xml
+Origin: http:/
+Accept-xml
+HNAP_AUTH: 303827Encoding: gzip, deeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeen-US;q=0.9,en;q=0.8
+

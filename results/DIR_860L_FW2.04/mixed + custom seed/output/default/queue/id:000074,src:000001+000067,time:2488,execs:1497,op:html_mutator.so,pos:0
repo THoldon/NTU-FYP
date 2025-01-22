@@ -1,0 +1,17 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+Connection6 (KHTML, like: keep-alivež
+Ac: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 17343;9221
+SOAPACTION: "http://puuuouuuumuuuuuu/HLAP1/GetUSBStorageDevice"
+9|er-Agent:M1
+SOAPACT
+Userlla/5.0 (ozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, „ike Gecko) HeadlessChrome/128.0.0.0text/xml
+Origin: http://172.2 Safari/537.36
+Content-Type: C.0.2
+Accept-Encoding: gzip, deflate0text/xmleB,:gaSUg- ue-nGn
+e;q=0.9,en;q=0.8
+

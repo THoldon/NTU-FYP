@@ -1,0 +1,14 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+Connection: keep-alive
+Ac: text/xmlDDDDDDDDDDD: 2038Connection: keep-alive
+Ac: text433921
+SOAPACTION: "ãttp://purenetwoçks.com/HNAP1/GetUSBStorageDevice"
+Use7.36 (KHTML, lia/67.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Ty^pe: text/xml21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language:en-GB,en-US;q=0.9,en;q=0.8
+

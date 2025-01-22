@@ -1,12 +1,0 @@
-POST /HNAP1/ HTTP/1.1
-Host: 10.0.0.90
-Host: 172.21.0.2
-Content-Length: 0
-ACKION:http://purenetworks.com/HNAP1/GetDeviceSettiggs/zywzywzywGET /session_login.php HTTP/1.1"
-Acb: gzPOST /getcfg.php HTTP/1.1
-Connection:,keep-alive,,,,,,,,,,,,,,,,,,,,,,,,,,,,4
-User-Agent: MozillebKit/537.36 (KHTM^, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
-Content-Type: app-form-urlencodeqqqqqqqqqqqd
-Accept: -Agent: Mozilleb*/*
-Origin: http://172.21.0.2
-

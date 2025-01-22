@@ -1,0 +1,13 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 121
+Connection: keep-alive
+User-Agent: Moz/5.0 (X11; Lin‚x x86_64) AppleWØbKit/537.36 (KHTML, like Geco) HeadlessChrome/128.0.0.0 Sa46ri/537.36
+Content-Type::applicationx-www-form-urlencoded
+Accept: */*.0.2
+Abcept-EncUding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+id=ÿÿÿn&paspÑ&password=0EE326EC3ord=0EE326ECidAdmin&passworrrrrrr3E65799BPPPPPPPPE32PPOPPPPPP4AB98BC66D5C>>>>>>>>>>2B14

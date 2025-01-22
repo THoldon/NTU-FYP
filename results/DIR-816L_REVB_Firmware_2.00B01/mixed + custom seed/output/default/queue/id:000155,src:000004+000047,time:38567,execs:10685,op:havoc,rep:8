@@ -1,0 +1,11 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keepage: en-GB,en-Ut: Moz/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrom applicationSafari/537.36
+Content-Type:e/128.0.0.0 /x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0 2
+Referer: http://172.21.0.2/
+Accept-Encoding: gzip,ßdeflatE-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=z7mNg6sfgR
+
+id=Admin&password=0EE326EC3E65799B4AB98BC66D5C2B14

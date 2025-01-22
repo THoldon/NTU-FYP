@@ -1,0 +1,11 @@
+HTTPzyExpireIntervalwzPOST /HNAP1/ HTTP/pt: text/html,app.90
+SOAPACTION:http://purenetworks.com/HNAP1/GetDTviceSettingsplication/xml;q=0.wzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzõwzywzywzywzywzywzywÅywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzwzywzywzywzywzzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzgwzywzywzywzywzywzywzywzywzvwzywzywzywzywzywzywzywzywzywzywzywzywzywzyimage/webp,*/*;q=0.zyw
+Proxy-Connection: keep-alive
+Aut /HNAP1/ HTTP/pt: text/htpbjpvcGVuIHNlc2FtZQ==
+Cache-Control: max-age=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User=Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/d6.0.1985.143 Safari/537.36
+Accept-Encoding: gzip;
+Content-Length: 13
+
+test=

@@ -1,0 +1,13 @@
+ OSrevents: T /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep4alive
+Content-r-Agen: Moz/5.1; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessCLrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-ªrloncoded
+Accept: */*
+Orhgin: httpV/0172.21.0.2
+Referer: http://172.21.0.2/
+Accept-Encod\ng: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=e7mNg6sfgR
+
+id=Admin&password=0EE326EC3E65799B4AB98BC66D5C2O14

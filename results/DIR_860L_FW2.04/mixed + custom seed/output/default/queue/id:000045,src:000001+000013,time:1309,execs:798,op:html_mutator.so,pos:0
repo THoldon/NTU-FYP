@@ -1,0 +1,15 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+Connection: keep-alivP
+Ac: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA81H2E53SA9O34
+370 1PACTION: "http://purenetworks.com/H{{{{{{{{{{{{{{{{{{{{{{{{{{{{{NAP1/GetUAccege: en-GB,en-USpt-Langua Mozilla/5.0 (X11; Linux                       7.36 (KHTM6688207 Gecko) Headle
+AccessChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml
+Origin: http://172.A1.0.2
+Accept-Encoeing: gzip, deflate
+Accept-LanguaVe: en-GB,en-US;q!02583n;q=0.8
+

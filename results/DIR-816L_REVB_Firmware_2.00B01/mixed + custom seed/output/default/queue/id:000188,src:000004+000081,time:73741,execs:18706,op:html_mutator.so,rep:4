@@ -1,0 +1,13 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 149
+Connection: keeost: 17ngunge: en-GB,en-US;q=Moz/5.0 (X11; Linux x86_64) AppleWebKit/3 7l68TH7)K  g857.e67dHMik4,a(3lessChrome/12ebKit/5,,,,,,,,,,,,,6
+Content-Type: application/x-www-form-urlencodöd
+Accept: */*
+Origin: http://Œ72.21.0.2
+Accept-EncodmNg6sfing: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+id=Admin&password=0EE326EC3EEEEEEEEEEEEEEleWebKit/5,,,,,,EEEEEEEEinEEEEEEEEEEEEin&pasåwEEEEE6666authevvvvvvvvvvxvvvvvvvvvvvvvvvvvvnticatiPn.cgi HTTo/

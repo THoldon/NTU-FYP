@@ -1,0 +1,76 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+Connection: keep-alive
+Ac: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION: "http://purenetworks.com/HNAP1/GetUSBStorage11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537t
+l1Ti/o3Cp _64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537t
+l1Ti/o3Cp e: keep-alive
+Ac: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION: "http://purenetworks.com/HNAP1/GetUSBStorage11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537t
+l1Ti/o3Cp _64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537t
+l1Ti/o3Cp I.2/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+Cznnection: keep-alive
+Ac: text/xml
+HNAP_AUTH::::::::::::::::::: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION: "http://purenetworkkkkkkjkkkkkkkkkkkkkkkkkkkkkkkkkk
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleèebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.#6
+Content-Type: text/xml
+Origin: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+AccDevice"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0E0 Safari/537.36
+Content-Type: text/xml
+Origin: http://172.21.0.2/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+Cznnection: keep-alive
+Ac: text/xml
+HNAP_AUTH::::::::::::::::::: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION: "http://purenetworkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleèebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.#6
+Content-Type: text/xml
+Origin: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+AccDevice"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0E0 Safari/537.36
+Content-Type: text/xml
+Origin: http://172.21.0.2
+Accept-Encoding: gzipe.21:n
+tn26t:ti/tht-mOp:gy ex./nrx7e.0.
+Accept-Encoding: gzip, deflate
+AConnection: keep-alive
+Ac: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION: "http://purenetworks.com/HNAP1/GetUSBStorageDevice"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537t
+l1Ti/o3Cp e.2/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+Cznnection: keep-alive
+Ac: text/xml
+HNAP_AUTH::::::::::::::::::: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION: "http://purenetworkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleèebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.#6
+Content-Type: text/xml
+Origin: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+AccDevice"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml
+Origin: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+

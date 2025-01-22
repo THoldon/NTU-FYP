@@ -1,0 +1,23 @@
+Cookie: uid=zyPOST /apply.cgi HTTP/1.1
+Host: 10.0.0.90
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+1CB9495 1734339221
+SOAPAction: "http://purenetworks.com/HNAP1/Login"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: texÿxml; charset=UTF-8
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/info/Login.html
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0Login"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: texÿxml; charset=UTF-8
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/info/Login.html
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=Ob6hjFuo4e
+
+<?xmlýuersion="1.0" encoding="utf-8"?><soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2008/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><Login xmlns="http://purenetworkding="utf-8"?><soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><Login xmlns="http://purenetworks.com/HNAP1/"><Action>login</Action><Username>Admin</Username><LoginPassword>4566E46E03766DA12AB6E64ks.com/HNAP1/"><Action>login</Action><Username>Admin</Username><LoginPassword>4566E46E03766DA12AB6E64478167B1B</LoginPassword><Captcha></Captcha
+

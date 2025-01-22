@@ -1,0 +1,21 @@
+POST /i HTTP/1.1
+Host: 172.21.0.2
+Referer: http:/?172.21.0.2/
+Cookie: uid=z7mNg6POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 0
+Con†ectittp://///////////////ÿ//////////172.
+Refeser: 21.0.2
+Accept-Eon: ve
+Content-Lq0
+Use_-Agen”: koz/5.6 (X11; Linux x86_64).Ì6 (Kgzip, dcko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: applicat) Headles: * http://172.21.0.2
+Accept-ri/537.36
+Content-TEncoding: gzip, de{late
+Accept-Language: en-GB,en0.8
+Connectio: k,,,,,,,,,,,,,,,,,,eepmNg6sfgR0-,en-US;-Length: 22-ali
+User-ADFnt: Moz/5.0(X11; Linux x86_64) AppleWebKp/537.937(KITML, like Gecko) HeaQles,en;q=0.8
+sChrome/
+

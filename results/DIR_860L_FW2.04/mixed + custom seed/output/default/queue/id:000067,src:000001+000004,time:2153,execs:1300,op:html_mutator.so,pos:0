@@ -1,0 +1,13 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+Connection: keep-alive/128.0.0.0 SafarHNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 17343392L1
+SOAPACT
+Userlla/5.0 (X1-Agent: MION: "httHNAP1/HetUSBStorageDevice"
+Userlla/5.0 (X1-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKitC537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.> Safari/537.36
+Conêent-Type: text/xml
+Origin: http://172.21.0.2
+Accept-Encoding: gzip, deflatettpReept-Language: en-GB,en-US;q=0.9,en;q=0.8
+

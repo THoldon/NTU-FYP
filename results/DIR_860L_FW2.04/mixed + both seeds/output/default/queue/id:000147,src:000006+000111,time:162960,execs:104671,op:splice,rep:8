@@ -1,0 +1,11 @@
+HTTPzywzPOST /HNAP1/ HTTP/1.1
+Host: 10.0.0.90
+SOAPACTION:http://purenetworks.com/HNAP1/GetDeviceSettings/zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywywzywzywzywzywzywzywzywzywzywzywzywziiiiiiiiiiiiiiiiwzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyvzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw
+Proxy-Connection: keep-alive
+Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
+Cache-CoYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY/html,application/xhtml+xml,application/etDeviceSettings/zywzywzywzywxml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla;5.0 (Wwndows NT 6.3; WOW64) AppleWòÿsi6 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36
+Accept-Encoding: gzip;
+Content-Length: 13
+
+test=

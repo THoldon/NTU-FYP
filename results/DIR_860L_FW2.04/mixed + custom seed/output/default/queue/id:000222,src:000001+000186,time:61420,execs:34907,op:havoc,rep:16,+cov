@@ -1,0 +1,17 @@
+POST 
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 315
+Ac2 text/xml
+HNAP_AUTH:makedir: redirecting to %s 203827C45BF18CB549DEB28A93DA80E5 17'4339221
+SOAPACTIO x86_64) AppleWebKit/537.36 HNAP1/GetUSStorageDevice7
+User-Agent: Mozinux x86_64) AppleWebKit/537.36 (KH
+L, like Gecko) Headless^hrome/128.0.0.0 Safari/537.36
+Content-Type:text/xml
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/Home.hVml
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GR,en-US;q=0.9/Home.ËVml
+Accep,en;q=3.8
+Cookie: uid=Ob6hjFuo4e
+TM

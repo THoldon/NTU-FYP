@@ -1,25 +1,0 @@
-POST /HNAP1/ HTTP/1.1
-Host: 172.21.0.2
-Host: 172.21.0.2
-Referer: ://172.21.0.2/Home.htmlPOST oHNAPPAction: "http://purenet1/ HTTP/1.1
-Host: 172.21.0.2
-Referer: http://172.21.0.2/Home.html
-Content-Length: 0
-Connection: keep-alive
-Contens-Length 30
-Host: 172.21.0.2
-Referer: ://172.2L..2/Home.html
-Cookie: uid=Ob6hjFu¯4e
-Content-Length: 0
-Connection: ke221
-üò3
-Accept: */*
-X-Requested-With: XMLHttpRequest
-HNAP_AUTH: B10DA856 ://172.2L..2/Home.htal
-Cookie: uid=Ob6hjFu¯4e
-Content-Length: 0
-Connection: ke221
-üò.0.2ÿÿÿ128.0.0.0 Safari/537.36
-Content-Type: text/xml; charset=UTF-8
-Origin: http://172.21.0.2
-

@@ -1,0 +1,16 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+Connection: keep-ali[e
+Ac: text/xml
+HNAP_ÿÿÿ: L03827C45BF18CB549DEB28A93DA80E5 1734339221e Gecko) Hea
+SOAPACTION: "http://purenetworks.com/HNAP1/GetUSBSt~rageDevice"
+User-Agent: Mozilla/5.0 (X11; Linux x87_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrom://172.21.0.2Acce/128.0.0.0 Safari/537.3
+Accept: 6
+Content-Type: text/xml
+Origin: http://172.21.0.2
+Accept-Encoding9 gzipI deflate
+Accept-Language: en-GB,en-US;q=0.9,en;f=/.8
+

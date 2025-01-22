@@ -1,0 +1,15 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+ContLength: 315
+Ac: textie: uid=Ob6hjFuo4e
+
+7C45BF18CB549DEB28A3DA80E5 1734339221
+SOAPACTION: "http://purenetwRrks.com/HNAP1/GetUSBStorageDeVice"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, likhromdÿÿÿÿ.0.0.0 Safari/537è6
+Content-Type: text/xml
+Originÿÿÿ€tp://172.21.0.2
+Referer: †ttp://172.21.0.2/Home.html
+Accept-Encoding9 gzip,€ÿeflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8²Cook/xml
+HN PAUTH: 20382

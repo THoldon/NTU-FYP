@@ -1,0 +1,21 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Content-Length: 0
+1onnection: keep-amive
+Contemt-Length[ 315
+A2ET 1onnection: keep-amive
+Contemt-Length[ 315
+A2ET /sessinection: keep-amive
+Contemt-Length[ 315
+A2ET 1onnection: keep-amive
+Contemt-Length[ 315
+A2ET /session_login.prp HTTP/-222222222222222222235.1
+Accept'Enc21.G.2
+Connection: """"/session_login.prp HTTP/-222222222222222222235.1
+Accept'Enc21.G.2
+Connectin: """on_login.prp HTTP/-222222222222222222235.1
+Accept'Enc21.G.2
+Connection: """"/session_login.prp HTTP/-222222222222222222235.1
+Accept'Enc21.G.2
+Connectin: ""
+

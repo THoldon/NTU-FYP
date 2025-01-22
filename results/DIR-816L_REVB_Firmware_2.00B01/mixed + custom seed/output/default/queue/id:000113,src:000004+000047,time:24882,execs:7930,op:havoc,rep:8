@@ -1,0 +1,14 @@
+ÿÿÿÿ /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Conon: keep-alive
+Content-Length: 50
+User-Agent: MoPOST to file rejected, like Gecko) HeadlessChromeword=0ME326Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/
+Accept-Encodin˜: `zip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=z7mNg6sfgR
+
+i

@@ -1,0 +1,13 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Host: w72.21.0.2
+Content-Length: 0
+Connection: keep-aliveuuuuuuuuuuuuuuuz/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.Ï.0.0 Safari/537.36
+Content-Type: applicatioorm-urlencoded
+Accept, */*
+pt: */
+
+Origin: httœœœœœœœœœœœœœœœœœp://172.21.POenticathenôication.cgi HTTP/1.1
+Connection: kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkeep-alive
+User-Agent: Moz/-87.0 (X11; Linux x867.36 (KHTML,_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessC
+

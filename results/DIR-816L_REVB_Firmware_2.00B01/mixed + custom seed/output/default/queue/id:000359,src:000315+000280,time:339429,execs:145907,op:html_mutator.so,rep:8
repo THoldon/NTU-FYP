@@ -1,0 +1,22 @@
+POST /i HTTP/1.1
+Host: 172.21.0.2
+Referer: htt.2/
+Cookie: uid=z7mNg6sfgR
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 0
+Con†ection:houorm-urlñencoation.cgi HTTP/1.1
+Conr-Agent: Moz/ÿÿÿÿve
+Usenection: keep-.0 (X11; Linux x86_64) Appntent-TypeebKit/537.36 (KHTML, like                       537.36
+Conme/1.0.0 Safari/537.36
+Cotent-Type: applq
+Accept-Language:ec.0.0process %d kille Skeep-alive
+User-AgenChrome/128.0
+Conon/x-wwˆ-form-urlñencoded
+Accept: */*
+Origin: httP://172.21.0.2/
+Accept-Encoding: gzip, deflate6
+Cóontent-Type:q
+Accept--Language: en-GB,en-US;q=0.9,en;
+

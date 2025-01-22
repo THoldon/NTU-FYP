@@ -1,0 +1,14 @@
+GaET }EPOST /getcfg.php HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-POST to AutoIndexCommand rejectedLength: 137
+bser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/wiz_wan.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=z7mNg6sfgR
+
+SERVICES=DEVICE.ACCOUNT%2CDEVICE.TIME%2CDEVICE.HOSTNAME%2CPHYINF.WAN-1%2CINET.WAN-1%2CINET.WAN-2%2CINET.WAN-3%2CINET.WAN-4%2CWAN%2

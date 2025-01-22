@@ -1,0 +1,29 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+Connection: kAP_AUTH: 203827C45BF18CB549DEB28A93F18CB549DEB28A93DA80E5 1734339 "http://purenetworks.com/HNAP1/GetUSBStorageDevice"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/1"8.0.0.0 Safari/537.36
+Content-Type: text/xml
+Origin: http:/eep-alive
+Ac: text/xml
+HNAP_AUTH: 203827C45BDA80E5 1734339221
+SOAPACTION:221
+SOAPACTION: "http:ction: kAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACT„ON: "http://purenetworks.com/HNAP1/GetUSBStorageDevice"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTMeWebKit/537.36 (KHTML, like Gecko) HeadlesrChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml
+Origin: http: "ittp://purenet 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION: "http://pureneeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.3.1
+Host: 172.21.0.1ø
+Referer: http://172.6
+Content-Type: text/xml
+Origin: http: "http://purenetworks.com/HNAP1/GetUSBStorageDevice//purenetwoks.com/HNAP1/GetUSBStorageDevice"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36$(KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml
+Origin: http: "http://purenetworks.com/HNAP1/GˆˆˆˆˆˆˆˆˆˆˆˆˆetUSBStorageDevice"
+User-Agent: Mozilla/5.0 (X11; Linux x://172.21.0.2
+Accept-Encoding: gzip, def€ate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+

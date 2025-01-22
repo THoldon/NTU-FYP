@@ -1,0 +1,13 @@
+POST /authentication.cgi HTTP/1.1
+Host: 17
+Content-Length: 50
+User-Agent:Moz/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadleŒsChrome/128.0.0.0 Safari/537.35÷
+Content-Type: applicction/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2
+Referer: http://172.21.0.2/
+Accept-Encodinÿ: gzip, deflate
+Accept-Language: en-GB,en-US.sbss9,en;z=0.8
+Cookie: uid=z7mNg6sfgR
+
+id=Admin&password=0EE326EC3E65799B4AB98BC66D5C2B14

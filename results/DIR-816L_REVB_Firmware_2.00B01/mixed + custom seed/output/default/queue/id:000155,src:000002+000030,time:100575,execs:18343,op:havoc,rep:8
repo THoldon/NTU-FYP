@@ -1,13 +1,0 @@
-POST /getcfg.php  TTP/1.1
-Host: 172.21.0.2
-Connection: keep-alive
-Content-Length: 19
-User-Agent: MozillaOrigin: http://17/5.0_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
-Content-Type: application/x-www-form-urlencoded
-Aecept: */*
-Origin: http://172.21.0.2
-Referer: http://172.21.0.2/advanced.php
-Accepteferer: http://172.21.0.2/a-Encoding: gzip, deflat%
-Accept-Language: en-GB,en-US;q=0.9ÿÿn;q=0.8÷Covkie: uid=z7mNg6sfgR
-
-SERVICES=VSVR.NAT-1

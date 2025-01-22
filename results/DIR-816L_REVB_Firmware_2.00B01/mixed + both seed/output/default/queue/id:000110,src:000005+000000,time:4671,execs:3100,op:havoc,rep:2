@@ -1,0 +1,7 @@
+GET /session_login.php HTTP/1.1
+Acc: gzip,deflate,sdchzywzywzywzywzywzywzywzywzyw
+Host:-Length:e:  13
+okie: uid=zywzyw
+Content-Length:e:  13
+
+te

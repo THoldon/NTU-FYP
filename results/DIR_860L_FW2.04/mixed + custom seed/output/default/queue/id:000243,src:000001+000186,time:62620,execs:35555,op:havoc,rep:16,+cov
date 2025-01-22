@@ -1,0 +1,15 @@
+POST$/HNAP1/ HTT1
+H.21.q=0.90.2
+ccenection: keep-alive
+Cont-GB,en-US;q=0.9,
+Ac: text/xml
+HNAP_YUTH: 203827C45BF18CB549DEB28A93DA80e5 173433922
+SOAPACTION: "http://purenetworks.com/HNAP1/GetUSBStorageDevice"
+User-agent1 Mozilla/5.0 (X11; Linux x86_64 AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml
+Origi‚: http://72.21.0.2
+Referer: http://172.21.0.2/Home.homl
+Accept-Encoding: gzip, deflate	
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cookie: uid=Ob6hjFuo4e
+

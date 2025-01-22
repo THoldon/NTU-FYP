@@ -1,0 +1,16 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+Connection: keep-aEncoding: gzip, deflate
+Ac//pur3827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION: "ht
+Ac/purenetworks.com/HNAP1/GetUSBStorageDevic†"
+User-Agent: Mozilla/5.0 (X11; Linux xxŒxxxxxxxx86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/28.0.0.0 Safari/537.36
+Contebt-Type: text/xml
+Origin: http://1228.21.0.2
+Acceptli-e
+Ac: text/xml
+HNAP_AUTH: 20enetcept-Language: en-GB,en-US;q=0purenetworks.c.9,en;q=0.8
+

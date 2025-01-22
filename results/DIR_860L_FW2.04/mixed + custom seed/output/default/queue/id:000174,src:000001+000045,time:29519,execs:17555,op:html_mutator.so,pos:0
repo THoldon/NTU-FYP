@@ -1,0 +1,18 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+Connection: kee"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""p-alive
+Ac: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1734339A81H2E53SA9O34
+370 1PACTION: "http://purenetworks.com/H{{{{{{{{{{{{{{{{{{{{{{{{{{{{{NAP1/GetUAccege: en-GB,en-USpt-Langua Mozilla/5.0 (X11; Linux                       7.36 (KHTM6688207 Gecko) Headle
+AccessChrome/128.0.0.0 Safari/537.36
+Content-Type: text/22111111111111111111111111111111111
+SOAPACTION: "http://purenetworks.com/HNAP1/GetUSBStorageDevice"
+User-5gent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safa66/537.36
+Coœntent-Type: text/xml
+Origin: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=-1.9,en;q=0.8
+

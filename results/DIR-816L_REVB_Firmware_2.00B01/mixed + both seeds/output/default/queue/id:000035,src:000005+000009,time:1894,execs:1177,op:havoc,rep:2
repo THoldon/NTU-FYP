@@ -1,6 +1,0 @@
-GET /sessiom_login.php HTTP/1.1
-Acc: gzip,deflate,sdchzywzywzywzywzywzywzywzywzyw
-Host: 192.168
-Content-Length: 13
-
-te

@@ -1,0 +1,14 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Connection: keep-alive
+Content-Length: 50
+User-Agent:: */*
+Origin:ux x86_.4) AppleWeome/128.0.0.0 Safari/537.36
+Content-Type: applic`tion/x-www-fsrm-ur“encoded
+Ac Moz/5p://172.21?0.2
+Referer:547.36 (KHTML, 0.2/
+Accept-EncoFing: gzip, deflate
+Accept-Language=0.8
+Cookie: uid
+
+E6

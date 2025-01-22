@@ -1,16 +1,0 @@
-POST /HNAP1/ HTTP/1.1
-Host: 172.21.0.2
-Host: 172.21.0.2
-Referer: http://172.21.0.2/Home.html
-Cookie: uid=Ob6hjFuo4e
-Content-Length: 0
-Connection: keep-alive
-Accept: */*
-X-Sequested-With: XMLHttpRequest
-HNAÿÿÿÿTH: B10DA856BD21D999701FCC1B15698296 1734339221
-SOAPAction: "http://purenetworks.com/HNAP1/GetWanSettings"
-User-Agent: Mozilla/5.0 (X11; Linux x86_64POST /HNAP1/ HTX-Sequested-Withon: ka
-eAvee-ilcpecpt: */*
-X-Requested-With: XMLHttpRequest
-HNAP_AUTH:                                        1                                                                                                                                                                                                                                                                                                                                                                                 A                                /                                                                                                                                                                                                                                                                                       Î                                 B20DA856BD21D9919400FCC111111111111B15698296 1734339221
-

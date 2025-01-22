@@ -1,0 +1,9 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Content-Length: 0
+Connection: keep-alive
+Ac: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1POST /HNAP1/ HTTPread_cSunection:                                                                               ÿ                                                                                                                                                                    :           e/128.0.0.0 Safari/537.36
+Content-Type: text/xml
+Origin: http://172.21
+

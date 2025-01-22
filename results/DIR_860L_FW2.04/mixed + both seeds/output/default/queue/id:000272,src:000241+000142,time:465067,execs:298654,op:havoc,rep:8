@@ -1,0 +1,8 @@
+GET /session_fputslogin.php HTTP/1.1
+Accept-Enc21.0.2
+Connection: kd
+Host: 193.168.0.50
+Cookie: uiz=zywzyw
+Content-Length: 13
+
+te

@@ -1,0 +1,15 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+Connection: keep-alive
+Ac: text/xml
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTRON: "http://purenetworks.com/HNAP1/GetUSBStorageDevihe"
+Us]r-Agent: Moz…lla/-6.0 (X11; Linux x86_64) AppleWebKit/5379847343SML, like Gecko) HeadlessChrome/128.0.0. text/xml
+Origin: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Languagtent-Len3DA80Egth: 0
+Connection: kee: en-GB,en-US;q=0.9,en;q=0.8
+

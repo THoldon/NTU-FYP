@@ -1,0 +1,12 @@
+POST /autication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 0
+ConnecÙion: EEEEEEEEEEkeep-alive
+dser-Agent; Moz/5.0 (X11; Lin8ux A6x_ 6(ppkeWebKit/537.36 hKHTML, like Gecko) Headl
+Connection:,,,2,0essChrome/12820. 146
+Connection:,,,2,0.0 Safari/537/36
+Co…ntent-Tection:,,,,,fvl-.iwSa: ap- 0awype0èe
+User-Agent; Mrm-uppl
+

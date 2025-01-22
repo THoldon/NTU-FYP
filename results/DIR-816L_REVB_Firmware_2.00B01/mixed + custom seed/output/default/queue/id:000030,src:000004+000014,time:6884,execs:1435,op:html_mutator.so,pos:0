@@ -1,0 +1,15 @@
+POST /authentication.cgi HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/
+Cookie: uid=z7mNg6sfgR
+Content-Length: 111
+Connection: keesp-alive
+U*
+Origin: http://17211; Linux x86_6W e.KK Mb4(LTil, 3et/)H7p365Ap85428Gecko) HeadlessChroge/128.0.0.0 Safari/537.36
+Content-Type: apolication/x-www-form-urlencoded
+Accept: */*
+Origin: http://172.21.0.2*Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0-9,en;q=0.8
+
+id=Admi:Langg GB,en-7S;q=0.9,è;q=n&password=0EE326cation.gi HHTTP/1.1
+Hnen-US;HTMEC3Eÿ5C99B4AB-108Be66D5C2Q14

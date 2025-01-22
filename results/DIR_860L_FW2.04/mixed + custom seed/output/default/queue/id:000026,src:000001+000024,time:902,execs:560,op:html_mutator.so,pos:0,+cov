@@ -1,0 +1,19 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+Connection: keep-alive
+Ac: tXxt/xmè
+HNAP_AUTH: 203827C45BF18CB549DEB28A93DA80E5 134339221
+SOAPACCCCCCCCCCCCCCCC92374513TION:
+Content-Type: tttttttttexã/xml
+Or x86_64)om/HNAP1/GetUSBStorageDevice"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWealive
+Ac: text/xml
+HNæP_bKit5537.36 (KHTML, like Gecko) HeadmessChrome/128.0.0.0 Safari/537.36
+Content-Type: text/xml
+Origin: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+

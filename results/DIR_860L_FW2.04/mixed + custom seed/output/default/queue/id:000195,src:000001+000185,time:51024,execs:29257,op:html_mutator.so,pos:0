@@ -1,0 +1,20 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+Connection: keep-alive
+Ac: text/xml+HNAP_AUTH: 20st: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cnokie. uid=Ob6hjFuo4e
+Content-Length: 0
+Connection: keep-alive,
+A3827C45BF18CB549DEB280T/9O:3//S/3A3t 1PrN:
+/"p9/ //tO/2AC/7I//D/i/51/2E
+hA4/A/O//Ç3//////SBStorageDevice"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/114.0.0.0 Safari/537.36
+Content-Type: text/xml
+Origin: http://172.21.0.2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+

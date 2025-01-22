@@ -1,0 +1,43 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+erer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+Cznnectñon: keep-alive
+Acme.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+Cznnectñon: keep-alive
+Ac: text/xml
+HNAP_AUTH::::::::::::::::::: -203828C45BF18CB549DEB28A93DA80E5 a/5.0 (X11; Linux x86_64) AppleèebKit/537.36 (KHTML, like Geck1µ734339221
+SOAPACeION: "http://purenetworkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+User-Agent: Mozilla// HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+Cznnection: keep-alive
+Ac: text/xml
+HNAP_AUTH::::::::::::::::::: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION: "http://purenetworkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+User-Agent: Mozilla/5.0 5.0 (X11; Linux x86_64) AppleèebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.#6
+Content-Type: text/xml
+O: text/xml
+HNAP_AUTH::::::::::::::::::: 203827C45BF18CB549DEB28A93DA80E5 a/5.0 (X11; Linux x86_64) AppleèebKit/537.36 (KHTML, like Geck1734339221
+SOAPACeION: "http://purenetworkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+User-Agent: Mozilla// HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+Cznnection: keep-alive
+Ac: text/xml
+HNAP_AUTH::::::::::::::::::: 203827C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION: "http://purenetworkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+User-Agent: Mozilla/5.0 5.0 (X11; Linux x86_64) AppleèebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.#6
+Content-Type: text/xml
+Origin
+

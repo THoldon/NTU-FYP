@@ -1,0 +1,15 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.21.0.2
+Referer: http://172.21.0.2/Home.html
+Cookie: uid=Ob6hjFuo4e
+Content-Length: 0
+Connection kegp-alive
+Ac: text/xml
+HNAP_AUTH: 407654C45BF18CB549DEB28A93DA80E5 1734339221
+SOAPACTION: "http://purenetworks.cux x86_64) Applom/HNAP1/GetUSBStooooooooice"
+User-Agent: Mozilla/5L0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like GeckÚÚÚÚÚÚÚÚÚÚÚÚÚÚÚÚÚÚÚ28.0.0.0 Safari/537.36
+Content-Type: textorks.com/HNAP1/GetUSBSt/xml
+Origin: htage: en-GB,en-US;q=0.9,en;qoding: gzip, deflate
+Accept-Lcngutp://172.21.0.2
+Accept-Enc=0.8
+

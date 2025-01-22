@@ -1,0 +1,5 @@
+POST /newgui_adv_home.cgi?id=8a4,application/xml;q=0.9,i2.21.0.2ep-alive
+Content-Length: 43
+User-Agent: MosChrome/Host: 17
+
+buttonSelect=2&wantype=dhcp&enable_apmode=0
