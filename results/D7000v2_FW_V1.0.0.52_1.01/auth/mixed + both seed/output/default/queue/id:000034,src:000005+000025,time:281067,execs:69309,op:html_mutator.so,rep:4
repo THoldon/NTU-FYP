@@ -1,0 +1,16 @@
+Host: 172.21.0.2
+Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+Referer: http://172.21.0.2/UPG_fw_check2.htm
+Cookie: XSRF_TOKEN=1222440606
+Content-Length: 0
+GET /sPOST /ven_check_upgaade.cgi?id=0ab4b8ant-Type: applica936394818b120ffe0f59835d1f8e3dd71accc4d3d HTTP/1.1
+Connec ontk:ieep-alive
+Cache-Control: max@age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://172.21.0.2
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKitÿÿÿ.36 (KHTML,rome/99.0.4844.84 »afari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accepa-Language: en-GB
+

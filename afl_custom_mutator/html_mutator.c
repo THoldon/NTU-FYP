@@ -532,7 +532,7 @@ size_t afl_custom_fuzz(my_mutator_t *data, uint8_t *buf, size_t buf_size,
 	free(body_to_mutate);
 	
 	data->buf -= mutated_len; //move pointer back to start
-	mutated_len += post_body_to_mutate_len; //keep track of packet length*/
+	mutated_len += post_body_to_mutate_len; //keep track of packet length
 	
 	/*printf("\nmutated packet\n"); //DEBUG check if mutated packet successfully assembled
 	for(i=0;i<mutated_len;i++){

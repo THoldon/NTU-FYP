@@ -1,17 +1,17 @@
-POST /HNAP1/ HTTP/1.1
+POST /autoblock.cgi?id=c40be847f983a858b2b0854cdf6d6d89c0815ff15dfff603b92f91d56f39de94 HTTP/1.1
 Host: 172.21.0.2
 Connection: keep-alive
-Content-Length: 430
-Accept: */*
-X-Requested-With: XMLHttpRequest
-HNAP_AUTH: 3699644FBDF4278B1914233C01CB9495 1734339221
-SOAPAction: "http://purenetworks.com/HNAP1/Login"
-User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.0.0 Safari/537.36
-Content-Type: text/xml; charset=UTF-8
+Content-Length: 11
+Cache-Control: max-age=0
+Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+Upgrade-Insecure-Requests: 1
 Origin: http://172.21.0.2
-Referer: http://172.21.0.2/info/Login.html
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/99.0.4844.84 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: http://172.21.0.2/auto_block.htm
 Accept-Encoding: gzip, deflate
-Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
-Cookie: uid=Ob6hjFuo4e
+Accept-Language: en-GB
+Cookie: XSRF_TOKEN=1222440606
 
-<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><Login xmlns="http://purenetworks.com/HNAP1/"><Action>login</Action><Username>Admin</Username><LoginPassword>4566E46E03766DA12AB6E64478167B1B</LoginPassword><Captcha></Captcha></Login></soap:Body></soap:Envelope>
+set=Execute
