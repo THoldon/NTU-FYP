@@ -1,7 +1,7 @@
 # NTU-FYP 24/25 Solving Real World Vulnerabilities
 
 ## Purpose of folders
-afl_custom_mutator: Contains source code and compiled binary of the html_mutator and html_mutator_standalone, a standalone version of the mutator for testing. Also a sample_post pcap for testing.
+afl_custom_mutator: Contains source code and compiled binary of the http_mutator and http_mutator_standalone, a standalone version of the mutator for testing. Also a sample_post pcap for testing.
 
 firmware_fuzz: Custom code (not mine) to allow post-authentication fuzzing of firmware.
 
