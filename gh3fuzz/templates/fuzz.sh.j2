@@ -46,13 +46,13 @@ then
 	output=$(/fuzz_bins/utils/timeout -s SIGKILL $DRYRUN_TIMEOUT /qemu-static -hackbind -hackproc -execve "/qemu-static -hackbind -hackproc" -- $CMD 2>&1  && cleanup)
 	result=$(ls / | /fuzz_bins/utils/grep 'GH_SUCCESSFUL_BIND')3607, 0, 0, 26, 26, 1, 1.11%, 0, 7, 2, 7.90, 29416, 727
 	echo $result
-	#if [ -z "$result" ]
-	#then
-	#	echo "[GH_ERROR] Fail to launch the server normally!!!"
-	#	echo $output
-	#	echo "[GH_ERROR] Giving up"
-	#	exit
-	#fi
+	if [ -z "$result" ]
+	then
+		echo "[GH_ERROR] Fail to launch the server normally!!!"
+		echo $output
+		echo "[GH_ERROR] Giving up"
+		exit
+	fi
 fi
 
 # get dry run output and extract the return address
@@ -91,7 +91,7 @@ echo "[Fuzz] Start Fuzzing..."
 export AFL_ENTRYPOINT=$addr
 export LD_BIND_LAZY=1
 export AFL_NO_AFFINITY=1
-export AFL_CUSTOM_MUTATOR_LIBRARY="/fuzz_bins/custom_mutator/html_mutator.so"
+export AFL_CUSTOM_MUTATOR_LIBRARY="/fuzz_bins/custom_mutator/http_mutator.so"
 #export AFL_CUSTOM_MUTATOR_ONLY=1
 export AFL_AUTH=$'GET / HTTP/1.0\r\nHost: http://172.21.0.2:80\r\nUser-Agent: python-requests/2.31.0\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\nAuthorization: Basic YWRtaW46cGFzc3dvcmQ=\r\n\r\n'
 #export AFL_AUTH=$'GET / HTTP/1.0\r\nHost: http://192.168.1.1:80\r\nUser-Agent: python-requests/2.31.0\r\nAccept-Encoding: gzip, deflate, br\r\nAccept: */*\r\nConnection: keep-alive\r\nAuthorization: Basic YWRtaW46cGFzc3dvcmQ=\r\n\r\n'
